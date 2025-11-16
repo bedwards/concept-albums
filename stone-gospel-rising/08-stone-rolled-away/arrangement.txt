@@ -1,0 +1,56 @@
+TEMPO: 95 bpm
+TIME: 4/4
+KEY: Gmin
+
+INTRO
+Kick quarter notes on 1 & 3, building.
+Snare light backbeat building to full.
+Bass root notes, ascending Gm-Bb-Cm-Eb (whole notes).
+Banjo sparse picking, building intensity.
+Acoustic/electric silent.
+Pump organ Gm pad, sustained, hopeful not dark.
+
+VERSE
+Kick steady 1 & 3. Snare backbeat 2 & 4.
+Bass root-fifth walk (Gm-Cm-Eb-Bb-F pattern), forward momentum.
+Banjo clawhammer pattern, driving.
+Acoustic fingerpick, supporting.
+Electric silent.
+Pump organ whole note chords underneath, building.
+
+CHORUS
+Full band, triumphant but not polished.
+Kick driving quarters, add doubles on "rolled away".
+Snare backbeat with fills on "guards ran in fear".
+Bass eighth note pulse, aggressive forward motion.
+Banjo rolls throughout, celebratory.
+Acoustic full strumming, down strokes emphasis.
+Electric power chords Bb-F-Gm, open and ringing.
+Pump organ Bb-F-Gm voicings, half notes, full volume.
+Vocal proclaimed, almost shouted.
+
+BRIDGE
+Tempo same but feels heavier.
+Kick every quarter note, relentless.
+Snare heavy on 2 & 4.
+Bass quarter note march on roots.
+Banjo sparse, letting space sit.
+Acoustic power chord stabs on "empire" / "Pharaoh".
+Electric octave power chords, menacing.
+Pump organ sustained Gm-Eb, ominous then hopeful.
+Vocal prophetic, accusatory on Luke 20:18.
+
+OUTRO
+Gradual build, then sudden triumphant ending.
+"Stone keeps rolling" section:
+All instruments continue but drop to half volume.
+Banjo prominent, relentless pattern.
+Bass Gm-Cm-Eb-F progression, repeating.
+Vocal declarative, certain.
+
+Final line "walking in its light":
+Full band returns loud.
+End on Gm major chord (resolve minor to major!).
+All instruments hit together, let ring 4 full bars.
+Natural decay, no fade.
+Ends on hope, not darkness.

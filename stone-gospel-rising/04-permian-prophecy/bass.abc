@@ -1,0 +1,29 @@
+X:1
+T:Black Gold Hymn - Bass
+C:Precious Jim Stone
+M:4/4
+L:1/8
+Q:1/4=92
+K:Dmin
+%%score (V1)
+V:V1 clef=bass name="Bass"
+% INTRO - Drone on D (whole notes)
+|: "Dm"D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 :|
+% VERSE - Root-fifth pattern, quarter notes
+|: "Dm"D,2 A,2 D,2 A,2 | "Bb"B,,2 F,2 B,,2 F,2 | "F"F,2 C,2 F,2 C,2 | "Gm"G,2 D,2 G,2 D,2 |
+"Dm"D,2 A,2 D,2 A,2 | "Bb"B,,2 F,2 B,,2 F,2 | "F"F,2 C,2 F,2 C,2 | "Gm"G,2 D,2 G,2 D,2 :|
+% CHORUS - Eighth note pulse on roots
+|: "Bb"B,,B,,F,F, B,,B,,F,F, | "F"F,F,C,C, F,F,C,C, | "Dm"D,D,A,A, D,D,A,A, |
+"Gm"G,G,D,D, "Bb"B,,B,,F,F, "F"F,F,C,C, | "Dm"D,D,A,A, "Gm"G,G,D,D, | "Bb"B,,B,,F,F, B,,B,,F,F, |
+"F"F,F,C,C, "Gm"G,G,D,D, "Dm"D,2 A,2 D,4 :|
+% BRIDGE - Whole notes on roots
+|: "Gm"G,8 | "Bb"B,,8 | "F"F,8 | "Dm"D,8 :|
+% VERSE 3 - Same as verse 1, building
+|: "Dm"D,2 A,2 D,2 A,2 | "Bb"B,,2 F,2 B,,2 F,2 | "F"F,2 C,2 F,2 C,2 | "Gm"G,2 D,2 G,2 D,2 |
+"Dm"D,2 A,2 D,2 A,2 | "Bb"B,,2 F,2 B,,2 F,2 | "F"F,2 C,2 F,2 C,2 | "Gm"G,2 D,2 G,2 D,2 :|
+% FINAL CHORUS - Aggressive eighth notes
+|: "Bb"B,,B,,F,F, B,,B,,F,F, | "F"F,F,C,C, F,F,C,C, | "Dm"D,D,A,A, D,D,A,A, |
+"Gm"G,G,D,D, "Bb"B,,B,,F,F, "F"F,F,C,C, | "Dm"D,D,A,A, "Gm"G,G,D,D, | "Bb"B,,B,,F,F, B,,B,,F,F, |
+"F"F,F,C,C, "Gm"G,G,D,D, "Dm"D,2 A,2 D,4 :|
+% OUTRO - D pedal tone (whole notes)
+"Dm"D,8 | "Gm"D,8 | "Bb"D,8 | "F"D,8 | "Gm"D,8 | "Dm"D,8 |]

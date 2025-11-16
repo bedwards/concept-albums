@@ -1,0 +1,32 @@
+X:1
+T:Black Gold Hymn - Acoustic Guitar
+C:Precious Jim Stone
+M:4/4
+L:1/8
+Q:1/4=92
+K:Dmin
+%%score (V1)
+V:V1 clef=treble name="Acoustic"
+% INTRO - Fingerpick pattern Dm (D-F-A alternating)
+|: "Dm"D,2 A,2 D2 F2 | D,2 A,2 D2 F2 | D,2 A,2 D2 F2 | D,2 A,2 D2 F2 |
+D,2 A,2 D2 F2 | D,2 A,2 D2 F2 | D,2 A,2 D2 F2 | D,2 A,2 D2 F2 :|
+% VERSE - Continues fingerpick, sparse
+|: "Dm"D,2 A,2 D2 F2 | "Bb"B,,2 F,2 B,2 D2 | "F"F,2 C2 F2 A2 | "Gm"G,2 D2 G2 B2 |
+"Dm"D,2 A,2 D2 F2 | "Bb"B,,2 F,2 B,2 D2 | "F"F,2 C2 F2 A2 | "Gm"G,2 D2 G2 B2 :|
+% CHORUS - Strumming pattern enters (down-down-up)
+|: "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2]z | "F"[C2F2A2][C2F2A2] [C2F2A2]z |
+"Dm"[D2F2A2][D2F2A2] [D2F2A2]z | "Gm"[D2G2B2]z "Bb"[B,2D2F2]z "F"[C2F2A2]z z2 |
+"Dm"[D2F2A2]z "Gm"[D2G2B2]z | "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2]z |
+"F"[C2F2A2]z "Gm"[D2G2B2]z "Dm"[D2F2A2]z z4 :|
+% BRIDGE - Arpeggiated picking
+|: "Gm"G,2 D2 G2 B2 | "Bb"B,,2 F,2 B,2 D2 | "F"F,2 C2 F2 A2 | "Dm"D,2 A,2 D2 F2 :|
+% VERSE 3 - Same as verse 1
+|: "Dm"D,2 A,2 D2 F2 | "Bb"B,,2 F,2 B,2 D2 | "F"F,2 C2 F2 A2 | "Gm"G,2 D2 G2 B2 |
+"Dm"D,2 A,2 D2 F2 | "Bb"B,,2 F,2 B,2 D2 | "F"F,2 C2 F2 A2 | "Gm"G,2 D2 G2 B2 :|
+% FINAL CHORUS - Full strumming
+|: "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2][B,2D2F2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+"Dm"[D2F2A2][D2F2A2] [D2F2A2]z | "Gm"[D2G2B2][D2G2B2] "Bb"[B,2D2F2]z "F"[C2F2A2]z z2 |
+"Dm"[D2F2A2][D2F2A2] "Gm"[D2G2B2]z | "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2]z |
+"F"[C2F2A2]z "Gm"[D2G2B2]z "Dm"[D2F2A2]z z4 :|
+% OUTRO - Silent
+z8 | z8 | z8 | z8 | z8 | z8 |]

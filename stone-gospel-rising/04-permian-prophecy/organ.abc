@@ -1,0 +1,30 @@
+X:1
+T:Black Gold Hymn - Organ
+C:Precious Jim Stone
+M:4/4
+L:1/8
+Q:1/4=92
+K:Dmin
+%%score (V1)
+V:V1 clef=treble name="Organ"
+% INTRO - Dm pad, dark and sustained
+|: "Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] :|
+% VERSE - Whole note pads underneath
+|: "Dm"[D8F8A8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Gm"[D8G8B8] :|
+% CHORUS - Bb-F-Dm voicings, half notes, louder
+|: "Bb"[B,4D4F4] [B,4D4F4] | "F"[C4F4A4] [C4F4A4] | "Dm"[D4F4A4] [D4F4A4] |
+"Gm"[D4G4B4] "Bb"[B,4D4F4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] | "Bb"[B,4D4F4] [B,4D4F4] |
+"F"[C4F4A4] "Gm"[D4G4B4] "Dm"[D8F8A8] :|
+% BRIDGE - Sustained chords, crescendo
+|: "Gm"[D8G8B8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Dm"[D8F8A8] :|
+% VERSE 3 - Same as verse 1, louder
+|: "Dm"[D8F8A8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Gm"[D8G8B8] :|
+% FINAL CHORUS - Full volume
+|: "Bb"[B,4D4F4] [B,4D4F4] | "F"[C4F4A4] [C4F4A4] | "Dm"[D4F4A4] [D4F4A4] |
+"Gm"[D4G4B4] "Bb"[B,4D4F4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] | "Bb"[B,4D4F4] [B,4D4F4] |
+"F"[C4F4A4] "Gm"[D4G4B4] "Dm"[D8F8A8] :|
+% OUTRO - Dm-Gm-Bb-F-Gm-Dm progression (whole notes)
+"Dm"[D8F8A8] | "Gm"[D8G8B8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Gm"[D8G8B8] | "Dm"[D,8D8F8A8] |]

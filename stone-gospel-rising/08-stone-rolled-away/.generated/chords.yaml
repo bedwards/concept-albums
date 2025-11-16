@@ -1,0 +1,138 @@
+song:
+  title: Stone Rolled Away
+  composer: Brian Edwards
+  key: Gmin
+  tempo: 95
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Roman stone sealed tight
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Guards at the gate
+  - chords:
+    - Bb
+    - F
+    lyrics: Bury what threatens the throne
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Women came at dawn
+  verse2:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Mary first to see
+  - chords:
+    - Gm
+    - Eb
+    lyrics: The lynched one risen
+  - chords:
+    - Bb
+    - F
+    lyrics: Rich men wanted underground
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Can't keep resurrection bound
+  verse3:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: When they seal the door
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Say the uprising's over
+  - chords:
+    - Bb
+    - F
+    lyrics: Friday wasn't the end
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Sunday coming
+  chorus:
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: Stone rolled away
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: Stone rolled away
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: He is not here
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Gm
+    lyrics: Guards ran in fear
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: Death couldn't hold
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Gm
+    lyrics: What the powerful killed
+  build1:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Every empire falls
+  - chords:
+    - Bb
+    - F
+    lyrics: Every Pharaoh dies
+  - chords:
+    - Gm
+    - Eb
+    lyrics: The stone keeps rolling
+  - chords:
+    - Bb
+    - F
+    - Cm
+    lyrics: Crushing what it strikes
+  outro:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Stone keeps rolling
+  - chords:
+    - Eb
+    - F
+    lyrics: Can't stop what's risen
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Stone keeps rolling
+  - chords:
+    - Eb
+    - F
+    lyrics: Rejected stone chosen
+  - chords:
+    - Gm
+    - Cm
+    - Eb
+    - F
+    lyrics: Rolling through Texas tonight
+  - chords:
+    - Gm
+    - Cm
+    - Eb
+    - G
+    lyrics: Walking in resurrection light

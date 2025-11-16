@@ -1,0 +1,30 @@
+X:1
+T:They Call It Trespassing - Electric Guitar
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=92
+K:Gmin
+V:1
+%%MIDI program 29
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+"Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
+"Gm"[D4G4B4] [D4G4B4] | "Cm"[C4E4G4] [C4E4G4] |
+"Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
+"Gm"[D4G4B4] [D4G4B4] | "Cm"[C4E4G4] [C4E4G4] |
+"Gm"G2 G2 G2 G2 | "Eb"B2 B2 B2 B2 |
+"Bb"B2 B2 B2 B2 | "F"A2 A2 A2 A2 |
+"Gm"G2 G2 G2 G2 | "Eb"B2 B2 B2 B2 |
+"Bb"B2 B2 B2 B2 | "F"A2 A2 A2 A2 |
+"Gm"D2 D2 D2 F2 | "Cm"G2 G2 G2 B2 |
+"Eb"B2 B2 B2 G2 | "Bb"F2 F2 F2 D2 |
+"Gm"D2 D2 D2 F2 | "Cm"G2 G2 G2 B2 |
+"Eb"B2 B2 B2 G2 | "Bb"F2 F2 F2 D2 |
+"Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
+"Gm"[D4G4B4] [D4G4B4] | "Cm"[C4E4G4] [C4E4G4] |
+"Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
+"Gm"[D4G4B4] [D4G4B4] | "Cm"[C4E4G4] [C4E4G4] |
+z8 | z8 | "Gm"[D8G8B8] |]

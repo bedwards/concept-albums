@@ -1,0 +1,32 @@
+X:1
+T:Stone Rolled Away - Organ
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=95
+K:Gmin
+V:1
+%%MIDI program 16
+"Gm"[D8G8B8] | "Bb"[D8F8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] |
+"Gm"[D8G8B8] | "Bb"[D8F8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] |
+"F"[C8F8A8] | "Gm"[D8G8B8] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] |
+"F"[C8F8A8] | "Gm"[D8G8B8] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Gm"[D8G8B8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] | "F"[C8F8A8] |
+"Cm"[C8E8G8] | "Gm"[D8G8B8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] |
+"F"[C8F8A8] | "Gm"[D8G8B8] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] |
+"F"[C8F8A8] | "Gm"[D8G8B8] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Gm"[D4G4B4] "Cm"[C4E4G4] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "F"[C8F8A8] |
+"Gm"[D8G8B8] | "Cm"[C8E8G8] | "Eb"[E8G8B8] | "Gm"[D8G8B8] |
+"Gm"[D8G8B8] | [D8G8B8] | [D8G8B8] | [D8G8B8] |]

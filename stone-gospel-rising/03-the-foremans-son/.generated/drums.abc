@@ -1,0 +1,45 @@
+X:1
+T:The Foreman's Son - Drums
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=100
+K:C perc
+V:1 name="Kick"
+%%MIDI program 128
+%%MIDI channel 10
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 C2 z2 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 C2 z2 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 z4 |
+C4 z4 | C4 z4 | C4 z4 | C4 C2 z2 |
+z8 | z8 | z8 | z8 | z8 |
+V:2 name="Snare"
+%%MIDI program 128
+%%MIDI channel 10
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z8 | z8 | z4 C4 | z8 |
+z8 | z8 | z4 C4 | z8 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+z8 | z8 | z8 | z8 | z8 |

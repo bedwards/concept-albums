@@ -1,0 +1,181 @@
+# Concept Albums Repository - LLM Instructions
+
+## Repository Purpose
+
+This repository contains complete concept albums with detailed musical notation. Each album is a cohesive collection of 8-10 thematically connected songs, fully documented with lyrics, chords, arrangements, and ABC notation for all instrumental parts.
+
+## File Structure Per Song
+
+Each song requires these files in its numbered directory (e.g., `01-song-title/`):
+
+**Source Files (Hand-Edited):**
+1. **structure.yaml** - Song structure with section definitions and bar counts
+2. **lyrics.yaml** - Structured lyrics (YAML format - source of truth)
+3. **chords.yaml** - Chords mapped to lyrics (YAML format - must match lyrics.yaml)
+4. **arrangement.txt** - Detailed arrangement instructions (tempo, time, key, instrument-by-instrument section breakdown)
+5. **sections/*.abc** - Individual section ABC files (intro-bass.abc, verse-vocal-melody.abc, etc.)
+
+**Generated Files (DO NOT EDIT DIRECTLY):**
+6. **vocal-melody.abc** - Generated from sections by build_song.py
+7. **guitar-acoustic.abc** - Generated from sections
+8. **guitar-electric.abc** - Generated from sections
+9. **bass.abc** - Generated from sections
+10. **drums.abc** - Generated from sections
+11. **organ.abc** - Generated from sections
+12. **[instrument].mid** - Generated MIDI files from ABC
+
+**Legacy Files (For Human Reading):**
+13. **lyrics.txt** - Plain text version of lyrics (optional)
+14. **chords.txt** - Text version with chords (optional)
+
+## ABC Notation Requirements
+
+### Critical Rules for abc2midi Compatibility
+
+**Bar Timing:** Every bar must contain exactly the number of beats specified by the time signature.
+- 4/4 time = 8 eighth notes (or equivalent: 4 quarters, 2 halves, etc.)
+- Count meticulously. Common errors: 5 eighths when you need 8, or 6 when you need 4
+
+**Vocal Melodies:** Do NOT use repeat markers (|: :|) with multiple `w:` lyric lines.
+- abc2midi requires lyrics on every music line within repeats
+- Solution: Write out sections explicitly without repeats
+- Each bar of music should have its `w:` lyric line immediately following
+
+**Annotations:** Performance markings like ^"pm" or ^"let ring" can cause parsing errors.
+- Avoid annotations in ABC files
+- Put performance notes in arrangement.txt instead
+- ABC files are for note data only
+
+**Percussion Key:** abc2midi will warn "Ignoring string 'perc' in K: field"
+- This warning is harmless and can be ignored
+- Percussion still generates MIDI correctly
+
+### ABC File Format Template
+
+```
+X:1
+T:Song Title
+C:Artist Name
+M:4/4
+L:1/8
+Q:1/4=110
+K:Gmin
+%%score (V1)
+V:V1 clef=treble name="Instrument"
+% SECTION NAME
+"Gm"D2 D2 D2 G2 | "Cm"G2 G4 G2 |
+w: Ly-rics go here sync-ing to notes |
+```
+
+## Workflow for Creating Songs (USE SCRIPTS, NOT MANUAL EDITING)
+
+**Step 1: Define Structure**
+Create `structure.yaml` with sections and bar counts:
+```yaml
+sections:
+  - name: intro
+    bars: 4
+  - name: verse
+    bars: 8
+```
+
+**Step 2: Write Lyrics**
+Create `lyrics.yaml` (structured YAML format):
+```yaml
+sections:
+  verse1:
+    - "Line one"
+    - "Line two"
+```
+
+**Step 3: Add Chords**
+Create `chords.yaml` mapping chords to lyrics (must match lyrics.yaml exactly).
+
+**Step 4: Generate Section Templates**
+```bash
+python scripts/section_tools.py generate-all song-directory/
+```
+This creates sections/*.abc with exactly the right bar counts.
+
+**Step 5: Fill in Musical Content**
+Edit individual section files (they're small - 4-8 bars each).
+
+**Step 6: Validate Sections**
+```bash
+python scripts/section_tools.py validate-all song-directory/
+python scripts/lyrics_tools.py validate song-directory/
+```
+
+**Step 7: Build Complete ABC Files**
+```bash
+python scripts/build_song.py song-directory/ song-directory/structure.yaml
+```
+
+**Step 8: Verify and Generate MIDI**
+```bash
+python scripts/abc_tools.py verify song-directory/
+cd song-directory && for f in *.abc; do abc2midi "$f" -o "${f%.abc}.mid"; done
+```
+
+**CRITICAL: Never manually edit generated ABC files. Edit sections instead, then rebuild.**
+
+## Common abc2midi Errors and Fixes
+
+**"Bar X has Y time units while the time signature has Z"**
+- Count the note values in that bar
+- Adjust to match time signature exactly
+- L:1/8 means eighth notes are default unit
+
+**"Line of music without lyrics"**
+- Every vocal melody bar needs a w: line
+- Expand repeats, don't use |: :| with vocals
+
+**"Malformed note: expecting a-g or A-G"**
+- Usually caused by annotation syntax
+- Remove ^"text" annotations from note lines
+
+**"Guitar chord does not start with A-G or a-g"**
+- Chord symbols in quotes should be valid: "Gm" "Bb" "F"
+- Check for typos in chord names
+
+## Musical Constraints
+
+- **Key unity:** Albums should stay within one key family (e.g., Bb major and its modes)
+- **Simple progressions:** 3-5 chords per song
+- **Playable rhythms:** Rock/folk patterns, not prog complexity
+- **Repeatable structures:** Verse-chorus-verse-bridge-chorus format typical
+- **Tempo range:** 88-110 BPM common for folk/rock
+
+## Album-Level Structure
+
+Each album folder contains:
+- **README.md** - Album concept, track listing, recording notes
+- **01-song-title/** through **08-song-title/** (or however many tracks)
+- All songs share thematic cohesion
+- Track order matters - tell a story from 01 to final track
+
+## Testing and Validation
+
+Before committing ABC files:
+```bash
+cd song-folder
+abc2midi vocal-melody.abc -o vocal-melody.mid 2>&1
+# Check output for warnings
+# Fix any errors
+# Repeat for all .abc files
+```
+
+Goal: Clean output except `Warning: Ignoring string 'perc' in K: field` which is acceptable.
+
+## Commit Strategy
+
+Commit ABC source files and generated MIDI files together. MIDI files are build artifacts but useful for immediate playback without requiring abc2midi installation.
+
+## What Makes Good Concept Album Content
+
+- **Thematic coherence** - Songs connect to overarching concept
+- **Character or narrative through-line** - Story or perspective that develops
+- **Concrete imagery** - Specific places, objects, sensory details
+- **Political/social consciousness** - Say something that matters
+- **Restraint** - Don't preach, show through story and image
+- **Musical variety within constraints** - Different tempos/feels while staying in key family

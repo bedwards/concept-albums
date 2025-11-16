@@ -1,0 +1,42 @@
+X:1
+T:Same Book Different Gospel
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=100
+K:Bb
+V:1
+%%MIDI program 29
+z8 | z8 | z8 | z8 |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | "Bb"[D4F4B4][D4F4B4] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | [D8F8B8] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Cm"[C4E4] "Eb"[E4G4] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Eb"[E4G4] "Bb"[D4F4] | "F"[C4F4] z4 |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | "Bb"[D4F4B4][D4F4B4] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | [D8F8B8] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Cm"[C4E4] "Eb"[E4G4] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Eb"[E4G4] "Bb"[D4F4] | "F"[C4F4] z4 |
+"Gm"D8 | "Eb"E8 |
+"Bb"F8 | "F"A8 |
+"Gm"D8 | "Eb"E8 |
+"Bb"F4 "F"A4 | z8 |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | "Bb"[D4F4B4][D4F4B4] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
+"Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | [D8F8B8] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Cm"[C4E4] "Eb"[E4G4] |
+"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
+"Gm"[D4G4] [D4G4] | "Eb"[E4G4] "Bb"[D4F4] | "F"[C4F4] z4 |
+"Bb"[D4F4] z4 | "F"[C4F4] z4 |
+"Bb"[D4F4] z4 | "F"[C4F4] z4 |
+"Bb"[D4F4] z4 | "Eb"[E4G4] "Bb"[D4F4] |
+[D8F8] | z8 |

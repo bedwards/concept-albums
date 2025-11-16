@@ -1,0 +1,36 @@
+X:1
+T:Rio Grande Testament - Acoustic Guitar
+C:Brian Edwards
+M:3/4
+L:1/8
+Q:1/4=90
+K:Gmin
+V:1
+%%MIDI program 25
+"Gm"D2 B,2 D2 | B,2 D2 G2 | D2 B,2 D2 | B,2 D2 G2 |
+D2 B,2 D2 | B,2 D2 G2 | D2 B,2 D2 | B,2 D2 G2 |
+"Gm"D2 B,2 D2 | "Cm"C2 G,2 C2 | "Eb"E2 G2 B2 | "Bb"F2 B,2 D2 |
+"F"F2 A2 c2 | "Gm"D2 B,2 D2 |
+"Gm"D2 B,2 D2 | "Cm"C2 G,2 C2 | "Eb"E2 G2 B2 | "Bb"F2 B,2 D2 |
+"F"F2 A2 c2 | "Gm"D2 B,2 D2 |
+"Gm"D2 B,2 D2 | "Cm"C2 G,2 C2 | "Eb"E2 G2 B2 | "Bb"F2 B,2 D2 |
+"F"F2 A2 c2 | "Gm"D2 B,2 D2 |
+"Bb"[D2F2B2] [D2F2B2] [D2F2B2] | "F"[C2F2A2] [C2F2A2] [C2F2A2] |
+"Gm"[D2G2B2] [D2G2B2] [D2G2B2] | "Cm"[C2E2G2] [C2E2G2] [C2E2G2] |
+"Bb"[D2F2B2] [D2F2B2] [D2F2B2] | "F"[C2F2A2] [C2F2A2] [C2F2A2] |
+"Gm"[D2G2B2] [D2G2B2] [D2G2B2] | "Cm"[C2E2G2] [C2E2G2] [C2E2G2] |
+"Gm"D1 z1 B,1 z1 D1 z1 | "Eb"E1 z1 G1 z1 B1 z1 |
+"Bb"F1 z1 B,1 z1 D1 z1 | "F"F1 z1 A1 z1 c1 z1 | "Cm"C1 z1 G1 z1 c1 z1 |
+"Gm"D1 z1 B,1 z1 D1 z1 | "Eb"E1 z1 G1 z1 B1 z1 |
+"Bb"F1 z1 B,1 z1 D1 z1 | "F"F1 z1 A1 z1 c1 z1 | "Cm"C1 z1 G1 z1 c1 z1 |
+"Gm"D2 B,2 D2 | "Cm"C2 G,2 C2 | "Eb"E2 G2 B2 | "Bb"F2 B,2 D2 |
+"F"F2 A2 c2 | "Gm"D2 B,2 D2 |
+"Gm"D2 B,2 D2 | "Cm"C2 G,2 C2 | "Eb"E2 G2 B2 | "Bb"F2 B,2 D2 |
+"F"F2 A2 c2 | "Gm"D2 B,2 D2 |
+"Bb"[D2F2B2] [D2F2B2] [D2F2B2] | "F"[C2F2A2] [C2F2A2] [C2F2A2] |
+"Gm"[D2G2B2] [D2G2B2] [D2G2B2] | "Cm"[C2E2G2] [C2E2G2] [C2E2G2] |
+"Bb"[D2F2B2] [D2F2B2] [D2F2B2] | "F"[C2F2A2] [C2F2A2] [C2F2A2] |
+"Gm"[D2G2B2] [D2G2B2] [D2G2B2] | "Cm"[C2E2G2] [C2E2G2] [C2E2G2] |
+"Gm"D2 B,2 D2 | B,2 D2 G2 | D2 B,2 D2 | B,2 D2 G2 |
+D2 B,2 D2 | B,2 D2 G2 | D2 B,2 D2 | B,2 D2 G2 |
+D2 B,2 D2 | B,2 D2 G2 | D2 B,2 D2 | B,2 D2 G2 |]

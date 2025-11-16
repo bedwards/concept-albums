@@ -1,0 +1,115 @@
+song:
+  title: Blood on the Capitol Steps
+  composer: Brian Edwards
+  key: Cmin
+  tempo: 88
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Cm
+    - F
+    lyrics: Pink granite in the sun
+  - chords:
+    - Cm
+    - Bb
+    lyrics: Vote is done
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Woe to those who decree unjust laws
+  - chords:
+    - Bb
+    - F
+    lyrics: Blood on the capitol floor
+  verse2:
+  - chords:
+    - Cm
+    - F
+    lyrics: When you turned the hungry away
+  - chords:
+    - Cm
+    - Bb
+    lyrics: You turned him away
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Every stolen wage cries out
+  - chords:
+    - Bb
+    - F
+    lyrics: Depart I never knew you
+  verse3:
+  - chords:
+    - Cm
+    - F
+    lyrics: He overturned the tables once
+  - chords:
+    - Cm
+    - Bb
+    lyrics: Drove the money changers out
+  - chords:
+    - Gm
+    - Eb
+    lyrics: You made his house a den again
+  - chords:
+    - Bb
+    - F
+    lyrics: He's coming back to cleanse
+  verse4:
+  - chords:
+    - Cm
+    - F
+    lyrics: You devour widows' houses
+  - chords:
+    - Cm
+    - Bb
+    lyrics: Make long prayers for show
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Whitewashed tombs full of bones
+  - chords:
+    - Bb
+    - F
+    lyrics: He called you out long ago
+  verse5:
+  - chords:
+    - Cm
+    - F
+    lyrics: You shut the kingdom's door
+  - chords:
+    - Cm
+    - Bb
+    lyrics: Won't enter won't let them in
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Strain out gnats swallow camels
+  - chords:
+    - Bb
+    - F
+    lyrics: Justice mercy faith left to die
+  verse6:
+  - chords:
+    - Cm
+    - F
+    lyrics: The stones are crying out
+  - chords:
+    - Cm
+    - Bb
+    lyrics: If they stay silent now
+  - chords:
+    - Gm
+    - Eb
+    lyrics: The rocks will tell what you have done
+  - chords:
+    - Bb
+    - F
+    lyrics: Pink granite stained with blood
+  outro:
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: The stones cry out

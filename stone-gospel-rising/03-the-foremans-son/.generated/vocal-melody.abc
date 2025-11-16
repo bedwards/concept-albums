@@ -1,0 +1,41 @@
+X:1
+T:The Foreman's Son
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=100
+K:Bb
+V:1
+%%MIDI program 53
+z8 | z8 | z8 | z8 |
+"Bb"D2 D2 D2 F2 | "Gm"G2 G4 D2 |
+"Eb"G2 G2 G2 AG | "F"F8 |
+"Bb"D2 D2 F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 B2 AG | "F"F8 |
+"Bb"D2 D2 "F"F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 "Bb"d2 d2 | "F"c6 Bc |
+"Cm"c2 c2 "F"A2 A2 | "Gm"G4 B2 AG |
+"Eb"B2 B2 "Bb"d2 "F"c2 | "Bb"B8 |
+"Bb"D2 D2 D2 F2 | "Gm"G2 G4 D2 |
+"Eb"G2 G2 G2 AG | "F"F8 |
+"Bb"D2 D2 F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 B2 AG | "F"F8 |
+"Bb"D2 D2 "F"F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 "Bb"d2 d2 | "F"c6 Bc |
+"Cm"c2 c2 "F"A2 A2 | "Gm"G4 B2 AG |
+"Eb"B2 B2 "Bb"d2 "F"c2 | "Bb"B8 |
+"Gm"G2 G2 "Eb"G2 G2 | "Bb"F4 "F"F4 |
+"Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
+"Gm"G2 G2 "Eb"G2 G2 | "Bb"F4 "F"F4 |
+"Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
+"Bb"D2 D2 D2 F2 | "Gm"G2 G4 D2 |
+"Eb"G2 G2 G2 AG | "F"F8 |
+"Bb"D2 D2 F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 B2 AG | "F"F8 |
+"Bb"D2 D2 "F"F2 F2 | "Gm"G4 G2 AB |
+"Eb"B2 B2 "Bb"d2 d2 | "F"c6 Bc |
+"Cm"c2 c2 "F"A2 A2 | "Gm"G4 B2 AG |
+"Eb"B2 B2 "Bb"d2 "F"c2 | "Bb"B8 |
+"Bb"D2 D2 D2 "Gm"G2 | "Eb"G2 G2 "F"F4 |
+"Bb"D2 D2 D2 "Gm"G2 | "Eb"G2 G2 F4 |
+"Bb"B,8 |

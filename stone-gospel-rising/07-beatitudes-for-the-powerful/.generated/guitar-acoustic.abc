@@ -1,0 +1,33 @@
+X:1
+T:Beatitudes for the Powerful
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=85
+K:Dmin
+V:1
+%%MIDI program 25
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] [D2A2]z2 |
+"Gm"[D2G2][D2G2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
+"Dm"[D2A2][D2A2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] z4 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] [D2A2]z2 |
+"Gm"[D2G2][D2G2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
+"Dm"[D2A2][D2A2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] z4 |
+"Gm"D2 G2 B2 z2 | "Eb"E2 G2 B2 z2 |
+"Bb"B,2 D2 F2 z2 | "F"F2 A2 c2 z2 |
+"Gm"D2 G2 B2 z2 | "Eb"E2 G2 B2 z2 |
+"Bb"B,2 D2 F2 z2 | "F"F2 A2 "Cm"C2 E2 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] [D2A2]z2 |
+"Gm"[D2G2][D2G2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
+"Dm"[D2A2][D2A2] "Bb"[D2F2][D2F2] | z8 |
+"Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Dm"[D2A2][D2A2] z4 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |

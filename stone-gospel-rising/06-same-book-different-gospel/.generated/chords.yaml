@@ -1,0 +1,207 @@
+song:
+  title: Same Book Different Gospel
+  composer: Brian Edwards
+  key: Bb
+  tempo: 100
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: You read the book
+  - chords:
+    - Eb
+    - F
+    lyrics: I read the book
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Same words
+  - chords:
+    - Eb
+    - F
+    lyrics: Different god
+  - chords:
+    - Bb
+    - Gm
+    lyrics: You see heaven coming
+  - chords:
+    - Eb
+    - F
+    lyrics: I see justice now
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Same cross standing
+  - chords:
+    - Eb
+    - F
+    lyrics: Different blood
+  verse2:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Obey the state you say
+  - chords:
+    - Eb
+    - F
+    lyrics: Obey God first I say
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Blessed are the rich
+  - chords:
+    - Eb
+    - F
+    lyrics: Camel through the needle's eye
+  - chords:
+    - Bb
+    - Gm
+    lyrics: You pick your verses
+  - chords:
+    - Eb
+    - F
+    lyrics: I read what burns
+  verse3:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Half the text you use
+  - chords:
+    - Eb
+    - F
+    lyrics: Skip the prophets burn the rest
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Judgment on the powerful
+  - chords:
+    - Eb
+    - F
+    lyrics: Makes you uncomfortable
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Act justly love mercy
+  - chords:
+    - Eb
+    - F
+    lyrics: Walk humble or don't walk here
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Don't quote scripture at me
+  - chords:
+    - Eb
+    - F
+    lyrics: Till your hands are clean
+  chorus:
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: Same book different gospel
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: Same name different call
+  - chords:
+    - Cm
+    - F
+    lyrics: Love your neighbor
+  - chords:
+    - Gm
+    - Eb
+    lyrics: You built the wall
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: You're a liar claiming love for God
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Cm
+    lyrics: While hating the stranger at your door
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: Same book different gospel
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: We don't pray to the same lord
+  bridge:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: You sanitized him
+  - chords:
+    - Bb
+    - F
+    lyrics: Made him white tame safe
+  - chords:
+    - Gm
+    - Eb
+    lyrics: He was brown poor executed
+  - chords:
+    - Bb
+    - F
+    lyrics: By your celebrated state
+  - chords:
+    - Cm
+    - F
+    lyrics: He came for the oppressed
+  - chords:
+    - Gm
+    - Eb
+    - Bb
+    - F
+    lyrics: Not your comfortable theft
+  outro:
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: I'll take the Jesus who flipped tables
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: You can keep your country club Christ
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: I'll take the Jesus who touched lepers
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    lyrics: You can keep your sanitized
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: Same book - Matthew, Mark, Luke and John
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: But brother we're reading it wrong or you are
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - Bb
+    lyrics: And I know which side I'm on

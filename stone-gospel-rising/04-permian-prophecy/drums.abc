@@ -1,0 +1,40 @@
+X:1
+T:Black Gold Hymn - Drums
+C:Precious Jim Stone
+M:4/4
+L:1/8
+Q:1/4=92
+K:C perc
+%%score (V1 V2 V3)
+V:V1 clef=perc name="Kick"
+V:V2 clef=perc name="Snare"
+V:V3 clef=perc name="HiHat"
+% INTRO - Sparse kick, light rim clicks
+[V:V1] C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 |
+[V:V1] C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 |
+[V:V2] z2 ^"rim"c2 z2 c2 | z2 c2 z2 c2 | z2 c2 z2 c2 | z2 c2 z2 c2 |
+[V:V2] z2 c2 z2 c2 | z2 c2 z2 c2 | z2 c2 z2 c2 | z2 c2 z2 c2 |
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 |
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 |
+% VERSE - Occasional &-of-3 ghost hits
+[V:V1] C2 z2 C2 zC | C2 z2 C2 z2 | C2 z2 C2 zC | C2 z2 C2 z2 |
+[V:V1] C2 z2 C2 zC | C2 z2 C2 z2 | C2 z2 C2 zC | C2 z2 C2 z2 |
+[V:V2] z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+[V:V2] z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 |
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 |
+% CHORUS - Add &-of-4, ghost notes
+[V:V1] C2 z2 C2 zC | C2 z2 C2 zC | C2 z2 C2 zC | C2 z2 C2 z2 C2 z2 |
+[V:V1] C2 z2 C2 zC | C2 z2 C2 zC | C2 z2 C2 z2 C2 z2 | C2 z2 C4 |
+[V:V2] z2 C2 zc zC | z2 C2 zc zC | z2 C2 zc zC | z2 C2 z2 C2 z2 C2 |
+[V:V2] z2 C2 zc zC | z2 C2 zc zC | z2 C2 z2 C2 z2 C2 | z2 C2 z4 |
+[V:V3] cccccccc | cccccccc | cccccccc | cccccccc |
+[V:V3] cccccccc | cccccccc | cccccccc | cccccc z2 |
+% BRIDGE - Half-time, snare on 3 only
+[V:V1] C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 |
+[V:V2] z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 |
+% OUTRO - Fade out
+[V:V1] C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C2 z2 C2 z2 | C8 |]
+[V:V2] z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z8 |]
+[V:V3] c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c2 c2 c2 c2 | c8 |]

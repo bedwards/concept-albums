@@ -1,0 +1,76 @@
+# Structured chords with lyrics for validation
+# Format: each line has chords mapped to syllable positions
+
+song:
+  title: "Blood on the Capitol Steps"
+  composer: "Brian Edwards"
+  key: "C minor"
+  tempo: 88
+  time: "4/4"
+
+sections:
+  # All verses use the same chord pattern
+  verse1:
+    - chords: ["Cm", "F"]
+      lyrics: "Pink granite shining in the morning sun"
+    - chords: ["Cm", "Bb"]
+      lyrics: "Representative says the vote is done"
+    - chords: ["Gm", "Eb"]
+      lyrics: "But Isaiah 10 says woe to those who make unjust laws"
+    - chords: ["Bb", "F"]
+      lyrics: "And there's blood on the capitol steps because"
+  
+  verse2:
+    - chords: ["Cm", "F"]
+      lyrics: "Man stood up and quoted Matthew 25"
+    - chords: ["Cm", "Bb"]
+      lyrics: "Said when you turned away the hungry you turned away Christ"
+    - chords: ["Gm", "Eb"]
+      lyrics: "Every child without water every stolen wage"
+    - chords: ["Bb", "F"]
+      lyrics: "The King will say depart from me you never knew my face"
+  
+  verse3:
+    - chords: ["Cm", "F"]
+      lyrics: "Jesus turned the tables over once before"
+    - chords: ["Cm", "Bb"]
+      lyrics: "Drove the money changers right out the temple door"
+    - chords: ["Gm", "Eb"]
+      lyrics: "You made his house a den of thieves again"
+    - chords: ["Bb", "F"]
+      lyrics: "Mark 11:17 - he's coming back to cleanse"
+  
+  chorus:
+    - chords: ["Bb", "F", "Gm"]
+      lyrics: "Who will speak for the widow's son"
+    - chords: ["Eb", "Bb", "F"]
+      lyrics: "Who will name what the powers have done"
+    - chords: ["Cm", "F", "Gm"]
+      lyrics: "Amos said let justice roll down like a flood"
+    - chords: ["Eb", "Bb", "F", "Gm"]
+      lyrics: "Pink granite stained with righteous blood"
+  
+  bridge:
+    - chords: ["Cm", "Bb"]
+      lyrics: "You quote the law but break the prophets"
+    - chords: ["Cm", "Bb"]
+      lyrics: "You wear the cross but serve the profits"
+    - chords: ["Cm", "Bb"]
+      lyrics: "James said faith without works is dead"
+    - chords: ["Gm", "F"]
+      lyrics: "So we brought the works right to your doorstep"
+  
+  outro:
+    - chords: ["Cm", "F", "Gm"]
+      lyrics: "Blood on the capitol steps tonight"
+    - chords: ["Eb", "Bb", "F"]
+      lyrics: "His blood or theirs the ledger's due"
+    - chords: ["Cm", "F", "Gm"]
+      lyrics: "Blood on the capitol steps tonight"
+    - chords: ["Eb", "Bb", "F", "Gm"]
+      lyrics: "The stones are crying out at you"
+
+notes:
+  - "Verse pattern is identical for verse1, verse2, and verse3"
+  - "Chorus repeats after each verse with same chords and lyrics"
+  - "Structure: verse, chorus, verse, chorus, bridge, verse, chorus, outro"

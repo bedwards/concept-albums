@@ -1,0 +1,121 @@
+song:
+  title: Rio Grande Testament
+  composer: Brian Edwards
+  key: Gmin
+  tempo: 90
+  time: 3/4
+sections:
+  verse1:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Rio running low
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Footprints in dust
+  - chords:
+    - Bb
+    - F
+    lyrics: Mother carries water
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Love the stranger
+  verse2:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Guard at the border
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Orders written down
+  - chords:
+    - Bb
+    - F
+    lyrics: He remembered that night
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Christ a refugee
+  verse3:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Morning on the mountains
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Stranger at the gate
+  - chords:
+    - Bb
+    - F
+    lyrics: You were strangers once
+  - chords:
+    - Gm
+    - Cm
+    lyrics: River still remains
+  chorus:
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: I was a stranger
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: You turned me away
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: One law for all
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Gm
+    lyrics: You built the wall
+  bridge:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Herod wanted the child dead
+  - chords:
+    - Bb
+    - F
+    lyrics: So Joseph took his family and fled
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Egypt welcomed what Bethlehem rejected
+  - chords:
+    - Bb
+    - F
+    - Cm
+    lyrics: Every refused refugee is Christ redirected
+  outro:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: The river keeps flowing
+  - chords:
+    - Eb
+    - F
+    lyrics: Can't wall away what God is showing
+  - chords:
+    - Gm
+    - Cm
+    lyrics: The river keeps flowing
+  - chords:
+    - Eb
+    - F
+    - Gm
+    lyrics: Matthew 25:40 - whatever you did to the least
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: You did it to me

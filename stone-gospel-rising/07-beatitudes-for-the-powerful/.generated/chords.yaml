@@ -1,0 +1,159 @@
+song:
+  title: Beatitudes for the Powerful
+  composer: Brian Edwards
+  key: Dmin
+  tempo: 85
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed are the poor in spirit
+  - chords:
+    - F
+    - Gm
+    lyrics: You got mansions offshore accounts
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed are those who mourn
+  - chords:
+    - F
+    - Gm
+    lyrics: You criminalize their grief
+  verse2:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed are the merciful
+  - chords:
+    - F
+    - Gm
+    lyrics: Prison empire El Paso
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed are the pure in heart
+  - chords:
+    - F
+    - Gm
+    lyrics: Your hands stained with blood
+  verse3:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed are the peacemakers
+  - chords:
+    - F
+    - Gm
+    lyrics: You profit from the wars
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Blessed the persecuted
+  - chords:
+    - F
+    - Gm
+    lyrics: You persecute the righteous
+  chorus:
+  - chords:
+    - Bb
+    - F
+    - Dm
+    lyrics: These beatitudes
+  - chords:
+    - Gm
+    - Bb
+    - F
+    lyrics: Turned back on you
+  - chords:
+    - Dm
+    - Gm
+    - Bb
+    lyrics: Blessed the meek you pushed aside
+  - chords:
+    - F
+    - Gm
+    - Dm
+    lyrics: Woe to you who lead
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: Whitewashed tombs
+  - chords:
+    - Dm
+    - Bb
+    - F
+    lyrics: Blessings for the humble
+  - chords:
+    - Gm
+    - Bb
+    lyrics: Woes for the proud
+  - chords:
+    - F
+    - Gm
+    - Dm
+    lyrics: Hear the woes out loud
+  bridge:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Woe to you scribes and Pharisees
+  - chords:
+    - Bb
+    - F
+    lyrics: You shut heaven's door
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Lock it in their faces
+  - chords:
+    - Bb
+    - F
+    lyrics: While you walk free
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Woe devour widows' houses
+  - chords:
+    - Bb
+    - F
+    lyrics: Long prayers for show
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Strain out gnats
+  - chords:
+    - Bb
+    - F
+    - Cm
+    lyrics: Swallow camels whole
+  outro:
+  - chords:
+    - Dm
+    - Bb
+    - F
+    lyrics: Blessed are the poor
+  - chords:
+    - Gm
+    - Bb
+    - F
+    lyrics: Woe to the rich who ignore
+  - chords:
+    - Dm
+    - Bb
+    - F
+    - Gm
+    lyrics: Same sermon same Lord
+  - chords:
+    - Bb
+    - F
+    lyrics: One blessing one warning
+  - chords:
+    - Gm
+    - Bb
+    - F
+    - Dm
+    lyrics: Which one you listening for

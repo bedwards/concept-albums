@@ -1,0 +1,87 @@
+X:1
+T:Rio Grande Testament - Drums
+C:Brian Edwards
+M:3/4
+L:1/8
+Q:1/4=90
+K:C perc
+V:1 name="Kick"
+%%MIDI program 128
+%%MIDI channel 10
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 | C4 z2 |
+C6 | C6 |
+C6 | C6 |
+C6 | C6 |
+C6 | C6 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 | z6 | z6 |
+V:2 name="Snare"
+%%MIDI program 128
+%%MIDI channel 10
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 | z2 E2 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 | z2 E2 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 |
+z2 E2 E2 | z2 E2 E2 | z2 E2 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 |
+z4 E2 | z4 E2 | z6 | z6 |

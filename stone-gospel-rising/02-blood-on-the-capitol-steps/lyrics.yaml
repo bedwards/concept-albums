@@ -1,0 +1,46 @@
+# Structured lyrics for validation and consistency checking
+# Each section has lines as a list for easy verification
+
+song:
+  title: "Blood on the Capitol Steps"
+  composer: "Brian Edwards"
+
+sections:
+  verse1:
+    - "Pink granite shining in the morning sun"
+    - "Representative says the vote is done"
+    - "But Isaiah 10 says woe to those who make unjust laws"
+    - "And there's blood on the capitol steps because"
+  
+  chorus:
+    - "Who will speak for the widow's son"
+    - "Who will name what the powers have done"
+    - "Amos said let justice roll down like a flood"
+    - "Pink granite stained with righteous blood"
+  
+  verse2:
+    - "Man stood up and quoted Matthew 25"
+    - "Said when you turned away the hungry you turned away Christ"
+    - "Every child without water every stolen wage"
+    - "The King will say depart from me you never knew my face"
+  
+  bridge:
+    - "You quote the law but break the prophets"
+    - "You wear the cross but serve the profits"
+    - "James said faith without works is dead"
+    - "So we brought the works right to your doorstep"
+  
+  verse3:
+    - "Jesus turned the tables over once before"
+    - "Drove the money changers right out the temple door"
+    - "You made his house a den of thieves again"
+    - "Mark 11:17 - he's coming back to cleanse"
+  
+  outro:
+    - "Blood on the capitol steps tonight"
+    - "His blood or theirs the ledger's due"
+    - "Blood on the capitol steps tonight"
+    - "The stones are crying out at you"
+
+# Note: Chorus repeats after verse1, verse2, and verse3
+# Structure: verse1, chorus, verse2, chorus, bridge, verse3, chorus, outro

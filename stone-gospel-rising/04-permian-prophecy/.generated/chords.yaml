@@ -1,0 +1,117 @@
+song:
+  title: Permian Prophecy
+  composer: Brian Edwards
+  key: Dmin
+  tempo: 92
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Pump jack bowing
+  - chords:
+    - F
+    - Gm
+    lyrics: Basin soaked in blood
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Black gold rising
+  - chords:
+    - F
+    - Gm
+    lyrics: Can't keep what you build
+  verse2:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Refinery burning
+  - chords:
+    - F
+    - Gm
+    lyrics: Odessa skyline orange
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Chemical river runs
+  - chords:
+    - F
+    - Gm
+    lyrics: Water will have its day
+  verse3:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Pipeline cuts the ranch
+  - chords:
+    - F
+    - Gm
+    lyrics: Granddad's land is gone
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Call it Texas pride
+  - chords:
+    - F
+    - Gm
+    lyrics: Earth mourns and withers
+  chorus1:
+  - chords:
+    - Bb
+    - F
+    - Dm
+    lyrics: Drill down drill down into the earth
+  - chords:
+    - Gm
+    - Bb
+    - F
+    lyrics: Extract extract for all you're worth
+  - chords:
+    - Dm
+    - Gm
+    - Bb
+    lyrics: But the land is the Lord's says Psalm 24
+  - chords:
+    - F
+    - Gm
+    - Dm
+    lyrics: And the stones will testify what you ignored
+  bridge1:
+  - chords:
+    - Gm
+    - Bb
+    lyrics: What you hoard rusts away
+  - chords:
+    - F
+    - Dm
+    lyrics: James chapter 5 verse 3
+  - chords:
+    - Gm
+    - Bb
+    lyrics: Your silver corrodes as a witness against you
+  - chords:
+    - F
+    - Dm
+    lyrics: The earth groans Romans 8:22
+  outro1:
+  - chords:
+    - Dm
+    - Gm
+    - Bb
+    lyrics: The land keeps score
+  - chords:
+    - F
+    - Gm
+    - Dm
+    lyrics: The creation waits for the revealing
+  - chords:
+    - Dm
+    - Gm
+    - Bb
+    lyrics: The land keeps score
+  - chords:
+    - F
+    - Gm
+    - Dm
+    lyrics: Romans 8 says all creation is groaning

@@ -1,0 +1,110 @@
+name: Validate ABC Notation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install Python dependencies
+      run: |
+        pip install -r scripts/requirements.txt
+    
+    - name: Install abc2midi
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y abcmidi
+    
+    - name: Run Python test suite
+      run: |
+        echo "=== Running Script Tests ==="
+        cd scripts
+        python3 test_abc_tools.py
+        
+        if [ $? -ne 0 ]; then
+          echo "❌ Test suite failed!"
+          exit 1
+        fi
+        echo "✅ All tests passed!"
+    
+    - name: Validate lyrics consistency (Song 2)
+      run: |
+        echo ""
+        echo "=== Validating Lyrics Consistency ==="
+        python3 scripts/lyrics_tools.py validate stone-gospel-rising/02-blood-on-the-capitol-steps
+        
+        if [ $? -ne 0 ]; then
+          echo "❌ Lyrics validation failed!"
+          exit 1
+        fi
+    
+    - name: Validate section files (Song 2)
+      run: |
+        echo "=== Validating Song 2 Sections ==="
+        python3 scripts/section_tools.py validate-all stone-gospel-rising/02-blood-on-the-capitol-steps
+        
+        if [ $? -ne 0 ]; then
+          echo "❌ Section validation failed!"
+          exit 1
+        fi
+    
+    - name: Verify bar count consistency (Song 2)
+      run: |
+        echo ""
+        echo "=== Verifying Song 2 Bar Counts ==="
+        python3 scripts/abc_tools.py verify stone-gospel-rising/02-blood-on-the-capitol-steps
+        
+        if [ $? -ne 0 ]; then
+          echo "❌ Bar count verification failed!"
+          exit 1
+        fi
+    
+    - name: Validate all ABC files with abc2midi
+      run: |
+        set -e
+        errors=0
+        
+        echo ""
+        echo "=== Validating ABC Files with abc2midi ==="
+        
+        # Find all .abc files (excluding section files, which are fragments)
+        find . -name "*.abc" -type f ! -path "*/sections/*" | while read abc_file; do
+          echo "Validating: $abc_file"
+          
+          # Run abc2midi and capture output
+          output=$(abc2midi "$abc_file" -o /tmp/test.mid 2>&1) || true
+          
+          # Check for actual errors (not the ignorable percussion warning)
+          if echo "$output" | grep -i "error" > /dev/null; then
+            echo "❌ ERROR in $abc_file:"
+            echo "$output"
+            errors=$((errors + 1))
+          elif echo "$output" | grep -i "warning" | grep -v "Ignoring string 'perc' in K: field" | grep -v "Line of music without lyrics" > /dev/null; then
+            echo "⚠️  WARNING in $abc_file:"
+            echo "$output" | grep -i "warning" | grep -v "Ignoring string 'perc' in K: field" | grep -v "Line of music without lyrics"
+            errors=$((errors + 1))
+          else
+            echo "✓ Valid: $abc_file"
+          fi
+        done
+        
+        if [ $errors -gt 0 ]; then
+          echo ""
+          echo "Found $errors ABC files with errors or warnings"
+          exit 1
+        fi
+        
+        echo ""
+        echo "✅ All validation checks passed!"

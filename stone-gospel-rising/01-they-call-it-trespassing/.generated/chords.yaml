@@ -1,0 +1,121 @@
+song:
+  title: They Call It Trespassing
+  composer: Brian Edwards
+  key: Gmin
+  tempo: 92
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: They call it trespassing
+  - chords:
+    - Gm
+    - Eb
+    lyrics: When the hungry cross your land
+  - chords:
+    - Bb
+    - F
+    lyrics: The earth is the Lord's
+  - chords:
+    - Gm
+    - Cm
+    lyrics: You built your fence in sand
+  verse2:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Sheriff with his paper
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Says who drinks who stays dry
+  - chords:
+    - Bb
+    - F
+    lyrics: Let justice roll like water
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Not trickle from on high
+  verse3:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Locked the courthouse door
+  - chords:
+    - Gm
+    - Eb
+    lyrics: We're sleeping on the stone
+  - chords:
+    - Bb
+    - F
+    lyrics: The land cannot be sold
+  - chords:
+    - Gm
+    - Cm
+    lyrics: The dirt remembers its own
+  chorus:
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: The meek inherit Texas
+  - chords:
+    - Cm
+    - Eb
+    - Bb
+    lyrics: Every acre every stone
+  - chords:
+    - Bb
+    - F
+    - Cm
+    lyrics: Write your deed in Austin
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: The dirt knows who it owns
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: You can write your deed in Austin
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Gm
+    lyrics: But the dirt remembers who it owns
+  bridge:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Woe to you who join house to house
+  - chords:
+    - Bb
+    - F
+    lyrics: Field to field no space left
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Call it progress call it the Texas way
+  - chords:
+    - Bb
+    - F
+    lyrics: Isaiah named it
+  - chords:
+    - Gm
+    - Cm
+    lyrics: Theft
+  outro:
+  - chords:
+    - Gm
+    - Cm
+    lyrics: They call it trespassing
+  - chords:
+    - Gm
+    - F
+    - Gm
+    lyrics: We call it coming home

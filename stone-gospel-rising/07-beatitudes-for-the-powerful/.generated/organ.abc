@@ -1,0 +1,47 @@
+X:1
+T:Beatitudes for the Powerful
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=85
+K:Dmin
+V:1
+%%MIDI program 16
+"Dm"[D8A8d8] | [D8A8d8] |
+[D8A8d8] | [D8A8d8] |
+[D8A8d8] | [D8A8d8] |
+[D8A8d8] | [D8A8d8] |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Dm"[D4A4d4] [D4A4d4] | "Gm"[D4G4B4] [D4G4B4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Gm"[D4G4B4] [D4G4B4] | "Dm"[D4A4d4] [D4A4d4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] "Gm"[D4G4B4] |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Dm"[D4A4d4] [D4A4d4] | "Gm"[D4G4B4] [D4G4B4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Gm"[D4G4B4] [D4G4B4] | "Dm"[D4A4d4] [D4A4d4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] "Gm"[D4G4B4] |
+"Gm"[D8G8B8] | "Eb"[E8G8B8] |
+"Bb"[D8F8B8] | "F"[C8F8A8] |
+"Gm"[D8G8B8] | "Eb"[E8G8B8] |
+"Bb"[D8F8B8] | "F"[C8F8A8] | z8 |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Dm"[D8A8d8] | "Bb"[B,8D8F8] |
+"F"[F8A8c8] | "Gm"[D8G8B8] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Dm"[D4A4d4] [D4A4d4] | "Gm"[D4G4B4] [D4G4B4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
+"Gm"[D4G4B4] [D4G4B4] | "Dm"[D4A4d4] [D4A4d4] |
+"Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] "Gm"[D4G4B4] |
+"Dm"[D4A4d4] z4 | "Bb"[B,4D4F4] "F"[F4A4c4] |
+"Gm"[D4G4B4] z4 | "Bb"[B,4D4F4] "F"[F4A4c4] |
+"Dm"[D4A4d4] z4 | "Bb"[B,4D4F4] "F"[F4A4c4] | "Gm"[D4G4B4] "Dm"[D4A4d4] | [D8A8d8] |

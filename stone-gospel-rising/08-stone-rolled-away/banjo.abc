@@ -1,0 +1,40 @@
+X:1
+T:Stone Rolled Away - Banjo
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=95
+K:Gmin
+V:1
+%%MIDI program 105
+"Gm"d2 z2 d2 z2 | d2 z2 d2 z2 | d2 z2 d2 z2 | d2 z2 d2 z2 |
+d2 d2 B2 d2 | d2 d2 B2 d2 | d2 d2 B2 d2 | d2 d2 B2 d2 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "Bb"d2 d2 B2 d2 |
+"F"c2 c2 A2 c2 | "Gm"d2 d2 B2 d2 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "Bb"d2 d2 B2 d2 |
+"F"c2 c2 A2 c2 | "Gm"d2 d2 B2 d2 |
+"Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
+"Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Cm"c1 G1 c1 G1 c1 G1 c1 G1 |
+"Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
+"Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Cm"c1 G1 c1 G1 c1 G1 c1 G1 |
+"Gm"d2 z2 B2 z2 | "Eb"B2 z2 G2 z2 |
+"Bb"d2 z2 B2 z2 | "F"c2 z2 A2 z2 |
+"Cm"c2 z2 G2 z2 | "Gm"d2 z2 B2 z2 |
+"Eb"B2 z2 G2 z2 | "Bb"d2 z2 "F"c2 z2 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "Bb"d2 d2 B2 d2 |
+"F"c2 c2 A2 c2 | "Gm"d2 d2 B2 d2 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "Bb"d2 d2 B2 d2 |
+"F"c2 c2 A2 c2 | "Gm"d2 d2 B2 d2 |
+"Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
+"Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Cm"c1 G1 c1 G1 c1 G1 c1 G1 |
+"Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
+"Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Cm"c1 G1 c1 G1 c1 G1 c1 G1 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "F"c2 c2 A2 c2 |
+"Gm"d2 d2 B2 d2 | "Cm"c2 c2 G2 c2 |
+"Eb"B2 B2 G2 B2 | "Gm"d2 d2 B2 d2 |
+"Gm"d8 | d8 | d8 | d8 |]

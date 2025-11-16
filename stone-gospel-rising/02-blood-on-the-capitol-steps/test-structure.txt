@@ -1,0 +1,14 @@
+SONG 2 STRUCTURE - 68 bars total at 88 bpm:
+
+INTRO (4 bars) - instruments only
+VERSE 1 (8 bars) - vocals
+CHORUS 1 (8 bars) - vocals
+VERSE 2 (8 bars) - vocals  
+CHORUS 2 (8 bars) - vocals
+INSTRUMENTAL BREAK (4 bars) - no vocals
+BRIDGE (4 bars) - vocals
+VERSE 3 (8 bars) - vocals
+FINAL CHORUS (8 bars) - vocals
+OUTRO (8 bars) - 2 bars vocal, 6 bars instrumental sustain
+
+Total: 4+8+8+8+8+4+4+8+8+8 = 68 bars

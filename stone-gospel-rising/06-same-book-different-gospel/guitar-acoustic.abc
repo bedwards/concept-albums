@@ -1,0 +1,36 @@
+X:1
+T:Same Book Different Gospel - Acoustic Guitar
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=100
+K:Bb
+V:1
+%%MIDI program 25
+z8 | z8 | z8 | z8 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+"Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] | "Eb"[E2G2B2][E2G2B2] [E2G2B2][E2G2B2] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+"Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] | "Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] |
+"Gm"D1 z1 B,1 z1 D1 z1 G1 z1 | "Eb"E1 z1 G1 z1 B1 z1 G1 z1 |
+"Bb"D1 z1 F1 z1 B1 z1 F1 z1 | "F"C1 z1 F1 z1 A1 z1 F1 z1 |
+"Cm"C1 z1 E1 z1 G1 z1 c1 z1 | "Gm"D1 z1 G1 z1 B1 z1 G1 z1 |
+"Eb"E1 z1 G1 z1 B1 z1 G1 z1 | "F"C1 z1 F1 z1 A1 z1 F1 z1 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2] z2 z4 | "Gm"[D2G2B2] z2 z4 |
+"Eb"z8 | "F"z8 |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+"Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] | "Eb"[E2G2B2][E2G2B2] [E2G2B2][E2G2B2] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+"Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] | "Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] |
+"Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | [D2F2B2][D2F2B2] [D2F2B2][D2F2B2] |
+"Bb"[D8F8B8] | [D8F8B8] |]

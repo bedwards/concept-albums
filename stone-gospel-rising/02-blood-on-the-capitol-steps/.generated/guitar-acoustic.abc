@@ -1,0 +1,36 @@
+X:1
+T:Blood on the Capitol Steps
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=88
+K:Cmin
+V:1
+%%MIDI program 25
+z8 | z8 | z8 | z8 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z4 | "Bb"[D2F2] z2 z4 |
+"Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
+"Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
+"Cm"[C2E2] z2 z2 "F"[C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
+[D4G4] z4 | [D4G4] z4 | [D4G4] z4 |

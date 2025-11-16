@@ -1,0 +1,46 @@
+title: Stone Rolled Away
+composer: Brian Edwards
+tempo: 95
+time: 4/4
+key: Gmin
+sections:
+- name: build
+  bars: 8
+- name: intro
+  bars: 8
+- name: chorus
+  bars: 8
+- name: outro
+  bars: 12
+- name: verse
+  bars: 6
+structure:
+- intro
+- verse
+- verse
+- build
+- chorus
+- chorus
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  bass:
+    program: 33
+    name: Electric Bass (finger)
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)
+  guitar-electric:
+    program: 29
+    name: Electric Guitar (clean)
+  organ:
+    program: 16
+    name: Drawbar Organ
+  banjo:
+    program: 105
+    name: Banjo
+  drums:
+    percussion: true
+    name: Drums

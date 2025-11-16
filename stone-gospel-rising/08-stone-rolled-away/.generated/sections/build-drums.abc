@@ -1,0 +1,17 @@
+X:1
+T:Stone Rolled Away - Build - Drums
+M:4/4
+L:1/8
+K:C perc
+V:1 name="Kick"
+C4 z4 | C4 C4 |
+C4 C4 | C2 C2 C2 C2 |
+C2 C2 C2 C2 | C2 C2 C2 C2 |
+C2 C2 C2 C2 | C2 C2 C2 C2 |
+
+V:2 name="Snare"
+z8 | z4 E4 |
+z4 E4 | z2 E2 z2 E2 |
+z2 E2 z2 E2 | z2 E2 z2 E2 |
+z2 E2 E2 E2 | E2 E2 E2 E2 |
+

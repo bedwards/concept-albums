@@ -1,0 +1,39 @@
+title: Permian Prophecy
+composer: Brian Edwards
+tempo: 92
+time: 4/4
+key: Dmin
+sections:
+- name: outro
+  bars: 6
+- name: intro
+  bars: 8
+- name: chorus
+  bars: 7
+- name: verse
+  bars: 8
+- name: bridge
+  bars: 4
+structure:
+- intro
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- verse
+- chorus
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+  bass:
+    program: 33
+  guitar-acoustic:
+    program: 25
+  guitar-electric:
+    program: 29
+  organ:
+    program: 19
+  drums:
+    percussion: true

@@ -1,0 +1,42 @@
+TEMPO: 100 bpm
+TIME: 4/4
+KEY: Bb
+
+INTRO
+Bass only, stark and confrontational.
+Bass root notes, quarter notes, driving.
+No drums, no guitars - sets up direct address.
+
+VERSE
+Kick on 1 & 3. Snare backbeat 2 & 4, dry.
+Bass root-fifth walk (Bb-Gm-Eb-F pattern).
+Acoustic sparse strumming on chord changes only.
+Electric and organ silent.
+Vocal conversational but firm, like talking directly to someone.
+
+CHORUS
+Full band but not chaotic - precise anger.
+Kick driving quarters. Snare backbeat with emphasis on "liar".
+Bass eighth notes, aggressive.
+Acoustic full strumming, down strokes.
+Electric power chords Bb-F-Gm, palm mute on verses, open on "same father".
+Pump organ Bb-F voicings, half notes, piercing and accusatory.
+Vocal direct, pointed, almost spoken-sung on scripture citations.
+
+BRIDGE
+Drop to half-time feel. Kick just on 1. Snare rim shot on 3.
+Bass walking quarter notes (Gm-Eb-Bb-F-Cm).
+Acoustic fingerpick pattern.
+Electric single sustained notes building.
+Pump organ sustained Gm-Eb, ominous.
+Vocal "You sanitized the revolutionary" - spoken-word intensity,
+building to proclaimed on "Luke 4:18".
+
+OUTRO
+Dynamics drop but intensity maintained.
+Acoustic strumming pattern.
+Electric sustained power chords.
+Drums simple quarter note pattern.
+Vocal "I'll take the Jesus who flipped tables" - sung like a pledge.
+Final line "And I know which side I'm on" - all instruments hit final Bb chord.
+Hold for 2 bars, then cut dead. No sustain, no fade - conversation over.

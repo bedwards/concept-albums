@@ -1,0 +1,55 @@
+# Song Structure for "Blood on the Capitol Steps"
+# This file defines how section files combine into the complete song
+
+title: "Blood on the Capitol Steps"
+composer: "Brian Edwards"
+tempo: 88
+time: "4/4"
+key: "Cmin"
+
+# Instrument definitions
+instruments:
+  vocal-melody:
+    program: 53  # Voice "Ahh"
+  bass:
+    program: 33  # Electric Bass (finger)
+  guitar-acoustic:
+    program: 25  # Acoustic Guitar (steel)
+  guitar-electric:
+    program: 29  # Electric Guitar (clean)
+  organ:
+    program: 16  # Drawbar Organ
+  drums:
+    percussion: true  # Multi-voice percussion
+
+# Section definitions - explicit bar counts
+sections:
+  - name: intro
+    bars: 4
+  - name: verse
+    bars: 8
+  - name: chorus
+    bars: 8
+  - name: break
+    bars: 4
+  - name: bridge
+    bars: 4
+  - name: outro
+    bars: 5
+
+# Song structure - each section will be looked up as:
+# sections/{section-name}-{instrument-name}.abc
+# Example: sections/intro-bass.abc, sections/verse-vocal-melody.abc
+structure:
+  - intro      # 4 bars - instrumental only
+  - verse      # 8 bars - verse 1
+  - chorus     # 8 bars - chorus 1
+  - verse      # 8 bars - verse 2
+  - chorus     # 8 bars - chorus 2
+  - break      # 4 bars - instrumental break
+  - bridge     # 4 bars - bridge section
+  - verse      # 8 bars - verse 3
+  - chorus     # 8 bars - final chorus
+  - outro      # 5 bars - 2 vocal + 3 instrumental
+
+# Total: 65 bars (4 + 8 + 8 + 8 + 8 + 4 + 4 + 8 + 8 + 5)

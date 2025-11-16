@@ -1,0 +1,11 @@
+# This directory contains GENERATED files
+# These files are created by: python scripts/generate_song.py
+# Source of truth is in: ../.source/song.yaml
+#
+# We commit generated files to git for:
+# 1. Easy review of changes
+# 2. Immediate MIDI playback without regeneration
+# 3. CI/CD validation
+#
+# But you should NEVER edit these files directly.
+# Edit ../.source/song.yaml and regenerate.

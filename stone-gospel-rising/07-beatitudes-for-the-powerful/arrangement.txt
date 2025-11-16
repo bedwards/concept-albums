@@ -1,0 +1,51 @@
+TEMPO: 85 bpm
+TIME: 4/4
+KEY: Dmin
+
+INTRO
+DOOM-SLOW 85 BPM - feels funereal, heavy.
+Bass and pump organ only - ominous.
+Bass D pedal tone, whole notes, let sustain.
+Pump organ Dm sustained, reedy, uncomfortable, gothic.
+No other instruments - establishing judgment tone.
+8 bars to build dread.
+
+VERSE
+Kick heavy on 1 & 3. Snare backbeat 2 & 4, hard hits.
+Bass root notes, quarter notes, trudging (Dm-Bb-F-Gm).
+Pump organ whole note chords, sustained accusation.
+Acoustic, electric silent - keep it sparse, oppressive.
+Vocal almost chanted, like reading inverted liturgy.
+"Blessed are..." sung gently (the scripture).
+"You..." delivered as indictment (the contrast).
+Each verse increases intensity but stays restrained.
+
+CHORUS
+All instruments enter with conviction but SLOW.
+Kick heavy quarters, no doubles. Snare backbeat, rim shots on "woes".
+Bass eighth notes but 85 BPM makes them feel like doom march.
+Acoustic strumming, down strokes only, percussive.
+Electric power chords Bb-F-Dm, palm mute, menacing.
+Pump organ Bb-F-Dm voicings, half notes, piercing.
+Vocal "These beatitudes turned back on you" - sung with prophetic authority.
+"Whitewashed tombs" - let it hang in the air.
+
+BRIDGE
+Drop dynamics but maintain oppressive weight.
+Kick just on 1 (sparse). Snare rim clicks on 2 & 4.
+Bass walking quarter notes (Gm-Eb-Bb-F-Cm).
+Acoustic fingerpick, dark arpeggios.
+Electric sustained single notes, ominous.
+Pump organ Gm-Eb sustained, building tension.
+Vocal "Woe to you scribes and Pharisees" - spoken/chanted.
+Direct address. Talarico-style righteous condemnation.
+"Strain out gnats swallow camels whole" - spit it out.
+
+OUTRO
+Sudden dynamic drop. Bass and pump organ only return.
+Vocal "Blessed are the poor / Woe to the rich" - sung quietly, intimately.
+"Which one you listening for" - final question held, vulnerable.
+End on Dm chord (bass and organ only).
+Hold for 4 bars, natural decay into silence.
+Ends on a question, unresolved - Dm minor = no hope offered.
+The silence after is the answer. Let it crush.

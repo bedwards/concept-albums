@@ -1,0 +1,45 @@
+title: Beatitudes for the Powerful
+composer: Brian Edwards
+tempo: 85
+time: 4/4
+key: Dmin
+sections:
+- name: bridge
+  bars: 8
+- name: outro
+  bars: 6
+- name: verse
+  bars: 8
+- name: chorus
+  bars: 10
+- name: intro
+  bars: 8
+structure:
+- intro
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- verse
+- chorus
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  bass:
+    program: 33
+    name: Electric Bass (finger)
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)
+  guitar-electric:
+    program: 29
+    name: Electric Guitar (clean)
+  organ:
+    program: 16
+    name: Drawbar Organ
+  drums:
+    percussion: true
+    name: Drums

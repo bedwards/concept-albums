@@ -1,0 +1,40 @@
+TEMPO: 90 bpm
+TIME: 3/4
+KEY: Gmin
+
+INTRO
+Waltz time - unsettling, off-balance feel. Kick just on 1, sparse.
+Snare light on 3. Acoustic fingerpick pattern in 3/4, gentle but melancholic.
+Bass root notes, dotted half notes (one per bar).
+
+VERSE
+Kick on 1 each bar. Snare light on 3.
+Bass root notes, steady waltz feel (Gm-Cm-Eb-Bb-F).
+Acoustic continues fingerpick, Travis picking adapted to 3/4.
+Pump organ enters quietly on Eb chord, sustained.
+Vocal intimate, storytelling.
+
+CHORUS
+Kick on 1, slightly harder. Snare on 2 and 3 (waltz feel but insistent).
+Bass root-fifth pattern in 3/4 time.
+Acoustic strumming in waltz rhythm (1-2-3, 1-2-3).
+Pump organ Bb-F-Gm voicings, half notes within waltz.
+Vocal more forceful on scripture citations.
+
+BRIDGE
+Drop to minimal arrangement. Kick just on 1. Snare rim clicks on 2 and 3.
+Bass walking in 3/4 time (Gm-Eb-Bb-F-Cm).
+Acoustic arpeggiated picking.
+Electric enters with single sustained notes (octaves).
+Pump organ Gm-Eb sustained, growing.
+Vocal almost whispered on "Herod wanted the child dead",
+building to declaration on "Christ redirected".
+
+OUTRO
+Return to gentle waltz feel. Acoustic back to fingerpick.
+Bass root notes, steady. Kick just on 1, fading.
+Vocal "river keeps flowing" sung like a promise.
+Final line "You did it to me" - hold on Gm.
+All instruments sustain, natural decay.
+Ends gently but unresolved (stays in minor, no major chord resolution).
+The river continues...

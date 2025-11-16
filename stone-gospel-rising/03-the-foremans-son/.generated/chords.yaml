@@ -1,0 +1,122 @@
+song:
+  title: The Foreman's Son
+  composer: Brian Edwards
+  key: Bb
+  tempo: 100
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Daddy ran the crew
+  - chords:
+    - Eb
+    - F
+    lyrics: Grease under every hand
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Son you'll take my place
+  - chords:
+    - Eb
+    - F
+    lyrics: I saw the boss's face
+  verse2:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Whistle blows at six
+  - chords:
+    - Eb
+    - F
+    lyrics: Same broken machines
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Tighten the belt they say
+  - chords:
+    - Eb
+    - F
+    lyrics: Withheld wages cry out
+  verse3:
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Picket line on Commerce
+  - chords:
+    - Eb
+    - F
+    lyrics: Every hand I meet
+  - chords:
+    - Bb
+    - Gm
+    lyrics: Don't muzzle the ox
+  - chords:
+    - Eb
+    - F
+    lyrics: They locked us out
+  chorus1:
+  - chords:
+    - Bb
+    - F
+    - Gm
+    lyrics: I'm the foreman's son but I'm standing with you
+  - chords:
+    - Eb
+    - Bb
+    - F
+    lyrics: Brothers and sisters we know what's true
+  - chords:
+    - Cm
+    - F
+    - Gm
+    lyrics: They can't divide us anymore
+  - chords:
+    - Eb
+    - Bb
+    - F
+    - Bb
+    lyrics: The foreman's son just joined the floor
+  bridge1:
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Daddy won't speak now
+  - chords:
+    - Bb
+    - F
+    lyrics: Says I broke the vow
+  - chords:
+    - Gm
+    - Eb
+    lyrics: Christ brought the sword
+  - chords:
+    - Bb
+    - F
+    lyrics: To divide the house
+  outro1:
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: We all got the grease under our hands
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: And the Lord hears the cry of the workingman
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - F
+    lyrics: We all got the grease under our hands
+  - chords:
+    - Bb
+    - Gm
+    - Eb
+    - Bb
+    lyrics: James 5 says your riches have rotted where they stand

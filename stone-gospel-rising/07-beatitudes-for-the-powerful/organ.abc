@@ -1,0 +1,28 @@
+X:1
+T:Beatitudes for the Powerful - Organ
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=85
+K:Dmin
+V:1
+%%MIDI program 16
+"Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Gm"[D8G8B8] | "Eb"[E8G8B8] | "Bb"[D8F8B8] | "F"[C8F8A8] |
+"Cm"[C8E8G8] | "Gm"[D8G8B8] | "Eb"[E8G8B8] | "F"[C8F8A8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Dm"[D8F8A8] | "Bb"[D8F8B8] | "F"[C8F8A8] | "Gm"[D8G8B8] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Bb"[D4F4B4] "F"[C4F4A4] | "Dm"[D4F4A4] "Gm"[D4G4B4] |
+"Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |]

@@ -6,12 +6,12 @@ key: Bb
 sections:
 - name: verse
   bars: 8
-- name: outro
-  bars: 5
 - name: chorus
   bars: 8
 - name: bridge
   bars: 8
+- name: outro
+  bars: 5
 - name: intro
   bars: 4
 structure:

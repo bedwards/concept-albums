@@ -347,8 +347,12 @@ def generate_text_files(config: Dict, song_dir: Path):
 
 
 def generate_midi_files(output_dir: Path):
-    """Generate MIDI files from ABC files"""
+    """Generate MIDI files from ABC files and copy to midi/ subdirectory"""
     abc_files = list(output_dir.glob('*.abc'))
+    
+    # Create midi subdirectory for easy import
+    midi_dir = output_dir / 'midi'
+    midi_dir.mkdir(exist_ok=True)
     
     for abc_file in abc_files:
         mid_file = abc_file.with_suffix('.mid')
@@ -361,6 +365,11 @@ def generate_midi_files(output_dir: Path):
             )
             if result.returncode == 0:
                 print(f"Generated: {mid_file.name}")
+                
+                # Copy to midi/ subdirectory for easy DAW import
+                import shutil
+                midi_copy = midi_dir / mid_file.name
+                shutil.copy2(mid_file, midi_copy)
             else:
                 print(f"Warning: Failed to generate {mid_file.name}")
                 if result.stderr:
@@ -370,6 +379,11 @@ def generate_midi_files(output_dir: Path):
             return
         except Exception as e:
             print(f"Warning: Error generating {mid_file.name}: {e}")
+    
+    # Print summary
+    midi_count = len(list(midi_dir.glob('*.mid')))
+    if midi_count > 0:
+        print(f"\n✓ {midi_count} MIDI files ready in .generated/midi/ for DAW import")
 
 
 def main():

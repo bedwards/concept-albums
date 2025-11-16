@@ -4,15 +4,15 @@ tempo: 85
 time: 4/4
 key: Dmin
 sections:
-- name: verse
-  bars: 8
-- name: bridge
-  bars: 8
 - name: outro
   bars: 6
+- name: intro
+  bars: 8
+- name: verse
+  bars: 8
 - name: chorus
   bars: 10
-- name: intro
+- name: bridge
   bars: 8
 structure:
 - intro

@@ -21,6 +21,7 @@ You help create, complete, and maintain concept albums. This means writing songs
     .generated/
         *.abc                   ← Generated (don't edit)
         *.mid                   ← Generated (don't edit)
+        midi/*.mid              ← Generated (for easy DAW import)
         lyrics.yaml             ← Generated (don't edit)
         chords.yaml             ← Generated (don't edit)
         structure.yaml          ← Generated (don't edit)
@@ -439,3 +440,17 @@ An album is complete when:
 You're not just generating text files. You're creating complete musical documentation that could become real recordings. Precision matters. Validation matters. The constraint of making abc2midi happy makes the work better because it forces you to think like an arranger, not just a lyricist.
 
 Count your eighth notes. Test your work. Make it real.
+
+### Easy DAW Import
+
+All complete song MIDI files are copied to `.generated/midi/` for easy import:
+
+```bash
+# To import a song into Bitwig/Ableton:
+# Just drag the entire midi/ folder into your DAW
+
+cd stone-gospel-rising/02-blood-on-the-capitol-steps/.generated/midi/
+# Contains: bass.mid, drum-kick.mid, drum-snare.mid, guitar-acoustic.mid, etc.
+```
+
+Each MIDI file is a single track, ready to load as individual instruments in your DAW.

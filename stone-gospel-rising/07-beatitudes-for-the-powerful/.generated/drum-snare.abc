@@ -4,41 +4,41 @@ C:Brian Edwards
 M:4/4
 L:1/8
 Q:1/4=85
-K:C perc
+K:C
 %%MIDI channel 10
 z8 | z8 |
 z8 | z8 |
 z8 | z8 |
 z8 | z8 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 | z8 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E4 | z4 E4 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E2 z2 | z4 E2 z2 |
-z4 E4 | z4 E4 | z4 E4 | z4 E4 | z4 E4 | z4 E4 | z4 E4 | z8 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 | z8 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C4 | z4 C4 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C2 z2 | z4 C2 z2 |
+z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 |

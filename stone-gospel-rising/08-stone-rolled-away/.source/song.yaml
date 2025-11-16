@@ -44,26 +44,26 @@ sections:
       
       guitar-acoustic:
         abc: |
-          "Gm"D2 G2 B2 z2 | "Bb"B,2 D2 F2 z2 |
-          "Cm"C2 E2 G2 z2 | "Eb"E2 G2 B2 z2 |
-          "Gm"D2 G2 B2 z2 | "Bb"B,2 D2 F2 z2 |
-          "Cm"C2 E2 G2 z2 | "Eb"E2 G2 B2 z2 |
+          "Gm"C2 C2 C2 z2 | "Bb"B,2 C2 C2 z2 |
+          "Cm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
+          "Gm"C2 C2 C2 z2 | "Bb"B,2 C2 C2 z2 |
+          "Cm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
       
       guitar-electric:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
       
       organ:
         abc: |
-          "Gm"[D4G4B4] z4 | "Bb"[B,4D4F4] z4 |
-          "Cm"[C4E4G4] z4 | "Eb"[E4G4B4] z4 |
-          "Gm"[D4G4B4] z4 | "Bb"[B,4D4F4] z4 |
-          "Cm"[C4E4G4] z4 | "Eb"[E4G4B4] z4 |
+          "Gm"[C4G4B4] z4 | "Bb"[B,4D4F4] z4 |
+          "Cm"[C4E4G4] z4 | "Eb"[C4G4B4] z4 |
+          "Gm"[C4G4B4] z4 | "Bb"[B,4D4F4] z4 |
+          "Cm"[C4E4G4] z4 | "Eb"[C4G4B4] z4 |
       
       banjo:
         abc: |
-          "Gm"d2 B2 d2 B2 | "Bb"f2 d2 f2 d2 |
+          "Gm"d2 C2 d2 C2 | "Bb"f2 d2 f2 d2 |
           "Cm"e2 c2 e2 c2 | "Eb"g2 e2 g2 e2 |
-          "Gm"d2 B2 d2 B2 | "Bb"f2 d2 f2 d2 |
+          "Gm"d2 C2 d2 C2 | "Bb"f2 d2 f2 d2 |
           "Cm"e2 c2 e2 c2 | "Eb"g2 e2 g2 e2 |
       
       drums:
@@ -91,7 +91,7 @@ sections:
         - line: "Guards at the gate"
           chords: ["Gm", "Eb"]
         - line: "Bury what threatens the throne"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "Women came at dawn"
           chords: ["Gm", "Cm"]
       
@@ -101,7 +101,7 @@ sections:
         - line: "The lynched one risen"
           chords: ["Gm", "Eb"]
         - line: "Rich men wanted underground"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "Can't keep resurrection bound"
           chords: ["Gm", "Cm"]
       
@@ -111,43 +111,43 @@ sections:
         - line: "Say the uprising's over"
           chords: ["Gm", "Eb"]
         - line: "Friday wasn't the end"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "Sunday coming"
           chords: ["Gm", "Cm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"D2 D2 D2 G2 | "Cm"G2 G4 G2 |
-          "Gm"G2 A2 B2 c2 | "Eb"B4 B4 |
-          "Bb"d2 d2 d2 d2 | "F"c2 c4 A2 |
+          "Gm"C2 C2 C2 C2 | "Cm"C2 C4 C2 |
+          "Gm"C2 C2 C2 c2 | "Eb"C4 C4 |
+          "Bb"d2 d2 d2 d2 | "C"c2 c4 C2 |
       
       bass:
         abc: |
           "Gm"D,2 D,2 A,,2 A,,2 | "Cm"C,2 C,2 G,,2 G,,2 |
           "Eb"E,2 E,2 B,,2 B,,2 | "Bb"B,,2 B,,2 F,,2 F,,2 |
-          "F"F,2 F,2 C,2 C,2 | "Gm"D,2 D,2 A,,2 A,,2 |
+          "C"F,2 F,2 C,2 C,2 | "Gm"D,2 D,2 A,,2 A,,2 |
       
       guitar-acoustic:
         abc: |
-          "Gm"D2 G2 B2 z2 | "Cm"C2 E2 G2 z2 |
-          "Gm"D2 G2 B2 z2 | "Eb"E2 G2 B2 z2 |
-          "Bb"B,2 D2 F2 z2 | "F"F2 A2 c2 z2 |
+          "Gm"C2 C2 C2 z2 | "Cm"C2 C2 C2 z2 |
+          "Gm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
+          "Bb"B,2 C2 C2 z2 | "C"C2 C2 c2 z2 |
       
       guitar-electric:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
       
       organ:
         abc: |
-          "Gm"[D4G4B4] z4 | "Cm"[C4E4G4] z4 |
-          "Gm"[D4G4B4] z4 | "Eb"[E4G4B4] z4 |
-          "Bb"[B,4D4F4] z4 | "F"[F4A4c4] z4 |
+          "Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
+          "Gm"[C4G4B4] z4 | "Eb"[C4G4B4] z4 |
+          "Bb"[B,4D4F4] z4 | "C"[C4A4c4] z4 |
       
       banjo:
         abc: |
-          "Gm"d2 B2 d2 B2 | "Cm"e2 c2 e2 c2 |
-          "Gm"d2 B2 d2 B2 | "Eb"g2 e2 g2 e2 |
-          "Bb"f2 d2 f2 d2 | "F"f2 c2 f2 c2 |
+          "Gm"d2 C2 d2 C2 | "Cm"e2 c2 e2 c2 |
+          "Gm"d2 C2 d2 C2 | "Eb"g2 e2 g2 e2 |
+          "Bb"f2 d2 f2 d2 | "C"f2 c2 f2 c2 |
       
       drums:
         kick: |
@@ -155,9 +155,9 @@ sections:
           C4 C4 | C4 C4 |
           C4 C4 | C4 C4 |
         snare: |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
 
   # --------------------------------------------------------------------------
   # CHORUS (8 bars - declaration of victory)
@@ -168,60 +168,60 @@ sections:
     lyrics:
       chorus:
         - line: "Stone rolled away"
-          chords: ["Bb", "F", "Gm"]
+          chords: ["Bb", "C", "Gm"]
         - line: "Stone rolled away"
-          chords: ["Eb", "Bb", "F"]
+          chords: ["Eb", "Bb", "C"]
         - line: "He is not here"
-          chords: ["Cm", "F", "Gm"]
+          chords: ["Cm", "C", "Gm"]
         - line: "Guards ran in fear"
-          chords: ["Eb", "Bb", "F", "Gm"]
+          chords: ["Eb", "Bb", "C", "Gm"]
         - line: "Death couldn't hold"
-          chords: ["Cm", "F", "Gm"]
+          chords: ["Cm", "C", "Gm"]
         - line: "What the powerful killed"
-          chords: ["Eb", "Bb", "F", "Gm"]
+          chords: ["Eb", "Bb", "C", "Gm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 "F"F2 F2 | "Gm"G4 G4 |
-          "Eb"B2 B2 "Bb"d2 "F"c2 | c6 z2 |
-          "Cm"c2 c2 c2 "F"A2 | A2 A2 "Gm"G2 G2 |
-          "Eb"B2 B2 B2 "Bb"d2 | "F"c2 c2 c2 "Gm"B2 | B6 z2 |
+          "Bb"C2 C2 "C"C2 C2 | "Gm"C4 C4 |
+          "Eb"C2 C2 "Bb"d2 "C"c2 | c6 z2 |
+          "Cm"c2 c2 c2 "C"C2 | C2 C2 "Gm"C2 C2 |
+          "Eb"C2 C2 C2 "Bb"d2 | "C"c2 c2 c2 "Gm"C2 | C6 z2 |
       
       bass:
         abc: |
-          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
           "Gm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 | "Cm"C,1 C,1 C,1 C,1 G,,1 G,,1 G,,1 G,,1 |
-          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
           "Gm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 | "Cm"C,1 C,1 C,1 C,1 G,,1 G,,1 G,,1 G,,1 | z8 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
-          "Eb"[E2G2][E2G2] "Bb"[D2F2][D2F2] | "F"[C2F2][C2F2] z4 |
-          "Cm"[C2E2][C2E2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
-          "Eb"[E2G2][E2G2] "Bb"[D2F2][D2F2] | "F"[C2F2][C2F2] "Gm"[D2G2]z2 | z8 |
+          "Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
+          "Eb"[C2G2][C2G2] "Bb"[C2F2][C2F2] | "C"[C2F2][C2F2] z4 |
+          "Cm"[C2E2][C2E2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
+          "Eb"[C2G2][C2G2] "Bb"[C2F2][C2F2] | "C"[C2F2][C2F2] "Gm"[C2G2]z2 | z8 |
       
       guitar-electric:
         abc: |
-          "Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-          "Gm"[D4G4] [D4G4] | "Eb"[E4G4] [E4G4] |
-          "Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-          "Gm"[D4G4] [D4G4] | "Eb"[E4G4] "Bb"[D4F4] | "F"[C4F4] z4 |
+          "Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+          "Gm"[C4G4] [C4G4] | "Eb"[C4G4] [C4G4] |
+          "Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+          "Gm"[C4G4] [C4G4] | "Eb"[C4G4] "Bb"[C4F4] | "C"[C4F4] z4 |
       
       organ:
         abc: |
-          "Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
-          "Gm"[D4G4B4] [D4G4B4] | "Eb"[E4G4B4] [E4G4B4] |
-          "Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
-          "Gm"[D4G4B4] [D4G4B4] | "Eb"[E4G4B4] "Bb"[D4F4B4] | "F"[C4F4A4] z4 |
+          "Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
+          "Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] "Bb"[C4F4B4] | "C"[C4F4A4] z4 |
       
       banjo:
         abc: |
-          "Bb"f2 d2 f2 d2 | "F"f2 c2 f2 c2 |
-          "Gm"d2 B2 d2 B2 | "Eb"g2 e2 g2 e2 |
-          "Bb"f2 d2 f2 d2 | "F"f2 c2 f2 c2 |
-          "Gm"d2 B2 d2 B2 | "Eb"g2 e2 "Bb"f2 d2 | "F"f2 c2 z4 |
+          "Bb"f2 d2 f2 d2 | "C"f2 c2 f2 c2 |
+          "Gm"d2 C2 d2 C2 | "Eb"g2 e2 g2 e2 |
+          "Bb"f2 d2 f2 d2 | "C"f2 c2 f2 c2 |
+          "Gm"d2 C2 d2 C2 | "Eb"g2 e2 "Bb"f2 d2 | "C"f2 c2 z4 |
       
       drums:
         kick: |
@@ -230,10 +230,10 @@ sections:
           C3 C C2 C2 | C3 C C2 C2 |
           C3 C C2 C2 | C3 C C2 C2 | z8 |
         snare: |
-          z4 E2 z2 | z4 E2 z2 |
-          z4 E2 z2 | z4 E2 z2 |
-          z4 E2 z2 | z4 E2 z2 |
-          z4 E2 z2 | z4 E2 z2 | z8 |
+          z4 C2 z2 | z4 C2 z2 |
+          z4 C2 z2 | z4 C2 z2 |
+          z4 C2 z2 | z4 C2 z2 |
+          z4 C2 z2 | z4 C2 z2 | z8 |
 
   # --------------------------------------------------------------------------
   # BUILD (8 bars - rising intensity toward triumph)
@@ -246,54 +246,54 @@ sections:
         - line: "Every empire falls"
           chords: ["Gm", "Eb"]
         - line: "Every Pharaoh dies"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "The stone keeps rolling"
           chords: ["Gm", "Eb"]
         - line: "Crushing what it strikes"
-          chords: ["Bb", "F", "Cm"]
+          chords: ["Bb", "C", "Cm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"G2 G2 G2 B2 | "Eb"B2 B4 B2 |
-          "Bb"d2 d2 d2 d2 | "F"c4 c4 |
-          "Gm"G2 G2 G2 B2 | "Eb"B2 B4 B2 |
-          "Bb"d2 d2 d2 "F"c2 | "Cm"c2 c4 c2 |
+          "Gm"C2 C2 C2 C2 | "Eb"C2 C4 C2 |
+          "Bb"d2 d2 d2 d2 | "C"c4 c4 |
+          "Gm"C2 C2 C2 C2 | "Eb"C2 C4 C2 |
+          "Bb"d2 d2 d2 "C"c2 | "Cm"c2 c4 c2 |
       
       bass:
         abc: |
           "Gm"D,2 D,2 D,2 D,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "C"F,2 F,2 F,2 F,2 |
           "Gm"D,2 D,2 D,2 D,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 "Cm"C,2 C,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "C"F,2 F,2 "Cm"C,2 C,2 |
       
       guitar-acoustic:
         abc: |
-          "Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
-          "Bb"[D2F2] z2 z4 | "F"[C2F2] z2 z4 |
-          "Gm"[D2G2] z2 z4 | "Eb"[E2G2] z2 z4 |
-          "Bb"[D2F2] z2 z4 | "F"[C2F2] "Cm"[C2E2] z4 |
+          "Gm"[C2G2] z2 z4 | "Eb"[C2G2] z2 z4 |
+          "Bb"[C2F2] z2 z4 | "C"[C2F2] z2 z4 |
+          "Gm"[C2G2] z2 z4 | "Eb"[C2G2] z2 z4 |
+          "Bb"[C2F2] z2 z4 | "C"[C2F2] "Cm"[C2E2] z4 |
       
       guitar-electric:
         abc: |
-          "Gm"D4 D4 | "Eb"E4 E4 |
-          "Bb"F4 F4 | "F"A4 A4 |
-          "Gm"D4 D4 | "Eb"E4 E4 |
-          "Bb"F4 F4 | "F"A4 "Cm"c4 |
+          "Gm"C4 C4 | "Eb"C4 C4 |
+          "Bb"C4 C4 | "C"C4 C4 |
+          "Gm"C4 C4 | "Eb"C4 C4 |
+          "Bb"C4 C4 | "C"C4 "Cm"c4 |
       
       organ:
         abc: |
-          "Gm"[D4G4B4] [D4G4B4] | "Eb"[E4G4B4] [E4G4B4] |
-          "Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] [F4A4c4] |
-          "Gm"[D4G4B4] [D4G4B4] | "Eb"[E4G4B4] [E4G4B4] |
-          "Bb"[B,4D4F4] [B,4D4F4] | "F"[F4A4c4] "Cm"[C4E4G4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
+          "Bb"[B,4D4F4] [B,4D4F4] | "C"[C4A4c4] [C4A4c4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
+          "Bb"[B,4D4F4] [B,4D4F4] | "C"[C4A4c4] "Cm"[C4E4G4] |
       
       banjo:
         abc: |
-          "Gm"d4 B4 | "Eb"g4 e4 |
-          "Bb"f4 d4 | "F"f4 c4 |
-          "Gm"d4 B4 | "Eb"g4 e4 |
-          "Bb"f4 d4 | "F"f4 "Cm"e4 |
+          "Gm"d4 C4 | "Eb"g4 e4 |
+          "Bb"f4 d4 | "C"f4 c4 |
+          "Gm"d4 C4 | "Eb"g4 e4 |
+          "Bb"f4 d4 | "C"f4 "Cm"e4 |
       
       drums:
         kick: |
@@ -302,10 +302,10 @@ sections:
           C2 C2 C2 C2 | C2 C2 C2 C2 |
           C2 C2 C2 C2 | C2 C2 C2 C2 |
         snare: |
-          z8 | z4 E4 |
-          z4 E4 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 E2 E2 | E2 E2 E2 E2 |
+          z8 | z4 C4 |
+          z4 C4 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 C2 C2 | C2 C2 C2 C2 |
 
   # --------------------------------------------------------------------------
   # OUTRO (12 bars - extended, triumphant ending)
@@ -318,70 +318,70 @@ sections:
         - line: "Stone keeps rolling"
           chords: ["Gm", "Cm"]
         - line: "Can't stop what's risen"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Stone keeps rolling"
           chords: ["Gm", "Cm"]
         - line: "Rejected stone chosen"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Rolling through Texas tonight"
-          chords: ["Gm", "Cm", "Eb", "F"]
+          chords: ["Gm", "Cm", "Eb", "C"]
         - line: "Walking in resurrection light"
-          chords: ["Gm", "Cm", "Eb", "G"]
+          chords: ["Gm", "Cm", "Eb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"G2 G2 G2 G2 | "Cm"G4 G4 |
-          "Eb"B2 B2 B2 B2 | "F"c4 c4 |
-          "Gm"G2 G2 G2 G2 | "Cm"G4 G4 |
-          "Eb"B2 B2 B2 "F"c2 | c6 z2 |
-          "Gm"G2 G2 G2 "Cm"G2 | "Eb"B2 B2 "F"c2 c2 |
-          "Gm"G2 G2 G2 "Cm"G2 | "Eb"B2 B2 B2 "G"B2 | B8 | B8 |
+          "Gm"C2 C2 C2 C2 | "Cm"C4 C4 |
+          "Eb"C2 C2 C2 C2 | "C"c4 c4 |
+          "Gm"C2 C2 C2 C2 | "Cm"C4 C4 |
+          "Eb"C2 C2 C2 "C"c2 | c6 z2 |
+          "Gm"C2 C2 C2 "Cm"C2 | "Eb"C2 C2 "C"c2 c2 |
+          "Gm"C2 C2 C2 "Cm"C2 | "Eb"C2 C2 C2 "C"C2 | C8 | C8 |
       
       bass:
         abc: |
           "Gm"D,2 D,2 D,2 D,2 | "Cm"C,2 C,2 C,2 C,2 |
-          "Eb"E,2 E,2 E,2 E,2 | "F"F,2 F,2 F,2 F,2 |
+          "Eb"E,2 E,2 E,2 E,2 | "C"F,2 F,2 F,2 F,2 |
           "Gm"D,2 D,2 D,2 D,2 | "Cm"C,2 C,2 C,2 C,2 |
-          "Eb"E,2 E,2 E,2 E,2 | "F"F,2 F,2 F,2 F,2 |
+          "Eb"E,2 E,2 E,2 E,2 | "C"F,2 F,2 F,2 F,2 |
           "Gm"D,2 D,2 D,2 D,2 | "Cm"C,2 C,2 "Eb"E,2 E,2 |
-          "F"F,2 F,2 F,2 F,2 | "G"G,2 G,2 G,2 G,2 | G,8 | G,8 |
+          "C"F,2 F,2 F,2 F,2 | "C"G,2 G,2 G,2 G,2 | G,8 | G,8 |
       
       guitar-acoustic:
         abc: |
-          "Gm"D2 G2 B2 z2 | "Cm"C2 E2 G2 z2 |
-          "Eb"E2 G2 B2 z2 | "F"F2 A2 c2 z2 |
-          "Gm"D2 G2 B2 z2 | "Cm"C2 E2 G2 z2 |
-          "Eb"E2 G2 B2 z2 | "F"F2 A2 c2 z2 |
-          "Gm"D2 G2 B2 z2 | "Cm"C2 E2 "Eb"E2 G2 |
-          "F"F2 A2 c2 z2 | "G"D2 G2 B2 z2 | D2 G2 B2 z2 | D2 G2 B2 z2 |
+          "Gm"C2 C2 C2 z2 | "Cm"C2 C2 C2 z2 |
+          "Eb"C2 C2 C2 z2 | "C"C2 C2 c2 z2 |
+          "Gm"C2 C2 C2 z2 | "Cm"C2 C2 C2 z2 |
+          "Eb"C2 C2 C2 z2 | "C"C2 C2 c2 z2 |
+          "Gm"C2 C2 C2 z2 | "Cm"C2 C2 "Eb"C2 C2 |
+          "C"C2 C2 c2 z2 | "C"C2 C2 C2 z2 | C2 C2 C2 z2 | C2 C2 C2 z2 |
       
       guitar-electric:
         abc: |
-          "Gm"[D4G4] z4 | "Cm"[C4E4] z4 |
-          "Eb"[E4G4] z4 | "F"[C4F4] z4 |
-          "Gm"[D4G4] z4 | "Cm"[C4E4] z4 |
-          "Eb"[E4G4] z4 | "F"[C4F4] z4 |
-          "Gm"[D4G4] z4 | "Cm"[C4E4] "Eb"[E4G4] |
-          "F"[C4F4] z4 | "G"[D8G8B8] | [D8G8B8] | [D8G8B8] |
+          "Gm"[C4G4] z4 | "Cm"[C4E4] z4 |
+          "Eb"[C4G4] z4 | "C"[C4F4] z4 |
+          "Gm"[C4G4] z4 | "Cm"[C4E4] z4 |
+          "Eb"[C4G4] z4 | "C"[C4F4] z4 |
+          "Gm"[C4G4] z4 | "Cm"[C4E4] "Eb"[C4G4] |
+          "C"[C4F4] z4 | "C"[C8G8B8] | [C8G8B8] | [C8G8B8] |
       
       organ:
         abc: |
-          "Gm"[D4G4B4] z4 | "Cm"[C4E4G4] z4 |
-          "Eb"[E4G4B4] z4 | "F"[F4A4c4] z4 |
-          "Gm"[D4G4B4] z4 | "Cm"[C4E4G4] z4 |
-          "Eb"[E4G4B4] z4 | "F"[F4A4c4] z4 |
-          "Gm"[D4G4B4] z4 | "Cm"[C4E4G4] "Eb"[E4G4B4] |
-          "F"[F4A4c4] z4 | "G"[D6G6B6] z2 | [D6G6B6] z2 | [D6G6B6] z2 |
+          "Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
+          "Eb"[C4G4B4] z4 | "C"[C4A4c4] z4 |
+          "Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
+          "Eb"[C4G4B4] z4 | "C"[C4A4c4] z4 |
+          "Gm"[C4G4B4] z4 | "Cm"[C4E4G4] "Eb"[C4G4B4] |
+          "C"[C4A4c4] z4 | "C"[C6G6B6] z2 | [C6G6B6] z2 | [C6G6B6] z2 |
       
       banjo:
         abc: |
-          "Gm"d2 B2 d2 B2 | "Cm"e2 c2 e2 c2 |
-          "Eb"g2 e2 g2 e2 | "F"f2 c2 f2 c2 |
-          "Gm"d2 B2 d2 B2 | "Cm"e2 c2 e2 c2 |
-          "Eb"g2 e2 g2 e2 | "F"f2 c2 f2 c2 |
-          "Gm"d2 B2 d2 B2 | "Cm"e2 c2 "Eb"g2 e2 |
-          "F"f2 c2 f2 c2 | "G"d2 B2 d2 B2 | d2 B2 d2 B2 | d2 B2 d2 B2 |
+          "Gm"d2 C2 d2 C2 | "Cm"e2 c2 e2 c2 |
+          "Eb"g2 e2 g2 e2 | "C"f2 c2 f2 c2 |
+          "Gm"d2 C2 d2 C2 | "Cm"e2 c2 e2 c2 |
+          "Eb"g2 e2 g2 e2 | "C"f2 c2 f2 c2 |
+          "Gm"d2 C2 d2 C2 | "Cm"e2 c2 "Eb"g2 e2 |
+          "C"f2 c2 f2 c2 | "C"d2 C2 d2 C2 | d2 C2 d2 C2 | d2 C2 d2 C2 |
       
       drums:
         kick: |
@@ -392,12 +392,12 @@ sections:
           C4 z4 | C4 z4 |
           C4 z4 | C4 z4 | z8 | z8 |
         snare: |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 | z8 | z8 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 | z8 | z8 |
 
 # ============================================================================
 # INSTRUMENT MIDI PROGRAMS

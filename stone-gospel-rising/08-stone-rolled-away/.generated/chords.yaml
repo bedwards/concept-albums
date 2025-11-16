@@ -16,7 +16,7 @@ sections:
     lyrics: Guards at the gate
   - chords:
     - Bb
-    - F
+    - C
     lyrics: Bury what threatens the throne
   - chords:
     - Gm
@@ -33,7 +33,7 @@ sections:
     lyrics: The lynched one risen
   - chords:
     - Bb
-    - F
+    - C
     lyrics: Rich men wanted underground
   - chords:
     - Gm
@@ -50,7 +50,7 @@ sections:
     lyrics: Say the uprising's over
   - chords:
     - Bb
-    - F
+    - C
     lyrics: Friday wasn't the end
   - chords:
     - Gm
@@ -59,34 +59,34 @@ sections:
   chorus:
   - chords:
     - Bb
-    - F
+    - C
     - Gm
     lyrics: Stone rolled away
   - chords:
     - Eb
     - Bb
-    - F
+    - C
     lyrics: Stone rolled away
   - chords:
     - Cm
-    - F
+    - C
     - Gm
     lyrics: He is not here
   - chords:
     - Eb
     - Bb
-    - F
+    - C
     - Gm
     lyrics: Guards ran in fear
   - chords:
     - Cm
-    - F
+    - C
     - Gm
     lyrics: Death couldn't hold
   - chords:
     - Eb
     - Bb
-    - F
+    - C
     - Gm
     lyrics: What the powerful killed
   build1:
@@ -96,7 +96,7 @@ sections:
     lyrics: Every empire falls
   - chords:
     - Bb
-    - F
+    - C
     lyrics: Every Pharaoh dies
   - chords:
     - Gm
@@ -104,7 +104,7 @@ sections:
     lyrics: The stone keeps rolling
   - chords:
     - Bb
-    - F
+    - C
     - Cm
     lyrics: Crushing what it strikes
   outro:
@@ -114,7 +114,7 @@ sections:
     lyrics: Stone keeps rolling
   - chords:
     - Eb
-    - F
+    - C
     lyrics: Can't stop what's risen
   - chords:
     - Gm
@@ -122,17 +122,17 @@ sections:
     lyrics: Stone keeps rolling
   - chords:
     - Eb
-    - F
+    - C
     lyrics: Rejected stone chosen
   - chords:
     - Gm
     - Cm
     - Eb
-    - F
+    - C
     lyrics: Rolling through Texas tonight
   - chords:
     - Gm
     - Cm
     - Eb
-    - G
+    - C
     lyrics: Walking in resurrection light

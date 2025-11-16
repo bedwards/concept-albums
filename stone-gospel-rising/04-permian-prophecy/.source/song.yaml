@@ -46,26 +46,26 @@ sections:
       
       guitar-acoustic:
         abc: |
-          "Dm"D2 F2 A2 F2 | D2 F2 A2 F2 |
-          D2 F2 A2 F2 | D2 F2 A2 F2 |
-          D2 F2 A2 F2 | D2 F2 A2 F2 |
-          D2 F2 A2 F2 | D2 F2 A2 F2 |
+          "Dm"C2 C2 C2 C2 | C2 C2 C2 C2 |
+          C2 C2 C2 C2 | C2 C2 C2 C2 |
+          C2 C2 C2 C2 | C2 C2 C2 C2 |
+          C2 C2 C2 C2 | C2 C2 C2 C2 |
       
       guitar-electric:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
       
       organ:
         abc: |
-          "Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
-          [D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+          "Dm"[C8F8A8] | [C8F8A8] | [C8F8A8] | [C8F8A8] |
+          [C8F8A8] | [C8F8A8] | [C8F8A8] | [C8F8A8] |
       
       drums:
         kick: |
           C4 z4 | C4 z4 | C4 z4 | C4 z4 |
           C4 z4 | C4 z4 | C4 z4 | C4 z4 |
         snare: |
-          z4 E2 z2 | z4 E2 z2 | z4 E2 z2 | z4 E2 z2 |
-          z4 E2 z2 | z4 E2 z2 | z4 E2 z2 | z4 E2 z2 |
+          z4 C2 z2 | z4 C2 z2 | z4 C2 z2 | z4 C2 z2 |
+          z4 C2 z2 | z4 C2 z2 | z4 C2 z2 | z4 C2 z2 |
 
   # --------------------------------------------------------------------------
   # VERSE (8 bars)
@@ -77,71 +77,71 @@ sections:
         - line: "Pump jack bowing"
           chords: ["Dm", "Bb"]
         - line: "Basin soaked in blood"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
         - line: "Black gold rising"
           chords: ["Dm", "Bb"]
         - line: "Can't keep what you build"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
       
       verse2:
         - line: "Refinery burning"
           chords: ["Dm", "Bb"]
         - line: "Odessa skyline orange"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
         - line: "Chemical river runs"
           chords: ["Dm", "Bb"]
         - line: "Water will have its day"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
       
       verse3:
         - line: "Pipeline cuts the ranch"
           chords: ["Dm", "Bb"]
         - line: "Granddad's land is gone"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
         - line: "Call it Texas pride"
           chords: ["Dm", "Bb"]
         - line: "Earth mourns and withers"
-          chords: ["F", "Gm"]
+          chords: ["C", "Gm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Dm"D2 D2 D2 F2 | "Bb"F2 F4 D2 |
-          "F"A2 A2 A2 AG | "Gm"G8 |
-          "Dm"D2 D2 F2 F2 | "Bb"F4 F2 GA |
-          "F"A2 A2 A2 AG | "Gm"G8 |
+          "Dm"C2 C2 C2 C2 | "Bb"C2 C4 C2 |
+          "C"C2 C2 C2 AG | "Gm"C8 |
+          "Dm"C2 C2 C2 C2 | "Bb"C4 C2 GA |
+          "C"C2 C2 C2 AG | "Gm"C8 |
       
       bass:
         abc: |
           "Dm"D,2 D,2 A,,2 A,,2 | "Bb"B,,2 B,,2 F,2 F,2 |
-          "F"F,2 F,2 C,2 C,2 | "Gm"G,2 G,2 D,2 D,2 |
+          "C"F,2 F,2 C,2 C,2 | "Gm"G,2 G,2 D,2 D,2 |
           "Dm"D,2 D,2 A,,2 A,,2 | "Bb"B,,2 B,,2 F,2 F,2 |
-          "F"F,2 F,2 C,2 C,2 | "Gm"G,2 G,2 D,2 D,2 |
+          "C"F,2 F,2 C,2 C,2 | "Gm"G,2 G,2 D,2 D,2 |
       
       guitar-acoustic:
         abc: |
-          "Dm"D2 F2 A2 F2 | "Bb"B,2 D2 F2 D2 |
-          "F"A2 C2 F2 C2 | "Gm"D2 G2 B2 G2 |
-          "Dm"D2 F2 A2 F2 | "Bb"B,2 D2 F2 D2 |
-          "F"A2 C2 F2 C2 | "Gm"D2 G2 B2 G2 |
+          "Dm"C2 C2 C2 C2 | "Bb"B,2 C2 C2 C2 |
+          "C"C2 C2 C2 C2 | "Gm"C2 C2 C2 C2 |
+          "Dm"C2 C2 C2 C2 | "Bb"B,2 C2 C2 C2 |
+          "C"C2 C2 C2 C2 | "Gm"C2 C2 C2 C2 |
       
       guitar-electric:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
       
       organ:
         abc: |
-          "Dm"[D8F8A8] | "Bb"[B,8D8F8] |
-          "F"[C8F8A8] | "Gm"[D8G8B8] |
-          "Dm"[D8F8A8] | "Bb"[B,8D8F8] |
-          "F"[C8F8A8] | "Gm"[D8G8B8] |
+          "Dm"[C8F8A8] | "Bb"[B,8D8F8] |
+          "C"[C8F8A8] | "Gm"[C8G8B8] |
+          "Dm"[C8F8A8] | "Bb"[B,8D8F8] |
+          "C"[C8F8A8] | "Gm"[C8G8B8] |
       
       drums:
         kick: |
           C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 |
           C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 |
         snare: |
-          z4 E4 | z4 E4 | z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 | z4 E4 | z4 E4 |
+          z4 C4 | z4 C4 | z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 | z4 C4 | z4 C4 |
 
   # --------------------------------------------------------------------------
   # CHORUS (7 bars)
@@ -151,57 +151,57 @@ sections:
     lyrics:
       chorus1:
         - line: "Drill down drill down into the earth"
-          chords: ["Bb", "F", "Dm"]
+          chords: ["Bb", "C", "Dm"]
         - line: "Extract extract for all you're worth"
-          chords: ["Gm", "Bb", "F"]
+          chords: ["Gm", "Bb", "C"]
         - line: "But the land is the Lord's says Psalm 24"
           chords: ["Dm", "Gm", "Bb"]
         - line: "And the stones will testify what you ignored"
-          chords: ["F", "Gm", "Dm"]
+          chords: ["C", "Gm", "Dm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 "F"F2 F2 | "Dm"A4 A2 AG |
-          "Gm"G2 G2 "Bb"F2 F2 | "F"A6 AG |
-          "Dm"A2 A2 "Gm"G2 G2 | "Bb"F4 F2 GA |
-          "F"A2 A2 "Gm"G2 "Dm"F2 | D8 |
+          "Bb"C2 C2 "C"C2 C2 | "Dm"C4 C2 AG |
+          "Gm"C2 C2 "Bb"C2 C2 | "C"C6 AG |
+          "Dm"C2 C2 "Gm"C2 C2 | "Bb"C4 C2 GA |
+          "C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
       
       bass:
         abc: |
-          "Bb"B,1 B,1 B,1 B,1 "F"F,1 F,1 F,1 F,1 | "Dm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 |
-          "Gm"G,1 G,1 G,1 G,1 "Bb"B,,1 B,,1 B,,1 B,,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Bb"B,1 B,1 B,1 B,1 "C"F,1 F,1 F,1 F,1 | "Dm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 |
+          "Gm"G,1 G,1 G,1 G,1 "Bb"B,,1 B,,1 B,,1 B,,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
           "Dm"D,1 D,1 D,1 D,1 "Gm"G,1 G,1 G,1 G,1 | "Bb"B,,1 B,,1 B,,1 B,,1 F,1 F,1 F,1 F,1 |
-          "F"F,1 F,1 F,1 F,1 "Gm"G,1 G,1 "Dm"D,1 D,1 | D,8 |
+          "C"F,1 F,1 F,1 F,1 "Gm"G,1 G,1 "Dm"D,1 D,1 | D,8 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[B,2D2F2][B,2D2F2] "F"[C2F2A2][C2F2A2] | "Dm"[D2F2A2][D2F2A2] [D2F2A2][D2F2A2] |
-          "Gm"[D2G2B2][D2G2B2] "Bb"[B,2D2F2][B,2D2F2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
-          "Dm"[D2F2A2][D2F2A2] "Gm"[D2G2B2][D2G2B2] | "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2][B,2D2F2] |
-          "F"[C2F2A2][C2F2A2] "Gm"[D2G2B2] "Dm"[D2F2A2] | [D8F8A8] |
+          "Bb"[B,2D2F2][B,2D2F2] "C"[C2F2A2][C2F2A2] | "Dm"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+          "Gm"[C2G2B2][C2G2B2] "Bb"[B,2D2F2][B,2D2F2] | "C"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+          "Dm"[C2F2A2][C2F2A2] "Gm"[C2G2B2][C2G2B2] | "Bb"[B,2D2F2][B,2D2F2] [B,2D2F2][B,2D2F2] |
+          "C"[C2F2A2][C2F2A2] "Gm"[C2G2B2] "Dm"[C2F2A2] | [C8F8A8] |
       
       guitar-electric:
         abc: |
-          "Bb"[B,4D4F4][B,4D4F4] | "F"[C4F4A4][C4F4A4] |
-          "Dm"[D4F4A4][D4F4A4] | "Gm"[D4G4B4] "Bb"[B,4D4F4] |
-          "F"[C4F4A4] "Dm"[D4F4A4] | "Gm"[D4G4B4] "Bb"[B,4D4F4] |
-          "F"[C4F4A4] "Gm"[D4G4B4] | "Dm"[D8F8A8] |
+          "Bb"[B,4D4F4][B,4D4F4] | "C"[C4F4A4][C4F4A4] |
+          "Dm"[C4F4A4][C4F4A4] | "Gm"[C4G4B4] "Bb"[B,4D4F4] |
+          "C"[C4F4A4] "Dm"[C4F4A4] | "Gm"[C4G4B4] "Bb"[B,4D4F4] |
+          "C"[C4F4A4] "Gm"[C4G4B4] | "Dm"[C8F8A8] |
       
       organ:
         abc: |
-          "Bb"[B,4D4F4][B,4D4F4] | "F"[C4F4A4][C4F4A4] |
-          "Dm"[D4F4A4][D4F4A4] | "Gm"[D4G4B4] "Bb"[B,4D4F4] |
-          "F"[C4F4A4] "Dm"[D4F4A4] | "Gm"[D4G4B4] "Bb"[B,4D4F4] |
-          "F"[C4F4A4] "Gm"[D4G4B4] | "Dm"[D8F8A8] |
+          "Bb"[B,4D4F4][B,4D4F4] | "C"[C4F4A4][C4F4A4] |
+          "Dm"[C4F4A4][C4F4A4] | "Gm"[C4G4B4] "Bb"[B,4D4F4] |
+          "C"[C4F4A4] "Dm"[C4F4A4] | "Gm"[C4G4B4] "Bb"[B,4D4F4] |
+          "C"[C4F4A4] "Gm"[C4G4B4] | "Dm"[C8F8A8] |
       
       drums:
         kick: |
           C4 z2 C2 | C4 z2 C2 | C4 z2 C2 | C4 C4 |
           C4 z2 C2 | C4 z2 C2 | C4 C4 | C8 |
         snare: |
-          z4 E2 E2 | z4 E2 E2 | z4 E2 E2 | z4 E4 |
-          z4 E2 E2 | z4 E2 E2 | z4 E4 | z8 |
+          z4 C2 C2 | z4 C2 C2 | z4 C2 C2 | z4 C4 |
+          z4 C2 C2 | z4 C2 C2 | z4 C4 | z8 |
 
   # --------------------------------------------------------------------------
   # BRIDGE (4 bars - minimal, building tension)
@@ -213,40 +213,40 @@ sections:
         - line: "What you hoard rusts away"
           chords: ["Gm", "Bb"]
         - line: "James chapter 5 verse 3"
-          chords: ["F", "Dm"]
+          chords: ["C", "Dm"]
         - line: "Your silver corrodes as a witness against you"
           chords: ["Gm", "Bb"]
         - line: "The earth groans Romans 8:22"
-          chords: ["F", "Dm"]
+          chords: ["C", "Dm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"G2 G2 "Bb"F4 | "F"A2 A2 "Dm"D4 |
-          "Gm"G2 G2 "Bb"F4 | "F"A2 A2 "Dm"D4 |
+          "Gm"C2 C2 "Bb"C4 | "C"C2 C2 "Dm"C4 |
+          "Gm"C2 C2 "Bb"C4 | "C"C2 C2 "Dm"C4 |
       
       bass:
         abc: |
-          "Gm"G,8 | "Bb"B,,8 | "F"F,8 | "Dm"D,8 |
+          "Gm"G,8 | "Bb"B,,8 | "C"F,8 | "Dm"D,8 |
       
       guitar-acoustic:
         abc: |
-          "Gm"D2 G2 B2 G2 | "Bb"B,2 D2 F2 D2 |
-          "F"C2 F2 A2 F2 | "Dm"D2 F2 A2 F2 |
+          "Gm"C2 C2 C2 C2 | "Bb"B,2 C2 C2 C2 |
+          "C"C2 C2 C2 C2 | "Dm"C2 C2 C2 C2 |
       
       guitar-electric:
         abc: |
-          "Gm"D4 D4 | "Bb"B,4 B,4 | "F"F4 F4 | "Dm"D4 D4 |
+          "Gm"C4 C4 | "Bb"B,4 B,4 | "C"C4 C4 | "Dm"C4 C4 |
       
       organ:
         abc: |
-          "Gm"[D8G8B8] | "Bb"[B,8D8F8] | "F"[C8F8A8] | "Dm"[D8F8A8] |
+          "Gm"[C8G8B8] | "Bb"[B,8D8F8] | "C"[C8F8A8] | "Dm"[C8F8A8] |
       
       drums:
         kick: |
           C4 z4 | C4 z4 | C4 z4 | C4 z4 |
         snare: |
-          z8 | z8 | z4 E4 | z8 |
+          z8 | z8 | z4 C4 | z8 |
 
   # --------------------------------------------------------------------------
   # OUTRO (6 bars - bass and organ drone, decrescendo)
@@ -258,22 +258,22 @@ sections:
         - line: "The land keeps score"
           chords: ["Dm", "Gm", "Bb"]
         - line: "The creation waits for the revealing"
-          chords: ["F", "Gm", "Dm"]
+          chords: ["C", "Gm", "Dm"]
         - line: "The land keeps score"
           chords: ["Dm", "Gm", "Bb"]
         - line: "Romans 8 says all creation is groaning"
-          chords: ["F", "Gm", "Dm"]
+          chords: ["C", "Gm", "Dm"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Dm"D2 D2 "Gm"G2 "Bb"F2 | D6 D2 |
-          "F"A2 A2 "Gm"G2 "Dm"D2 | D8 |
+          "Dm"C2 C2 "Gm"C2 "Bb"C2 | C6 C2 |
+          "C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
           z8 | z8 |
       
       bass:
         abc: |
-          "Dm"D,8 | "Gm"G,8 | "Bb"B,,8 | "F"F,8 | "Gm"G,8 | "Dm"D,,8 |
+          "Dm"D,8 | "Gm"G,8 | "Bb"B,,8 | "C"F,8 | "Gm"G,8 | "Dm"D,,8 |
       
       guitar-acoustic:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
@@ -283,8 +283,8 @@ sections:
       
       organ:
         abc: |
-          "Dm"[D8F8A8] | "Gm"[D8G8B8] | "Bb"[B,8D8F8] |
-          "F"[C8F8A8] | "Gm"[D8G8B8] | "Dm"[D,8D8F8A8] |
+          "Dm"[C8F8A8] | "Gm"[C8G8B8] | "Bb"[B,8D8F8] |
+          "C"[C8F8A8] | "Gm"[C8G8B8] | "Dm"[D,8D8F8A8] |
       
       drums:
         kick: "z8 | z8 | z8 | z8 | z8 | z8 |"
@@ -314,7 +314,7 @@ instruments:
 
 arrangement:
   intro: |
-    Bass drone on D (whole notes). Organ Dm pad, dark and sustained.
+    Bass drone on C (whole notes). Organ Dm pad, dark and sustained.
     Acoustic fingerpick pattern Dm (D-F-A alternating).
     Kick sparse, quarter notes on 1 & 3. Snare light rim clicks on 2 & 4.
     Electric silent.
@@ -339,6 +339,6 @@ arrangement:
     Organ sustained chords, crescendo.
   
   outro: |
-    Drop to bass and organ only. Bass D pedal tone (whole notes).
+    Drop to bass and organ only. Bass C pedal tone (whole notes).
     Organ Dm-Gm-Bb-F-Gm-Dm progression (whole notes).
     End on low Dm chord (bass and organ unison).

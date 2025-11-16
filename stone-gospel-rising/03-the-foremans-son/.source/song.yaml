@@ -54,7 +54,7 @@ sections:
       
       banjo:
         abc: |
-          "Bb"d2 d2 B2 d2 | d2 d2 B2 d2 | d2 d2 B2 d2 | d2 d2 B2 d2 |
+          "Bb"d2 d2 C2 d2 | d2 d2 C2 d2 | d2 d2 C2 d2 | d2 d2 C2 d2 |
       
       drums:
         kick: |
@@ -72,53 +72,53 @@ sections:
         - line: "Daddy ran the crew"
           chords: ["Bb", "Gm"]
         - line: "Grease under every hand"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Son you'll take my place"
           chords: ["Bb", "Gm"]
         - line: "I saw the boss's face"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
       
       verse2:
         - line: "Whistle blows at six"
           chords: ["Bb", "Gm"]
         - line: "Same broken machines"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Tighten the belt they say"
           chords: ["Bb", "Gm"]
         - line: "Withheld wages cry out"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
       
       verse3:
         - line: "Picket line on Commerce"
           chords: ["Bb", "Gm"]
         - line: "Every hand I meet"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Don't muzzle the ox"
           chords: ["Bb", "Gm"]
         - line: "They locked us out"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 D2 F2 | "Gm"G2 G4 D2 |
-          "Eb"G2 G2 G2 AG | "F"F8 |
-          "Bb"D2 D2 F2 F2 | "Gm"G4 G2 AB |
-          "Eb"B2 B2 B2 AG | "F"F8 |
+          "Bb"C2 C2 C2 C2 | "Gm"C2 C4 C2 |
+          "Eb"C2 C2 C2 AG | "C"C8 |
+          "Bb"C2 C2 C2 C2 | "Gm"C4 C2 AB |
+          "Eb"C2 C2 C2 AG | "C"C8 |
       
       bass:
         abc: |
           "Bb"B,2 B,2 F,2 F,2 | "Gm"G,2 G,2 D,2 D,2 |
-          "Eb"E,2 E,2 B,,2 B,,2 | "F"F,2 F,2 C,2 C,2 |
+          "Eb"E,2 E,2 B,,2 B,,2 | "C"F,2 F,2 C,2 C,2 |
           "Bb"B,2 B,2 F,2 F,2 | "Gm"G,2 G,2 D,2 D,2 |
-          "Eb"E,2 E,2 B,,2 B,,2 | "F"F,2 F,2 C,2 C,2 |
+          "Eb"E,2 E,2 B,,2 B,,2 | "C"F,2 F,2 C,2 C,2 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "Gm"[D2G2B2] z2 [D2G2B2] z2 |
-          "Eb"[E2G2B2] z2 [E2G2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "Gm"[D2G2B2] z2 [D2G2B2] z2 |
-          "Eb"[E2G2B2] z2 [E2G2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "Gm"[C2G2B2] z2 [C2G2B2] z2 |
+          "Eb"[C2G2B2] z2 [C2G2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "Gm"[C2G2B2] z2 [C2G2B2] z2 |
+          "Eb"[C2G2B2] z2 [C2G2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
       
       guitar-electric:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
@@ -128,10 +128,10 @@ sections:
       
       banjo:
         abc: |
-          "Bb"d2 d2 B2 d2 | "Gm"d2 d2 B2 d2 |
-          "Eb"B2 B2 G2 B2 | "F"c2 c2 A2 c2 |
-          "Bb"d2 d2 B2 d2 | "Gm"d2 d2 B2 d2 |
-          "Eb"B2 B2 G2 B2 | "F"c2 c2 A2 c2 |
+          "Bb"d2 d2 C2 d2 | "Gm"d2 d2 C2 d2 |
+          "Eb"C2 C2 C2 C2 | "C"c2 c2 C2 c2 |
+          "Bb"d2 d2 C2 d2 | "Gm"d2 d2 C2 d2 |
+          "Eb"C2 C2 C2 C2 | "C"c2 c2 C2 c2 |
       
       drums:
         kick: |
@@ -149,56 +149,56 @@ sections:
     lyrics:
       chorus1:
         - line: "I'm the foreman's son but I'm standing with you"
-          chords: ["Bb", "F", "Gm"]
+          chords: ["Bb", "C", "Gm"]
         - line: "Brothers and sisters we know what's true"
-          chords: ["Eb", "Bb", "F"]
+          chords: ["Eb", "Bb", "C"]
         - line: "They can't divide us anymore"
-          chords: ["Cm", "F", "Gm"]
+          chords: ["Cm", "C", "Gm"]
         - line: "The foreman's son just joined the floor"
-          chords: ["Eb", "Bb", "F", "Bb"]
+          chords: ["Eb", "Bb", "C", "Bb"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 "F"F2 F2 | "Gm"G4 G2 AB |
-          "Eb"B2 B2 "Bb"d2 d2 | "F"c6 Bc |
-          "Cm"c2 c2 "F"A2 A2 | "Gm"G4 B2 AG |
-          "Eb"B2 B2 "Bb"d2 "F"c2 | "Bb"B8 |
+          "Bb"C2 C2 "C"C2 C2 | "Gm"C4 C2 AB |
+          "Eb"C2 C2 "Bb"d2 d2 | "C"c6 Bc |
+          "Cm"c2 c2 "C"C2 C2 | "Gm"C4 C2 AG |
+          "Eb"C2 C2 "Bb"d2 "C"c2 | "Bb"C8 |
       
       bass:
         abc: |
-          "Bb"B,1 B,1 B,1 B,1 F,1 F,1 F,1 F,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Bb"B,1 B,1 B,1 B,1 F,1 F,1 F,1 F,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
           "Gm"G,1 G,1 G,1 G,1 D,1 D,1 D,1 D,1 | "Eb"E,1 E,1 E,1 E,1 B,,1 B,,1 B,,1 B,,1 |
-          "Bb"B,1 B,1 B,1 B,1 F,1 F,1 F,1 F,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
-          "Gm"G,1 G,1 G,1 G,1 D,1 D,1 D,1 D,1 | "Eb"E,1 E,1 E,1 E,1 "F"F,1 F,1 F,1 F,1 |
+          "Bb"B,1 B,1 B,1 B,1 F,1 F,1 F,1 F,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Gm"G,1 G,1 G,1 G,1 D,1 D,1 D,1 D,1 | "Eb"E,1 E,1 E,1 E,1 "C"F,1 F,1 F,1 F,1 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2B2][D2F2B2] "F"[C2F2A2][C2F2A2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
-          "Eb"[E2G2B2][E2G2B2] "Bb"[D2F2B2][D2F2B2] | "F"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
-          "Cm"[C2E2G2][C2E2G2] "F"[C2F2A2][C2F2A2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
-          "Eb"[E2G2B2][E2G2B2] "Bb"[D2F2B2] "F"[C2F2A2] | "Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] |
+          "Bb"[C2F2B2][C2F2B2] "C"[C2F2A2][C2F2A2] | "Gm"[C2G2B2][C2G2B2] [C2G2B2][C2G2B2] |
+          "Eb"[C2G2B2][C2G2B2] "Bb"[C2F2B2][C2F2B2] | "C"[C2F2A2][C2F2A2] [C2F2A2][C2F2A2] |
+          "Cm"[C2E2G2][C2E2G2] "C"[C2F2A2][C2F2A2] | "Gm"[C2G2B2][C2G2B2] [C2G2B2][C2G2B2] |
+          "Eb"[C2G2B2][C2G2B2] "Bb"[C2F2B2] "C"[C2F2A2] | "Bb"[C2F2B2][C2F2B2] [C2F2B2][C2F2B2] |
       
       guitar-electric:
         abc: |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4][E4G4B4] |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4] "F"[C4F4A4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4][C4G4B4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4] "C"[C4F4A4] |
       
       organ:
         abc: |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4][E4G4B4] |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4] "F"[C4F4A4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4][C4G4B4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4] "C"[C4F4A4] |
       
       banjo:
         abc: |
-          "Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
-          "Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Eb"B1 G1 B1 G1 B1 G1 B1 G1 |
-          "Bb"d1 B1 d1 B1 d1 B1 d1 B1 | "F"c1 A1 c1 A1 c1 A1 c1 A1 |
-          "Gm"d1 B1 d1 B1 d1 B1 d1 B1 | "Eb"B1 G1 B1 G1 "F"c1 A1 c1 A1 |
+          "Bb"d1 C1 d1 C1 d1 C1 d1 C1 | "C"c1 C1 c1 C1 c1 C1 c1 C1 |
+          "Gm"d1 C1 d1 C1 d1 C1 d1 C1 | "Eb"C1 C1 C1 C1 C1 C1 C1 C1 |
+          "Bb"d1 C1 d1 C1 d1 C1 d1 C1 | "C"c1 C1 c1 C1 c1 C1 c1 C1 |
+          "Gm"d1 C1 d1 C1 d1 C1 d1 C1 | "Eb"C1 C1 C1 C1 "C"c1 C1 c1 C1 |
       
       drums:
         kick: |
@@ -218,54 +218,54 @@ sections:
         - line: "Daddy won't speak now"
           chords: ["Gm", "Eb"]
         - line: "Says I broke the vow"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "Christ brought the sword"
           chords: ["Gm", "Eb"]
         - line: "To divide the house"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"G2 G2 "Eb"G2 G2 | "Bb"F4 "F"F4 |
-          "Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
-          "Gm"G2 G2 "Eb"G2 G2 | "Bb"F4 "F"F4 |
-          "Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"C4 "C"C4 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"d4 "C"c4 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"C4 "C"C4 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"d4 "C"c4 |
       
       bass:
         abc: |
           "Gm"G,2 G,2 G,2 G,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,2 B,2 B,2 B,2 | "F"F,2 F,2 F,2 F,2 |
+          "Bb"B,2 B,2 B,2 B,2 | "C"F,2 F,2 F,2 F,2 |
           "Gm"G,2 G,2 G,2 G,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,2 B,2 B,2 B,2 | "F"F,2 F,2 F,2 F,2 |
+          "Bb"B,2 B,2 B,2 B,2 | "C"F,2 F,2 F,2 F,2 |
       
       guitar-acoustic:
         abc: |
-          "Gm"[D2G2B2] z2 [D2G2B2] z2 | "Eb"[E2G2B2] z2 [E2G2B2] z2 |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
-          "Gm"[D2G2B2] z2 [D2G2B2] z2 | "Eb"[E2G2B2] z2 [E2G2B2] z2 |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
+          "Gm"[C2G2B2] z2 [C2G2B2] z2 | "Eb"[C2G2B2] z2 [C2G2B2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
+          "Gm"[C2G2B2] z2 [C2G2B2] z2 | "Eb"[C2G2B2] z2 [C2G2B2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
       
       guitar-electric:
         abc: |
-          "Gm"D4 D4 | "Eb"E4 E4 |
-          "Bb"B,4 B,4 | "F"F4 F4 |
-          "Gm"D4 D4 | "Eb"E4 E4 |
-          "Bb"B,4 B,4 | "F"F4 F4 |
+          "Gm"C4 C4 | "Eb"C4 C4 |
+          "Bb"B,4 B,4 | "C"C4 C4 |
+          "Gm"C4 C4 | "Eb"C4 C4 |
+          "Bb"B,4 B,4 | "C"C4 C4 |
       
       organ:
         abc: |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4][E4G4B4] |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
-          "Gm"[D4G4B4][D4G4B4] | "Eb"[E4G4B4][E4G4B4] |
-          "Bb"[D4F4B4][D4F4B4] | "F"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4][C4G4B4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
+          "Gm"[C4G4B4][C4G4B4] | "Eb"[C4G4B4][C4G4B4] |
+          "Bb"[C4F4B4][C4F4B4] | "C"[C4F4A4][C4F4A4] |
       
       banjo:
         abc: |
-          "Gm"[D2G2B2] z2 [D2G2B2] z2 | "Eb"[E2G2B2] z2 [E2G2B2] z2 |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
-          "Gm"[D2G2B2] z2 [D2G2B2] z2 | "Eb"[E2G2B2] z2 [E2G2B2] z2 |
-          "Bb"[D2F2B2] z2 [D2F2B2] z2 | "F"[C2F2A2] z2 [C2F2A2] z2 |
+          "Gm"[C2G2B2] z2 [C2G2B2] z2 | "Eb"[C2G2B2] z2 [C2G2B2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
+          "Gm"[C2G2B2] z2 [C2G2B2] z2 | "Eb"[C2G2B2] z2 [C2G2B2] z2 |
+          "Bb"[C2F2B2] z2 [C2F2B2] z2 | "C"[C2F2A2] z2 [C2F2A2] z2 |
       
       drums:
         kick: |
@@ -283,24 +283,24 @@ sections:
     lyrics:
       outro1:
         - line: "We all got the grease under our hands"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "And the Lord hears the cry of the workingman"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "We all got the grease under our hands"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "Your riches have rotted where they stand"
           chords: ["Bb", "Gm", "Eb", "Bb"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 D2 "Gm"G2 | "Eb"G2 G2 "F"F4 |
-          "Bb"D2 D2 D2 "Gm"G2 | "Eb"G2 G2 F4 |
+          "Bb"C2 C2 C2 "Gm"C2 | "Eb"C2 C2 "C"C4 |
+          "Bb"C2 C2 C2 "Gm"C2 | "Eb"C2 C2 C4 |
           "Bb"B,8 |
       
       bass:
         abc: |
-          "Bb"B,8 | A,8 | "Gm"G,8 | "F"F,8 | "Bb"B,,8 |
+          "Bb"B,8 | A,8 | "Gm"G,8 | "C"F,8 | "Bb"B,,8 |
       
       guitar-acoustic:
         abc: "z8 | z8 | z8 | z8 | z8 |"

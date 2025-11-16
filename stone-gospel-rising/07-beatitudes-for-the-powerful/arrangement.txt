@@ -5,7 +5,7 @@ KEY: Dmin
 INTRO
 DOOM-SLOW 85 BPM - feels funereal, heavy.
 Bass and pump organ only - ominous.
-Bass D pedal tone, whole notes, let sustain.
+Bass C pedal tone, whole notes, let sustain.
 Pump organ Dm sustained, reedy, uncomfortable, gothic.
 No other instruments - establishing judgment tone.
 8 bars to build dread.

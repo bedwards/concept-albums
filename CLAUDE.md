@@ -149,17 +149,19 @@ abc2midi error: "Malformed note: expecting a-g or A-G"
 
 **Important:** Drums are now generated as separate ABC/MIDI files for each drum part (kick, snare, hi-hat, etc.) instead of using multi-voice notation.
 
+**All drum parts use C (capital C, middle C, MIDI note 60) for Bitwig single instrument compatibility.**
+
 In `song.yaml`, define drums like this:
 ```yaml
 sections:
   verse:
     instruments:
       drums:
-        kick: "C4 C4 | C4 C4 |"      # Bass drum (MIDI note 36)
-        snare: "z4 E4 | z4 E4 |"     # Snare drum (MIDI note 38)
-        hihat: "^F ^F ^F ^F |"        # Hi-hat (MIDI note 42) - optional
-        crash: "^C4 z4 |"             # Crash cymbal (MIDI note 49) - optional
-        ride: "^D2 ^D2 ^D2 ^D2 |"     # Ride cymbal (MIDI note 51) - optional
+        kick: "C4 C4 | C4 C4 |"      # All drums use C (MIDI note 60 / C4)
+        snare: "z4 C4 | z4 C4 |"     # All drums use C (MIDI note 60 / C4)
+        hihat: "C C C C |"           # All drums use C (MIDI note 60 / C4) - optional
+        crash: "C4 z4 |"             # All drums use C (MIDI note 60 / C4) - optional
+        ride: "C2 C2 C2 C2 |"        # All drums use C (MIDI note 60 / C4) - optional
 ```
 
 This generates:
@@ -168,23 +170,21 @@ This generates:
 - `.generated/drum-hihat.abc` and `drum-hihat.mid` (if defined)
 - etc.
 
-Each drum file is a single-track MIDI file on channel 10, avoiding the multi-voice MIDI issues.
+Each drum file is a single-track MIDI file on channel 10 with all notes at middle C (C4, MIDI note 60). This allows Bitwig to load each drum part as a separate track with a single instrument, where you can assign different samples to each track.
 
-**Available drum parts:**
-- `kick` - Bass drum (C, MIDI 36)
-- `snare` - Snare drum (E, MIDI 38)
-- `hihat` - Hi-hat (^F, MIDI 42)
-- `crash` - Crash cymbal (^C, MIDI 49)
-- `ride` - Ride cymbal (^D, MIDI 51)
-- `tom1` - High tom (A, MIDI 48)
-- `tom2` - Mid tom (F, MIDI 45)
-- `tom3` - Low tom (D, MIDI 43)
+**Available drum parts (all use C/MIDI 60):**
+- `kick` - Bass drum
+- `snare` - Snare drum
+- `hihat` - Hi-hat
+- `crash` - Crash cymbal
+- `ride` - Ride cymbal
+- `tom1` - High tom
+- `tom2` - Mid tom
+- `tom3` - Low tom
 
-### Percussion Key Warning Is Fine
+### No Warnings for Drum Files
 
-`Warning in line-char 7-0 : Ignoring string 'perc' in K: field`
-
-This warning appears for drum files with `K:C perc`. It's harmless. The MIDI still generates correctly. Ignore this specific warning.
+Drum files use `K:C` (not `K:C perc`) and `%%MIDI channel 10` to generate MIDI note 60 (middle C / C4) on the percussion channel. This produces clean MIDI files with no warnings.
 
 ## THE TOOL-BASED WORKFLOW (USE THIS, NOT MANUAL EDITING)
 

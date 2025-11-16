@@ -161,25 +161,25 @@ K:{song_meta['key']}
             # Handle drums - create separate files for each drum instrument
             else:
                 drums = content
-                # Map drum parts to MIDI note numbers (General MIDI percussion)
+                # All drum parts use middle C (c = MIDI note 60) for Bitwig single instrument
                 drum_parts = {
-                    'kick': {'note': 'C', 'midi_note': 36, 'name': 'Kick'},
-                    'snare': {'note': 'E', 'midi_note': 38, 'name': 'Snare'},
+                    'kick': {'note': 'c', 'midi_note': 60, 'name': 'Kick'},
+                    'snare': {'note': 'c', 'midi_note': 60, 'name': 'Snare'},
                 }
                 
-                # Add optional drum parts if they exist
+                # Add optional drum parts if they exist (all use c/C3/MIDI 60)
                 if 'hihat' in drums:
-                    drum_parts['hihat'] = {'note': '^F', 'midi_note': 42, 'name': 'Hi-Hat'}
+                    drum_parts['hihat'] = {'note': 'c', 'midi_note': 60, 'name': 'Hi-Hat'}
                 if 'crash' in drums:
-                    drum_parts['crash'] = {'note': '^C', 'midi_note': 49, 'name': 'Crash'}
+                    drum_parts['crash'] = {'note': 'c', 'midi_note': 60, 'name': 'Crash'}
                 if 'ride' in drums:
-                    drum_parts['ride'] = {'note': '^D', 'midi_note': 51, 'name': 'Ride'}
+                    drum_parts['ride'] = {'note': 'c', 'midi_note': 60, 'name': 'Ride'}
                 if 'tom1' in drums:
-                    drum_parts['tom1'] = {'note': 'A', 'midi_note': 48, 'name': 'Tom 1'}
+                    drum_parts['tom1'] = {'note': 'c', 'midi_note': 60, 'name': 'Tom 1'}
                 if 'tom2' in drums:
-                    drum_parts['tom2'] = {'note': 'F', 'midi_note': 45, 'name': 'Tom 2'}
+                    drum_parts['tom2'] = {'note': 'c', 'midi_note': 60, 'name': 'Tom 2'}
                 if 'tom3' in drums:
-                    drum_parts['tom3'] = {'note': 'D', 'midi_note': 43, 'name': 'Tom 3'}
+                    drum_parts['tom3'] = {'note': 'c', 'midi_note': 60, 'name': 'Tom 3'}
                 
                 for drum_key, drum_info in drum_parts.items():
                     if drum_key not in drums:
@@ -189,7 +189,7 @@ K:{song_meta['key']}
 T:{song_meta['title']} - {section_name.title()} - {drum_info['name']}
 M:{song_meta['time']}
 L:1/8
-K:C perc
+K:C
 %%MIDI channel 10
 {drums[drum_key]}
 """
@@ -251,7 +251,7 @@ C:{song_meta['composer']}
 M:{song_meta['time']}
 L:1/8
 Q:1/4={song_meta['tempo']}
-K:C perc
+K:C
 %%MIDI channel 10
 """
                     full_content = header + '\n'.join(music_parts)

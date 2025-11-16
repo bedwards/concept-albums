@@ -8,27 +8,27 @@ K:Gmin
 V:1
 %%MIDI program 53
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Gm"D2 D2 D2 G2 | "Cm"G2 G4 G2 |
-"Gm"G2 A2 B2 c2 | "Eb"B4 B4 |
-"Bb"d2 d2 d2 d2 | "F"c2 c4 A2 |
-"Gm"D2 D2 D2 G2 | "Cm"G2 G4 G2 |
-"Gm"G2 A2 B2 c2 | "Eb"B4 B4 |
-"Bb"d2 d2 d2 d2 | "F"c2 c4 A2 |
-"Gm"G2 G2 G2 B2 | "Eb"B2 B4 B2 |
-"Bb"d2 d2 d2 d2 | "F"c4 c4 |
-"Gm"G2 G2 G2 B2 | "Eb"B2 B4 B2 |
-"Bb"d2 d2 d2 "F"c2 | "Cm"c2 c4 c2 |
-"Bb"D2 D2 "F"F2 F2 | "Gm"G4 G4 |
-"Eb"B2 B2 "Bb"d2 "F"c2 | c6 z2 |
-"Cm"c2 c2 c2 "F"A2 | A2 A2 "Gm"G2 G2 |
-"Eb"B2 B2 B2 "Bb"d2 | "F"c2 c2 c2 "Gm"B2 | B6 z2 |
-"Bb"D2 D2 "F"F2 F2 | "Gm"G4 G4 |
-"Eb"B2 B2 "Bb"d2 "F"c2 | c6 z2 |
-"Cm"c2 c2 c2 "F"A2 | A2 A2 "Gm"G2 G2 |
-"Eb"B2 B2 B2 "Bb"d2 | "F"c2 c2 c2 "Gm"B2 | B6 z2 |
-"Gm"G2 G2 G2 G2 | "Cm"G4 G4 |
-"Eb"B2 B2 B2 B2 | "F"c4 c4 |
-"Gm"G2 G2 G2 G2 | "Cm"G4 G4 |
-"Eb"B2 B2 B2 "F"c2 | c6 z2 |
-"Gm"G2 G2 G2 "Cm"G2 | "Eb"B2 B2 "F"c2 c2 |
-"Gm"G2 G2 G2 "Cm"G2 | "Eb"B2 B2 B2 "G"B2 | B8 | B8 |
+"Gm"C2 C2 C2 C2 | "Cm"C2 C4 C2 |
+"Gm"C2 C2 C2 c2 | "Eb"C4 C4 |
+"Bb"d2 d2 d2 d2 | "C"c2 c4 C2 |
+"Gm"C2 C2 C2 C2 | "Cm"C2 C4 C2 |
+"Gm"C2 C2 C2 c2 | "Eb"C4 C4 |
+"Bb"d2 d2 d2 d2 | "C"c2 c4 C2 |
+"Gm"C2 C2 C2 C2 | "Eb"C2 C4 C2 |
+"Bb"d2 d2 d2 d2 | "C"c4 c4 |
+"Gm"C2 C2 C2 C2 | "Eb"C2 C4 C2 |
+"Bb"d2 d2 d2 "C"c2 | "Cm"c2 c4 c2 |
+"Bb"C2 C2 "C"C2 C2 | "Gm"C4 C4 |
+"Eb"C2 C2 "Bb"d2 "C"c2 | c6 z2 |
+"Cm"c2 c2 c2 "C"C2 | C2 C2 "Gm"C2 C2 |
+"Eb"C2 C2 C2 "Bb"d2 | "C"c2 c2 c2 "Gm"C2 | C6 z2 |
+"Bb"C2 C2 "C"C2 C2 | "Gm"C4 C4 |
+"Eb"C2 C2 "Bb"d2 "C"c2 | c6 z2 |
+"Cm"c2 c2 c2 "C"C2 | C2 C2 "Gm"C2 C2 |
+"Eb"C2 C2 C2 "Bb"d2 | "C"c2 c2 c2 "Gm"C2 | C6 z2 |
+"Gm"C2 C2 C2 C2 | "Cm"C4 C4 |
+"Eb"C2 C2 C2 C2 | "C"c4 c4 |
+"Gm"C2 C2 C2 C2 | "Cm"C4 C4 |
+"Eb"C2 C2 C2 "C"c2 | c6 z2 |
+"Gm"C2 C2 C2 "Cm"C2 | "Eb"C2 C2 "C"c2 c2 |
+"Gm"C2 C2 C2 "Cm"C2 | "Eb"C2 C2 C2 "C"C2 | C8 | C8 |

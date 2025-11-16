@@ -68,80 +68,80 @@ sections:
         - line: "You read the book"
           chords: ["Bb", "Gm"]
         - line: "I read the book"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Same words"
           chords: ["Bb", "Gm"]
         - line: "Different god"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "You see heaven coming"
           chords: ["Bb", "Gm"]
         - line: "I see justice now"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Same cross standing"
           chords: ["Bb", "Gm"]
         - line: "Different blood"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
       
       verse2:
         - line: "Obey the state you say"
           chords: ["Bb", "Gm"]
         - line: "Obey God first I say"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Blessed are the rich"
           chords: ["Bb", "Gm"]
         - line: "Camel through the needle's eye"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "You pick your verses"
           chords: ["Bb", "Gm"]
         - line: "I read what burns"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
       
       verse3:
         - line: "Half the text you use"
           chords: ["Bb", "Gm"]
         - line: "Skip the prophets burn the rest"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Judgment on the powerful"
           chords: ["Bb", "Gm"]
         - line: "Makes you uncomfortable"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Act justly love mercy"
           chords: ["Bb", "Gm"]
         - line: "Walk humble or don't walk here"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
         - line: "Don't quote scripture at me"
           chords: ["Bb", "Gm"]
         - line: "Till your hands are clean"
-          chords: ["Eb", "F"]
+          chords: ["Eb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 D2 F2 | "Gm"G4 G2 D2 |
-          "Eb"G2 G2 "F"A4 | "Bb"B8 |
-          "Gm"D2 D2 F2 F2 | "Eb"G4 G2 AB |
-          "F"B2 B2 A4 | B8 |
+          "Bb"C2 C2 C2 C2 | "Gm"C4 C2 C2 |
+          "Eb"C2 C2 "C"C4 | "Bb"C8 |
+          "Gm"C2 C2 C2 C2 | "Eb"C4 C2 AB |
+          "C"C2 C2 C4 | C8 |
       
       bass:
         abc: |
           "Bb"B,,2 B,,2 F,,2 F,,2 | "Gm"D,2 D,2 A,,2 A,,2 |
-          "Eb"E,2 E,2 E,2 E,2 | "F"F,2 F,2 F,2 F,2 |
+          "Eb"E,2 E,2 E,2 E,2 | "C"F,2 F,2 F,2 F,2 |
           "Bb"B,,2 B,,2 F,,2 F,,2 | "Gm"D,2 D,2 A,,2 A,,2 |
-          "Eb"E,2 E,2 "F"F,2 F,2 | B,,8 |
+          "Eb"E,2 E,2 "C"F,2 F,2 | B,,8 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2] z2 z4 | "Gm"[D2G2] z2 z4 |
-          "Eb"[E2G2] z2 "F"[C2F2] z2 | z8 |
-          "Bb"[D2F2] z2 z4 | "Gm"[D2G2] z2 z4 |
-          "Eb"[E2G2] z2 "F"[C2F2] z2 | z8 |
+          "Bb"[C2F2] z2 z4 | "Gm"[C2G2] z2 z4 |
+          "Eb"[C2G2] z2 "C"[C2F2] z2 | z8 |
+          "Bb"[C2F2] z2 z4 | "Gm"[C2G2] z2 z4 |
+          "Eb"[C2G2] z2 "C"[C2F2] z2 | z8 |
       
       guitar-electric:
         abc: |
-          "Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
-          "Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | "Bb"[D4F4B4][D4F4B4] |
-          "Bb"[D2F2B2][D2F2B2] [D2F2B2][D2F2B2] | "Gm"[D2G2B2][D2G2B2] [D2G2B2][D2G2B2] |
-          "Eb"[E2G2B2][E2G2B2] "F"[C2F2A2][C2F2A2] | [D8F8B8] |
+          "Bb"[C2F2B2][C2F2B2] [C2F2B2][C2F2B2] | "Gm"[C2G2B2][C2G2B2] [C2G2B2][C2G2B2] |
+          "Eb"[C2G2B2][C2G2B2] "C"[C2F2A2][C2F2A2] | "Bb"[C4F4B4][C4F4B4] |
+          "Bb"[C2F2B2][C2F2B2] [C2F2B2][C2F2B2] | "Gm"[C2G2B2][C2G2B2] [C2G2B2][C2G2B2] |
+          "Eb"[C2G2B2][C2G2B2] "C"[C2F2A2][C2F2A2] | [C8F8B8] |
       
       organ:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
@@ -153,10 +153,10 @@ sections:
           C2 C2 C2 C2 | C2 C2 C2 C2 |
           C2 C2 C2 C2 | C2 C2 C2 C2 |
         snare: |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
 
   # --------------------------------------------------------------------------
   # CHORUS (8 bars - full accusation)
@@ -167,57 +167,57 @@ sections:
     lyrics:
       chorus:
         - line: "Same book different gospel"
-          chords: ["Bb", "F", "Gm"]
+          chords: ["Bb", "C", "Gm"]
         - line: "Same name different call"
-          chords: ["Eb", "Bb", "F"]
+          chords: ["Eb", "Bb", "C"]
         - line: "Love your neighbor"
-          chords: ["Cm", "F"]
+          chords: ["Cm", "C"]
         - line: "You built the wall"
           chords: ["Gm", "Eb"]
         - line: "You're a liar claiming love for God"
-          chords: ["Bb", "F", "Gm"]
+          chords: ["Bb", "C", "Gm"]
         - line: "While hating the stranger at your door"
-          chords: ["Eb", "Bb", "F", "Cm"]
+          chords: ["Eb", "Bb", "C", "Cm"]
         - line: "Same book different gospel"
-          chords: ["Bb", "F", "Gm"]
+          chords: ["Bb", "C", "Gm"]
         - line: "We don't pray to the same lord"
-          chords: ["Eb", "Bb", "F"]
+          chords: ["Eb", "Bb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 "F"F2 "Gm"G2 | "Eb"B4 "Bb"F2 "F"F2 |
-          "Cm"G2 G2 "F"A2 AG | "Gm"G4 "Eb"B4 |
-          "Bb"D2 D2 "F"F2 "Gm"G2 | "Eb"B2 B2 "Bb"d2 "F"c2 |
-          "Bb"D2 D2 "F"F2 "Gm"G2 | "Eb"B4 "Bb"d4 | "F"c4 B4 |
+          "Bb"C2 C2 "C"C2 "Gm"C2 | "Eb"C4 "Bb"C2 "C"C2 |
+          "Cm"C2 C2 "C"C2 AG | "Gm"C4 "Eb"C4 |
+          "Bb"C2 C2 "C"C2 "Gm"C2 | "Eb"C2 C2 "Bb"d2 "C"c2 |
+          "Bb"C2 C2 "C"C2 "Gm"C2 | "Eb"C4 "Bb"d4 | "C"c4 C4 |
       
       bass:
         abc: |
-          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
           "Gm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 | "Cm"C,1 C,1 C,1 C,1 G,,1 G,,1 G,,1 G,,1 |
-          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "F"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
-          "Gm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 | "Eb"E,1 E,1 E,1 E,1 "Bb"B,,1 B,,1 B,,1 B,,1 | "F"F,4 B,,4 |
+          "Bb"B,,1 B,,1 B,,1 B,,1 F,,1 F,,1 F,,1 F,,1 | "C"F,1 F,1 F,1 F,1 C,1 C,1 C,1 C,1 |
+          "Gm"D,1 D,1 D,1 D,1 A,,1 A,,1 A,,1 A,,1 | "Eb"E,1 E,1 E,1 E,1 "Bb"B,,1 B,,1 B,,1 B,,1 | "C"F,4 B,,4 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
-          "Cm"[C2E2][C2E2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] "Eb"[E2G2]z2 |
-          "Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] [D2G2]z2 |
-          "Bb"[D2F2][D2F2] "F"[C2F2][C2F2] | "Gm"[D2G2][D2G2] "Eb"[E2G2]z2 | "Bb"[D4F4] z4 |
+          "Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
+          "Cm"[C2E2][C2E2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] "Eb"[C2G2]z2 |
+          "Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
+          "Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] "Eb"[C2G2]z2 | "Bb"[C4F4] z4 |
       
       guitar-electric:
         abc: |
-          "Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-          "Gm"[D4G4] [D4G4] | "Cm"[C4E4] "Eb"[E4G4] |
-          "Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-          "Gm"[D4G4] [D4G4] | "Eb"[E4G4] "Bb"[D4F4] | "F"[C4F4] z4 |
+          "Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+          "Gm"[C4G4] [C4G4] | "Cm"[C4E4] "Eb"[C4G4] |
+          "Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+          "Gm"[C4G4] [C4G4] | "Eb"[C4G4] "Bb"[C4F4] | "C"[C4F4] z4 |
       
       organ:
         abc: |
-          "Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
-          "Gm"[D4G4B4] [D4G4B4] | "Cm"[C4E4G4] "Eb"[E4G4B4] |
-          "Bb"[D4F4B4] [D4F4B4] | "F"[C4F4A4] [C4F4A4] |
-          "Gm"[D4G4B4] [D4G4B4] | "Eb"[E4G4B4] "Bb"[D4F4B4] | "F"[C4F4A4] z4 |
+          "Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Cm"[C4E4G4] "Eb"[C4G4B4] |
+          "Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
+          "Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] "Bb"[C4F4B4] | "C"[C4F4A4] z4 |
       
       drums:
         kick: |
@@ -226,10 +226,10 @@ sections:
           C2 C2 C2 C2 | C2 C2 C2 C2 |
           C2 C2 C2 C2 | C2 C2 C2 C2 | C4 C2 C2 |
         snare: |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 E2 E2 |
-          z2 E2 z2 E2 | z2 E2 z2 E2 |
-          z2 E2 z2 E2 | z2 E2 E2 E2 | z4 E2 E2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 C2 C2 |
+          z2 C2 z2 C2 | z2 C2 z2 C2 |
+          z2 C2 z2 C2 | z2 C2 C2 C2 | z4 C2 C2 |
 
   # --------------------------------------------------------------------------
   # BRIDGE (8 bars - the revelation)
@@ -242,51 +242,51 @@ sections:
         - line: "You sanitized him"
           chords: ["Gm", "Eb"]
         - line: "Made him white tame safe"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "He was brown poor executed"
           chords: ["Gm", "Eb"]
         - line: "By your celebrated state"
-          chords: ["Bb", "F"]
+          chords: ["Bb", "C"]
         - line: "He came for the oppressed"
-          chords: ["Cm", "F"]
+          chords: ["Cm", "C"]
         - line: "Not your comfortable theft"
-          chords: ["Gm", "Eb", "Bb", "F"]
+          chords: ["Gm", "Eb", "Bb", "C"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
-          "Gm"G2 G2 "Eb"B2 B2 | "Bb"d4 "F"c4 |
-          "Cm"c2 c2 "F"A2 A2 | "Gm"G4 "Eb"B4 |
-          "Bb"d4 "F"c4 | z8 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"d4 "C"c4 |
+          "Gm"C2 C2 "Eb"C2 C2 | "Bb"d4 "C"c4 |
+          "Cm"c2 c2 "C"C2 C2 | "Gm"C4 "Eb"C4 |
+          "Bb"d4 "C"c4 | z8 |
       
       bass:
         abc: |
           "Gm"D,2 D,2 D,2 D,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "C"F,2 F,2 F,2 F,2 |
           "Gm"D,2 D,2 D,2 D,2 | "Eb"E,2 E,2 E,2 E,2 |
-          "Bb"B,,2 B,,2 "F"F,2 F,2 | z8 |
+          "Bb"B,,2 B,,2 "C"F,2 F,2 | z8 |
       
       guitar-acoustic:
         abc: |
-          "Gm"D2 G2 B2 z2 | "Eb"E2 G2 B2 z2 |
-          "Bb"B,2 D2 F2 z2 | "F"F2 A2 c2 z2 |
-          "Gm"D2 G2 B2 z2 | "Eb"E2 G2 B2 z2 |
-          "Bb"B,2 D2 "F"F2 A2 | z8 |
+          "Gm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
+          "Bb"B,2 C2 C2 z2 | "C"C2 C2 c2 z2 |
+          "Gm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
+          "Bb"B,2 C2 "C"C2 C2 | z8 |
       
       guitar-electric:
         abc: |
-          "Gm"D8 | "Eb"E8 |
-          "Bb"F8 | "F"A8 |
-          "Gm"D8 | "Eb"E8 |
-          "Bb"F4 "F"A4 | z8 |
+          "Gm"C8 | "Eb"C8 |
+          "Bb"C8 | "C"C8 |
+          "Gm"C8 | "Eb"C8 |
+          "Bb"C4 "C"C4 | z8 |
       
       organ:
         abc: |
-          "Gm"[D8G8B8] | "Eb"[E8G8B8] |
-          "Bb"[D8F8B8] | "F"[C8F8A8] |
-          "Gm"[D8G8B8] | "Eb"[E8G8B8] |
-          "Bb"[D8F8B8] | z8 |
+          "Gm"[C8G8B8] | "Eb"[C8G8B8] |
+          "Bb"[C8F8B8] | "C"[C8F8A8] |
+          "Gm"[C8G8B8] | "Eb"[C8G8B8] |
+          "Bb"[C8F8B8] | z8 |
       
       drums:
         kick: |
@@ -295,10 +295,10 @@ sections:
           C8 | C8 |
           C8 | z8 |
         snare: |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z8 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z8 |
 
   # --------------------------------------------------------------------------
   # OUTRO (8 bars - declaration of sides)
@@ -309,48 +309,48 @@ sections:
     lyrics:
       outro:
         - line: "I'll take the Jesus who flipped tables"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "You can keep your country club Christ"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "I'll take the Jesus who touched lepers"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "You can keep your sanitized"
           chords: ["Bb", "Gm", "Eb"]
         - line: "Same book - Matthew, Mark, Luke and John"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "But brother we're reading it wrong or you are"
-          chords: ["Bb", "Gm", "Eb", "F"]
+          chords: ["Bb", "Gm", "Eb", "C"]
         - line: "And I know which side I'm on"
           chords: ["Bb", "Gm", "Eb", "Bb"]
     
     instruments:
       vocal-melody:
         abc: |
-          "Bb"D2 D2 "Gm"G2 "Eb"B2 | "F"A4 B4 |
-          "Bb"D2 D2 "Gm"G2 "Eb"B2 | "F"A4 B4 |
-          "Bb"D2 D2 "Gm"G2 "Eb"B2 | "Bb"B8 |
+          "Bb"C2 C2 "Gm"C2 "Eb"C2 | "C"C4 C4 |
+          "Bb"C2 C2 "Gm"C2 "Eb"C2 | "C"C4 C4 |
+          "Bb"C2 C2 "Gm"C2 "Eb"C2 | "Bb"C8 |
           z8 | z8 |
       
       bass:
         abc: |
-          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
-          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "C"F,2 F,2 F,2 F,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "C"F,2 F,2 F,2 F,2 |
           "Bb"B,,2 B,,2 B,,2 B,,2 | "Eb"E,2 E,2 "Bb"B,,2 B,,2 |
           B,,8 | B,,8 |
       
       guitar-acoustic:
         abc: |
-          "Bb"[D2F2][D2F2] "Gm"[D2G2]z2 | "Eb"[E2G2]z2 "F"[C2F2]z2 |
-          "Bb"[D2F2][D2F2] "Gm"[D2G2]z2 | "Eb"[E2G2]z2 "F"[C2F2]z2 |
-          "Bb"[D2F2][D2F2] "Gm"[D2G2]z2 | "Eb"[E2G2]z2 "Bb"[D2F2]z2 |
-          [D4F4] z4 | z8 |
+          "Bb"[C2F2][C2F2] "Gm"[C2G2]z2 | "Eb"[C2G2]z2 "C"[C2F2]z2 |
+          "Bb"[C2F2][C2F2] "Gm"[C2G2]z2 | "Eb"[C2G2]z2 "C"[C2F2]z2 |
+          "Bb"[C2F2][C2F2] "Gm"[C2G2]z2 | "Eb"[C2G2]z2 "Bb"[C2F2]z2 |
+          [C4F4] z4 | z8 |
       
       guitar-electric:
         abc: |
-          "Bb"[D4F4] z4 | "F"[C4F4] z4 |
-          "Bb"[D4F4] z4 | "F"[C4F4] z4 |
-          "Bb"[D4F4] z4 | "Eb"[E4G4] "Bb"[D4F4] |
-          [D8F8] | z8 |
+          "Bb"[C4F4] z4 | "C"[C4F4] z4 |
+          "Bb"[C4F4] z4 | "C"[C4F4] z4 |
+          "Bb"[C4F4] z4 | "Eb"[C4G4] "Bb"[C4F4] |
+          [C8F8] | z8 |
       
       organ:
         abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
@@ -362,9 +362,9 @@ sections:
           C4 C4 | C4 C4 |
           C8 | z8 |
         snare: |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
-          z4 E4 | z4 E4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
+          z4 C4 | z4 C4 |
           z8 | z8 |
 
 # ============================================================================

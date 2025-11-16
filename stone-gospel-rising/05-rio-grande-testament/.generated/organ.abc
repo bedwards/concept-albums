@@ -9,35 +9,35 @@ V:1
 %%MIDI program 16
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 |
-z6 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "F"[F4A4c4] z2 | "Gm"[D4G4B4] z2 |
+z6 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
 z6 | z6 |
-z6 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "F"[F4A4c4] z2 | "Gm"[D4G4B4] z2 |
-"Gm"[D4G4B4] z2 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
+z6 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
+"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
 z6 | z6 |
-z6 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Eb"[E4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "F"[F4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "F"[F4A4c4] z2 | "Gm"[D4G4B4] z2 |
-"Gm"[D4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Eb"[E4G4B4] z2 | "F"[F4A4c4] z2 |
-"Gm"[D4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Eb"[E4G4B4] z2 | "F"[F4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "Gm"[D6G6B6] | [D6G6B6] | [D6G6B6] |
+z6 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
+"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
+"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
+"Eb"[C4G4B4] z2 | "C"[C4A4c4] z2 |
+"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
+"Eb"[C4G4B4] z2 | "C"[C4A4c4] z2 |
+"Cm"[C4E4G4] z2 | "Gm"[C6G6B6] | [C6G6B6] | [C6G6B6] |

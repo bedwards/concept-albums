@@ -6,7 +6,7 @@ Gm  Cm
 Roman stone sealed tight
 Gm  Eb
 Guards at the gate
-Bb  F
+Bb  C
 Bury what threatens the throne
 Gm  Cm
 Women came at dawn
@@ -16,7 +16,7 @@ Gm  Cm
 Mary first to see
 Gm  Eb
 The lynched one risen
-Bb  F
+Bb  C
 Rich men wanted underground
 Gm  Cm
 Can't keep resurrection bound
@@ -26,7 +26,7 @@ Gm  Cm
 When they seal the door
 Gm  Eb
 Say the uprising's over
-Bb  F
+Bb  C
 Friday wasn't the end
 Gm  Cm
 Sunday coming
@@ -36,7 +36,7 @@ Gm  Cm
 Roman stone sealed tight
 Gm  Eb
 Guards at the gate
-Bb  F
+Bb  C
 Bury what threatens the throne
 Gm  Cm
 Women came at dawn
@@ -46,7 +46,7 @@ Gm  Cm
 Mary first to see
 Gm  Eb
 The lynched one risen
-Bb  F
+Bb  C
 Rich men wanted underground
 Gm  Cm
 Can't keep resurrection bound
@@ -56,7 +56,7 @@ Gm  Cm
 When they seal the door
 Gm  Eb
 Say the uprising's over
-Bb  F
+Bb  C
 Friday wasn't the end
 Gm  Cm
 Sunday coming
@@ -64,51 +64,51 @@ Sunday coming
 BUILD1
 Gm  Eb
 Every empire falls
-Bb  F
+Bb  C
 Every Pharaoh dies
 Gm  Eb
 The stone keeps rolling
-Bb  F  Cm
+Bb  C  Cm
 Crushing what it strikes
 
 CHORUS
-Bb  F  Gm
+Bb  C  Gm
 Stone rolled away
-Eb  Bb  F
+Eb  Bb  C
 Stone rolled away
-Cm  F  Gm
+Cm  C  Gm
 He is not here
-Eb  Bb  F  Gm
+Eb  Bb  C  Gm
 Guards ran in fear
-Cm  F  Gm
+Cm  C  Gm
 Death couldn't hold
-Eb  Bb  F  Gm
+Eb  Bb  C  Gm
 What the powerful killed
 
 CHORUS
-Bb  F  Gm
+Bb  C  Gm
 Stone rolled away
-Eb  Bb  F
+Eb  Bb  C
 Stone rolled away
-Cm  F  Gm
+Cm  C  Gm
 He is not here
-Eb  Bb  F  Gm
+Eb  Bb  C  Gm
 Guards ran in fear
-Cm  F  Gm
+Cm  C  Gm
 Death couldn't hold
-Eb  Bb  F  Gm
+Eb  Bb  C  Gm
 What the powerful killed
 
 OUTRO
 Gm  Cm
 Stone keeps rolling
-Eb  F
+Eb  C
 Can't stop what's risen
 Gm  Cm
 Stone keeps rolling
-Eb  F
+Eb  C
 Rejected stone chosen
-Gm  Cm  Eb  F
+Gm  Cm  Eb  C
 Rolling through Texas tonight
-Gm  Cm  Eb  G
+Gm  Cm  Eb  C
 Walking in resurrection light

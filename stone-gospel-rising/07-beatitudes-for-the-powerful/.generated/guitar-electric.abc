@@ -9,25 +9,25 @@ V:1
 %%MIDI program 29
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Dm"[D4A4] [D4A4] | "Gm"[D4G4] [D4G4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Gm"[D4G4] [D4G4] | "Dm"[D4A4] [D4A4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] "Gm"[D4G4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Dm"[D4A4] [D4A4] | "Gm"[D4G4] [D4G4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Gm"[D4G4] [D4G4] | "Dm"[D4A4] [D4A4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] "Gm"[D4G4] |
-"Gm"D8 | "Eb"E8 |
-"Bb"F8 | "F"A8 |
-"Gm"D8 | "Eb"E8 |
-"Bb"F8 | "F"A4 "Cm"c4 | z8 |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
+"Gm"C8 | "Eb"C8 |
+"Bb"C8 | "C"C8 |
+"Gm"C8 | "Eb"C8 |
+"Bb"C8 | "C"C4 "Cm"c4 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Dm"[D4A4] [D4A4] | "Gm"[D4G4] [D4G4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] [C4F4] |
-"Gm"[D4G4] [D4G4] | "Dm"[D4A4] [D4A4] |
-"Bb"[D4F4] [D4F4] | "F"[C4F4] "Gm"[D4G4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
+"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
+"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |

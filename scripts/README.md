@@ -239,7 +239,7 @@ instruments:
     percussion: true  # Creates separate MIDI files for each drum part
 ```
 
-**Note:** Drums are generated as separate files (`drum-kick.abc`, `drum-snare.abc`, etc.) to avoid multi-voice MIDI issues. Each drum part gets its own single-track MIDI file on channel 10.
+**Note:** Drums are generated as separate files (`drum-kick.abc`, `drum-snare.abc`, etc.) to avoid multi-voice MIDI issues. Each drum part gets its own single-track MIDI file on channel 10, with all notes at middle C (C4, MIDI note 60) for Bitwig single instrument compatibility.
 
 ### Step 2: Create Lyrics (YAML)
 

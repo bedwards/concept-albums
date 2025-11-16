@@ -149,7 +149,7 @@ abc2midi error: "Malformed note: expecting a-g or A-G"
 
 **Important:** Drums are now generated as separate ABC/MIDI files for each drum part (kick, snare, hi-hat, etc.) instead of using multi-voice notation.
 
-**All drum parts use C (capital C, middle C, MIDI note 60) for Bitwig single instrument compatibility.**
+**All drum parts use C (capital C, MIDI note 60) for single instrument compatibility in DAWs.**
 
 In `song.yaml`, define drums like this:
 ```yaml
@@ -157,11 +157,11 @@ sections:
   verse:
     instruments:
       drums:
-        kick: "C4 C4 | C4 C4 |"      # All drums use C (MIDI note 60 / C4)
-        snare: "z4 C4 | z4 C4 |"     # All drums use C (MIDI note 60 / C4)
-        hihat: "C C C C |"           # All drums use C (MIDI note 60 / C4) - optional
-        crash: "C4 z4 |"             # All drums use C (MIDI note 60 / C4) - optional
-        ride: "C2 C2 C2 C2 |"        # All drums use C (MIDI note 60 / C4) - optional
+        kick: "C4 C4 | C4 C4 |"      # All drums use C (MIDI note 60 = C3 in Bitwig/Ableton)
+        snare: "z4 C4 | z4 C4 |"     # All drums use C (MIDI note 60 = C3 in Bitwig/Ableton)
+        hihat: "C C C C |"           # All drums use C (MIDI note 60 = C3 in Bitwig/Ableton) - optional
+        crash: "C4 z4 |"             # All drums use C (MIDI note 60 = C3 in Bitwig/Ableton) - optional
+        ride: "C2 C2 C2 C2 |"        # All drums use C (MIDI note 60 = C3 in Bitwig/Ableton) - optional
 ```
 
 This generates:
@@ -170,21 +170,27 @@ This generates:
 - `.generated/drum-hihat.abc` and `drum-hihat.mid` (if defined)
 - etc.
 
-Each drum file is a single-track MIDI file on channel 10 with all notes at middle C (C4, MIDI note 60). This allows Bitwig to load each drum part as a separate track with a single instrument, where you can assign different samples to each track.
+Each drum file is a single-track MIDI file on channel 10 with all notes at MIDI note 60 (displays as **C3** in Bitwig and Ableton due to their off-by-one MIDI naming convention). This allows you to load each drum part as a separate track with a single instrument, where you can assign different samples to each track.
 
-**Available drum parts (all use C/MIDI 60):**
+**Available drum parts (all use C in ABC = MIDI note 60 = C3 in your DAW):**
 - `kick` - Bass drum
 - `snare` - Snare drum
-- `hihat` - Hi-hat
-- `crash` - Crash cymbal
-- `ride` - Ride cymbal
-- `tom1` - High tom
-- `tom2` - Mid tom
-- `tom3` - Low tom
+- `hihat` - Hi-hat (optional)
+- `crash` - Crash cymbal (optional)
+- `ride` - Ride cymbal (optional)
+- `tom1` - High tom (optional)
+- `tom2` - Mid tom (optional)
+- `tom3` - Low tom (optional)
 
 ### No Warnings for Drum Files
 
-Drum files use `K:C` (not `K:C perc`) and `%%MIDI channel 10` to generate MIDI note 60 (middle C / C4) on the percussion channel. This produces clean MIDI files with no warnings.
+Drum files use `K:C` (not `K:C perc`) and `%%MIDI channel 10` to generate MIDI note 60 (shows as C3 in Bitwig/Ableton) on the percussion channel. This produces clean MIDI files with no warnings.
+
+**Note naming convention:**
+- ABC notation: `C` (capital C in key of C)
+- MIDI file: Note 60
+- DAW display: **C3** (Bitwig and Ableton use off-by-one convention)
+- MIDI Standard name: C4 (middle C)
 
 ## THE TOOL-BASED WORKFLOW (USE THIS, NOT MANUAL EDITING)
 

@@ -2,7 +2,7 @@
 """
 Song Generator - Generate ALL song files from single source YAML
 
-This script reads .source/song.yaml and generates:
+This script reads song.yaml and generates:
 - Complete ABC files for all instruments
 - Lyrics files (YAML, TXT)
 - Chords file (YAML, TXT)
@@ -16,18 +16,20 @@ Usage:
     
 Directory structure:
     song-directory/
-        .source/
-            song.yaml          # HAND-WRITTEN: Single source of truth
-        .generated/
-            *.abc              # GENERATED: Complete ABC files
-            *.mid              # GENERATED: MIDI files
-            lyrics.yaml        # GENERATED
-            chords.yaml        # GENERATED
-            structure.yaml     # GENERATED
-            sections/          # GENERATED: Individual section ABC files
-        arrangement.txt        # GENERATED (human-readable)
+        song.yaml              # HAND-WRITTEN: Single source of truth
         lyrics.txt             # GENERATED (human-readable)
         chords.txt             # GENERATED (human-readable)
+        arrangement.txt        # GENERATED (human-readable)
+        README.md              # GENERATED documentation
+        midi/                  # GENERATED: MIDI files for DAW import
+            *.mid
+        .generated/            # GENERATED: Intermediate build files
+            *.abc              # Complete ABC files
+            *.mid              # MIDI files
+            lyrics.yaml        # Structured lyrics
+            chords.yaml        # Structured chords
+            structure.yaml     # Structure definition
+            sections/          # Individual section ABC files
 """
 
 import sys
@@ -346,12 +348,12 @@ def generate_text_files(config: Dict, song_dir: Path):
         print("Generated: arrangement.txt")
 
 
-def generate_midi_files(output_dir: Path):
-    """Generate MIDI files from ABC files and copy to midi/ subdirectory"""
+def generate_midi_files(output_dir: Path, song_dir: Path):
+    """Generate MIDI files from ABC files and copy to song root midi/ directory"""
     abc_files = list(output_dir.glob('*.abc'))
     
-    # Create midi subdirectory for easy import
-    midi_dir = output_dir / 'midi'
+    # Create midi subdirectory in song root for easy import
+    midi_dir = song_dir / 'midi'
     midi_dir.mkdir(exist_ok=True)
     
     for abc_file in abc_files:
@@ -366,7 +368,7 @@ def generate_midi_files(output_dir: Path):
             if result.returncode == 0:
                 print(f"Generated: {mid_file.name}")
                 
-                # Copy to midi/ subdirectory for easy DAW import
+                # Copy to song root midi/ subdirectory for easy DAW import
                 import shutil
                 midi_copy = midi_dir / mid_file.name
                 shutil.copy2(mid_file, midi_copy)
@@ -383,7 +385,7 @@ def generate_midi_files(output_dir: Path):
     # Print summary
     midi_count = len(list(midi_dir.glob('*.mid')))
     if midi_count > 0:
-        print(f"\n✓ {midi_count} MIDI files ready in .generated/midi/ for DAW import")
+        print(f"\n✓ {midi_count} MIDI files ready in midi/ for DAW import")
 
 
 def main():
@@ -396,11 +398,10 @@ def main():
     args = parser.parse_args()
     
     song_dir = args.song_dir
-    source_dir = song_dir / '.source'
     generated_dir = song_dir / '.generated'
     
-    # Check for source file
-    config_file = source_dir / 'song.yaml'
+    # Check for source file (new location: song root)
+    config_file = song_dir / 'song.yaml'
     if not config_file.exists():
         print(f"Error: {config_file} not found")
         print(f"Expected hand-written source file at: {config_file}")
@@ -429,14 +430,15 @@ def main():
     
     if not args.skip_midi:
         print()
-        generate_midi_files(generated_dir)
+        generate_midi_files(generated_dir, song_dir)
     
     print(f"\n{'='*70}")
     print("✅ Generation complete!")
     print(f"{'='*70}")
-    print(f"\nSource (hand-written):  {source_dir}/")
+    print(f"\nSource (hand-written):   {song_dir}/song.yaml")
     print(f"Generated (do not edit): {generated_dir}/")
     print(f"Human-readable:          {song_dir}/*.txt")
+    print(f"MIDI files for DAW:      {song_dir}/midi/")
     
 
 if __name__ == '__main__':

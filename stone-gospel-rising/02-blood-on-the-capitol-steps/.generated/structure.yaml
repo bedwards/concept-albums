@@ -6,10 +6,10 @@ key: Cmin
 sections:
 - name: outro
   bars: 5
-- name: intro
-  bars: 4
 - name: verse
   bars: 8
+- name: intro
+  bars: 4
 structure:
 - intro
 - verse

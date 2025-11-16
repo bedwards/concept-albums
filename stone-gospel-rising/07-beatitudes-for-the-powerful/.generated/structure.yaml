@@ -6,13 +6,13 @@ key: Dmin
 sections:
 - name: outro
   bars: 6
-- name: intro
-  bars: 8
-- name: verse
-  bars: 8
 - name: chorus
   bars: 10
+- name: intro
+  bars: 8
 - name: bridge
+  bars: 8
+- name: verse
   bars: 8
 structure:
 - intro

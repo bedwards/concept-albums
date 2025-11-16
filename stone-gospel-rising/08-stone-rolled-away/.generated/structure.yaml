@@ -6,13 +6,13 @@ key: Gmin
 sections:
 - name: outro
   bars: 12
-- name: verse
-  bars: 6
-- name: build
-  bars: 8
 - name: chorus
   bars: 8
+- name: verse
+  bars: 6
 - name: intro
+  bars: 8
+- name: build
   bars: 8
 structure:
 - intro

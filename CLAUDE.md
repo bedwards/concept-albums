@@ -63,13 +63,19 @@ sections:
           "Cm"C,2 C,2 G,,2 G,,2 | "F"F,2 F,2 C,2 C,2 |
       # ... etc for each instrument
 
+      drums:
+        kick: "C4 C4 | C4 C4 |"
+        snare: "z4 E4 | z4 E4 |"
+        # Optional: hihat, crash, ride, tom1, tom2, tom3
+      # ... etc for each instrument
+
 instruments:
   vocal-melody:
     program: 53
   bass:
     program: 33
   drums:
-    percussion: true
+    percussion: true  # Creates separate MIDI files for each drum part
 ```
 
 ### Per Album (top-level folder)
@@ -138,6 +144,41 @@ w: more se-cond verse ly-rics
 abc2midi error: "Malformed note: expecting a-g or A-G"
 
 **Solution:** Remove all `^"text"` annotations from ABC files. Put performance notes in `arrangement.txt` instead.
+
+### Drum Tracks: Separate Files Per Instrument
+
+**Important:** Drums are now generated as separate ABC/MIDI files for each drum part (kick, snare, hi-hat, etc.) instead of using multi-voice notation.
+
+In `song.yaml`, define drums like this:
+```yaml
+sections:
+  verse:
+    instruments:
+      drums:
+        kick: "C4 C4 | C4 C4 |"      # Bass drum (MIDI note 36)
+        snare: "z4 E4 | z4 E4 |"     # Snare drum (MIDI note 38)
+        hihat: "^F ^F ^F ^F |"        # Hi-hat (MIDI note 42) - optional
+        crash: "^C4 z4 |"             # Crash cymbal (MIDI note 49) - optional
+        ride: "^D2 ^D2 ^D2 ^D2 |"     # Ride cymbal (MIDI note 51) - optional
+```
+
+This generates:
+- `.generated/drum-kick.abc` and `drum-kick.mid`
+- `.generated/drum-snare.abc` and `drum-snare.mid`
+- `.generated/drum-hihat.abc` and `drum-hihat.mid` (if defined)
+- etc.
+
+Each drum file is a single-track MIDI file on channel 10, avoiding the multi-voice MIDI issues.
+
+**Available drum parts:**
+- `kick` - Bass drum (C, MIDI 36)
+- `snare` - Snare drum (E, MIDI 38)
+- `hihat` - Hi-hat (^F, MIDI 42)
+- `crash` - Crash cymbal (^C, MIDI 49)
+- `ride` - Ride cymbal (^D, MIDI 51)
+- `tom1` - High tom (A, MIDI 48)
+- `tom2` - Mid tom (F, MIDI 45)
+- `tom3` - Low tom (D, MIDI 43)
 
 ### Percussion Key Warning Is Fine
 

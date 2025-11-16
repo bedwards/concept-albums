@@ -158,21 +158,43 @@ K:{song_meta['key']}
                 output_file = sections_dir / f"{section_name}-{instrument}.abc"
                 output_file.write_text(abc_content)
             
-            # Handle drums (multi-voice)
+            # Handle drums - create separate files for each drum instrument
             else:
                 drums = content
-                abc_content = f"""X:1
-T:{song_meta['title']} - {section_name.title()} - Drums
+                # Map drum parts to MIDI note numbers (General MIDI percussion)
+                drum_parts = {
+                    'kick': {'note': 'C', 'midi_note': 36, 'name': 'Kick'},
+                    'snare': {'note': 'E', 'midi_note': 38, 'name': 'Snare'},
+                }
+                
+                # Add optional drum parts if they exist
+                if 'hihat' in drums:
+                    drum_parts['hihat'] = {'note': '^F', 'midi_note': 42, 'name': 'Hi-Hat'}
+                if 'crash' in drums:
+                    drum_parts['crash'] = {'note': '^C', 'midi_note': 49, 'name': 'Crash'}
+                if 'ride' in drums:
+                    drum_parts['ride'] = {'note': '^D', 'midi_note': 51, 'name': 'Ride'}
+                if 'tom1' in drums:
+                    drum_parts['tom1'] = {'note': 'A', 'midi_note': 48, 'name': 'Tom 1'}
+                if 'tom2' in drums:
+                    drum_parts['tom2'] = {'note': 'F', 'midi_note': 45, 'name': 'Tom 2'}
+                if 'tom3' in drums:
+                    drum_parts['tom3'] = {'note': 'D', 'midi_note': 43, 'name': 'Tom 3'}
+                
+                for drum_key, drum_info in drum_parts.items():
+                    if drum_key not in drums:
+                        continue
+                    
+                    abc_content = f"""X:1
+T:{song_meta['title']} - {section_name.title()} - {drum_info['name']}
 M:{song_meta['time']}
 L:1/8
 K:C perc
-V:1 name="Kick"
-{drums['kick']}
-V:2 name="Snare"
-{drums['snare']}
+%%MIDI channel 10
+{drums[drum_key]}
 """
-                output_file = sections_dir / f"{section_name}-drums.abc"
-                output_file.write_text(abc_content)
+                    output_file = sections_dir / f"{section_name}-drum-{drum_key}.abc"
+                    output_file.write_text(abc_content)
     
     print(f"Generated: {len(list(sections_dir.glob('*.abc')))} section files")
 
@@ -187,20 +209,58 @@ def generate_complete_abc_files(config: Dict, output_dir: Path, sections_dir: Pa
     for instrument, inst_config in instruments_config.items():
         is_percussion = inst_config.get('percussion', False)
         
-        # Build header
         if is_percussion:
-            header = f"""X:1
-T:{song_meta['title']} - Drums
+            # Generate separate files for each drum part
+            drum_parts = ['kick', 'snare', 'hihat', 'crash', 'ride', 'tom1', 'tom2', 'tom3']
+            drum_names = {
+                'kick': 'Kick',
+                'snare': 'Snare', 
+                'hihat': 'Hi-Hat',
+                'crash': 'Crash',
+                'ride': 'Ride',
+                'tom1': 'Tom 1',
+                'tom2': 'Tom 2',
+                'tom3': 'Tom 3'
+            }
+            
+            for drum_part in drum_parts:
+                music_parts = []
+                has_content = False
+                
+                for section_name in structure:
+                    section_file = sections_dir / f"{section_name}-drum-{drum_part}.abc"
+                    
+                    if section_file.exists():
+                        has_content = True
+                        content = section_file.read_text()
+                        
+                        # Extract just the music
+                        lines = content.split('\n')
+                        music = []
+                        for line in lines:
+                            if not line.startswith(('X:', 'T:', 'M:', 'L:', 'K:', '%%MIDI')):
+                                if line.strip():
+                                    music.append(line)
+                        music_parts.append('\n'.join(music))
+                
+                # Only create file if we found content
+                if has_content:
+                    header = f"""X:1
+T:{song_meta['title']} - {drum_names[drum_part]}
 C:{song_meta['composer']}
 M:{song_meta['time']}
 L:1/8
 Q:1/4={song_meta['tempo']}
 K:C perc
-V:1 name="Kick"
-%%MIDI program 128
 %%MIDI channel 10
 """
+                    full_content = header + '\n'.join(music_parts)
+                    
+                    output_file = output_dir / f"drum-{drum_part}.abc"
+                    output_file.write_text(full_content)
+                    print(f"Generated: {output_file.name}")
         else:
+            # Regular instrument
             header = f"""X:1
 T:{song_meta['title']}
 C:{song_meta['composer']}
@@ -211,43 +271,16 @@ K:{song_meta['key']}
 V:1
 %%MIDI program {inst_config['program']}
 """
-        
-        # Collect sections
-        music_parts = []
-        kick_parts = []
-        snare_parts = []
-        
-        for section_name in structure:
-            section_file = sections_dir / f"{section_name}-{instrument}.abc"
             
-            if section_file.exists():
-                content = section_file.read_text()
+            # Collect sections
+            music_parts = []
+            
+            for section_name in structure:
+                section_file = sections_dir / f"{section_name}-{instrument}.abc"
                 
-                if is_percussion:
-                    # Parse kick and snare
-                    lines = content.split('\n')
-                    current_voice = None
-                    voice_content = []
+                if section_file.exists():
+                    content = section_file.read_text()
                     
-                    for line in lines:
-                        if line.startswith('V:1'):
-                            current_voice = 'kick'
-                            continue
-                        elif line.startswith('V:2'):
-                            if voice_content:
-                                kick_parts.append('\n'.join(voice_content))
-                            voice_content = []
-                            current_voice = 'snare'
-                            continue
-                        elif line.startswith(('X:', 'T:', 'M:', 'L:', 'K:')):
-                            continue
-                        
-                        if current_voice and line.strip():
-                            voice_content.append(line)
-                    
-                    if voice_content:
-                        snare_parts.append('\n'.join(voice_content))
-                else:
                     # Extract just the music
                     lines = content.split('\n')
                     music = []
@@ -256,18 +289,13 @@ V:1
                             if line.strip():
                                 music.append(line)
                     music_parts.append('\n'.join(music))
-        
-        # Write complete file
-        if is_percussion:
-            full_content = header + '\n'.join(kick_parts)
-            full_content += '\nV:2 name="Snare"\n%%MIDI program 128\n%%MIDI channel 10\n'
-            full_content += '\n'.join(snare_parts)
-        else:
+            
+            # Write complete file
             full_content = header + '\n'.join(music_parts)
-        
-        output_file = output_dir / f"{instrument}.abc"
-        output_file.write_text(full_content)
-        print(f"Generated: {output_file.name}")
+            
+            output_file = output_dir / f"{instrument}.abc"
+            output_file.write_text(full_content)
+            print(f"Generated: {output_file.name}")
 
 
 def generate_text_files(config: Dict, song_dir: Path):

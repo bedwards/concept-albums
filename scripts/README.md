@@ -236,8 +236,10 @@ instruments:
   organ:
     program: 16
   drums:
-    percussion: true
+    percussion: true  # Creates separate MIDI files for each drum part
 ```
+
+**Note:** Drums are generated as separate files (`drum-kick.abc`, `drum-snare.abc`, etc.) to avoid multi-voice MIDI issues. Each drum part gets its own single-track MIDI file on channel 10.
 
 ### Step 2: Create Lyrics (YAML)
 

@@ -4,16 +4,16 @@ tempo: 92
 time: 4/4
 key: Gmin
 sections:
+- name: intro
+  bars: 8
 - name: bridge
+  bars: 8
+- name: verse
   bars: 8
 - name: chorus
   bars: 6
 - name: outro
   bars: 4
-- name: intro
-  bars: 8
-- name: verse
-  bars: 8
 structure:
 - intro
 - verse

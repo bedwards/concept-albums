@@ -5,29 +5,29 @@ M:4/4
 L:1/8
 Q:1/4=85
 K:Dmin
-V:1
 %%MIDI program 29
+%%MIDI chordprog -1
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4A4] [C4A4] | [C4G4] [C4G4] |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4G4] [C4G4] | [C4A4] [C4A4] |
+[C4F4] [C4F4] | [C4F4] [C4G4] |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
-"Gm"C8 | "Eb"C8 |
-"Bb"C8 | "C"C8 |
-"Gm"C8 | "Eb"C8 |
-"Bb"C8 | "C"C4 "Cm"c4 | z8 |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4A4] [C4A4] | [C4G4] [C4G4] |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4G4] [C4G4] | [C4A4] [C4A4] |
+[C4F4] [C4F4] | [C4F4] [C4G4] |
+C8 | C8 |
+C8 | C8 |
+C8 | C8 |
+C8 | C4 c4 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Dm"[C4A4] [C4A4] | "Gm"[C4G4] [C4G4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] [C4F4] |
-"Gm"[C4G4] [C4G4] | "Dm"[C4A4] [C4A4] |
-"Bb"[C4F4] [C4F4] | "C"[C4F4] "Gm"[C4G4] |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4A4] [C4A4] | [C4G4] [C4G4] |
+[C4F4] [C4F4] | [C4F4] [C4F4] |
+[C4G4] [C4G4] | [C4A4] [C4A4] |
+[C4F4] [C4F4] | [C4F4] [C4G4] |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |

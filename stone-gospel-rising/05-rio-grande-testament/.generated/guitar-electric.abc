@@ -5,17 +5,17 @@ M:3/4
 L:1/8
 Q:1/4=90
 K:Gmin
-V:1
 %%MIDI program 29
+%%MIDI chordprog -1
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
-"Gm"C4 z2 | "Eb"C4 z2 |
-"Bb"C4 z2 | "C"C4 z2 |
-"Gm"C4 z2 | "Eb"C4 z2 |
-"Bb"C4 z2 | "C"C2 "Cm"c2 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C4 z2 |
+C4 z2 | C2 c2 z2 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |

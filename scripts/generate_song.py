@@ -268,8 +268,8 @@ M:{song_meta['time']}
 L:1/8
 Q:1/4={song_meta['tempo']}
 K:{song_meta['key']}
-V:1
 %%MIDI program {inst_config['program']}
+%%MIDI chordprog -1
 """
             
             # Collect sections
@@ -287,7 +287,10 @@ V:1
                     for line in lines:
                         if not line.startswith(('X:', 'T:', 'M:', 'L:', 'K:', 'V:')):
                             if line.strip():
-                                music.append(line)
+                                # Remove chord symbols (e.g., "Cm", "F") from the line
+                                import re
+                                line_no_chords = re.sub(r'"[A-G][#b]?[^"]*"', '', line)
+                                music.append(line_no_chords)
                     music_parts.append('\n'.join(music))
             
             # Write complete file

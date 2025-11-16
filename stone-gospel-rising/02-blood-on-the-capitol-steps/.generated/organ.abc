@@ -5,32 +5,32 @@ M:4/4
 L:1/8
 Q:1/4=88
 K:Cmin
-V:1
 %%MIDI program 16
-"Cm"[C8E8G8] | [C8E8G8] | [C8E8G8] | [C8E8G8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Bb"[C8F8B8] |
-"Gm"[C8G8B8] | "Eb"[C8G8B8] |
-"Bb"[C8F8B8] | "C"[C8F8A8] |
-"Cm"[C8E8G8] | "Gm"[C8G8B8] |
+%%MIDI chordprog -1
+[C8E8G8] | [C8E8G8] | [C8E8G8] | [C8E8G8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8F8A8] |
+[C8E8G8] | [C8F8B8] |
+[C8G8B8] | [C8G8B8] |
+[C8F8B8] | [C8F8A8] |
+[C8E8G8] | [C8G8B8] |
 [C8G8B8] | [C8G8B8] | [C8G8B8] |

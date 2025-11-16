@@ -5,39 +5,39 @@ M:3/4
 L:1/8
 Q:1/4=90
 K:Gmin
-V:1
 %%MIDI program 16
+%%MIDI chordprog -1
 z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |
 z6 | z6 |
-z6 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
+z6 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4E4G4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4E4G4] z2 | [C4A4c4] z2 | [C4G4B4] z2 |
 z6 | z6 |
-z6 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
-"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
+z6 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4E4G4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4E4G4] z2 | [C4A4c4] z2 | [C4G4B4] z2 |
+[C4G4B4] z2 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
 z6 | z6 |
-z6 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Eb"[C4G4B4] z2 |
-"Bb"[B,4D4F4] z2 | "C"[C4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "C"[C4A4c4] z2 | "Gm"[C4G4B4] z2 |
-"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Eb"[C4G4B4] z2 | "C"[C4A4c4] z2 |
-"Gm"[C4G4B4] z2 | "Cm"[C4E4G4] z2 |
-"Eb"[C4G4B4] z2 | "C"[C4A4c4] z2 |
-"Cm"[C4E4G4] z2 | "Gm"[C6G6B6] | [C6G6B6] | [C6G6B6] |
+z6 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4E4G4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4G4B4] z2 |
+[B,4D4F4] z2 | [C4A4c4] z2 |
+[C4E4G4] z2 | [C4A4c4] z2 | [C4G4B4] z2 |
+[C4G4B4] z2 | [C4E4G4] z2 |
+[C4G4B4] z2 | [C4A4c4] z2 |
+[C4G4B4] z2 | [C4E4G4] z2 |
+[C4G4B4] z2 | [C4A4c4] z2 |
+[C4E4G4] z2 | [C6G6B6] | [C6G6B6] | [C6G6B6] |

@@ -5,33 +5,33 @@ M:4/4
 L:1/8
 Q:1/4=95
 K:Gmin
-V:1
 %%MIDI program 16
-"Gm"[C4G4B4] z4 | "Bb"[B,4D4F4] z4 |
-"Cm"[C4E4G4] z4 | "Eb"[C4G4B4] z4 |
-"Gm"[C4G4B4] z4 | "Bb"[B,4D4F4] z4 |
-"Cm"[C4E4G4] z4 | "Eb"[C4G4B4] z4 |
-"Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
-"Gm"[C4G4B4] z4 | "Eb"[C4G4B4] z4 |
-"Bb"[B,4D4F4] z4 | "C"[C4A4c4] z4 |
-"Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
-"Gm"[C4G4B4] z4 | "Eb"[C4G4B4] z4 |
-"Bb"[B,4D4F4] z4 | "C"[C4A4c4] z4 |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
-"Bb"[B,4D4F4] [B,4D4F4] | "C"[C4A4c4] [C4A4c4] |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
-"Bb"[B,4D4F4] [B,4D4F4] | "C"[C4A4c4] "Cm"[C4E4G4] |
-"Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
-"Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] "Bb"[C4F4B4] | "C"[C4F4A4] z4 |
-"Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] [C4G4B4] |
-"Bb"[C4F4B4] [C4F4B4] | "C"[C4F4A4] [C4F4A4] |
-"Gm"[C4G4B4] [C4G4B4] | "Eb"[C4G4B4] "Bb"[C4F4B4] | "C"[C4F4A4] z4 |
-"Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
-"Eb"[C4G4B4] z4 | "C"[C4A4c4] z4 |
-"Gm"[C4G4B4] z4 | "Cm"[C4E4G4] z4 |
-"Eb"[C4G4B4] z4 | "C"[C4A4c4] z4 |
-"Gm"[C4G4B4] z4 | "Cm"[C4E4G4] "Eb"[C4G4B4] |
-"C"[C4A4c4] z4 | "C"[C6G6B6] z2 | [C6G6B6] z2 | [C6G6B6] z2 |
+%%MIDI chordprog -1
+[C4G4B4] z4 | [B,4D4F4] z4 |
+[C4E4G4] z4 | [C4G4B4] z4 |
+[C4G4B4] z4 | [B,4D4F4] z4 |
+[C4E4G4] z4 | [C4G4B4] z4 |
+[C4G4B4] z4 | [C4E4G4] z4 |
+[C4G4B4] z4 | [C4G4B4] z4 |
+[B,4D4F4] z4 | [C4A4c4] z4 |
+[C4G4B4] z4 | [C4E4G4] z4 |
+[C4G4B4] z4 | [C4G4B4] z4 |
+[B,4D4F4] z4 | [C4A4c4] z4 |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4G4B4] |
+[B,4D4F4] [B,4D4F4] | [C4A4c4] [C4A4c4] |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4G4B4] |
+[B,4D4F4] [B,4D4F4] | [C4A4c4] [C4E4G4] |
+[C4F4B4] [C4F4B4] | [C4F4A4] [C4F4A4] |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4G4B4] |
+[C4F4B4] [C4F4B4] | [C4F4A4] [C4F4A4] |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4F4B4] | [C4F4A4] z4 |
+[C4F4B4] [C4F4B4] | [C4F4A4] [C4F4A4] |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4G4B4] |
+[C4F4B4] [C4F4B4] | [C4F4A4] [C4F4A4] |
+[C4G4B4] [C4G4B4] | [C4G4B4] [C4F4B4] | [C4F4A4] z4 |
+[C4G4B4] z4 | [C4E4G4] z4 |
+[C4G4B4] z4 | [C4A4c4] z4 |
+[C4G4B4] z4 | [C4E4G4] z4 |
+[C4G4B4] z4 | [C4A4c4] z4 |
+[C4G4B4] z4 | [C4E4G4] [C4G4B4] |
+[C4A4c4] z4 | [C6G6B6] z2 | [C6G6B6] z2 | [C6G6B6] z2 |

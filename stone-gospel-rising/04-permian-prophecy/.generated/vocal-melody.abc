@@ -5,35 +5,35 @@ M:4/4
 L:1/8
 Q:1/4=92
 K:Dmin
-V:1
 %%MIDI program 53
+%%MIDI chordprog -1
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Dm"C2 C2 C2 C2 | "Bb"C2 C4 C2 |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Dm"C2 C2 C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Bb"C2 C2 "C"C2 C2 | "Dm"C4 C2 AG |
-"Gm"C2 C2 "Bb"C2 C2 | "C"C6 AG |
-"Dm"C2 C2 "Gm"C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
-"Dm"C2 C2 C2 C2 | "Bb"C2 C4 C2 |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Dm"C2 C2 C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Bb"C2 C2 "C"C2 C2 | "Dm"C4 C2 AG |
-"Gm"C2 C2 "Bb"C2 C2 | "C"C6 AG |
-"Dm"C2 C2 "Gm"C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
-"Gm"C2 C2 "Bb"C4 | "C"C2 C2 "Dm"C4 |
-"Gm"C2 C2 "Bb"C4 | "C"C2 C2 "Dm"C4 |
-"Dm"C2 C2 C2 C2 | "Bb"C2 C4 C2 |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Dm"C2 C2 C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 C2 AG | "Gm"C8 |
-"Bb"C2 C2 "C"C2 C2 | "Dm"C4 C2 AG |
-"Gm"C2 C2 "Bb"C2 C2 | "C"C6 AG |
-"Dm"C2 C2 "Gm"C2 C2 | "Bb"C4 C2 GA |
-"C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
-"Dm"C2 C2 "Gm"C2 "Bb"C2 | C6 C2 |
-"C"C2 C2 "Gm"C2 "Dm"C2 | C8 |
+C2 C2 C2 C2 | C2 C4 C2 |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 AG |
+C2 C2 C2 C2 | C6 AG |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 C2 | C8 |
+C2 C2 C2 C2 | C2 C4 C2 |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 AG |
+C2 C2 C2 C2 | C6 AG |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 C2 | C8 |
+C2 C2 C4 | C2 C2 C4 |
+C2 C2 C4 | C2 C2 C4 |
+C2 C2 C2 C2 | C2 C4 C2 |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 AG | C8 |
+C2 C2 C2 C2 | C4 C2 AG |
+C2 C2 C2 C2 | C6 AG |
+C2 C2 C2 C2 | C4 C2 GA |
+C2 C2 C2 C2 | C8 |
+C2 C2 C2 C2 | C6 C2 |
+C2 C2 C2 C2 | C8 |
 z8 | z8 |

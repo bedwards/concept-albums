@@ -5,29 +5,29 @@ M:4/4
 L:1/8
 Q:1/4=85
 K:Dmin
-V:1
 %%MIDI program 25
+%%MIDI chordprog -1
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] [C2A2]z2 |
-"Gm"[C2G2][C2G2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
-"Dm"[C2A2][C2A2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] z4 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] [C2A2]z2 |
+[C2G2][C2G2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2G2][C2G2] [C2G2]z2 |
+[C2A2][C2A2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] z4 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] [C2A2]z2 |
-"Gm"[C2G2][C2G2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
-"Dm"[C2A2][C2A2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] z4 |
-"Gm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
-"Bb"B,2 C2 C2 z2 | "C"C2 C2 c2 z2 |
-"Gm"C2 C2 C2 z2 | "Eb"C2 C2 C2 z2 |
-"Bb"B,2 C2 C2 z2 | "C"C2 C2 "Cm"C2 C2 | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] [C2A2]z2 |
+[C2G2][C2G2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2G2][C2G2] [C2G2]z2 |
+[C2A2][C2A2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] z4 |
+C2 C2 C2 z2 | C2 C2 C2 z2 |
+B,2 C2 C2 z2 | C2 C2 c2 z2 |
+C2 C2 C2 z2 | C2 C2 C2 z2 |
+B,2 C2 C2 z2 | C2 C2 C2 C2 | z8 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] [C2A2]z2 |
-"Gm"[C2G2][C2G2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Gm"[C2G2][C2G2] [C2G2]z2 |
-"Dm"[C2A2][C2A2] "Bb"[C2F2][C2F2] | z8 |
-"Bb"[C2F2][C2F2] "C"[C2F2][C2F2] | "Dm"[C2A2][C2A2] z4 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] [C2A2]z2 |
+[C2G2][C2G2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2G2][C2G2] [C2G2]z2 |
+[C2A2][C2A2] [C2F2][C2F2] | z8 |
+[C2F2][C2F2] [C2F2][C2F2] | [C2A2][C2A2] z4 |
 z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |

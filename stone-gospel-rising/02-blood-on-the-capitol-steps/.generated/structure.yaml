@@ -4,12 +4,12 @@ tempo: 88
 time: 4/4
 key: Cmin
 sections:
-- name: intro
-  bars: 4
-- name: verse
-  bars: 8
 - name: outro
   bars: 5
+- name: verse
+  bars: 8
+- name: intro
+  bars: 4
 structure:
 - intro
 - verse

@@ -1,0 +1,57 @@
+TEMPO: 96 bpm
+TIME: 4/4
+KEY: Ddor
+
+PULSE1
+Initial ostinato pattern. Strings establish D dorian groove.
+Cello: quarter-note pattern D-D-A-A
+Viola: offbeat F stabs
+Violin II: syncopated A
+Marimba and piano double the harmonic pattern.
+Timpani anchors beat 1. mp, mechanical, precise.
+
+PULSE2
+Woodwinds add second layer of rhythmic cells.
+Flute: half-note A on beat 3
+Oboe: quarter-note F pattern
+Clarinet: offbeat C
+Vibraphone adds shimmer with sustained tones.
+mf, building density.
+
+COLLISION
+Patterns collide. Every third bar shifts to G.
+Brass enters with sforzando chords.
+French horn and trumpet: accented D chord on beat 1.
+Creates harmonic tension and release cycle.
+f, aggressive, punchy.
+
+PHASE1
+Patterns begin shifting against each other.
+Alternating bars flip the rhythmic positions.
+Creates interference patterns between instruments.
+Sense of instability and motion.
+
+PHASE2
+Maximum polyrhythmic complexity.
+All patterns offset and overlapping.
+8th-note subdivisions create dense texture.
+Near chaos, but controlled. ff.
+
+REDUCTION
+Instruments drop out systematically.
+Brass first, then woodwinds, then upper strings.
+Returning to the core ostinato.
+f to mp over 12 bars.
+
+PULSE3
+Original pattern returns, simplified.
+Gradual re-entry of instruments.
+Sense of return and clarity after chaos.
+mp, patient rebuilding.
+
+CODA
+Final pulse builds intensity.
+Brass re-enters for final 6 bars.
+Timpani roll doubles.
+All instruments cut together on final beat.
+ff to sudden silence. No decay.

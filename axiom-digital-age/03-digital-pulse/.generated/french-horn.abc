@@ -1,0 +1,29 @@
+X:1
+T:Digital Pulse
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=96
+K:Ddor
+%%MIDI program 60
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+[D4A4] z4 | z8 | [G4D4] z4 | [D4A4] z4 | z8 | [G4D4] z4 |
+[D4A4] z4 | z8 | [G4D4] z4 | [D4A4] z4 | z8 | [G4D4] z4 |
+[D4A4] z4 | z8 | [G4D4] z4 | [D4A4] z4 | z8 | [G4D4] z4 |
+[D4A4] z4 | z8 | [G4D4] z4 | [D4A4] z4 | z8 | [G4D4] z4 |
+[D4A4] z4 | z8 | [D4A4] z4 | [D4A4] z4 | z8 | [D4A4] z4 |
+z8 | [D4A4] z4 | z8 | z8 | [D4A4] z4 | z8 |
+[D4A4] z4 | z8 | [D4A4] z4 | [D4A4] z4 | z8 | [D4A4] z4 |
+z8 | [D4A4] z4 | z8 | z8 | [D4A4] z4 | z8 |
+[D4A4] z4 | z4 [D4A4] | [D4A4] z4 | [D4A4] z4 | z4 [D4A4] | [D4A4] z4 |
+z4 [D4A4] | [D4A4] z4 | z4 [D4A4] | z4 [D4A4] | [D4A4] z4 | z4 [D4A4] |
+[D4A4] z4 | z4 [D4A4] | [D4A4] z4 | [D4A4] z4 | z4 [D4A4] | [D4A4] z4 |
+z4 [D4A4] | [D4A4] z4 | z4 [D4A4] | z4 [D4A4] | [D4A4] z4 | z4 [D4A4] |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 |
+[D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 |
+[D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 | [D4A4] z4 |

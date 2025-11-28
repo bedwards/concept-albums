@@ -1,0 +1,43 @@
+TEMPO: 54 bpm
+TIME: 4/4
+KEY: Gmaj
+
+SPACE1
+Opening space. G major sustained strings ppp.
+Vibraphone enters bar 5 with soft bowed sustain.
+Celesta arpeggios begin bar 9 in highest register.
+Flute enters bar 13 with high D.
+Ethereal, barely present. pp throughout.
+
+SPACE2
+Fuller texture but still soft.
+All strings with dyads. Woodwinds add color.
+French horn soft G pedal.
+Celesta continues arpeggios.
+
+SPACE3
+Harmonic motion G to A alternating.
+Creates gentle rocking sensation.
+All instruments follow the harmonic shift.
+Building very slightly. mp.
+
+SHIMMER1
+Climax of the movement - still quiet.
+Piano enters with sustained arpeggios.
+All woodwinds in high register.
+Maximum shimmering texture. mf maximum.
+
+SHIMMER2
+Harmonic exploration G-A-D-G.
+Vibraphone chords change with harmony.
+Sense of floating, weightless motion.
+
+SPACE4
+Return to opening simplicity.
+Instruments drop out gradually.
+Only cello remains by end.
+
+CODA
+Solo cello G, sustained.
+Fade to niente.
+Complete silence.

@@ -1,0 +1,86 @@
+title: Axiom
+composer: Brian Edwards
+tempo: 60
+time: 4/4
+key: Dmin
+sections:
+- name: climax
+  bars: 16
+- name: development2
+  bars: 16
+- name: development1
+  bars: 16
+- name: dissolution
+  bars: 16
+- name: accumulation2
+  bars: 16
+- name: emergence
+  bars: 16
+- name: accumulation1
+  bars: 16
+- name: coda
+  bars: 8
+- name: accumulation3
+  bars: 16
+structure:
+- emergence
+- accumulation1
+- accumulation2
+- accumulation3
+- development1
+- development2
+- climax
+- dissolution
+- coda
+instruments:
+  violin1:
+    program: 40
+    name: Violin
+  violin2:
+    program: 40
+    name: Violin
+  viola:
+    program: 41
+    name: Viola
+  cello:
+    program: 42
+    name: Cello
+  contrabass:
+    program: 43
+    name: Contrabass
+  flute:
+    program: 73
+    name: Flute
+  oboe:
+    program: 68
+    name: Oboe
+  clarinet:
+    program: 71
+    name: Clarinet
+  bassoon:
+    program: 70
+    name: Bassoon
+  french-horn:
+    program: 60
+    name: French Horn
+  trumpet:
+    program: 56
+    name: Trumpet
+  trombone:
+    program: 57
+    name: Trombone
+  tuba:
+    program: 58
+    name: Tuba
+  timpani:
+    program: 47
+    name: Timpani
+  vibraphone:
+    program: 11
+    name: Vibraphone
+  piano:
+    program: 0
+    name: Acoustic Grand Piano
+  celesta:
+    program: 8
+    name: Celesta

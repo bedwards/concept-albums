@@ -1,0 +1,41 @@
+X:1
+T:Digital Pulse
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=96
+K:Ddor
+%%MIDI program 42
+%%MIDI chordprog -1
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 G,2 G,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, | D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, |
+D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, | D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, |
+D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, | D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, |
+D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, | D, D, D, A, A, A, D, D, | D, D, A, A, A, D, D, D, | A, A, D, D, D, A, A, A, |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 |
+D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,4 z4 | D,2 D,2 A,2 A,2 | D,2 D,2 A,2 A,2 | D,4 z4 |

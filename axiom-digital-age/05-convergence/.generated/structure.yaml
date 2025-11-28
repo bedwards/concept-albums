@@ -1,0 +1,72 @@
+title: Convergence
+composer: Brian Edwards
+tempo: 72
+time: 4/4
+key: Dmaj
+sections:
+- name: climax
+  bars: 8
+- name: return1
+  bars: 16
+- name: return2
+  bars: 16
+- name: build1
+  bars: 16
+- name: return1b
+  bars: 16
+- name: climax2
+  bars: 8
+- name: resolution
+  bars: 8
+- name: build2
+  bars: 16
+- name: return2b
+  bars: 16
+- name: coda
+  bars: 8
+structure:
+- return1
+- return1b
+- return2
+- return2b
+- build1
+- build2
+- climax
+- climax2
+- resolution
+- coda
+instruments:
+  violin1:
+    program: 40
+  violin2:
+    program: 40
+  viola:
+    program: 41
+  cello:
+    program: 42
+  contrabass:
+    program: 43
+  flute:
+    program: 73
+  oboe:
+    program: 68
+  clarinet:
+    program: 71
+  bassoon:
+    program: 70
+  french-horn:
+    program: 60
+  trumpet:
+    program: 56
+  trombone:
+    program: 57
+  tuba:
+    program: 58
+  timpani:
+    program: 47
+  vibraphone:
+    program: 11
+  piano:
+    program: 0
+  celesta:
+    program: 8

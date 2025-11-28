@@ -1,0 +1,17 @@
+X:1
+T:Resonance Field
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=54
+K:Gmaj
+%%MIDI program 60
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | G8 | G8 | G8 | G8 | G8 | G8 | G8 | G8 |
+z8 | z8 | z8 | z8 | G8 | G8 | G8 | G8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+G8 | G8 | A8 | A8 | G8 | G8 | A8 | A8 | G8 | G8 | A8 | A8 | G8 | G8 | G8 | G8 |
+G8 | G8 | G8 | G8 | D8 | D8 | D8 | D8 | G8 | G8 | G8 | G8 | D8 | D8 | D8 | D8 |
+G8 | G8 | A8 | A8 | D8 | D8 | G8 | G8 | G8 | G8 | A8 | A8 | D8 | D8 | G8 | G8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |

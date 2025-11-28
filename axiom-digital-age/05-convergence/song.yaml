@@ -1,0 +1,466 @@
+# ============================================================================
+# Movement V - Convergence
+# All themes return. Synthesis and resolution.
+# D minor to D major transformation. Triumphant finale.
+# ============================================================================
+
+song:
+  title: "Convergence"
+  composer: "Brian Edwards"
+  tempo: 72
+  time: "4/4"
+  key: "Dmaj"
+  # Structure for ~8 minutes (144 bars at 72 BPM)
+  structure: [return1, return1b, return2, return2b, build1, build2, climax, climax2, resolution, coda]
+
+sections:
+  return1:
+    bars: 16
+    instruments:
+      cello:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,8 | D,8 | D,8 | D,8 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      viola:
+        abc: "z8 | z8 | z8 | z8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 | A,8 |"
+      violin2:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | ^F8 | ^F8 | ^F8 | ^F8 | ^F8 | ^F8 | ^F8 | ^F8 |"
+      violin1:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | d8 | d8 | d8 | d8 |"
+      flute:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      oboe:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      clarinet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bassoon:
+        abc: "z8 | z8 | z8 | z8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      french-horn:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 |"
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      trombone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      tuba:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      timpani:
+        abc: "D,8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D,8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      vibraphone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      celesta:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  return1b:
+    bars: 16
+    instruments:
+      cello:
+        abc: "D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 | D,4 A,4 |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      viola:
+        abc: "A,8 | A,8 | A,8 | A,8 | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] |"
+      violin2:
+        abc: "^F8 | ^F8 | ^F8 | ^F8 | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] |"
+      violin1:
+        abc: "d8 | d8 | d8 | d8 | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] |"
+      flute:
+        abc: "d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 | d'8 |"
+      oboe:
+        abc: "a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 | a8 |"
+      clarinet:
+        abc: "^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f8 |"
+      bassoon:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      french-horn:
+        abc: "D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 | D8 |"
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 | d8 |"
+      trombone:
+        abc: "z8 | z8 | z8 | z8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      tuba:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 |"
+      vibraphone:
+        abc: "z8 | z8 | z8 | z8 | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] |"
+      piano:
+        abc: "z8 | z8 | z8 | z8 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 |"
+      celesta:
+        abc: "z8 | z8 | z8 | z8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 |"
+
+  return2:
+    bars: 16
+    instruments:
+      cello:
+        abc: "D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 B,4 | c4 B,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 B,4 | c4 d4 | e4 d4 | D,8 |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,8 |"
+      viola:
+        abc: "A,8 | A,8 | A,8 | A,8 | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [D8A8] |"
+      violin2:
+        abc: "^F8 | ^F8 | ^F8 | ^F8 | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] |"
+      violin1:
+        abc: "d8 | d8 | d8 | d8 | [d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | d4 e4 | ^f4 g4 | a4 g4 | ^f4 e4 | d4 e4 | ^f4 g4 | a4 g4 | d8 |"
+      flute:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | d'8 | d'8 | d'8 | d'8 | d'4 e'4 | ^f'4 g'4 | a'4 g'4 | d'8 |"
+      oboe:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | a8 | a8 | a8 | a8 | a4 b4 | c'4 d'4 | e'4 d'4 | a8 |"
+      clarinet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | ^f8 | ^f8 | ^f8 | ^f8 | ^f4 g4 | a4 b4 | c'4 b4 | ^f8 |"
+      bassoon:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | D,8 |"
+      french-horn:
+        abc: "D8 | D8 | D8 | D8 | D4 A,4 | D4 A,4 | D4 A,4 | D4 A,4 | D4 E4 | ^F4 G4 | A4 G4 | ^F4 E4 | D4 E4 | ^F4 G4 | A4 G4 | D8 |"
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | d8 | d8 | d8 | d8 | d4 e4 | ^f4 g4 | a4 g4 | d8 |"
+      trombone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D,8 | D,8 | D,8 | D,8 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | D,8 |"
+      tuba:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "z8 | z8 | z8 | z8 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,8 |"
+      vibraphone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d8 |"
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | ^F2 A2 d2 ^f2 | D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | [D,4A,4D4] z4 |"
+      celesta:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d'8 |"
+
+  return2b:
+    bars: 16
+    instruments:
+      cello:
+        abc: "D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 B,4 | c4 B,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 B,4 | c4 d4 | e4 d4 | D,8 |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,4 A,,4 | D,,8 |"
+      viola:
+        abc: "[A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [D8A8] |"
+      violin2:
+        abc: "[^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] |"
+      violin1:
+        abc: "[d8^f8] | [d8^f8] | [d8^f8] | [d8^f8] | d4 e4 | ^f4 g4 | a4 g4 | ^f4 e4 | d4 e4 | ^f4 g4 | a4 g4 | ^f4 e4 | d4 e4 | ^f4 g4 | a4 g4 | d8 |"
+      flute:
+        abc: "d'8 | d'8 | d'8 | d'8 | d'4 e'4 | ^f'4 g'4 | a'4 g'4 | ^f'4 e'4 | d'4 e'4 | ^f'4 g'4 | a'4 g'4 | ^f'4 e'4 | d'4 e'4 | ^f'4 g'4 | a'4 g'4 | d'8 |"
+      oboe:
+        abc: "a8 | a8 | a8 | a8 | a4 b4 | c'4 d'4 | e'4 d'4 | c'4 b4 | a4 b4 | c'4 d'4 | e'4 d'4 | c'4 b4 | a4 b4 | c'4 d'4 | e'4 d'4 | a8 |"
+      clarinet:
+        abc: "^f8 | ^f8 | ^f8 | ^f8 | ^f4 g4 | a4 b4 | c'4 b4 | a4 g4 | ^f4 g4 | a4 b4 | c'4 b4 | a4 g4 | ^f4 g4 | a4 b4 | c'4 b4 | ^f8 |"
+      bassoon:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | D,8 |"
+      french-horn:
+        abc: "D8 | D8 | D8 | D8 | D4 E4 | ^F4 G4 | A4 G4 | ^F4 E4 | D4 E4 | ^F4 G4 | A4 G4 | ^F4 E4 | D4 E4 | ^F4 G4 | A4 G4 | D8 |"
+      trumpet:
+        abc: "d8 | d8 | d8 | d8 | d4 e4 | ^f4 g4 | a4 g4 | ^f4 e4 | d4 e4 | ^f4 g4 | a4 g4 | ^f4 e4 | d4 e4 | ^f4 g4 | a4 g4 | d8 |"
+      trombone:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | ^F,4 E,4 | D,4 E,4 | ^F,4 G,4 | A,4 G,4 | D,8 |"
+      tuba:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "D,4 z4 | D,4 z4 | D,4 z4 | D,4 z4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,8 |"
+      vibraphone:
+        abc: "[d8^f8a8] | [d8^f8a8] | [d8^f8a8] | [d8^f8a8] | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d8 |"
+      piano:
+        abc: "D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | ^F2 A2 d2 ^f2 | D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | ^F2 A2 d2 ^f2 | D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | ^F2 A2 d2 ^f2 | D,2 A,2 D2 ^F2 | A,2 D2 ^F2 A2 | D2 ^F2 A2 d2 | [D,4A,4D4] z4 |"
+      celesta:
+        abc: "d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''8 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d'8 |"
+
+  build1:
+    bars: 16
+    instruments:
+      cello:
+        abc: "D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 d2 c2 B,2 | A,2 G,2 ^F,2 E,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | b2 a2 g2 ^f2 | e2 d2 c2 B,2 | A,2 G,2 ^F,2 E,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | b2 c'2 d'2 e'2 | ^f'2 e'2 d'2 c'2 | D,8 |"
+      contrabass:
+        abc: "D,,2 E,,2 ^F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 C,2 B,,2 A,,2 | A,,2 G,,2 ^F,,2 E,,2 | D,,2 E,,2 ^F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 E,2 ^F,2 G,2 | G,2 ^F,2 E,2 D,2 | D,2 C,2 B,,2 A,,2 | A,,2 G,,2 ^F,,2 E,,2 | D,,2 E,,2 ^F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 E,2 ^F,2 G,2 | G,2 A,2 B,2 C2 | C2 B,2 A,2 G,2 | D,,8 |"
+      viola:
+        abc: "[A,8D8] | [A,8D8] | [A,8D8] | [A,8D8] | [A,4D4] [B,4E4] | [c4^F4] [d4G4] | [e4A4] [^f4B4] | [g4c'4] [^f4B4] | [e4A4] [d4G4] | [c4^F4] [B,4E4] | [A,4D4] [B,4E4] | [c4^F4] [d4G4] | [e4A4] [^f4B4] | [g4c'4] [a4d'4] | [b4e'4] [a4d'4] | [D4A4] z4 |"
+      violin2:
+        abc: "[^F8A8] | [^F8A8] | [^F8A8] | [^F8A8] | [^F4A4] [G4B4] | [A4c'4] [B4d'4] | [c'4e'4] [d'4^f'4] | [e'4g'4] [d'4^f'4] | [c'4e'4] [B4d'4] | [A4c'4] [G4B4] | [^F4A4] [G4B4] | [A4c'4] [B4d'4] | [c'4e'4] [d'4^f'4] | [e'4g'4] [^f'4a'4] | [g'4b'4] [^f'4a'4] | [^F4A4] z4 |"
+      violin1:
+        abc: "d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'4 d'4 c'4 b4 | a4 g4 ^f4 e4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | b'4 a'4 g'4 ^f'4 | e'4 d'4 c'4 b4 | a4 g4 ^f4 e4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | b'4 c''4 d''4 e''4 | ^f''4 e''4 d''4 c''4 | d8 |"
+      flute:
+        abc: "d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | a''4 g''4 ^f''4 e''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | a''8 | a''4 g''4 ^f''4 e''4 | d'8 |"
+      oboe:
+        abc: "a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | a'4 g'4 ^f'4 e'4 | d'4 c'4 b4 a4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | b'4 c''4 d''4 e''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | d'4 c'4 b4 a4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | b'4 c''4 d''4 e''4 | e''8 | e''4 d''4 c''4 b'4 | a8 |"
+      clarinet:
+        abc: "^f4 g4 a4 b4 | c'4 d'4 e'4 ^f'4 | ^f'4 e'4 d'4 c'4 | b4 a4 g4 ^f4 | ^f4 g4 a4 b4 | c'4 d'4 e'4 ^f'4 | g'4 a'4 b'4 c''4 | c''4 b'4 a'4 g'4 | ^f'4 e'4 d'4 c'4 | b4 a4 g4 ^f4 | ^f4 g4 a4 b4 | c'4 d'4 e'4 ^f'4 | g'4 a'4 b'4 c''4 | c''8 | c''4 b'4 a'4 g'4 | ^f8 |"
+      bassoon:
+        abc: "D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | c2 B,2 A,2 G,2 | ^F,2 E,2 D,2 C,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | a2 g2 ^f2 e2 | c2 B,2 A,2 G,2 | ^F,2 E,2 D,2 C,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | a8 | a2 g2 ^f2 e2 | D,8 |"
+      french-horn:
+        abc: "D4 E4 ^F4 G4 | A4 B4 c4 d4 | c4 B4 A4 G4 | ^F4 E4 D4 C4 | D4 E4 ^F4 G4 | A4 B4 c4 d4 | e4 ^f4 g4 a4 | a4 g4 ^f4 e4 | c4 B4 A4 G4 | ^F4 E4 D4 C4 | D4 E4 ^F4 G4 | A4 B4 c4 d4 | e4 ^f4 g4 a4 | a8 | a4 g4 ^f4 e4 | D8 |"
+      trumpet:
+        abc: "d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | c'4 b4 a4 g4 | ^f4 e4 d4 c4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | a'4 g'4 ^f'4 e'4 | c'4 b4 a4 g4 | ^f4 e4 d4 c4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'4 ^f'4 g'4 a'4 | a'8 | a'4 g'4 ^f'4 e'4 | d8 |"
+      trombone:
+        abc: "D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | c2 B,2 A,2 G,2 | ^F,2 E,2 D,2 C,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | a2 g2 ^f2 e2 | c2 B,2 A,2 G,2 | ^F,2 E,2 D,2 C,2 | D,2 E,2 ^F,2 G,2 | A,2 B,2 c2 d2 | e2 ^f2 g2 a2 | a8 | a2 g2 ^f2 e2 | D,8 |"
+      tuba:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,2 E,,2 ^F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 E,2 ^F,2 G,2 | G,2 ^F,2 E,2 D,2 | D,2 C,2 B,,2 A,,2 | A,,2 G,,2 ^F,,2 E,,2 | D,,2 E,,2 ^F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 E,2 ^F,2 G,2 | G,8 | G,2 ^F,2 E,2 D,2 | D,,8 |"
+      timpani:
+        abc: "D,4 z2 D,2 | D,4 z2 D,2 | D,4 z2 D,2 | D,4 z2 D,2 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,4 D,4 | D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | D,8 | D,8 | D,8 | D,8 |"
+      vibraphone:
+        abc: "d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d''2 a'2 ^f'2 d'2 | a2 ^f2 d2 A2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | a'8 | a'4 ^f'4 d'4 a4 | d8 |"
+      piano:
+        abc: "D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'2 a2 ^f2 d2 | A2 ^F2 D2 A,2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'2 ^f'2 a'2 d''2 | d''2 a'2 ^f'2 d'2 | a2 ^f2 d2 A2 | ^F2 D2 A,2 D,2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'2 ^f'2 a'2 d''2 | d''8 | d''4 a'4 ^f'4 d'4 | [D,4A,4D4] z4 |"
+      celesta:
+        abc: "d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''2 ^f''2 a''2 d'''2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | d''2 ^f''2 a''2 d'''2 | d'''2 a''2 ^f''2 d''2 | a'2 ^f'2 d'2 a2 | d'2 ^f'2 a'2 d''2 | ^f'2 a'2 d''2 ^f''2 | a'2 d''2 ^f''2 a''2 | a''8 | a''4 ^f''4 d''4 a'4 | d'8 |"
+
+  build2:
+    bars: 16
+    instruments:
+      cello:
+        abc: "[D,4A,4] [E,4B,4] | [^F,4c4] [G,4d4] | [A,4e4] [G,4d4] | [^F,4c4] [E,4B,4] | [D,4A,4] [E,4B,4] | [^F,4c4] [G,4d4] | [A,4e4] [B,4^f4] | [c4g4] [B,4^f4] | [A,4e4] [G,4d4] | [^F,4c4] [E,4B,4] | [D,4A,4] [E,4B,4] | [^F,4c4] [G,4d4] | [A,4e4] [B,4^f4] | [c4g4] [d4a4] | [e4b4] [d4a4] | [D,8A,8] |"
+      contrabass:
+        abc: "D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,4 z4 | D,,8 |"
+      viola:
+        abc: "[D4^F4A4] z4 | [E4G4B4] z4 | [^F4A4c'4] z4 | [G4B4d'4] z4 | [D4^F4A4] z4 | [E4G4B4] z4 | [^F4A4c'4] z4 | [G4B4d'4] z4 | [D4^F4A4] z4 | [E4G4B4] z4 | [^F4A4c'4] z4 | [G4B4d'4] z4 | [^F4A4c'4] z4 | [G4B4d'4] z4 | [A4c'4e'4] z4 | [D4A4] z4 |"
+      violin2:
+        abc: "[A4d'4^f'4] z4 | [B4e'4g'4] z4 | [c'4^f'4a'4] z4 | [d'4g'4b'4] z4 | [A4d'4^f'4] z4 | [B4e'4g'4] z4 | [c'4^f'4a'4] z4 | [d'4g'4b'4] z4 | [A4d'4^f'4] z4 | [B4e'4g'4] z4 | [c'4^f'4a'4] z4 | [d'4g'4b'4] z4 | [c'4^f'4a'4] z4 | [d'4g'4b'4] z4 | [e'4a'4c''4] z4 | [^F4A4] z4 |"
+      violin1:
+        abc: "d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | b''4 a''4 g''4 ^f''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | d'4 e'4 ^f'4 g'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | b''4 c'''4 d'''4 e'''4 | e'''4 d'''4 c'''4 b''4 | d'8 |"
+      flute:
+        abc: "d''4 e''4 ^f''4 g''4 | a''4 b''4 c'''4 d'''4 | e'''4 d'''4 c'''4 b''4 | a''4 g''4 ^f''4 e''4 | d''4 e''4 ^f''4 g''4 | a''4 b''4 c'''4 d'''4 | e'''8 | e'''4 d'''4 c'''4 b''4 | a''4 g''4 ^f''4 e''4 | d''4 c''4 b'4 a'4 | d''4 e''4 ^f''4 g''4 | a''4 b''4 c'''4 d'''4 | e'''8 | e'''8 | e'''4 d'''4 c'''4 b''4 | d''8 |"
+      oboe:
+        abc: "a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | a''4 g''4 ^f''4 e''4 | d''4 c''4 b'4 a'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | b''8 | b''4 a''4 g''4 ^f''4 | e''4 d''4 c''4 b'4 | a'4 g'4 ^f'4 e'4 | a'4 b'4 c''4 d''4 | e''4 ^f''4 g''4 a''4 | b''8 | b''8 | b''4 a''4 g''4 ^f''4 | a'8 |"
+      clarinet:
+        abc: "^f'4 g'4 a'4 b'4 | c''4 d''4 e''4 ^f''4 | ^f''4 e''4 d''4 c''4 | b'4 a'4 g'4 ^f'4 | ^f'4 g'4 a'4 b'4 | c''4 d''4 e''4 ^f''4 | g''8 | g''4 ^f''4 e''4 d''4 | c''4 b'4 a'4 g'4 | ^f'4 e'4 d'4 c'4 | ^f'4 g'4 a'4 b'4 | c''4 d''4 e''4 ^f''4 | g''8 | g''8 | g''4 ^f''4 e''4 d''4 | ^f'8 |"
+      bassoon:
+        abc: "D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | c4 B,4 A,4 G,4 | ^F,4 E,4 D,4 C,4 | D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | e8 | e4 d4 c4 B,4 | A,4 G,4 ^F,4 E,4 | D,4 C,4 B,,4 A,,4 | D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | e8 | e8 | e4 d4 c4 B,4 | D,8 |"
+      french-horn:
+        abc: "D4 E4 ^F4 G4 | A4 B4 c4 d4 | c4 B4 A4 G4 | ^F4 E4 D4 C4 | D4 E4 ^F4 G4 | A4 B4 c4 d4 | e8 | e4 d4 c4 B4 | A4 G4 ^F4 E4 | D4 C4 B,4 A,4 | D4 E4 ^F4 G4 | A4 B4 c4 d4 | e8 | e8 | e4 d4 c4 B4 | D8 |"
+      trumpet:
+        abc: "d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | c'4 b4 a4 g4 | ^f4 e4 d4 c4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'8 | e'4 d'4 c'4 b4 | a4 g4 ^f4 e4 | d4 c4 B4 A4 | d4 e4 ^f4 g4 | a4 b4 c'4 d'4 | e'8 | e'8 | e'4 d'4 c'4 b4 | d8 |"
+      trombone:
+        abc: "D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | c4 B,4 A,4 G,4 | ^F,4 E,4 D,4 C,4 | D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | e8 | e4 d4 c4 B,4 | A,4 G,4 ^F,4 E,4 | D,4 C,4 B,,4 A,,4 | D,4 E,4 ^F,4 G,4 | A,4 B,4 c4 d4 | e8 | e8 | e4 d4 c4 B,4 | D,8 |"
+      tuba:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D,8 | D,8 | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D, D, D, D, D, D, D, D, | D,8 | D,8 | D,8 | D,8 |"
+      vibraphone:
+        abc: "d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a2 d'2 ^f'2 a'2 | d'2 ^f'2 a'2 d''2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a'8 | a'4 ^f'4 d'4 a4 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | d2 ^f2 a2 d'2 | ^f2 a2 d'2 ^f'2 | a'8 | a'8 | a'4 ^f'4 d'4 a4 | d8 |"
+      piano:
+        abc: "D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'2 a2 ^f2 d2 | A2 ^F2 D2 A,2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'8 | d'4 a4 ^f4 d4 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | D,2 A,2 D2 ^F2 | A2 d2 ^f2 a2 | d'8 | d'8 | d'4 a4 ^f4 d4 | [D,4A,4D4] z4 |"
+      celesta:
+        abc: "d''2 ^f''2 a''2 d'''2 | ^f''2 a''2 d'''2 ^f'''2 | a''2 d'''2 ^f'''2 a'''2 | d'''8 | d''2 ^f''2 a''2 d'''2 | ^f''2 a''2 d'''2 ^f'''2 | a'''8 | a'''4 ^f'''4 d'''4 a''4 | d''2 ^f''2 a''2 d'''2 | ^f''2 a''2 d'''2 ^f'''2 | d''2 ^f''2 a''2 d'''2 | ^f''2 a''2 d'''2 ^f'''2 | a'''8 | a'''8 | a'''4 ^f'''4 d'''4 a''4 | d''8 |"
+
+  climax:
+    bars: 8
+    instruments:
+      cello:
+        abc: "[D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      viola:
+        abc: "[D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] |"
+      violin2:
+        abc: "[^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] |"
+      violin1:
+        abc: "[d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] |"
+      flute:
+        abc: "d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 |"
+      oboe:
+        abc: "a''8 | a''8 | a''8 | a''8 | a''8 | a''8 | a''8 | a''8 |"
+      clarinet:
+        abc: "^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 |"
+      bassoon:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      french-horn:
+        abc: "[D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] |"
+      trumpet:
+        abc: "[d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] |"
+      trombone:
+        abc: "[D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] |"
+      tuba:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      vibraphone:
+        abc: "[d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] |"
+      piano:
+        abc: "[D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] |"
+      celesta:
+        abc: "[d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] |"
+
+  climax2:
+    bars: 8
+    instruments:
+      cello:
+        abc: "[D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      viola:
+        abc: "[D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] | [D8^F8A8] |"
+      violin2:
+        abc: "[^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] | [^F8A8d'8] |"
+      violin1:
+        abc: "[d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] |"
+      flute:
+        abc: "d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 | d'''8 |"
+      oboe:
+        abc: "a''8 | a''8 | a''8 | a''8 | a''8 | a''8 | a''8 | a''8 |"
+      clarinet:
+        abc: "^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 | ^f''8 |"
+      bassoon:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      french-horn:
+        abc: "[D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] | [D8A8] |"
+      trumpet:
+        abc: "[d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] | [d8a8] |"
+      trombone:
+        abc: "[D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] |"
+      tuba:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 |"
+      timpani:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,8 |"
+      vibraphone:
+        abc: "[d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] | [d'8^f'8a'8] |"
+      piano:
+        abc: "[D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] | [D,8A,8D8^F8A8d8] |"
+      celesta:
+        abc: "[d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] | [d''8^f''8a''8d'''8] |"
+
+  resolution:
+    bars: 8
+    instruments:
+      cello:
+        abc: "[D,8A,8] | [D,8A,8] | [D,8A,8] | [D,8A,8] | D,8 | D,8 | D,8 | D,8 |"
+      contrabass:
+        abc: "D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | D,,8 | z8 | z8 |"
+      viola:
+        abc: "[D8^F8A8] | [D8^F8A8] | [D8A8] | [D8A8] | D8 | z8 | z8 | z8 |"
+      violin2:
+        abc: "[^F8A8d'8] | [^F8A8d'8] | [A8d'8] | [A8d'8] | z8 | z8 | z8 | z8 |"
+      violin1:
+        abc: "[d'8^f'8a'8] | [d'8a'8] | d'8 | d'8 | z8 | z8 | z8 | z8 |"
+      flute:
+        abc: "d'''8 | d''8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      oboe:
+        abc: "a''8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      clarinet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bassoon:
+        abc: "D,8 | D,8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      french-horn:
+        abc: "[D8A8] | D8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      trumpet:
+        abc: "d8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      trombone:
+        abc: "D,8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      tuba:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      timpani:
+        abc: "D,8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      vibraphone:
+        abc: "[d'8a'8] | d'8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      piano:
+        abc: "[D,4A,4D4] z4 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      celesta:
+        abc: "d''8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  coda:
+    bars: 8
+    instruments:
+      cello:
+        abc: "D,8 | D,8 | D,8 | D,8 | D,8 | D,8 | D,4 z4 | z8 |"
+      contrabass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      violin2:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      violin1:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      flute:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      oboe:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      clarinet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bassoon:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      french-horn:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      trombone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      tuba:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      timpani:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      vibraphone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      celesta:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+instruments:
+  violin1:
+    program: 40
+  violin2:
+    program: 40
+  viola:
+    program: 41
+  cello:
+    program: 42
+  contrabass:
+    program: 43
+  flute:
+    program: 73
+  oboe:
+    program: 68
+  clarinet:
+    program: 71
+  bassoon:
+    program: 70
+  french-horn:
+    program: 60
+  trumpet:
+    program: 56
+  trombone:
+    program: 57
+  tuba:
+    program: 58
+  timpani:
+    program: 47
+  vibraphone:
+    program: 11
+  piano:
+    program: 0
+  celesta:
+    program: 8
+
+arrangement:
+  return1: |
+    Opening D pedal recalls Movement I.
+    Solo cello, patient accumulation.
+    Strings enter one by one, building D MAJOR triad.
+    The minor has become major. Transformation complete.
+  return2: |
+    Melodic material returns transformed.
+    All parts in parallel motion, ascending scales.
+    Full orchestra texture. mf to f.
+  build1: |
+    Scalar passages in all parts.
+    Cumulative energy, driving toward climax.
+    All previous themes synthesized.
+    f to ff.
+  build2: |
+    Maximum intensity before final climax.
+    Chord stabs on beat, scales between.
+    Timpani rolls throughout.
+    ff.
+  climax: |
+    Overwhelming D major chord.
+    All instruments at maximum.
+    Sustained for 8 bars, then sudden silence.
+    fff.
+  resolution: |
+    Instruments drop out rapidly.
+    The chord dissipates.
+    Only cello remains.
+  coda: |
+    Solo cello, D sustained.
+    As it began. But now in major.
+    Darkness has become light.
+    Fade to silence. pp to niente.

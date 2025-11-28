@@ -1,0 +1,66 @@
+title: Resonance Field
+composer: Brian Edwards
+tempo: 54
+time: 4/4
+key: Gmaj
+sections:
+- name: shimmer1
+  bars: 16
+- name: space1b
+  bars: 16
+- name: shimmer2
+  bars: 16
+- name: space3
+  bars: 16
+- name: space2
+  bars: 16
+- name: space4
+  bars: 16
+- name: space1
+  bars: 16
+- name: coda
+  bars: 8
+structure:
+- space1
+- space1b
+- space2
+- space3
+- shimmer1
+- shimmer2
+- space4
+- coda
+instruments:
+  violin1:
+    program: 40
+  violin2:
+    program: 40
+  viola:
+    program: 41
+  cello:
+    program: 42
+  contrabass:
+    program: 43
+  flute:
+    program: 73
+  oboe:
+    program: 68
+  clarinet:
+    program: 71
+  bassoon:
+    program: 70
+  french-horn:
+    program: 60
+  trumpet:
+    program: 56
+  trombone:
+    program: 57
+  tuba:
+    program: 58
+  timpani:
+    program: 47
+  vibraphone:
+    program: 11
+  piano:
+    program: 0
+  celesta:
+    program: 8

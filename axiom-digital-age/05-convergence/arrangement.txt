@@ -1,0 +1,43 @@
+TEMPO: 72 bpm
+TIME: 4/4
+KEY: Dmaj
+
+RETURN1
+Opening D pedal recalls Movement I.
+Solo cello, patient accumulation.
+Strings enter one by one, building D MAJOR triad.
+The minor has become major. Transformation complete.
+
+RETURN2
+Melodic material returns transformed.
+All parts in parallel motion, ascending scales.
+Full orchestra texture. mf to f.
+
+BUILD1
+Scalar passages in all parts.
+Cumulative energy, driving toward climax.
+All previous themes synthesized.
+f to ff.
+
+BUILD2
+Maximum intensity before final climax.
+Chord stabs on beat, scales between.
+Timpani rolls throughout.
+ff.
+
+CLIMAX
+Overwhelming D major chord.
+All instruments at maximum.
+Sustained for 8 bars, then sudden silence.
+fff.
+
+RESOLUTION
+Instruments drop out rapidly.
+The chord dissipates.
+Only cello remains.
+
+CODA
+Solo cello, D sustained.
+As it began. But now in major.
+Darkness has become light.
+Fade to silence. pp to niente.

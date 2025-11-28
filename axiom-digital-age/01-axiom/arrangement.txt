@@ -1,0 +1,51 @@
+TEMPO: 60 bpm
+TIME: 4/4
+KEY: Dmin
+
+EMERGENCE
+Solo cello on D, sustained for 16 bars. pppp to pp.
+Patient, exposed, meditative. The fundamental pitch from which all else emerges.
+No vibrato initially, slight vibrato developing by bar 12.
+
+ACCUMULATION1
+Contrabass enters bar 5 on low D, octave below cello.
+Viola enters bar 9 on A (fifth above).
+Violin II enters bar 13 on F (minor third).
+Building the D minor triad across 4 octaves. pp to mp.
+
+ACCUMULATION2
+Violin I enters bar 5 on high d.
+Flute and oboe enter bar 13, doubling upper strings.
+Beginning of harmonic motion in bars 9-16.
+Strings begin alternating patterns. mp to mf.
+
+DEVELOPMENT1
+French horn enters bar 9 with D pedal.
+Timpani punctuates bars 9 and 16.
+First melodic motion in cello, violin I, flute.
+Clarinet and bassoon join woodwinds. mf.
+
+DEVELOPMENT2
+Full texture. All woodwinds active with melodic fragments.
+Trumpet enters bar 9 with high d.
+Trombone and tuba provide bass foundation.
+Vibraphone arpeggios, piano arpeggios, celesta shimmer.
+Building intensity. mf to f.
+
+CLIMAX
+Maximum density. All 17 instruments at full voice.
+Scalar passages in all parts, moving in parallel and contrary motion.
+Timpani roll throughout.
+ff to fff.
+Bars 13-16: sustained climax, then sudden stop.
+
+DISSOLUTION
+Reverse of accumulation. Instruments drop out.
+Brass silent first, then upper woodwinds, upper strings.
+fff to pp over 16 bars.
+Return to exposed simplicity.
+
+CODA
+Solo cello, as at the beginning.
+But now we hear it differently - transformed by the journey.
+Final D fades to silence. pp to niente.

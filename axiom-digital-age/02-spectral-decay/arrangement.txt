@@ -1,0 +1,46 @@
+TEMPO: 48 bpm
+TIME: 4/4
+KEY: Dmin
+
+CLUSTER1
+Dense D phrygian cluster. All strings sustain close-voiced harmonies.
+Violin 1 and 2: minor seconds (d-e, then d-eb). Maximum dissonance.
+Woodwinds add upper partials. French horn anchors the pedal.
+ppp throughout. Imperceptible entrances.
+
+SHIFT1
+Harmonic shift begins. Notes move chromatically.
+D phrygian (Eb) flattens further, creating tension.
+Cello shifts from A to G (fifth), then to C major area.
+Celesta enters high G, ghostly shimmer.
+
+CLUSTER2
+New cluster on C major / G. Brighter but still dense.
+Piano enters with sustained arpeggios, filling harmonic space.
+Trumpet enters muted, adding brass color.
+Maximum orchestral density. mf.
+
+SHIFT2
+Moving toward Bb lydian. Raised fourth (E natural) creates brightness.
+All parts shift down by whole step.
+Piano arpeggios outline the new harmony.
+
+DISSOLUTION1
+Texture thins rapidly. Instruments exit one by one.
+Return to chamber texture. Only cello and viola remain by end.
+mp to pp.
+
+CLUSTER3
+Rebuilding in Bb lydian. Patient accumulation again.
+Brighter harmonic area creates sense of expansion.
+Building from cello pedal to full string texture.
+
+SHIFT3
+Return to D minor. Chromatic voice leading.
+Bb to A, F to E, then settling on D.
+Sense of homecoming after harmonic journey.
+
+CODA
+Final D minor, instruments exit one by one.
+Cello last to sound, as it was first.
+Fade to absolute silence. pp to niente.

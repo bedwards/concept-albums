@@ -1,0 +1,83 @@
+title: Spectral Decay
+composer: Brian Edwards
+tempo: 48
+time: 4/4
+key: Dmin
+sections:
+- name: shift3
+  bars: 16
+- name: shift1
+  bars: 16
+- name: cluster3
+  bars: 16
+- name: cluster2
+  bars: 16
+- name: coda
+  bars: 8
+- name: cluster1
+  bars: 16
+- name: dissolution1
+  bars: 16
+- name: shift2
+  bars: 16
+structure:
+- cluster1
+- shift1
+- cluster2
+- shift2
+- dissolution1
+- cluster3
+- shift3
+- coda
+instruments:
+  violin1:
+    program: 40
+    name: Violin
+  violin2:
+    program: 40
+    name: Violin
+  viola:
+    program: 41
+    name: Viola
+  cello:
+    program: 42
+    name: Cello
+  contrabass:
+    program: 43
+    name: Contrabass
+  flute:
+    program: 73
+    name: Flute
+  oboe:
+    program: 68
+    name: Oboe
+  clarinet:
+    program: 71
+    name: Clarinet
+  bassoon:
+    program: 70
+    name: Bassoon
+  french-horn:
+    program: 60
+    name: French Horn
+  trumpet:
+    program: 56
+    name: Trumpet
+  trombone:
+    program: 57
+    name: Trombone
+  tuba:
+    program: 58
+    name: Tuba
+  timpani:
+    program: 47
+    name: Timpani
+  vibraphone:
+    program: 11
+    name: Vibraphone
+  piano:
+    program: 0
+    name: Acoustic Grand Piano
+  celesta:
+    program: 8
+    name: Celesta

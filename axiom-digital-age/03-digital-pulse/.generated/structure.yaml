@@ -1,0 +1,86 @@
+title: Digital Pulse
+composer: Brian Edwards
+tempo: 96
+time: 4/4
+key: Ddor
+sections:
+- name: pulse2
+  bars: 24
+- name: phase2
+  bars: 24
+- name: collision
+  bars: 24
+- name: coda
+  bars: 24
+- name: phase1
+  bars: 24
+- name: pulse3
+  bars: 24
+- name: reduction
+  bars: 24
+- name: pulse1
+  bars: 24
+structure:
+- pulse1
+- pulse2
+- collision
+- phase1
+- phase2
+- reduction
+- pulse3
+- coda
+instruments:
+  violin1:
+    program: 40
+    name: Violin
+  violin2:
+    program: 40
+    name: Violin
+  viola:
+    program: 41
+    name: Viola
+  cello:
+    program: 42
+    name: Cello
+  contrabass:
+    program: 43
+    name: Contrabass
+  flute:
+    program: 73
+    name: Flute
+  oboe:
+    program: 68
+    name: Oboe
+  clarinet:
+    program: 71
+    name: Clarinet
+  bassoon:
+    program: 70
+    name: Bassoon
+  french-horn:
+    program: 60
+    name: French Horn
+  trumpet:
+    program: 56
+    name: Trumpet
+  trombone:
+    program: 57
+    name: Trombone
+  tuba:
+    program: 58
+    name: Tuba
+  timpani:
+    program: 47
+    name: Timpani
+  marimba:
+    program: 12
+    name: Marimba
+  vibraphone:
+    program: 11
+    name: Vibraphone
+  piano:
+    program: 0
+    name: Acoustic Grand Piano
+  celesta:
+    program: 8
+    name: Celesta

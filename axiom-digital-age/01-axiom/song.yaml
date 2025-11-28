@@ -626,56 +626,56 @@ sections:
           d'2 e'2 f'2 g'2 | a'2 b'2 c''2 d''2 | c''2 b'2 a'2 g'2 | f'2 e'2 d'2 c'2 |
           d'2 e'2 f'2 g'2 | a'2 b'2 c''2 d''2 | e''2 f''2 g''2 a''2 | a''2 g''2 f''2 e''2 |
           c''2 b'2 a'2 g'2 | f'2 e'2 d'2 c'2 | d'2 e'2 f'2 g'2 | a'2 b'2 c''2 d''2 |
-          e''8 | f''8 | e''4 d''4 c''4 b'4 | d'8 |
+          e''8 | f''8 | e''2 d''2 c''2 b'2 | d'8 |
       
       oboe:
         abc: |
           a2 b2 c'2 d'2 | e'2 f'2 g'2 a'2 | g'2 f'2 e'2 d'2 | c'2 b2 a2 g2 |
           a2 b2 c'2 d'2 | e'2 f'2 g'2 a'2 | b'2 c''2 d''2 e''2 | e''2 d''2 c''2 b'2 |
           g'2 f'2 e'2 d'2 | c'2 b2 a2 g2 | a2 b2 c'2 d'2 | e'2 f'2 g'2 a'2 |
-          b'8 | c''8 | b'4 a'4 g'4 f'4 | a8 |
+          b'8 | c''8 | b'2 a'2 g'2 f'2 | a8 |
       
       clarinet:
         abc: |
           f2 g2 a2 b2 | c'2 d'2 e'2 f'2 | e'2 d'2 c'2 b2 | a2 g2 f2 e2 |
           f2 g2 a2 b2 | c'2 d'2 e'2 f'2 | g'2 a'2 b'2 c''2 | c''2 b'2 a'2 g'2 |
           e'2 d'2 c'2 b2 | a2 g2 f2 e2 | f2 g2 a2 b2 | c'2 d'2 e'2 f'2 |
-          g'8 | a'8 | g'4 f'4 e'4 d'4 | f8 |
+          g'8 | a'8 | g'2 f'2 e'2 d'2 | f8 |
       
       bassoon:
         abc: |
           D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 | c2 B,2 A,2 G,2 | F,2 E,2 D,2 C,2 |
           D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 | e2 f2 g2 a2 | a2 g2 f2 e2 |
           c2 B,2 A,2 G,2 | F,2 E,2 D,2 C,2 | D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 |
-          e8 | f8 | e4 d4 c4 B,4 | D,8 |
+          e8 | f8 | e2 d2 c2 B,2 | D,8 |
       
       french-horn:
         abc: |
           D2 E2 F2 G2 | A2 B2 c2 d2 | c2 B2 A2 G2 | F2 E2 D2 C2 |
           D2 E2 F2 G2 | A2 B2 c2 d2 | e2 f2 g2 a2 | a2 g2 f2 e2 |
           c2 B2 A2 G2 | F2 E2 D2 C2 | D2 E2 F2 G2 | A2 B2 c2 d2 |
-          e8 | f8 | e4 d4 c4 B4 | D8 |
+          e8 | f8 | e2 d2 c2 B2 | D8 |
       
       trumpet:
         abc: |
           d2 e2 f2 g2 | a2 b2 c'2 d'2 | c'2 b2 a2 g2 | f2 e2 d2 c2 |
           d2 e2 f2 g2 | a2 b2 c'2 d'2 | e'2 f'2 g'2 a'2 | a'2 g'2 f'2 e'2 |
           c'2 b2 a2 g2 | f2 e2 d2 c2 | d2 e2 f2 g2 | a2 b2 c'2 d'2 |
-          e'8 | f'8 | e'4 d'4 c'4 b4 | d8 |
+          e'8 | f'8 | e'2 d'2 c'2 b2 | d8 |
       
       trombone:
         abc: |
           D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 | c2 B,2 A,2 G,2 | F,2 E,2 D,2 C,2 |
           D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 | e2 f2 g2 a2 | a2 g2 f2 e2 |
           c2 B,2 A,2 G,2 | F,2 E,2 D,2 C,2 | D,2 E,2 F,2 G,2 | A,2 B,2 c2 d2 |
-          e8 | f8 | e4 d4 c4 B,4 | D,8 |
+          e8 | f8 | e2 d2 c2 B,2 | D,8 |
       
       tuba:
         abc: |
           D,,2 E,,2 F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | C,2 B,,2 A,,2 G,,2 | F,,2 E,,2 D,,2 C,,2 |
           D,,2 E,,2 F,,2 G,,2 | A,,2 B,,2 C,2 D,2 | D,2 E,2 F,2 G,2 | G,2 F,2 E,2 D,2 |
           C,2 B,,2 A,,2 G,,2 | F,,2 E,,2 D,,2 C,,2 | D,,2 E,,2 F,,2 G,,2 | A,,2 B,,2 C,2 D,2 |
-          D,8 | E,8 | D,4 C,4 B,,4 A,,4 | D,,8 |
+          D,8 | E,8 | D,2 C,2 B,,2 A,,2 | D,,8 |
       
       timpani:
         abc: |
@@ -689,21 +689,21 @@ sections:
           d2 f2 a2 d'2 | f2 a2 d'2 f'2 | a2 d'2 f'2 a'2 | d'2 f'2 a'2 d''2 |
           d2 f2 a2 d'2 | f2 a2 d'2 f'2 | a2 d'2 f'2 a'2 | d'2 f'2 a'2 d''2 |
           d''2 a'2 f'2 d'2 | a2 f2 d2 A2 | d2 f2 a2 d'2 | f2 a2 d'2 f'2 |
-          a'8 | d''8 | a'4 f'4 d'4 a4 | d8 |
+          a'8 | d''8 | a'2 f'2 d'2 a2 | d8 |
       
       piano:
         abc: |
           D,2 A,2 D2 F2 | A2 d2 f2 a2 | d'2 a2 f2 d2 | A2 F2 D2 A,2 |
           D,2 A,2 D2 F2 | A2 d2 f2 a2 | d'2 f'2 a'2 d''2 | d''2 a'2 f'2 d'2 |
           a2 f2 d2 A2 | F2 D2 A,2 D,2 | D,2 A,2 D2 F2 | A2 d2 f2 a2 |
-          d'8 | f'8 | d'4 a4 f4 d4 | [D,4A,4D4] z4 |
+          d'8 | f'8 | d'2 a2 f2 d2 | [D,4A,4D4] z4 |
       
       celesta:
         abc: |
           d'2 f'2 a'2 d''2 | f'2 a'2 d''2 f''2 | a'2 d''2 f''2 a''2 | d''2 f''2 a''2 d'''2 |
           d'2 f'2 a'2 d''2 | f'2 a'2 d''2 f''2 | a'2 d''2 f''2 a''2 | d''2 f''2 a''2 d'''2 |
           d'''2 a''2 f''2 d''2 | a'2 f'2 d'2 a2 | d'2 f'2 a'2 d''2 | f'2 a'2 d''2 f''2 |
-          a''8 | d'''8 | a''4 f''4 d''4 a'4 | d'8 |
+          a''8 | d'''8 | a''2 f''2 d''2 a'2 | d'8 |
 
   # --------------------------------------------------------------------------
   # DISSOLUTION (16 bars) - Gradual reduction

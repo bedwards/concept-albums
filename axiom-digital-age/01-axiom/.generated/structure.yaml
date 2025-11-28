@@ -4,23 +4,23 @@ tempo: 60
 time: 4/4
 key: Dmin
 sections:
-- name: climax
-  bars: 16
-- name: development2
+- name: accumulation2
   bars: 16
 - name: development1
-  bars: 16
-- name: dissolution
-  bars: 16
-- name: accumulation2
   bars: 16
 - name: emergence
   bars: 16
 - name: accumulation1
   bars: 16
+- name: development2
+  bars: 16
+- name: accumulation3
+  bars: 16
 - name: coda
   bars: 8
-- name: accumulation3
+- name: dissolution
+  bars: 16
+- name: climax
   bars: 16
 structure:
 - emergence

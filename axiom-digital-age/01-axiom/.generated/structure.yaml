@@ -6,21 +6,21 @@ key: Dmin
 sections:
 - name: coda
   bars: 8
-- name: development1
-  bars: 16
 - name: climax
-  bars: 16
-- name: accumulation1
-  bars: 16
-- name: development2
-  bars: 16
-- name: accumulation3
   bars: 16
 - name: dissolution
   bars: 16
+- name: development1
+  bars: 16
+- name: accumulation3
+  bars: 16
 - name: emergence
   bars: 16
+- name: development2
+  bars: 16
 - name: accumulation2
+  bars: 16
+- name: accumulation1
   bars: 16
 structure:
 - emergence

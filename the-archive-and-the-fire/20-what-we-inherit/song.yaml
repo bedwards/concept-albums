@@ -5,6 +5,7 @@ song:
   time: "4/4"
   key: "G"
   structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+  dedication: "For those who choose, and those who will"
 
 sections:
   intro:

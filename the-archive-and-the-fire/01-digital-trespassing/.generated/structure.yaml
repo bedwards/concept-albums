@@ -1,19 +1,19 @@
-title: Digital Trespassing
+title: Digital Trespassing (Aaron Swartz)
 composer: Brian Edwards
 tempo: 78
 time: 4/4
 key: Em
 sections:
-- name: outro
-  bars: 6
-- name: chorus
-  bars: 8
 - name: intro
   bars: 4
+- name: chorus
+  bars: 8
 - name: bridge
   bars: 8
 - name: verse
   bars: 12
+- name: outro
+  bars: 6
 structure:
 - intro
 - verse

@@ -4,15 +4,15 @@ tempo: 72
 time: 4/4
 key: G
 sections:
-- name: verse
-  bars: 16
-- name: chorus
-  bars: 12
-- name: bridge
-  bars: 8
 - name: intro
   bars: 8
 - name: outro
+  bars: 12
+- name: verse
+  bars: 16
+- name: bridge
+  bars: 8
+- name: chorus
   bars: 12
 structure:
 - intro

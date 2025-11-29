@@ -1,0 +1,34 @@
+TEMPO: 70 bpm
+TIME: 4/4
+KEY: Am
+
+INTRO
+Guitar: Arpeggiated Am pattern, melancholic and steady.
+Bass: Root notes, quarter note pulse. Drums: None.
+
+VERSE
+Vocal: Direct delivery, telling the story without editorializing.
+Guitar: Continue arpeggio, add subtle variations.
+Bass: Root notes with occasional walks to next chord.
+Drums: Brush kick/snare, verses 1-4. Silent on empty lyric lines.
+
+CHORUS
+Vocal: Not triumphant - the spillway metaphor as inevitability, not celebration.
+Guitar: Fuller strumming, still restrained.
+Bass: Root-fifth pattern, more movement.
+Drums: Steady backbeat with brushes.
+
+BRIDGE
+Instrumental. Guitar: Single-note melody over minor progression.
+Bass: Pedal tones, sustained. Drums: Kick only, sparse.
+
+OUTRO
+Return to intro arpeggio. Guitar gradually slower.
+All instruments fade. End on open Am, let ring.
+
+PRODUCTION NOTES:
+- Second song continues album's dry aesthetic
+- Focus on the facts: Baghdad, the video, the informant, solitary, transition, commutation
+- Empathy without judgment: "was that freedom, or was that treason"
+- The spillway metaphor: once truth starts flowing, it can't be stopped
+- Total length: ~6:30

@@ -1,0 +1,219 @@
+song:
+  title: "Digital Trespassing"
+  composer: "Brian Edwards"
+  tempo: 78
+  time: "4/4"
+  key: "Em"
+  structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 4
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Em"E2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"E2 C2 E2 G2 | C'2 G2 E2 C2 |
+      bass:
+        abc: "E,2 E,2 E,2 E,2 | E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "He wrote code at two in the morning"
+          chords: ["Em", "C"]
+        - line: "Downloaded what they said he shouldn't read"
+          chords: ["G", "D"]
+        - line: "Academic journals locked behind paywalls"
+          chords: ["Em", "C"]
+        - line: "Research funded publicly"
+          chords: ["G", "D"]
+        - line: ""
+          chords: []
+        - line: "They called it theft, called it breaking in"
+          chords: ["Em", "C"]
+        - line: "He called it opening the door"
+          chords: ["G", "D"]
+      verse2:
+        - line: "Twenty-six years old in a Boston courthouse"
+          chords: ["Em", "C"]
+        - line: "Fifty years in federal time"
+          chords: ["G", "D"]
+        - line: "For downloading documents that should've been free"
+          chords: ["Em", "C"]
+        - line: "For believing information wants to climb"
+          chords: ["G", "D"]
+        - line: ""
+          chords: []
+        - line: "Out of vaults and into daylight"
+          chords: ["Em", "C"]
+        - line: "Out of profit into hands"
+          chords: ["G", "D"]
+      verse3:
+        - line: "They found him in January, winter morning"
+          chords: ["Em", "C"]
+        - line: "His family says the trial broke him down"
+          chords: ["G", "D"]
+        - line: "The prosecutors wanted to make an example"
+          chords: ["Em", "C"]
+        - line: "So the next kid with a laptop won't come around"
+          chords: ["G", "D"]
+        - line: ""
+          chords: []
+        - line: "Won't ask why public research costs money"
+          chords: ["Em", "C"]
+        - line: "Won't wonder who gets to decide what's free"
+          chords: ["G", "D"]
+      verse4:
+        - line: "I think about him in the library stacks"
+          chords: ["Em", "C"]
+        - line: "Scripts running while the campus slept"
+          chords: ["G", "D"]
+        - line: "Did he know they'd come for him like this"
+          chords: ["Em", "C"]
+        - line: "Did he think the weight was one he could accept"
+          chords: ["G", "D"]
+        - line: ""
+          chords: []
+        - line: "Or was he just a kid who saw a door unlocked"
+          chords: ["Em", "C"]
+        - line: "And walked through because it should have been"
+          chords: ["G", "D"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E2 E2 G2 B2 | "C"C'2 G2 E2 C2 | "G"B2 B2 A2 G2 | "D"A6 z2 |
+          "Em"E2 E2 G2 B2 | "C"C'2 G2 E2 C2 | "G"B2 B2 A2 G2 | "D"A6 z2 |
+          z8 | z8 |
+          "Em"E2 E2 G2 B2 | "C"C'2 G2 E2 C2 |
+      guitar-acoustic:
+        abc: |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 |
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z4 C4 | z4 C4 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus1:
+        - line: "This is the story they don't tell"
+          chords: ["C", "G"]
+        - line: "How the brave ones break alone"
+          chords: ["D", "Em"]
+        - line: "How the system grinds them down to dust"
+          chords: ["C", "G"]
+        - line: "For touching what they should have owned"
+          chords: ["D", "Em"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "C"C2 C2 E2 G2 | "G"B2 G2 D2 B,2 | "D"A2 A2 F2 A2 | "Em"G6 z2 |
+          "C"C2 C2 E2 G2 | "G"B2 G2 D2 B,2 | "D"A2 A2 F2 A2 | "Em"E6 z2 |
+      guitar-acoustic:
+        abc: |
+          "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 | "Em"E2 B,2 E2 G2 |
+          "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 | "Em"E2 B,2 E2 G2 |
+      bass:
+        abc: |
+          "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 | "Em"E,2 E,2 E,2 E,2 |
+          "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 | "Em"E,2 E,2 E,2 E,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Am"A2 E2 A2 c2 | "D"d2 A2 F2 D2 | "G"G2 D2 B,2 G,2 | "C"C2 E2 G2 c2 |
+          "Am"A2 E2 A2 c2 | "D"d2 A2 F2 D2 | "Em"E2 G2 B2 e2 | "D"d6 z2 |
+      bass:
+        abc: "A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | E,2 E,2 E,2 E,2 | D,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 6
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Em"E2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"E2 C2 E2 G2 | C'2 G2 E2 C2 |
+          "Em"E4 B,4 | E,8 |
+      bass:
+        abc: "E,2 E,2 E,2 E,2 | E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | E,8 | E,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    Guitar: Fingerpick pattern, minor feel, open strings ring.
+    Bass: Root notes, quarter notes, steady. Drums: None.
+  
+  verse: |
+    Vocal: Conversational, close-mic, tell the story plainly.
+    Guitar: Continue fingerpick, add occasional hammer-ons.
+    Bass: Root notes with occasional fifth walk.
+    Drums: Brush kick/snare, minimal, verses 1-4. Silent on empty lyric lines.
+  
+  chorus: |
+    Vocal: Not anthemic, just stating fact with weight.
+    Guitar: Fuller strumming, still restrained.
+    Bass: Root-fifth walking pattern.
+    Drums: Steady backbeat with brushes.
+  
+  bridge: |
+    Instrumental. Guitar: Single-note melody, contemplative.
+    Bass: Pedal tones on root. Drums: Kick only, sparse.
+  
+  outro: |
+    Return to intro feel. Guitar: Fingerpick, gradually slower.
+    All instruments fade. Guitar ends on open Em chord, let ring.
+    
+    PRODUCTION NOTES:
+    - Album opener sets the tone: dry, direct, empathetic
+    - No reverb on vocals except natural room
+    - Record guitar and vocals simultaneously 
+    - Bass DI only, no amp
+    - Drums: single overhead mic, brushes only
+    - Total length: ~5:30

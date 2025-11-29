@@ -1,0 +1,35 @@
+TEMPO: 78 bpm
+TIME: 4/4
+KEY: Em
+
+INTRO
+Guitar: Fingerpick pattern, minor feel, open strings ring.
+Bass: Root notes, quarter notes, steady. Drums: None.
+
+VERSE
+Vocal: Conversational, close-mic, tell the story plainly.
+Guitar: Continue fingerpick, add occasional hammer-ons.
+Bass: Root notes with occasional fifth walk.
+Drums: Brush kick/snare, minimal, verses 1-4. Silent on empty lyric lines.
+
+CHORUS
+Vocal: Not anthemic, just stating fact with weight.
+Guitar: Fuller strumming, still restrained.
+Bass: Root-fifth walking pattern.
+Drums: Steady backbeat with brushes.
+
+BRIDGE
+Instrumental. Guitar: Single-note melody, contemplative.
+Bass: Pedal tones on root. Drums: Kick only, sparse.
+
+OUTRO
+Return to intro feel. Guitar: Fingerpick, gradually slower.
+All instruments fade. Guitar ends on open Em chord, let ring.
+
+PRODUCTION NOTES:
+- Album opener sets the tone: dry, direct, empathetic
+- No reverb on vocals except natural room
+- Record guitar and vocals simultaneously 
+- Bass DI only, no amp
+- Drums: single overhead mic, brushes only
+- Total length: ~5:30

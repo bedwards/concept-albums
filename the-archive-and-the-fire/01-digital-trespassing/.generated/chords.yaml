@@ -1,0 +1,132 @@
+song:
+  title: Digital Trespassing
+  composer: Brian Edwards
+  key: Em
+  tempo: 78
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    - C
+    lyrics: He wrote code at two in the morning
+  - chords:
+    - G
+    - D
+    lyrics: Downloaded what they said he shouldn't read
+  - chords:
+    - Em
+    - C
+    lyrics: Academic journals locked behind paywalls
+  - chords:
+    - G
+    - D
+    lyrics: Research funded publicly
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - C
+    lyrics: They called it theft, called it breaking in
+  - chords:
+    - G
+    - D
+    lyrics: He called it opening the door
+  verse2:
+  - chords:
+    - Em
+    - C
+    lyrics: Twenty-six years old in a Boston courthouse
+  - chords:
+    - G
+    - D
+    lyrics: Fifty years in federal time
+  - chords:
+    - Em
+    - C
+    lyrics: For downloading documents that should've been free
+  - chords:
+    - G
+    - D
+    lyrics: For believing information wants to climb
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - C
+    lyrics: Out of vaults and into daylight
+  - chords:
+    - G
+    - D
+    lyrics: Out of profit into hands
+  verse3:
+  - chords:
+    - Em
+    - C
+    lyrics: They found him in January, winter morning
+  - chords:
+    - G
+    - D
+    lyrics: His family says the trial broke him down
+  - chords:
+    - Em
+    - C
+    lyrics: The prosecutors wanted to make an example
+  - chords:
+    - G
+    - D
+    lyrics: So the next kid with a laptop won't come around
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - C
+    lyrics: Won't ask why public research costs money
+  - chords:
+    - G
+    - D
+    lyrics: Won't wonder who gets to decide what's free
+  verse4:
+  - chords:
+    - Em
+    - C
+    lyrics: I think about him in the library stacks
+  - chords:
+    - G
+    - D
+    lyrics: Scripts running while the campus slept
+  - chords:
+    - Em
+    - C
+    lyrics: Did he know they'd come for him like this
+  - chords:
+    - G
+    - D
+    lyrics: Did he think the weight was one he could accept
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - C
+    lyrics: Or was he just a kid who saw a door unlocked
+  - chords:
+    - G
+    - D
+    lyrics: And walked through because it should have been
+  chorus1:
+  - chords:
+    - C
+    - G
+    lyrics: This is the story they don't tell
+  - chords:
+    - D
+    - Em
+    lyrics: How the brave ones break alone
+  - chords:
+    - C
+    - G
+    lyrics: How the system grinds them down to dust
+  - chords:
+    - D
+    - Em
+    lyrics: For touching what they should have owned

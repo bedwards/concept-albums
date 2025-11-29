@@ -1,0 +1,227 @@
+song:
+  title: "Permanent Record (Edward Snowden)"
+  composer: "Brian Edwards"
+  tempo: 74
+  time: "4/4"
+  key: "Dm"
+  structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 6
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "Dm"D2 A,2 D2 F2 | "Am"A,2 E2 A2 c2 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | A,2 A,2 A,2 A,2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 16
+    lyrics:
+      verse1:
+        - line: "NSA infrastructure analyst"
+          chords: ["Dm", "C"]
+        - line: "Building systems to surveil the world"
+          chords: ["Bb", "F"]
+        - line: "Every email, every call, every click"
+          chords: ["Dm", "C"]
+        - line: "Stored forever in the metadata"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "He copied files in Hawaii"
+          chords: ["Dm", "C"]
+        - line: "Flew to Hong Kong with the proof"
+          chords: ["Bb", "F"]
+        - line: "Met journalists in a hotel room"
+          chords: ["Dm", "C"]
+        - line: "And showed them what the NSA can do"
+          chords: ["Bb", "F"]
+      verse2:
+        - line: "PRISM, XKeyscore, mass collection"
+          chords: ["Dm", "C"]
+        - line: "Programs that vacuum up everything"
+          chords: ["Bb", "F"]
+        - line: "Constitutional? Fourth Amendment?"
+          chords: ["Dm", "C"]
+        - line: "Classified as state secrets"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "They revoked his passport mid-flight"
+          chords: ["Dm", "C"]
+        - line: "Stranded in Moscow airport for weeks"
+          chords: ["Bb", "F"]
+        - line: "Russia granted temporary asylum"
+          chords: ["Dm", "C"]
+        - line: "Ten years later, still can't leave"
+          chords: ["Bb", "F"]
+      verse3:
+        - line: "Married his girlfriend in exile"
+          chords: ["Dm", "C"]
+        - line: "Their son will know a father who can't go home"
+          chords: ["Bb", "F"]
+        - line: "Espionage charges waiting in Virginia"
+          chords: ["Dm", "C"]
+        - line: "No chance of a fair trial, he says"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "But now you know they're watching"
+          chords: ["Dm", "C"]
+        - line: "Now you know the scope"
+          chords: ["Bb", "F"]
+        - line: "And you still use your phone"
+          chords: ["Dm", "C"]
+        - line: "Because what choice do you have"
+          chords: ["Bb", "F"]
+      verse4:
+        - line: "He writes on Twitter from Russia"
+          chords: ["Dm", "C"]
+        - line: "About encryption and privacy rights"
+          chords: ["Bb", "F"]
+        - line: "The price of showing Americans"
+          chords: ["Dm", "C"]
+        - line: "What their government does in the dark"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "Is a life you can't go back from"
+          chords: ["Dm", "C"]
+        - line: "Permanent exile, permanent record"
+          chords: ["Bb", "F"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+          z8 | z8 | z8 | z8 |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          z8 | z8 | z8 | z8 |
+      bass:
+        abc: |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          z8 | z8 | z8 | z8 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z8 | z8 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus1:
+        - line: "Permanent record in the cloud"
+          chords: ["Bb", "F"]
+        - line: "Every word you've ever said"
+          chords: ["C", "Dm"]
+        - line: "He showed you they were listening"
+          chords: ["Bb", "F"]
+        - line: "Now he can't come home"
+          chords: ["C", "Dm"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Bb"D2 D2 F2 B2 | "F"c2 A2 F2 C2 | "C"E2 E2 G2 c2 | "Dm"d2 A2 F2 D2 |
+          "Bb"D2 D2 F2 B2 | "F"c2 A2 F2 C2 | "C"E2 E2 G2 c2 | "Dm"D6 z2 |
+      guitar-acoustic:
+        abc: |
+          "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 |
+          "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 |
+      bass:
+        abc: |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "Dm"D,2 D,2 D,2 D,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "Dm"D,2 D,2 D,2 D,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Gm"G,2 D2 G2 B2 | "C"C2 G,2 C2 E2 | "F"F2 C2 A2 F2 | "Dm"D2 A,2 F2 D2 |
+          "Gm"G,2 D2 G2 B2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 | "A"A,6 z2 |
+      bass:
+        abc: "G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | F,2 F,2 F,2 F,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | D,2 D,2 D,2 D,2 | A,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "Dm"D4 A,4 | D,8 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | D,8 | D,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+arrangement:
+  intro: |
+    Guitar: Fingerpick Dm/Am, digital surveillance mood.
+    Bass: Root notes. Drums: None.
+  
+  verse: |
+    Vocal: NSA analyst, Hong Kong hotel, Moscow airport, Russian exile.
+    Technical details: PRISM, XKeyscore, metadata.
+    Guitar: Fingerpick continues. Bass: Root notes.
+    Drums: Minimal brush pattern.
+  
+  chorus: |
+    Vocal: "Permanent record" - the title's double meaning.
+    Guitar: Strumming. Bass: Root-fifth.
+    Drums: Steady backbeat.
+  
+  bridge: |
+    Instrumental. Guitar: Single-note meditation.
+    Bass: Pedal tones. Drums: Kick only.
+  
+  outro: |
+    Longer outro (8 bars), fade slowly on Dm.
+    The surveillance continues.
+    
+    PRODUCTION NOTES:
+    - Most famous whistleblower, still in exile
+    - "You still use your phone" - complicity question
+    - Permanent exile = permanent record
+    - Total length: ~7:15

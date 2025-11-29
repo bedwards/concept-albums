@@ -1,0 +1,156 @@
+song:
+  title: Permanent Record (Edward Snowden)
+  composer: Brian Edwards
+  key: Dm
+  tempo: 74
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Dm
+    - C
+    lyrics: NSA infrastructure analyst
+  - chords:
+    - Bb
+    - F
+    lyrics: Building systems to surveil the world
+  - chords:
+    - Dm
+    - C
+    lyrics: Every email, every call, every click
+  - chords:
+    - Bb
+    - F
+    lyrics: Stored forever in the metadata
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: He copied files in Hawaii
+  - chords:
+    - Bb
+    - F
+    lyrics: Flew to Hong Kong with the proof
+  - chords:
+    - Dm
+    - C
+    lyrics: Met journalists in a hotel room
+  - chords:
+    - Bb
+    - F
+    lyrics: And showed them what the NSA can do
+  verse2:
+  - chords:
+    - Dm
+    - C
+    lyrics: PRISM, XKeyscore, mass collection
+  - chords:
+    - Bb
+    - F
+    lyrics: Programs that vacuum up everything
+  - chords:
+    - Dm
+    - C
+    lyrics: Constitutional? Fourth Amendment?
+  - chords:
+    - Bb
+    - F
+    lyrics: Classified as state secrets
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: They revoked his passport mid-flight
+  - chords:
+    - Bb
+    - F
+    lyrics: Stranded in Moscow airport for weeks
+  - chords:
+    - Dm
+    - C
+    lyrics: Russia granted temporary asylum
+  - chords:
+    - Bb
+    - F
+    lyrics: Ten years later, still can't leave
+  verse3:
+  - chords:
+    - Dm
+    - C
+    lyrics: Married his girlfriend in exile
+  - chords:
+    - Bb
+    - F
+    lyrics: Their son will know a father who can't go home
+  - chords:
+    - Dm
+    - C
+    lyrics: Espionage charges waiting in Virginia
+  - chords:
+    - Bb
+    - F
+    lyrics: No chance of a fair trial, he says
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: But now you know they're watching
+  - chords:
+    - Bb
+    - F
+    lyrics: Now you know the scope
+  - chords:
+    - Dm
+    - C
+    lyrics: And you still use your phone
+  - chords:
+    - Bb
+    - F
+    lyrics: Because what choice do you have
+  verse4:
+  - chords:
+    - Dm
+    - C
+    lyrics: He writes on Twitter from Russia
+  - chords:
+    - Bb
+    - F
+    lyrics: About encryption and privacy rights
+  - chords:
+    - Dm
+    - C
+    lyrics: The price of showing Americans
+  - chords:
+    - Bb
+    - F
+    lyrics: What their government does in the dark
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: Is a life you can't go back from
+  - chords:
+    - Bb
+    - F
+    lyrics: Permanent exile, permanent record
+  chorus1:
+  - chords:
+    - Bb
+    - F
+    lyrics: Permanent record in the cloud
+  - chords:
+    - C
+    - Dm
+    lyrics: Every word you've ever said
+  - chords:
+    - Bb
+    - F
+    lyrics: He showed you they were listening
+  - chords:
+    - C
+    - Dm
+    lyrics: Now he can't come home

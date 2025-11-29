@@ -1,0 +1,32 @@
+TEMPO: 74 bpm
+TIME: 4/4
+KEY: Dm
+
+INTRO
+Guitar: Fingerpick Dm/Am, digital surveillance mood.
+Bass: Root notes. Drums: None.
+
+VERSE
+Vocal: NSA analyst, Hong Kong hotel, Moscow airport, Russian exile.
+Technical details: PRISM, XKeyscore, metadata.
+Guitar: Fingerpick continues. Bass: Root notes.
+Drums: Minimal brush pattern.
+
+CHORUS
+Vocal: "Permanent record" - the title's double meaning.
+Guitar: Strumming. Bass: Root-fifth.
+Drums: Steady backbeat.
+
+BRIDGE
+Instrumental. Guitar: Single-note meditation.
+Bass: Pedal tones. Drums: Kick only.
+
+OUTRO
+Longer outro (8 bars), fade slowly on Dm.
+The surveillance continues.
+
+PRODUCTION NOTES:
+- Most famous whistleblower, still in exile
+- "You still use your phone" - complicity question
+- Permanent exile = permanent record
+- Total length: ~7:15

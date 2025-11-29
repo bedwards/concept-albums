@@ -1,0 +1,196 @@
+song:
+  title: "Winner Takes Nothing (Reality Winner)"
+  composer: "Brian Edwards"
+  tempo: 72
+  time: "4/4"
+  key: "Am"
+  structure: [intro, verse, verse, chorus, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 4
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+      bass:
+        abc: "A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "Air Force linguist, NSA contractor"
+          chords: ["Am", "F"]
+        - line: "Twenty-five years old in Georgia heat"
+          chords: ["C", "G"]
+        - line: "Reading classified reports on Russian hacking"
+          chords: ["Am", "F"]
+        - line: "Of the twenty-sixteen election"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "She printed out the document"
+          chords: ["Am", "F"]
+        - line: "Mailed it to The Intercept, anonymous"
+          chords: ["C", "G"]
+      verse2:
+        - line: "They traced the printer by yellow dots"
+          chords: ["Am", "F"]
+        - line: "Microscopic tracking code on the page"
+          chords: ["C", "G"]
+        - line: "FBI came to her house, she confessed"
+          chords: ["Am", "F"]
+        - line: "Thought honesty might help her case"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "Espionage Act, sixty-three months"
+          chords: ["Am", "F"]
+        - line: "Longest sentence for leaking to the press"
+          chords: ["C", "G"]
+      verse3:
+        - line: "Served in Texas, yoga and CrossFit"
+          chords: ["Am", "F"]
+        - line: "Adopted a dog from the prison"
+          chords: ["C", "G"]
+        - line: "Released in twenty-twenty-one pandemic"
+          chords: ["Am", "F"]
+        - line: "Felon for showing what Russia did"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "Her name was Reality, a cruel coincidence"
+          chords: ["Am", "F"]
+        - line: "When reality itself was under attack"
+          chords: ["C", "G"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A2 A2 c2 e2 | "F"f2 c2 A2 F2 | "C"G2 G2 E2 G2 | "G"B2 G2 D2 B,2 |
+          "Am"A2 A2 c2 e2 | "F"f2 c2 A2 F2 | "C"G2 G2 E2 G2 | "G"B2 G2 D2 B,2 |
+          z8 | z8 |
+          "Am"A2 A2 c2 e2 | "F"f2 c2 A2 F2 |
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Am"A,2 E2 A2 c2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Am"A,2 E2 A2 c2 | "F"F2 C2 F2 A2 |
+          "Am"A,2 E2 A2 c2 | "F"F2 C2 F2 A2 |
+      bass:
+        abc: |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z4 C4 | z4 C4 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus1:
+        - line: "Reality Winner takes nothing home"
+          chords: ["F", "C"]
+        - line: "Except a record and a dog"
+          chords: ["G", "Am"]
+        - line: "Five years gone for telling truth"
+          chords: ["F", "C"]
+        - line: "About an enemy foreign"
+          chords: ["G", "Am"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "F"F2 F2 A2 c2 | "C"e2 G2 E2 C2 | "G"D2 D2 G2 B2 | "Am"c2 A2 E2 C2 |
+          "F"F2 F2 A2 c2 | "C"e2 G2 E2 C2 | "G"D2 D2 G2 B2 | "Am"A6 z2 |
+      guitar-acoustic:
+        abc: |
+          "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 | "Am"A,2 E2 A2 c2 |
+          "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 | "Am"A,2 E2 A2 c2 |
+      bass:
+        abc: |
+          "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "Am"A,2 A,2 A,2 A,2 |
+          "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "Am"A,2 A,2 A,2 A,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | "G"G2 D2 B,2 G,2 | "C"C2 G,2 E2 C2 | "Am"A,2 E2 A2 c2 |
+          "Dm"D2 A,2 D2 F2 | "G"G2 D2 B,2 G,2 | "Am"A,2 E2 A2 c2 | "G"B,6 z2 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | A,2 A,2 A,2 A,2 | G,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 6
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "Am"A,4 E4 | A,8 |
+      bass:
+        abc: "A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | A,8 | A,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+arrangement:
+  intro: |
+    Guitar: Fingerpick Am/G pattern, contemplative.
+    Bass: Root notes. Drums: None.
+  
+  verse: |
+    Vocal: NSA contractor, Georgia, Russian hacking, yellow dots on printer.
+    Guitar: Continue fingerpick. Bass: Root notes.
+    Drums: Minimal brush pattern.
+  
+  chorus: |
+    Vocal: Name is the metaphor - "Reality Winner takes nothing home"
+    Guitar: Strumming. Bass: Root-fifth.
+    Drums: Steady backbeat.
+  
+  bridge: |
+    Instrumental meditation on irony.
+    Bass: Pedal tones. Drums: Kick only.
+  
+  outro: |
+    Fade on Am.
+    
+    PRODUCTION NOTES:
+    - Youngest person, longest sentence for press leak
+    - Yellow dot tracking technology (specific detail)
+    - Name irony: Reality Winner vs reality under attack
+    - Total length: ~4:45

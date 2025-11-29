@@ -1,0 +1,30 @@
+TEMPO: 72 bpm
+TIME: 4/4
+KEY: Am
+
+INTRO
+Guitar: Fingerpick Am/G pattern, contemplative.
+Bass: Root notes. Drums: None.
+
+VERSE
+Vocal: NSA contractor, Georgia, Russian hacking, yellow dots on printer.
+Guitar: Continue fingerpick. Bass: Root notes.
+Drums: Minimal brush pattern.
+
+CHORUS
+Vocal: Name is the metaphor - "Reality Winner takes nothing home"
+Guitar: Strumming. Bass: Root-fifth.
+Drums: Steady backbeat.
+
+BRIDGE
+Instrumental meditation on irony.
+Bass: Pedal tones. Drums: Kick only.
+
+OUTRO
+Fade on Am.
+
+PRODUCTION NOTES:
+- Youngest person, longest sentence for press leak
+- Yellow dot tracking technology (specific detail)
+- Name irony: Reality Winner vs reality under attack
+- Total length: ~4:45

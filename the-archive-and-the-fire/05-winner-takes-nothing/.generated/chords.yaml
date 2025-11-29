@@ -1,0 +1,105 @@
+song:
+  title: Winner Takes Nothing (Reality Winner)
+  composer: Brian Edwards
+  key: Am
+  tempo: 72
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Am
+    - F
+    lyrics: Air Force linguist, NSA contractor
+  - chords:
+    - C
+    - G
+    lyrics: Twenty-five years old in Georgia heat
+  - chords:
+    - Am
+    - F
+    lyrics: Reading classified reports on Russian hacking
+  - chords:
+    - C
+    - G
+    lyrics: Of the twenty-sixteen election
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Am
+    - F
+    lyrics: She printed out the document
+  - chords:
+    - C
+    - G
+    lyrics: Mailed it to The Intercept, anonymous
+  verse2:
+  - chords:
+    - Am
+    - F
+    lyrics: They traced the printer by yellow dots
+  - chords:
+    - C
+    - G
+    lyrics: Microscopic tracking code on the page
+  - chords:
+    - Am
+    - F
+    lyrics: FBI came to her house, she confessed
+  - chords:
+    - C
+    - G
+    lyrics: Thought honesty might help her case
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Am
+    - F
+    lyrics: Espionage Act, sixty-three months
+  - chords:
+    - C
+    - G
+    lyrics: Longest sentence for leaking to the press
+  verse3:
+  - chords:
+    - Am
+    - F
+    lyrics: Served in Texas, yoga and CrossFit
+  - chords:
+    - C
+    - G
+    lyrics: Adopted a dog from the prison
+  - chords:
+    - Am
+    - F
+    lyrics: Released in twenty-twenty-one pandemic
+  - chords:
+    - C
+    - G
+    lyrics: Felon for showing what Russia did
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Am
+    - F
+    lyrics: Her name was Reality, a cruel coincidence
+  - chords:
+    - C
+    - G
+    lyrics: When reality itself was under attack
+  chorus1:
+  - chords:
+    - F
+    - C
+    lyrics: Reality Winner takes nothing home
+  - chords:
+    - G
+    - Am
+    lyrics: Except a record and a dog
+  - chords:
+    - F
+    - C
+    lyrics: Five years gone for telling truth
+  - chords:
+    - G
+    - Am
+    lyrics: About an enemy foreign

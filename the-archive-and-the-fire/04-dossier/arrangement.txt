@@ -1,0 +1,30 @@
+TEMPO: 68 bpm
+TIME: 4/4
+KEY: Em
+
+INTRO
+Guitar: Fingerpick Em/Am pattern, contemplative.
+Bass: Root notes, steady. Drums: None.
+
+VERSE
+Vocal: British setting - GCHQ Cheltenham, Official Secrets Act.
+Guitar: Continue fingerpick. Bass: Root notes.
+Drums: Minimal brush pattern.
+
+CHORUS
+Vocal: "One translator against the machinery of war" - understatement.
+Guitar: Strumming, restrained. Bass: Root-fifth.
+Drums: Steady backbeat.
+
+BRIDGE
+Instrumental. Guitar: Melody over minor progression.
+Bass: Pedal tones. Drums: Kick only.
+
+OUTRO
+Return to intro. Fade on Em.
+
+PRODUCTION NOTES:
+- British whistleblower, Iraq War lies
+- Charges dropped to avoid trial (government hiding)
+- Quiet defiance, no heroes, just consequence
+- Total length: ~5:15

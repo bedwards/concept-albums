@@ -1,0 +1,105 @@
+song:
+  title: Dossier (Katherine Gun)
+  composer: Brian Edwards
+  key: Em
+  tempo: 68
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    - Am
+    lyrics: GCHQ translator, Cheltenham England
+  - chords:
+    - C
+    - D
+    lyrics: January two-thousand-three, snow on the ground
+  - chords:
+    - Em
+    - Am
+    lyrics: NSA memo asking for illegal surveillance
+  - chords:
+    - C
+    - D
+    lyrics: On UN Security Council members' phones
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - Am
+    lyrics: To help America build a case for war
+  - chords:
+    - C
+    - D
+    lyrics: In Iraq, for weapons that didn't exist
+  verse2:
+  - chords:
+    - Em
+    - Am
+    lyrics: She leaked it to the press, got arrested
+  - chords:
+    - C
+    - D
+    lyrics: Official Secrets Act, prison time ahead
+  - chords:
+    - Em
+    - Am
+    lyrics: The government claimed public interest immunity
+  - chords:
+    - C
+    - D
+    lyrics: To hide the legal advice they'd been given
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - Am
+    lyrics: Then dropped all charges the day trial started
+  - chords:
+    - C
+    - D
+    lyrics: Rather than admit the war was illegal from the beginning
+  verse3:
+  - chords:
+    - Em
+    - Am
+    lyrics: She went back to work translating languages
+  - chords:
+    - C
+    - D
+    lyrics: No pension, no job in her field again
+  - chords:
+    - Em
+    - Am
+    lyrics: Fifteen years later they made a movie
+  - chords:
+    - C
+    - D
+    lyrics: Keira Knightley playing her quiet defiance
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - Am
+    lyrics: But the dossier was still a lie
+  - chords:
+    - C
+    - D
+    lyrics: And hundreds of thousands still died
+  chorus1:
+  - chords:
+    - C
+    - G
+    lyrics: One translator in Cheltenham
+  - chords:
+    - Am
+    - Em
+    lyrics: Against the machinery of war
+  - chords:
+    - C
+    - G
+    lyrics: The dossier was fiction
+  - chords:
+    - Am
+    - Em
+    lyrics: But they invaded anyway

@@ -1,0 +1,35 @@
+TEMPO: 72 bpm
+TIME: 4/4
+KEY: G
+
+INTRO
+Guitar: Fingerpick pattern, Travis picking (alternating bass).
+Bass: Root notes, half notes, supportive. Drums: None.
+
+VERSE
+Vocal: Close-mic'd, conversational delivery, slight reverb.
+Guitar: Continue fingerpick, add hammer-ons on verse 3.
+Bass: Root-fifth walk on verses 2-4. Drums: Brush kick/snare on verses 2-4, minimal.
+
+CHORUS
+Vocal: Slightly more projection, not anthemic.
+Guitar: Fuller strumming on chorus 2-3. Bass: Walking line, more movement.
+Drums: Steady backbeat with brushes.
+
+BRIDGE
+Instrumental meditation. Guitar: Single-note melody over chords.
+Bass: Pedal tones. Drums: Kick only, sparse.
+
+OUTRO
+Return to intro feel. All instruments fade gradually.
+Guitar ends on open G, let ring 8 bars.
+
+PRODUCTION NOTES:
+- Record in single room, live to tape feel
+- No click track, natural tempo drift acceptable
+- Vocals and guitar together, minimal separation
+- Bass DI + room mic blend
+- Drums: overhead pair only, natural room
+- NO compression on master bus
+- Silence between sections matters
+- Total length: ~8:30

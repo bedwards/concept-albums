@@ -1,0 +1,251 @@
+song:
+  title: "What We Inherit"
+  composer: "Brian Edwards"
+  tempo: 72
+  time: "4/4"
+  key: "G"
+  structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "G"D2 B,2 D2 G2 | B2 d2 B2 G2 | "C"E2 C2 E2 G2 | C'2 G2 E2 C2 |
+          "G"D2 B,2 D2 G2 | B2 d2 B2 G2 | "D"F2 A2 d2 A2 | "G"G4 D4 |
+      bass:
+        abc: "G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 | G,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 16
+    lyrics:
+      verse1:
+        - line: "My grandfather kept a locked drawer"
+          chords: ["G", "C"]
+        - line: "Full of things he never showed"
+          chords: ["G", "D"]
+        - line: "Letters from the union hall"
+          chords: ["G", "C"]
+        - line: "Names of men the bosses chose"
+          chords: ["G", "D", "G"]
+        - line: ""
+          chords: []
+        - line: "He said son there's a difference clear"
+          chords: ["G", "C"]
+        - line: "Between the ones who talk and act"
+          chords: ["G", "D"]
+        - line: "Between the knowing and the doing"
+          chords: ["G", "C"]
+        - line: "Between the forward and the back"
+          chords: ["G", "D", "G"]
+      verse2:
+        - line: "I found his papers when he died"
+          chords: ["G", "C"]
+        - line: "Mimeographed and coffee-stained"
+          chords: ["G", "D"]
+        - line: "Meetings held in basements dark"
+          chords: ["G", "C"]
+        - line: "Every single name erased"
+          chords: ["G", "D", "G"]
+        - line: ""
+          chords: []
+        - line: "Not for glory or for fame"
+          chords: ["G", "C"]
+        - line: "Not for history's gentle hand"
+          chords: ["G", "D"]
+        - line: "Just because the work was there"
+          chords: ["G", "C"]
+        - line: "Just because they took a stand"
+          chords: ["G", "D", "G"]
+      verse3:
+        - line: "There's a server farm in Iceland"
+          chords: ["G", "C"]
+        - line: "Holding terabytes of truth"
+          chords: ["G", "D"]
+        - line: "Documents that powerful men"
+          chords: ["G", "C"]
+        - line: "Would kill to keep from you"
+          chords: ["G", "D", "G"]
+        - line: ""
+          chords: []
+        - line: "Someone risked their life for this"
+          chords: ["G", "C"]
+        - line: "Someone chose the harder road"
+          chords: ["G", "D"]
+        - line: "You'll never know their name or face"
+          chords: ["G", "C"]
+        - line: "But you're holding what they chose"
+          chords: ["G", "D", "G"]
+      verse4:
+        - line: "Tonight I'm in my kitchen late"
+          chords: ["G", "C"]
+        - line: "Reading what I shouldn't read"
+          chords: ["G", "D"]
+        - line: "Tomorrow I could forward this"
+          chords: ["G", "C"]
+        - line: "Or let it die with me"
+          chords: ["G", "D", "G"]
+        - line: ""
+          chords: []
+        - line: "My children sleeping down the hall"
+          chords: ["G", "C"]
+        - line: "My job waiting in the morning"
+          chords: ["G", "D"]
+        - line: "The locked drawer in my desk"
+          chords: ["G", "C"]
+        - line: "Already calling"
+          chords: ["G", "D", "G"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "G"D2 D2 E2 D2 | "C"E4 G4 | "G"B2 B2 A2 G2 | "D"A6 z2 |
+          "G"D2 D2 E2 D2 | "C"E4 G4 | "G"B2 B2 A2 G2 | "D"A4 "G"G4 |
+          z8 | z8 | z8 | z8 |
+          "G"D2 D2 E2 D2 | "C"E4 G4 | "G"B2 B2 A2 G2 | "D"A4 "G"G4 |
+      guitar-acoustic:
+        abc: |
+          "G"D2 B,2 D2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 |
+          "G"D2 B,2 D2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 "G"G2 D2 |
+          "G"D2 B,2 D2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 "G"G2 D2 |
+          z8 | z8 | z8 | z8 |
+      bass:
+        abc: |
+          "G"G,2 G,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "G"G,2 G,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 "G"G,2 G,2 |
+          "G"G,2 G,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 "G"G,2 G,2 |
+          z8 | z8 | z8 | z8 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 C4 | z8 | z8 | z8 | z8 | C4 z4 | C4 z4 | C4 z4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z8 | z8 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  chorus:
+    bars: 12
+    lyrics:
+      chorus1:
+        - line: "This is what we inherit"
+          chords: ["Em", "C"]
+        - line: "The weight of choosing right"
+          chords: ["G", "D"]
+        - line: "Not the glory or the story"
+          chords: ["Em", "C"]
+        - line: "Just the choice we make tonight"
+          chords: ["G", "D"]
+        - line: ""
+          chords: []
+        - line: "This is what we're given"
+          chords: ["Em", "C"]
+        - line: "What the ones before us left"
+          chords: ["G", "D"]
+        - line: "Not a name carved in marble"
+          chords: ["Em", "C"]
+        - line: "Just the locked drawer in the desk"
+          chords: ["G", "D", "G"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E2 E2 G2 B2 | "C"C'2 G2 E2 C2 | "G"B2 B2 A2 G2 | "D"A6 z2 |
+          "Em"E2 E2 G2 B2 | "C"C'2 G2 E2 C2 | "G"B2 B2 A2 G2 | "D"A6 z2 |
+          z8 | z8 |
+          "Em"E2 E2 G2 B2 | "D"A4 "G"G4 |
+      guitar-acoustic:
+        abc: |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 | "G"D2 B,2 D2 G2 | "D"F2 A2 d2 A2 |
+          "Em"E2 B,2 E2 G2 | "C"E2 C2 E2 G2 |
+          "G"D2 B,2 D2 G2 | "D"F2 A2 "G"G2 D2 |
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 "G"G,2 G,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Am"A2 E2 A2 c2 | "D"d2 A2 F2 D2 | "G"G2 D2 B,2 G,2 | "C"C2 E2 G2 c2 |
+          "Am"A2 E2 A2 c2 | "D"d2 A2 F2 D2 | "Em"E2 G2 B2 e2 | "D"d6 z2 |
+      bass:
+        abc: "A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | E,2 E,2 E,2 E,2 | D,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 12
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "G"D2 B,2 D2 G2 | B2 d2 B2 G2 | "C"E2 C2 E2 G2 | C'2 G2 E2 C2 |
+          "G"D2 B,2 D2 G2 | B2 d2 B2 G2 | "D"F2 A2 d2 A2 | "G"G4 D4 |
+          "G"D2 B,2 D2 G2 | "C"E2 C2 E2 G2 | "G"G4 D4 | G,8 |
+      bass:
+        abc: "G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 | G,8 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,8 | G,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    Guitar: Fingerpick pattern, Travis picking (alternating bass).
+    Bass: Root notes, half notes, supportive. Drums: None.
+  
+  verse: |
+    Vocal: Close-mic'd, conversational delivery, slight reverb.
+    Guitar: Continue fingerpick, add hammer-ons on verse 3.
+    Bass: Root-fifth walk on verses 2-4. Drums: Brush kick/snare on verses 2-4, minimal.
+  
+  chorus: |
+    Vocal: Slightly more projection, not anthemic.
+    Guitar: Fuller strumming on chorus 2-3. Bass: Walking line, more movement.
+    Drums: Steady backbeat with brushes.
+  
+  bridge: |
+    Instrumental meditation. Guitar: Single-note melody over chords.
+    Bass: Pedal tones. Drums: Kick only, sparse.
+  
+  outro: |
+    Return to intro feel. All instruments fade gradually.
+    Guitar ends on open G, let ring 8 bars.
+    
+    PRODUCTION NOTES:
+    - Record in single room, live to tape feel
+    - No click track, natural tempo drift acceptable
+    - Vocals and guitar together, minimal separation
+    - Bass DI + room mic blend
+    - Drums: overhead pair only, natural room
+    - NO compression on master bus
+    - Silence between sections matters
+    - Total length: ~8:30

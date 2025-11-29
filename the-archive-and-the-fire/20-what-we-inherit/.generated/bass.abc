@@ -1,0 +1,44 @@
+X:1
+T:What We Inherit
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=72
+K:G
+%%MIDI program 33
+%%MIDI chordprog -1
+G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 | G,8 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+z8 | z8 | z8 | z8 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+z8 | z8 | z8 | z8 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+z8 | z8 | z8 | z8 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+z8 | z8 | z8 | z8 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | A,2 A,2 A,2 A,2 | D,2 D,2 D,2 D,2 | E,2 E,2 E,2 E,2 | D,6 z2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+z8 | z8 | z8 | z8 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 G,2 G,2 |
+G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | G,2 G,2 G,2 G,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 | G,8 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | G,8 | G,8 |

@@ -1,0 +1,191 @@
+song:
+  title: What We Inherit
+  composer: Brian Edwards
+  key: G
+  tempo: 72
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - G
+    - C
+    lyrics: My grandfather kept a locked drawer
+  - chords:
+    - G
+    - D
+    lyrics: Full of things he never showed
+  - chords:
+    - G
+    - C
+    lyrics: Letters from the union hall
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Names of men the bosses chose
+  - chords: []
+    lyrics: ''
+  - chords:
+    - G
+    - C
+    lyrics: He said son there's a difference clear
+  - chords:
+    - G
+    - D
+    lyrics: Between the ones who talk and act
+  - chords:
+    - G
+    - C
+    lyrics: Between the knowing and the doing
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Between the forward and the back
+  verse2:
+  - chords:
+    - G
+    - C
+    lyrics: I found his papers when he died
+  - chords:
+    - G
+    - D
+    lyrics: Mimeographed and coffee-stained
+  - chords:
+    - G
+    - C
+    lyrics: Meetings held in basements dark
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Every single name erased
+  - chords: []
+    lyrics: ''
+  - chords:
+    - G
+    - C
+    lyrics: Not for glory or for fame
+  - chords:
+    - G
+    - D
+    lyrics: Not for history's gentle hand
+  - chords:
+    - G
+    - C
+    lyrics: Just because the work was there
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Just because they took a stand
+  verse3:
+  - chords:
+    - G
+    - C
+    lyrics: There's a server farm in Iceland
+  - chords:
+    - G
+    - D
+    lyrics: Holding terabytes of truth
+  - chords:
+    - G
+    - C
+    lyrics: Documents that powerful men
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Would kill to keep from you
+  - chords: []
+    lyrics: ''
+  - chords:
+    - G
+    - C
+    lyrics: Someone risked their life for this
+  - chords:
+    - G
+    - D
+    lyrics: Someone chose the harder road
+  - chords:
+    - G
+    - C
+    lyrics: You'll never know their name or face
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: But you're holding what they chose
+  verse4:
+  - chords:
+    - G
+    - C
+    lyrics: Tonight I'm in my kitchen late
+  - chords:
+    - G
+    - D
+    lyrics: Reading what I shouldn't read
+  - chords:
+    - G
+    - C
+    lyrics: Tomorrow I could forward this
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Or let it die with me
+  - chords: []
+    lyrics: ''
+  - chords:
+    - G
+    - C
+    lyrics: My children sleeping down the hall
+  - chords:
+    - G
+    - D
+    lyrics: My job waiting in the morning
+  - chords:
+    - G
+    - C
+    lyrics: The locked drawer in my desk
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Already calling
+  chorus1:
+  - chords:
+    - Em
+    - C
+    lyrics: This is what we inherit
+  - chords:
+    - G
+    - D
+    lyrics: The weight of choosing right
+  - chords:
+    - Em
+    - C
+    lyrics: Not the glory or the story
+  - chords:
+    - G
+    - D
+    lyrics: Just the choice we make tonight
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    - C
+    lyrics: This is what we're given
+  - chords:
+    - G
+    - D
+    lyrics: What the ones before us left
+  - chords:
+    - Em
+    - C
+    lyrics: Not a name carved in marble
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Just the locked drawer in the desk

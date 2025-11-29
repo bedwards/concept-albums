@@ -1,0 +1,32 @@
+TEMPO: 75 bpm
+TIME: 4/4
+KEY: Dm
+
+INTRO
+Guitar: Fingerpick Dm pattern, deliberate and steady.
+Bass: Root notes, measured pulse. Drums: None.
+
+VERSE
+Vocal: Documentary style - RAND, Xerox, Nixon, Watergate, Supreme Court.
+Guitar: Continue fingerpick, slightly more forceful on verse 2 (Nixon).
+Bass: Root notes with walks. Drums: Brush kick/snare, minimal.
+
+CHORUS
+Vocal: Weight of "seven thousand pages" - not dramatic, just factual.
+Guitar: Strumming, restrained. Bass: Root-fifth pattern.
+Drums: Steady backbeat with brushes.
+
+BRIDGE
+Instrumental. Guitar: Minor key meditation on legacy.
+Bass: Pedal tones. Drums: Kick only, sparse.
+
+OUTRO
+Return to intro fingerpick. Guitar gradually slower.
+End on Dm chord, let ring.
+
+PRODUCTION NOTES:
+- Third song maintains dry aesthetic
+- Focus: the elder statesman who never stopped
+- "Only regret was waiting so long" - key line
+- Connection to Manning and Snowden - pattern recognition
+- Total length: ~6:45

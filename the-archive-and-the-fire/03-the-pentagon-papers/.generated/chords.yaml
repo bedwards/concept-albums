@@ -1,0 +1,164 @@
+song:
+  title: The Pentagon Papers (Daniel Ellsberg)
+  composer: Brian Edwards
+  key: Dm
+  tempo: 75
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Dm
+    - C
+    lyrics: RAND Corporation analyst, top secret clearance
+  - chords:
+    - Bb
+    - F
+    lyrics: Reading seven thousand pages of Vietnam's truth
+  - chords:
+    - Dm
+    - C
+    lyrics: Four presidents lied to the public
+  - chords:
+    - Bb
+    - F
+    lyrics: About a war they knew we'd lose
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: He Xeroxed every page at night
+  - chords:
+    - Bb
+    - F
+    lyrics: His kids helping collate the proof
+  - chords:
+    - Dm
+    - C
+    lyrics: First he tried the Senate, then the Times
+  - chords:
+    - Bb
+    - F
+    lyrics: Nineteen-seventy-one, the truth broke loose
+  verse2:
+  - chords:
+    - Dm
+    - C
+    lyrics: Nixon called him the most dangerous man
+  - chords:
+    - Bb
+    - F
+    lyrics: In America, enemy of the state
+  - chords:
+    - Dm
+    - C
+    lyrics: Broke into his psychiatrist's office
+  - chords:
+    - Bb
+    - F
+    lyrics: Looking for dirt to discredit his name
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: Espionage Act, hundred and fifteen years
+  - chords:
+    - Bb
+    - F
+    lyrics: Facing prison for telling what's true
+  - chords:
+    - Dm
+    - C
+    lyrics: Then Watergate broke and the case collapsed
+  - chords:
+    - Bb
+    - F
+    lyrics: Government misconduct set him free
+  verse3:
+  - chords:
+    - Dm
+    - C
+    lyrics: He spent the next forty years speaking
+  - chords:
+    - Bb
+    - F
+    lyrics: Against every war that came around
+  - chords:
+    - Dm
+    - C
+    lyrics: Got arrested at the Pentagon at eighty-five
+  - chords:
+    - Bb
+    - F
+    lyrics: Still saying what shouldn't be allowed
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: He told Chelsea Manning she did right
+  - chords:
+    - Bb
+    - F
+    lyrics: He told Snowden he'd done the same
+  - chords:
+    - Dm
+    - C
+    lyrics: Said the only thing he regretted
+  - chords:
+    - Bb
+    - F
+    lyrics: Was waiting so long to release those papers
+  verse4:
+  - chords:
+    - Dm
+    - C
+    lyrics: Died in twenty-twenty-three at ninety-two
+  - chords:
+    - Bb
+    - F
+    lyrics: Watching another generation wake
+  - chords:
+    - Dm
+    - C
+    lyrics: To the pattern he tried to break
+  - chords:
+    - Bb
+    - F
+    lyrics: Fifty years too late
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Dm
+    - C
+    lyrics: But the Pentagon Papers are still online
+  - chords:
+    - Bb
+    - F
+    lyrics: Supreme Court ruled they could be read
+  - chords:
+    - Dm
+    - C
+    lyrics: And now you know what he knew in seventy-one
+  - chords:
+    - Bb
+    - F
+    lyrics: That presidents lie and soldiers bleed
+  chorus1:
+  - chords:
+    - Bb
+    - F
+    lyrics: Seven thousand pages
+  - chords:
+    - C
+    - Dm
+    lyrics: Of what they knew and hid
+  - chords:
+    - Bb
+    - F
+    lyrics: The war was lost before it started
+  - chords:
+    - C
+    - Dm
+    lyrics: But they sent the soldiers anyway

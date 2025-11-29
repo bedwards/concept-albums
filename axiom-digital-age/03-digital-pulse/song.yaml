@@ -321,10 +321,10 @@ sections:
           z2 d'2 z2 a2 | z2 d'2 z2 a2 | z2 g'2 z2 d'2 | z2 d'2 z2 a2 | z2 d'2 z2 a2 | z2 g'2 z2 d'2 |
       piano:
         abc: |
-          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 |
-          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 |
-          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 |
-          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 D'2 |
+          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 |
+          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 |
+          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 |
+          D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 | D,2 A,2 D2 A2 | D,2 A,2 D2 A2 | G,2 D2 G2 d'2 |
       celesta:
         abc: |
           d'2 z2 a'2 z2 | d'2 z2 a'2 z2 | g'2 z2 d''2 z2 | d'2 z2 a'2 z2 | d'2 z2 a'2 z2 | g'2 z2 d''2 z2 |

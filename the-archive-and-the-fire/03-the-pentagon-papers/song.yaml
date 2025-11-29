@@ -1,0 +1,232 @@
+song:
+  title: "The Pentagon Papers (Daniel Ellsberg)"
+  composer: "Brian Edwards"
+  tempo: 75
+  time: "4/4"
+  key: "Dm"
+  structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 4
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 16
+    lyrics:
+      verse1:
+        - line: "RAND Corporation analyst, top secret clearance"
+          chords: ["Dm", "C"]
+        - line: "Reading seven thousand pages of Vietnam's truth"
+          chords: ["Bb", "F"]
+        - line: "Four presidents lied to the public"
+          chords: ["Dm", "C"]
+        - line: "About a war they knew we'd lose"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "He Xeroxed every page at night"
+          chords: ["Dm", "C"]
+        - line: "His kids helping collate the proof"
+          chords: ["Bb", "F"]
+        - line: "First he tried the Senate, then the Times"
+          chords: ["Dm", "C"]
+        - line: "Nineteen-seventy-one, the truth broke loose"
+          chords: ["Bb", "F"]
+      verse2:
+        - line: "Nixon called him the most dangerous man"
+          chords: ["Dm", "C"]
+        - line: "In America, enemy of the state"
+          chords: ["Bb", "F"]
+        - line: "Broke into his psychiatrist's office"
+          chords: ["Dm", "C"]
+        - line: "Looking for dirt to discredit his name"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "Espionage Act, hundred and fifteen years"
+          chords: ["Dm", "C"]
+        - line: "Facing prison for telling what's true"
+          chords: ["Bb", "F"]
+        - line: "Then Watergate broke and the case collapsed"
+          chords: ["Dm", "C"]
+        - line: "Government misconduct set him free"
+          chords: ["Bb", "F"]
+      verse3:
+        - line: "He spent the next forty years speaking"
+          chords: ["Dm", "C"]
+        - line: "Against every war that came around"
+          chords: ["Bb", "F"]
+        - line: "Got arrested at the Pentagon at eighty-five"
+          chords: ["Dm", "C"]
+        - line: "Still saying what shouldn't be allowed"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "He told Chelsea Manning she did right"
+          chords: ["Dm", "C"]
+        - line: "He told Snowden he'd done the same"
+          chords: ["Bb", "F"]
+        - line: "Said the only thing he regretted"
+          chords: ["Dm", "C"]
+        - line: "Was waiting so long to release those papers"
+          chords: ["Bb", "F"]
+      verse4:
+        - line: "Died in twenty-twenty-three at ninety-two"
+          chords: ["Dm", "C"]
+        - line: "Watching another generation wake"
+          chords: ["Bb", "F"]
+        - line: "To the pattern he tried to break"
+          chords: ["Dm", "C"]
+        - line: "Fifty years too late"
+          chords: ["Bb", "F"]
+        - line: ""
+          chords: []
+        - line: "But the Pentagon Papers are still online"
+          chords: ["Dm", "C"]
+        - line: "Supreme Court ruled they could be read"
+          chords: ["Bb", "F"]
+        - line: "And now you know what he knew in seventy-one"
+          chords: ["Dm", "C"]
+        - line: "That presidents lie and soldiers bleed"
+          chords: ["Bb", "F"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+          z8 | z8 | z8 | z8 |
+          "Dm"D2 D2 F2 A2 | "C"G2 E2 C2 E2 | "Bb"D2 D2 F2 d2 | "F"c2 A2 F2 A2 |
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          "Dm"D2 A,2 D2 F2 | "C"C2 G,2 C2 E2 | "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 |
+          z8 | z8 | z8 | z8 |
+      bass:
+        abc: |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "C"C,2 C,2 C,2 C,2 | "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 |
+          z8 | z8 | z8 | z8 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z8 | z8 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus1:
+        - line: "Seven thousand pages"
+          chords: ["Bb", "F"]
+        - line: "Of what they knew and hid"
+          chords: ["C", "Dm"]
+        - line: "The war was lost before it started"
+          chords: ["Bb", "F"]
+        - line: "But they sent the soldiers anyway"
+          chords: ["C", "Dm"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Bb"D2 D2 F2 B2 | "F"c2 A2 F2 C2 | "C"E2 E2 G2 c2 | "Dm"d2 A2 F2 D2 |
+          "Bb"D2 D2 F2 B2 | "F"c2 A2 F2 C2 | "C"E2 E2 G2 c2 | "Dm"D6 z2 |
+      guitar-acoustic:
+        abc: |
+          "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 |
+          "Bb"B,2 F,2 B,2 D2 | "F"F2 C2 F2 A2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 |
+      bass:
+        abc: |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "Dm"D,2 D,2 D,2 D,2 |
+          "Bb"B,,2 B,,2 B,,2 B,,2 | "F"F,2 F,2 F,2 F,2 | "C"C,2 C,2 C,2 C,2 | "Dm"D,2 D,2 D,2 D,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Gm"G,2 D2 G2 B2 | "C"C2 G,2 C2 E2 | "F"F2 C2 A2 F2 | "Dm"D2 A,2 F2 D2 |
+          "Gm"G,2 D2 G2 B2 | "C"C2 G,2 C2 E2 | "Dm"D2 A,2 D2 F2 | "A"A,6 z2 |
+      bass:
+        abc: "G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | F,2 F,2 F,2 F,2 | D,2 D,2 D,2 D,2 | G,2 G,2 G,2 G,2 | C,2 C,2 C,2 C,2 | D,2 D,2 D,2 D,2 | A,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 6
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Dm"D4 A,4 | D,8 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | D,8 | D,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    Guitar: Fingerpick Dm pattern, deliberate and steady.
+    Bass: Root notes, measured pulse. Drums: None.
+  
+  verse: |
+    Vocal: Documentary style - RAND, Xerox, Nixon, Watergate, Supreme Court.
+    Guitar: Continue fingerpick, slightly more forceful on verse 2 (Nixon).
+    Bass: Root notes with walks. Drums: Brush kick/snare, minimal.
+  
+  chorus: |
+    Vocal: Weight of "seven thousand pages" - not dramatic, just factual.
+    Guitar: Strumming, restrained. Bass: Root-fifth pattern.
+    Drums: Steady backbeat with brushes.
+  
+  bridge: |
+    Instrumental. Guitar: Minor key meditation on legacy.
+    Bass: Pedal tones. Drums: Kick only, sparse.
+  
+  outro: |
+    Return to intro fingerpick. Guitar gradually slower.
+    End on Dm chord, let ring.
+    
+    PRODUCTION NOTES:
+    - Third song maintains dry aesthetic
+    - Focus: the elder statesman who never stopped
+    - "Only regret was waiting so long" - key line
+    - Connection to Manning and Snowden - pattern recognition
+    - Total length: ~6:45

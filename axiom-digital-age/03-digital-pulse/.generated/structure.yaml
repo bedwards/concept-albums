@@ -8,15 +8,15 @@ sections:
   bars: 24
 - name: phase2
   bars: 24
-- name: collision
+- name: phase1
   bars: 24
 - name: coda
   bars: 24
-- name: phase1
+- name: reduction
+  bars: 24
+- name: collision
   bars: 24
 - name: pulse3
-  bars: 24
-- name: reduction
   bars: 24
 - name: pulse1
   bars: 24

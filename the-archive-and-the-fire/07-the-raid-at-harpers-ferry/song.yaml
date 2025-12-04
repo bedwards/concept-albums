@@ -1,0 +1,269 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: The Raid at Harpers Ferry
+# ============================================================================
+# Track 7 - John Brown, violent abolitionist, 1859 hanging, prophecy
+#
+# A man who believed slavery would only end through blood. He was right
+# about the blood, wrong about his timing. Hanged as a traitor, remembered
+# as a prophet. This song walks the line between violence and conviction.
+#
+# Run: python scripts/generate_song.py the-archive-and-the-fire/07-the-raid-at-harpers-ferry/
+# ============================================================================
+
+song:
+  title: "The Raid at Harpers Ferry"
+  composer: "Brian Edwards"
+  tempo: 66
+  time: "4/4"
+  key: "Em"
+  structure: [intro, verse, verse, chorus, verse, verse, chorus, bridge, verse, chorus, outro]
+
+sections:
+  intro:
+    bars: 4
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+      bass:
+        abc: "E,2 E,2 E,2 E,2 | E,2 E,2 E,2 E,2 | A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 16
+    lyrics:
+      verse1:
+        - line: "October eighteen fifty-nine"
+          chords: ["Em", "Am"]
+        - line: "A Sunday night in the Virginia hills"
+          chords: ["C", "G"]
+        - line: "Eighteen men crossed the Potomac"
+          chords: ["Em", "Am"]
+        - line: "With pikes and rifles and a prophet's will"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "John Brown at fifty-nine years old"
+          chords: ["Em", "Am"]
+        - line: "Believed the only path was blood"
+          chords: ["C", "G"]
+        - line: "He'd take the federal armory"
+          chords: ["Em", "Am"]
+        - line: "And arm the enslaved for the flood"
+          chords: ["C", "G"]
+      verse2:
+        - line: "They took the armory by surprise"
+          chords: ["Em", "Am"]
+        - line: "Captured hostages, held the bridge"
+          chords: ["C", "G"]
+        - line: "Waited for the uprising"
+          chords: ["Em", "Am"]
+        - line: "That never came down from the ridge"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "By morning the militia surrounded"
+          chords: ["Em", "Am"]
+        - line: "Robert E. Lee's marines arrived"
+          chords: ["C", "G"]
+        - line: "They stormed the engine house at dawn"
+          chords: ["Em", "Am"]
+        - line: "Most of Brown's men never survived"
+          chords: ["C", "G"]
+      verse3:
+        - line: "They tried him quick in Charles Town"
+          chords: ["Em", "Am"]
+        - line: "For treason against Virginia state"
+          chords: ["C", "G"]
+        - line: "He lay wounded on his cot"
+          chords: ["Em", "Am"]
+        - line: "And told the court he'd accept his fate"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "Said if I had done the same"
+          chords: ["Em", "Am"]
+        - line: "For the rich instead of the poor"
+          chords: ["C", "G"]
+        - line: "Every man in this court would say"
+          chords: ["Em", "Am"]
+        - line: "That I had done nothing wrong at all"
+          chords: ["C", "G"]
+      verse4:
+        - line: "December second they led him out"
+          chords: ["Em", "Am"]
+        - line: "To the gallows in the morning sun"
+          chords: ["C", "G"]
+        - line: "He handed a note to the guard"
+          chords: ["Em", "Am"]
+        - line: "His last prophecy had begun"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "The crimes of this guilty land"
+          chords: ["Em", "Am"]
+        - line: "Will never be purged away"
+          chords: ["C", "G"]
+        - line: "Except with blood - he wrote it down"
+          chords: ["Em", "Am"]
+        - line: "Eighteen months before the war began"
+          chords: ["C", "G"]
+      verse5:
+        - line: "Now his body lies in the Adirondacks"
+          chords: ["Em", "Am"]
+        - line: "Under a granite stone"
+          chords: ["C", "G"]
+        - line: "Some call him terrorist, some call him saint"
+          chords: ["Em", "Am"]
+        - line: "Depends on what truth you own"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "But six hundred thousand men would die"
+          chords: ["Em", "Am"]
+        - line: "In the war that came after"
+          chords: ["C", "G"]
+        - line: "And every one of them marched to the song"
+          chords: ["Em", "Am"]
+        - line: "That carried John Brown's name"
+          chords: ["C", "G"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E2 E2 G2 B2 | "Am"A2 E2 C2 A,2 | "C"G2 G2 E2 G2 | "G"B2 G2 D2 B,2 |
+          "Em"E2 E2 G2 B2 | "Am"A2 E2 C2 A,2 | "C"G2 G2 E2 G2 | "G"B2 G2 D2 B,2 |
+          z8 | z8 | z8 | z8 |
+          "Em"E2 E2 G2 B2 | "Am"A2 E2 C2 A,2 | "C"G2 G2 E2 G2 | "G"B2 G2 D2 B,2 |
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | "Am"A,2 E2 A2 c2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Em"E,2 B,2 E2 G2 | "Am"A,2 E2 A2 c2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Em"E,2 B,2 E2 G2 | "Am"A,2 E2 A2 c2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          z8 | z8 | z8 | z8 |
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "Am"A,2 A,2 A,2 A,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Em"E,2 E,2 E,2 E,2 | "Am"A,2 A,2 A,2 A,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Em"E,2 E,2 E,2 E,2 | "Am"A,2 A,2 A,2 A,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          z8 | z8 | z8 | z8 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z8 | z8 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus1:
+        - line: "The raid at Harpers Ferry"
+          chords: ["Am", "Em"]
+        - line: "That's how the fire starts"
+          chords: ["C", "G"]
+        - line: "One man's treason is another's truth"
+          chords: ["Am", "Em"]
+        - line: "Depending on whose blood you chart"
+          chords: ["C", "G"]
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A2 A2 c2 e2 | "Em"B2 G2 E2 B,2 | "C"G2 G2 E2 G2 | "G"D2 B,2 G,2 D2 |
+          "Am"A2 A2 c2 e2 | "Em"B2 G2 E2 B,2 | "C"G2 G2 E2 G2 | "G"D6 z2 |
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | "Em"E,2 B,2 E2 G2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Am"A,2 E2 A2 c2 | "Em"E,2 B,2 E2 G2 | "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+      bass:
+        abc: |
+          "Am"A,2 A,2 A,2 A,2 | "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Am"A,2 A,2 A,2 A,2 | "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Dm"D2 A,2 D2 F2 | "Am"A,2 E2 A2 c2 | "Em"E,2 B,2 E2 G2 | "G"G,2 D2 G2 B2 |
+          "Dm"D2 A,2 D2 F2 | "Am"A,2 E2 A2 c2 | "Em"E,2 B,2 E2 G2 | B,6 z2 |
+      bass:
+        abc: "D,2 D,2 D,2 D,2 | A,2 A,2 A,2 A,2 | E,2 E,2 E,2 E,2 | G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 | A,2 A,2 A,2 A,2 | E,2 E,2 E,2 E,2 | G,6 z2 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  outro:
+    bars: 6
+    instruments:
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "Em"E,4 B,4 | E,8 |
+      bass:
+        abc: "E,2 E,2 E,2 E,2 | E,2 E,2 E,2 E,2 | A,2 A,2 A,2 A,2 | A,2 A,2 A,2 A,2 | E,8 | E,8 |"
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 33
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drum Kit"
+
+arrangement:
+  intro: |
+    Guitar: Em arpeggio, mournful and deliberate. Sets the weight of history.
+    Bass: Root notes, steady pulse. Drums: None yet.
+
+  verse: |
+    Vocal: Direct narrative delivery. The facts speak.
+    Verse 1: The raid itself - October 1859, eighteen men, the armory
+    Verse 2: The failure - no uprising came, captured by Lee's marines
+    Verse 3: The trial - his defense, the double standard
+    Verse 4: The execution - his prophecy about blood
+    Verse 5: The aftermath - six hundred thousand dead, his name in the marching song
+
+    Guitar: Fingerpicked arpeggios throughout.
+    Bass: Root notes, walking occasionally.
+    Drums: Brush kick/snare, silent on empty lines.
+
+  chorus: |
+    "One man's treason is another's truth" - the thesis
+    Not celebrating violence. Acknowledging complexity.
+    Guitar: Fuller but still restrained.
+    Bass: More movement. Drums: Steady brushes.
+
+  bridge: |
+    Instrumental. The weight of what's coming.
+    Guitar: Minor progression, descending.
+    Bass: Sustained pedal tones. Drums: Kick only, no snare.
+
+  outro: |
+    Return to intro pattern. Slower, more space.
+    End on open Em chord. Let it ring into silence.
+
+    PRODUCTION NOTES:
+    - This is the first "historical" song on the album (pre-20th century)
+    - Sets up the pattern: violence in service of conscience
+    - Not hagiography - Brown was a violent man who killed people
+    - But he was right about the blood that was coming
+    - ~7 minutes. Room to breathe between verses.

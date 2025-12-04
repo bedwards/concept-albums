@@ -1,0 +1,41 @@
+TEMPO: 66 bpm
+TIME: 4/4
+KEY: Em
+
+INTRO
+Guitar: Em arpeggio, mournful and deliberate. Sets the weight of history.
+Bass: Root notes, steady pulse. Drums: None yet.
+
+VERSE
+Vocal: Direct narrative delivery. The facts speak.
+Verse 1: The raid itself - October 1859, eighteen men, the armory
+Verse 2: The failure - no uprising came, captured by Lee's marines
+Verse 3: The trial - his defense, the double standard
+Verse 4: The execution - his prophecy about blood
+Verse 5: The aftermath - six hundred thousand dead, his name in the marching song
+
+Guitar: Fingerpicked arpeggios throughout.
+Bass: Root notes, walking occasionally.
+Drums: Brush kick/snare, silent on empty lines.
+
+CHORUS
+"One man's treason is another's truth" - the thesis
+Not celebrating violence. Acknowledging complexity.
+Guitar: Fuller but still restrained.
+Bass: More movement. Drums: Steady brushes.
+
+BRIDGE
+Instrumental. The weight of what's coming.
+Guitar: Minor progression, descending.
+Bass: Sustained pedal tones. Drums: Kick only, no snare.
+
+OUTRO
+Return to intro pattern. Slower, more space.
+End on open Em chord. Let it ring into silence.
+
+PRODUCTION NOTES:
+- This is the first "historical" song on the album (pre-20th century)
+- Sets up the pattern: violence in service of conscience
+- Not hagiography - Brown was a violent man who killed people
+- But he was right about the blood that was coming
+- ~7 minutes. Room to breathe between verses.

@@ -71,6 +71,7 @@ sections:
       drums:
         kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # VERSE (16 bars) - Narrative verses, guitar enters
@@ -195,6 +196,7 @@ sections:
       drums:
         kick: "z8 | z8 | z8 | z8 | C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z8 | z8 | z8 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # CHORUS (8 bars) - The thesis statement
@@ -260,6 +262,7 @@ sections:
       drums:
         kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
         snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # BRIDGE (12 bars) - Instrumental, strings building
@@ -432,6 +435,7 @@ sections:
       drums:
         kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
 # ============================================================================
 # INSTRUMENT MIDI PROGRAMS

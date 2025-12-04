@@ -4,18 +4,18 @@ tempo: 78
 time: 4/4
 key: Emin
 sections:
-- name: intro
+- name: chorus_final
+  bars: 8
+- name: outro
   bars: 8
 - name: chorus
   bars: 8
-- name: chorus_final
-  bars: 8
 - name: bridge
   bars: 12
-- name: outro
-  bars: 8
 - name: verse
   bars: 16
+- name: intro
+  bars: 8
 structure:
 - intro
 - verse

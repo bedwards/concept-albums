@@ -75,6 +75,7 @@ sections:
       drums:
         kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # VERSE (16 bars) - Building narrative
@@ -112,13 +113,13 @@ sections:
           chords: ["Em"]
 
       verse3:
-        - line: "I'd watch her from the kitchen"
+        - line: "She'd park my front door open"
           chords: ["Em"]
-        - line: "Coffee going cold"
+        - line: "So I could watch her there"
           chords: ["C"]
         - line: "The way she'd talk to every one"
           chords: ["G", "D"]
-        - line: "Stories never told"
+        - line: "Stories in the morning air"
           chords: ["Em"]
         - line: "Never told to anyone but them"
           chords: ["C", "G"]
@@ -179,6 +180,7 @@ sections:
       drums:
         kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # CHORUS (8 bars) - The thesis
@@ -244,6 +246,7 @@ sections:
       drums:
         kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
         snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
   # --------------------------------------------------------------------------
   # BRIDGE (16 bars) - THE BUILD. Strings and sax enter. BCNR territory.
@@ -580,6 +583,7 @@ sections:
       drums:
         kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
         snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
 
 # ============================================================================
 # INSTRUMENT MIDI PROGRAMS

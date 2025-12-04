@@ -76,9 +76,9 @@ sections:
           chords: ["C", "G"]
 
       verse3:
-        - line: "Now I hear that engine sometimes"
+        - line: "Barton Springs lifeguard, summer of seventy-three"
           chords: ["G"]
-        - line: "When I'm nowhere near the water"
+        - line: "That's where you learned to read the water"
           chords: ["C"]
         - line: "Just the sound of you still teaching"
           chords: ["Em", "D"]

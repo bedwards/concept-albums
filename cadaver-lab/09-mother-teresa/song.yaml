@@ -53,7 +53,7 @@ sections:
     bars: 12
     lyrics:
       verse1:
-        - line: "She volunteers on holidays"
+        - line: "She runs the half marathon every spring"
           chords: ["Am"]
         - line: "Makes sure everyone can see"
           chords: ["F"]
@@ -77,15 +77,15 @@ sections:
           chords: ["F", "Am"]
 
       verse3:
-        - line: "Mother Teresa, they called her once"
+        - line: "Disc golf league and open mic host"
           chords: ["Am"]
-        - line: "At the office Christmas party"
+        - line: "She organized it all"
           chords: ["F"]
-        - line: "She laughed but I saw her flinch"
+        - line: "Mother Teresa, they called her once"
           chords: ["Dm", "E"]
-        - line: "At how close they came to seeing"
+        - line: "She laughed but I saw her flinch"
           chords: ["Am"]
-        - line: "Close to seeing"
+        - line: "Saw her flinch"
           chords: ["F", "Am"]
 
       verse4:
@@ -139,7 +139,7 @@ sections:
     bars: 8
     lyrics:
       chorus:
-        - line: "Mother Teresa in the break room"
+        - line: "Mother Teresa at Cabo Bob's"
           chords: ["Am", "F"]
         - line: "That's how you know someone"
           chords: ["Dm", "E"]

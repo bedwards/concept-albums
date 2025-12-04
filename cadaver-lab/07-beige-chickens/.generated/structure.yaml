@@ -6,18 +6,18 @@ key: Emin
 sections:
 - name: verse
   bars: 16
+- name: chorus
+  bars: 8
 - name: bridge
   bars: 16
-- name: intro
-  bars: 8
 - name: outro
-  bars: 8
-- name: chorus_final
-  bars: 12
-- name: chorus
   bars: 8
 - name: verse_climax
   bars: 16
+- name: intro
+  bars: 8
+- name: chorus_final
+  bars: 12
 structure:
 - intro
 - verse

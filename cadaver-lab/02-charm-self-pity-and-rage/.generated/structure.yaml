@@ -4,14 +4,14 @@ tempo: 82
 time: 4/4
 key: Amin
 sections:
-- name: chorus
-  bars: 8
 - name: outro
   bars: 8
-- name: verse
-  bars: 12
 - name: intro
   bars: 4
+- name: verse
+  bars: 12
+- name: chorus
+  bars: 8
 structure:
 - intro
 - verse

@@ -55,11 +55,11 @@ sections:
           chords: ["D"]
         - line: "Salt water in our hair"
           chords: ["G"]
-        - line: "Before we had to be anyone"
+        - line: "Sunburn and sand in everything"
           chords: ["A", "Bm"]
-        - line: "We were just bodies there"
+        - line: "The water didn't care"
           chords: ["D"]
-        - line: "Just bodies there"
+        - line: "Didn't care"
           chords: ["G", "D"]
 
       verse2:
@@ -113,13 +113,13 @@ sections:
 
     lyrics:
       chorus:
-        - line: "I knew you in the water"
+        - line: "Haulover Beach, Haulover Beach"
           chords: ["D", "G"]
-        - line: "Before the land took hold"
+        - line: "Salt water in our hair"
           chords: ["A", "Bm"]
-        - line: "Haulover Beach, the tide comes in"
+        - line: "Haulover Beach, Haulover Beach"
           chords: ["D", "G"]
-        - line: "And carries what we told"
+        - line: "And I would know you anywhere"
           chords: ["A", "D"]
 
     instruments:

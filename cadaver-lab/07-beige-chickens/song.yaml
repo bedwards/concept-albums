@@ -190,13 +190,13 @@ sections:
 
     lyrics:
       chorus:
-        - line: "Beige chickens in an ordinary yard"
+        - line: "Beige chickens, beige chickens"
           chords: ["Em", "G"]
-        - line: "That's how you know someone"
+        - line: "Pecking at the same gravel"
           chords: ["C", "D"]
-        - line: "By the ordinary things they tend"
+        - line: "Beige chickens, beige chickens"
           chords: ["Em", "G"]
-        - line: "By the ordinary things they've done"
+        - line: "And I would know you anywhere"
           chords: ["C", "D"]
 
     instruments:
@@ -335,23 +335,23 @@ sections:
           chords: ["Em"]
         - line: "The feed bin rusted through"
           chords: ["C"]
-        - line: "The yard grown over with weeds"
+        - line: "Fox got in or maybe time"
           chords: ["G", "D"]
-        - line: "But I carry what she knew"
+        - line: "The yard holds only feathers"
           chords: ["Em"]
-        - line: "Everything she knew"
+        - line: "Only feathers"
           chords: ["C", "G"]
         - line: ""
           chords: []
-        - line: "How to tend the ordinary"
+        - line: "I could rebuild the whole thing"
           chords: ["Em"]
-        - line: "How to love what doesn't last"
+        - line: "Buy new birds and paint the wire"
           chords: ["C"]
-        - line: "How to count your blessings daily"
+        - line: "But her hands are in the wood grain"
           chords: ["G", "D"]
-        - line: "Like beige chickens in the grass"
+        - line: "And her voice is in the choir"
           chords: ["Em"]
-        - line: "In the grass"
+        - line: "The morning choir"
           chords: ["C", "D"]
 
     instruments:

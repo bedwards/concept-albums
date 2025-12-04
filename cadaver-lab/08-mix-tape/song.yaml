@@ -109,13 +109,13 @@ sections:
     bars: 8
     lyrics:
       chorus:
-        - line: "Mix tape in a shoebox"
+        - line: "Mix tape, mix tape"
           chords: ["C", "Am"]
-        - line: "That's how you know a person"
+        - line: "Handwritten track list, blue ink"
           chords: ["F", "G"]
-        - line: "By the songs they give you"
+        - line: "Mix tape, mix tape"
           chords: ["C", "Am"]
-        - line: "By what they thought you needed to learn"
+        - line: "And I would know you anywhere"
           chords: ["F", "C"]
 
     instruments:

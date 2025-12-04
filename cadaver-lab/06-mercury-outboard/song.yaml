@@ -129,13 +129,13 @@ sections:
     bars: 8
     lyrics:
       chorus:
-        - line: "Mercury outboard, morning on the lake"
+        - line: "Mercury outboard, Mercury outboard"
           chords: ["G", "C"]
-        - line: "That's how you know a person"
+        - line: "Pull the cord and wait"
           chords: ["Em", "D"]
-        - line: "By the things they cannot say"
+        - line: "Mercury outboard, Mercury outboard"
           chords: ["G", "C"]
-        - line: "By what they taught you anyway"
+        - line: "And I would know you anywhere"
           chords: ["D", "G"]
 
     instruments:

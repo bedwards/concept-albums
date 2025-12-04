@@ -143,11 +143,11 @@ sections:
       chorus:
         - line: "Enlightened narcissist"
           chords: ["Bm", "G"]
-        - line: "That's how I know you now"
+        - line: "Attachment style and trauma bond"
           chords: ["A", "Em"]
-        - line: "By the therapy you weaponized"
+        - line: "Enlightened narcissist"
           chords: ["Bm", "G"]
-        - line: "By how you never came around"
+        - line: "And I would know you anywhere"
           chords: ["A", "Bm"]
 
     instruments:
@@ -214,9 +214,9 @@ sections:
       chorus_final:
         - line: "Enlightened narcissist"
           chords: ["Bm", "G"]
-        - line: "That's how I know you now"
+        - line: "Perfectly rehearsed"
           chords: ["A", "Em"]
-        - line: "By the therapy you weaponized"
+        - line: "Enlightened narcissist"
           chords: ["Bm", "G"]
         - line: "I see you and you see me seeing"
           chords: ["A", "Bm"]

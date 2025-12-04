@@ -163,13 +163,13 @@ sections:
 
     lyrics:
       chorus:
-        - line: "The Ratsun holds what we were"
+        - line: "The Ratsun, the Ratsun"
           chords: ["G", "C"]
-        - line: "Before the roads all changed"
+        - line: "Faded blue and primer gray"
           chords: ["Em", "D"]
-        - line: "I know you by that engine sound"
+        - line: "The Ratsun, the Ratsun"
           chords: ["G", "C"]
-        - line: "By every mile we made"
+        - line: "And I would know you anywhere"
           chords: ["D", "G"]
 
     instruments:

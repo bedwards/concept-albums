@@ -129,15 +129,15 @@ sections:
           chords: ["Em"]
 
       verse4:
-        - line: "Now I know that everyone leaves"
+        - line: "My daughter at the same door now"
           chords: ["Em"]
-        - line: "Everyone turns to face the wall"
+        - line: "Tuesday morning, her hands on mine"
           chords: ["C"]
-        - line: "Everyone I've loved has closed a door"
+        - line: "She's got my mother's shoulders"
           chords: ["G", "D"]
-        - line: "And I have closed doors"
+        - line: "Got my mother's need for quiet"
           chords: ["Em", "C"]
-        - line: "That's not the wound, that's just the way"
+        - line: "And I drive the long way home"
           chords: ["G", "D"]
         - line: ""
           chords: ["Em"]
@@ -223,11 +223,11 @@ sections:
       chorus1:
         - line: "Mother's Day Out"
           chords: ["Em", "G"]
-        - line: "That's what they called it"
+        - line: "Tuesday morning, Baptist church"
           chords: ["C", "D"]
         - line: "Mother's Day Out"
           chords: ["Em", "G"]
-        - line: "And I'm still learning what it means"
+        - line: "And I would know you anywhere"
           chords: ["C", "D"]
 
     instruments:

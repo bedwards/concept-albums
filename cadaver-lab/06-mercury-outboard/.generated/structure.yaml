@@ -4,13 +4,13 @@ tempo: 78
 time: 4/4
 key: G
 sections:
-- name: verse
-  bars: 12
-- name: intro
+- name: chorus
   bars: 8
 - name: outro
   bars: 8
-- name: chorus
+- name: verse
+  bars: 12
+- name: intro
   bars: 8
 structure:
 - intro

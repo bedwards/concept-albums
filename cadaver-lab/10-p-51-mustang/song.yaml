@@ -93,15 +93,15 @@ sections:
           chords: ["C", "Em"]
 
       verse4:
-        - line: "Now I understand the silence"
+        - line: "I build the model now myself"
           chords: ["Em"]
-        - line: "Was the weight he chose to carry"
+        - line: "Silver paint and glue that stings"
           chords: ["C"]
-        - line: "Protecting us from what he knew"
+        - line: "My hands shake where his stayed steady"
           chords: ["G", "D"]
-        - line: "From what made him who he had to be"
+        - line: "Steady through everything, through everything"
           chords: ["Em"]
-        - line: "Had to be"
+        - line: "Through everything"
           chords: ["C", "Em"]
 
     instruments:
@@ -149,13 +149,13 @@ sections:
     bars: 8
     lyrics:
       chorus:
-        - line: "P-51 Mustang on the shelf"
+        - line: "P-51 Mustang, P-51"
           chords: ["Em", "C"]
-        - line: "That's how you know a person"
+        - line: "Silver paint and silence"
           chords: ["G", "D"]
-        - line: "By the silence they protect you with"
+        - line: "P-51 Mustang, P-51"
           chords: ["Em", "C"]
-        - line: "By what they never said"
+        - line: "And I would know you anywhere"
           chords: ["G", "Em"]
 
     instruments:

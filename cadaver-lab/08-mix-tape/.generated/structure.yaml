@@ -6,12 +6,12 @@ key: C
 sections:
 - name: intro
   bars: 4
+- name: verse
+  bars: 12
 - name: chorus
   bars: 8
 - name: outro
   bars: 8
-- name: verse
-  bars: 12
 structure:
 - intro
 - verse

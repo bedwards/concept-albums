@@ -93,15 +93,15 @@ sections:
           chords: ["Am", "Em"]
 
       verse4:
-        - line: "Now I understand the armor"
+        - line: "You still flinch at cafeterias"
           chords: ["Em"]
-        - line: "That you learned to wear so young"
+        - line: "Still count the exits in a room"
           chords: ["Am"]
-        - line: "The way you hold your shoulders back"
+        - line: "Your shoulders carry something old"
           chords: ["C", "D"]
-        - line: "The way you swallow everything unsung"
+        - line: "Your spine holds the shape of Tuesday afternoon"
           chords: ["Em"]
-        - line: "Everything unsung"
+        - line: "Tuesday afternoon"
           chords: ["Am", "Em"]
 
     instruments:
@@ -151,11 +151,11 @@ sections:
       chorus:
         - line: "Jacksonville Country Day"
           chords: ["Em", "C"]
-        - line: "That's where you learned to disappear"
+        - line: "Khaki pants and carpool lane"
           chords: ["G", "D"]
-        - line: "I know you by what you don't say"
+        - line: "Jacksonville Country Day"
           chords: ["Em", "C"]
-        - line: "By the silence you still wear"
+        - line: "And I would know you anywhere"
           chords: ["G", "Em"]
 
     instruments:

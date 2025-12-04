@@ -139,13 +139,13 @@ sections:
     bars: 8
     lyrics:
       chorus:
-        - line: "Mother Teresa at Cabo Bob's"
+        - line: "Mother Teresa, Mother Teresa"
           chords: ["Am", "F"]
-        - line: "That's how you know someone"
+        - line: "Cabo Bob's on a Tuesday night"
           chords: ["Dm", "E"]
-        - line: "By the goodness they perform"
+        - line: "Mother Teresa, Mother Teresa"
           chords: ["Am", "F"]
-        - line: "By what made them need to be undone"
+        - line: "And I would know you anywhere"
           chords: ["Dm", "Am"]
 
     instruments:

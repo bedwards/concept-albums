@@ -1,0 +1,78 @@
+song:
+  title: Mix Tape
+  composer: Brian Edwards
+  key: C
+  tempo: 84
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - C
+    lyrics: You made me a mix tape once
+  - chords:
+    - Am
+    lyrics: Handwritten track list, blue ink
+  - chords:
+    - F
+    - G
+    lyrics: Pulp Fiction on the first side
+  - chords:
+    - C
+    lyrics: Whatever you were trying to tell me
+  - chords:
+    - Am
+    - C
+    lyrics: I think
+  verse2:
+  - chords:
+    - C
+    lyrics: We drove to Hastings to find the songs
+  - chords:
+    - Am
+    lyrics: Before everything went digital
+  - chords:
+    - F
+    - G
+    lyrics: You in the aisles with your list
+  - chords:
+    - C
+    lyrics: Building something ritual
+  - chords:
+    - Am
+    - C
+    lyrics: Ritual
+  verse3:
+  - chords:
+    - C
+    lyrics: Now I hear those songs on shuffle
+  - chords:
+    - Am
+    lyrics: And the sequence is all wrong
+  - chords:
+    - F
+    - G
+    lyrics: You had something to tell me
+  - chords:
+    - C
+    lyrics: In the order of those songs
+  - chords:
+    - Am
+    - C
+    lyrics: Those songs
+  chorus:
+  - chords:
+    - C
+    - Am
+    lyrics: Mix tape in a shoebox
+  - chords:
+    - F
+    - G
+    lyrics: That's how you know a person
+  - chords:
+    - C
+    - Am
+    lyrics: By the songs they give you
+  - chords:
+    - F
+    - C
+    lyrics: By what they thought you needed to learn

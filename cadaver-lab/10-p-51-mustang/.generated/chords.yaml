@@ -1,0 +1,96 @@
+song:
+  title: P-51 Mustang
+  composer: Brian Edwards
+  key: Emin
+  tempo: 72
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    lyrics: Model airplane on the shelf
+  - chords:
+    - C
+    lyrics: P-51 Mustang, silver paint
+  - chords:
+    - G
+    - D
+    lyrics: He never talked about the war
+  - chords:
+    - Em
+    lyrics: Just built his models, never complained
+  - chords:
+    - C
+    - Em
+    lyrics: Never complained
+  verse2:
+  - chords:
+    - Em
+    lyrics: Medals in the bottom drawer
+  - chords:
+    - C
+    lyrics: I found them after he was gone
+  - chords:
+    - G
+    - D
+    lyrics: Purple Heart and Silver Star
+  - chords:
+    - Em
+    lyrics: Never knew what he had done
+  - chords:
+    - C
+    - Em
+    lyrics: What he had done
+  verse3:
+  - chords:
+    - Em
+    lyrics: Sunday mornings at the hangar
+  - chords:
+    - C
+    lyrics: Watching planes come in to land
+  - chords:
+    - G
+    - D
+    lyrics: He'd name them all, every model
+  - chords:
+    - Em
+    lyrics: But never what they were for
+  - chords:
+    - C
+    - Em
+    lyrics: What they were for
+  verse4:
+  - chords:
+    - Em
+    lyrics: Now I understand the silence
+  - chords:
+    - C
+    lyrics: Was the weight he chose to carry
+  - chords:
+    - G
+    - D
+    lyrics: Protecting us from what he knew
+  - chords:
+    - Em
+    lyrics: From what made him who he had to be
+  - chords:
+    - C
+    - Em
+    lyrics: Had to be
+  chorus:
+  - chords:
+    - Em
+    - C
+    lyrics: P-51 Mustang on the shelf
+  - chords:
+    - G
+    - D
+    lyrics: That's how you know a person
+  - chords:
+    - Em
+    - C
+    lyrics: By the silence they protect you with
+  - chords:
+    - G
+    - Em
+    lyrics: By what they never said

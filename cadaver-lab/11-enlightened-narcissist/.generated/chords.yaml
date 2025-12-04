@@ -1,0 +1,113 @@
+song:
+  title: Enlightened Narcissist
+  composer: Brian Edwards
+  key: Bmin
+  tempo: 84
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Bm
+    lyrics: You knew every wound you carried
+  - chords:
+    - G
+    lyrics: Named them all with therapy words
+  - chords:
+    - A
+    - Em
+    lyrics: Attachment style and trauma bond
+  - chords:
+    - Bm
+    lyrics: Your damage perfectly rehearsed
+  - chords:
+    - G
+    - Bm
+    lyrics: Perfectly rehearsed
+  verse2:
+  - chords:
+    - Bm
+    lyrics: You warned me what you'd do to me
+  - chords:
+    - G
+    lyrics: Before you did it anyway
+  - chords:
+    - A
+    - Em
+    lyrics: As if the knowing absolved you
+  - chords:
+    - Bm
+    lyrics: Of every single thing you'd say
+  - chords:
+    - G
+    - Bm
+    lyrics: Thing you'd say
+  verse3:
+  - chords:
+    - Bm
+    lyrics: I'm working on myself you said
+  - chords:
+    - G
+    lyrics: While working me into the ground
+  - chords:
+    - A
+    - Em
+    lyrics: The language of growth and healing
+  - chords:
+    - Bm
+    lyrics: Just another way to wound
+  - chords:
+    - G
+    - Bm
+    lyrics: Way to wound
+  verse4:
+  - chords:
+    - Bm
+    lyrics: Now I hear those words different
+  - chords:
+    - G
+    lyrics: When someone's too fluent in pain
+  - chords:
+    - A
+    - Em
+    lyrics: When they know their whole diagnosis
+  - chords:
+    - Bm
+    lyrics: But never seem to change
+  - chords:
+    - G
+    - Bm
+    lyrics: Never change
+  chorus:
+  - chords:
+    - Bm
+    - G
+    lyrics: Enlightened narcissist
+  - chords:
+    - A
+    - Em
+    lyrics: That's how I know you now
+  - chords:
+    - Bm
+    - G
+    lyrics: By the therapy you weaponized
+  - chords:
+    - A
+    - Bm
+    lyrics: By how you never came around
+  chorus_final:
+  - chords:
+    - Bm
+    - G
+    lyrics: Enlightened narcissist
+  - chords:
+    - A
+    - Em
+    lyrics: That's how I know you now
+  - chords:
+    - Bm
+    - G
+    lyrics: By the therapy you weaponized
+  - chords:
+    - A
+    - Bm
+    lyrics: I see you and you see me seeing

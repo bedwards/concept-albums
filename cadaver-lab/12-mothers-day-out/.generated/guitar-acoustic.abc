@@ -1,0 +1,69 @@
+X:1
+T:Mother's Day Out
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=72
+K:Emin
+%%MIDI program 25
+%%MIDI chordprog -1
+E,2 B,2 E2 G2 | B2 e2 B2 G2 | C2 G,2 C2 E2 | G2 c2 G2 E2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 | D2 A,2 D2 F2 | A2 d2 A2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | G,2 D2 G2 B2 |
+C2 G,2 C2 E2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | G,2 D2 G2 B2 |
+C2 G,2 C2 E2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | G,2 D2 G2 B2 |
+C2 G,2 C2 E2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | G,2 D2 G2 B2 |
+C2 G,2 C2 E2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 | C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 | D2 A,2 D2 F2 | A2 d2 A2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 | C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 | D2 A,2 D2 F2 | A2 d2 A2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [C2E2G2]z2 [C2E2G2]z2 |
+[G,2D2G2]z2 [G,2D2G2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [C2G,2C2]z2 [C2G,2C2]z2 |
+[G,2D2G2]z2 [G,2D2G2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [C2E2G2]z2 [C2E2G2]z2 |
+[G,2D2G2]z2 [G,2D2G2]z2 | [D8A,8D8] |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D8A,8D8] |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | C2 G,2 C2 E2 |
+G,2 D2 G2 B2 | E,8 |

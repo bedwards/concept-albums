@@ -1,0 +1,305 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: P-51 Mustang
+# ============================================================================
+# Track 10 - War in someone's history. Medals in a drawer. Silence.
+#
+# Someone's grandfather or father, shaped by something they couldn't discuss.
+# Muted trumpet here, taps-adjacent. The generation that held everything.
+# Pedal steel returns for the country warmth.
+#
+# Run: python scripts/generate_song.py cadaver-lab/10-p-51-mustang/
+# ============================================================================
+
+song:
+  title: "P-51 Mustang"
+  composer: "Brian Edwards"
+  tempo: 72
+  time: "4/4"
+  key: "Emin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - chorus
+    - outro
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+      pedal-steel:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 C4 |
+          "G"D8 | D4 B,4 | "D"A,8 | A,4 F,4 |
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "Model airplane on the shelf"
+          chords: ["Em"]
+        - line: "P-51 Mustang, silver paint"
+          chords: ["C"]
+        - line: "He never talked about the war"
+          chords: ["G", "D"]
+        - line: "Just built his models, never complained"
+          chords: ["Em"]
+        - line: "Never complained"
+          chords: ["C", "Em"]
+
+      verse2:
+        - line: "Medals in the bottom drawer"
+          chords: ["Em"]
+        - line: "I found them after he was gone"
+          chords: ["C"]
+        - line: "Purple Heart and Silver Star"
+          chords: ["G", "D"]
+        - line: "Never knew what he had done"
+          chords: ["Em"]
+        - line: "What he had done"
+          chords: ["C", "Em"]
+
+      verse3:
+        - line: "Sunday mornings at the hangar"
+          chords: ["Em"]
+        - line: "Watching planes come in to land"
+          chords: ["C"]
+        - line: "He'd name them all, every model"
+          chords: ["G", "D"]
+        - line: "But never what they were for"
+          chords: ["Em"]
+        - line: "What they were for"
+          chords: ["C", "Em"]
+
+      verse4:
+        - line: "Now I understand the silence"
+          chords: ["Em"]
+        - line: "Was the weight he chose to carry"
+          chords: ["C"]
+        - line: "Protecting us from what he knew"
+          chords: ["G", "D"]
+        - line: "From what made him who he had to be"
+          chords: ["Em"]
+        - line: "Had to be"
+          chords: ["C", "Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 B2 | "D"A4 F4 |
+          "Em"E2 G2 B2 e2 | B6 z2 |
+          "C"G2 E2 C2 E2 | "Em"E4 B,4 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | "Em"E,2 B,2 E2 G2 |
+          "Em"E,2 B,2 E2 G2 | B4 z4 |
+
+      pedal-steel:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 C4 |
+          "G"D8 | "D"A8 | "Em"B8 | B4 G4 |
+          "C"E8 | "Em"B4 G4 | "Em"B8 | z8 |
+
+      trumpet:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "G"G,4 G,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | "Em"E,4 E,4 |
+          "Em"E,4 E,4 | E,4 z4 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus:
+        - line: "P-51 Mustang on the shelf"
+          chords: ["Em", "C"]
+        - line: "That's how you know a person"
+          chords: ["G", "D"]
+        - line: "By the silence they protect you with"
+          chords: ["Em", "C"]
+        - line: "By what they never said"
+          chords: ["G", "Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "C"E4 C4 |
+          "G"D4 G4 | "D"A6 z2 |
+          "Em"E4 G4 | "C"E4 G4 |
+          "G"D2 D2 B,2 D2 | "Em"E6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "Em"[E,8B,8E8] |
+
+      pedal-steel:
+        abc: |
+          "Em"B8 | "C"G8 | "G"d8 | "D"A8 |
+          "Em"e4 B4 | "C"G4 E4 | "G"D4 B,4 | "Em"E8 |
+
+      trumpet:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "Em"B4 e4 | "C"G4 E4 | "G"D4 B,4 | "Em"E8 |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "G"G,2 G,2 G,2 G,2 | "Em"E,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "D"D2 A,2 D2 F2 | A8 |
+      pedal-steel:
+        abc: |
+          "Em"B8 | B4 e4 | "C"G8 | G4 c4 |
+          "G"d8 | d4 g4 | "D"A8 | A8 |
+      trumpet:
+        abc: |
+          "Em"E4 B4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"D4 G4 | B4 d4 | "D"A4 d4 | d8 |
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 |
+          "D"D,2 D,2 D,2 D,2 | D,8 |
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  outro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+          "Em"E,2 B,2 E2 G2 | B4 z4 |
+          z8 | "Em"E,8 |
+      pedal-steel:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 z4 |
+          "Em"B8 | B4 z4 | z8 | z8 |
+      trumpet:
+        abc: |
+          "Em"E8 | E4 B,4 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 z4 |
+          "C"C,4 C,4 | z8 |
+          "Em"E,4 z4 | z8 |
+          z8 | "Em"E,8 |
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  pedal-steel:
+    program: 26
+    name: "Steel Guitar"
+  trumpet:
+    program: 59
+    name: "Muted Trumpet"
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drums"
+
+arrangement:
+  intro: |
+    GUITAR AND PEDAL STEEL. The sound of memory.
+    Slow, patient. Em minor for weight.
+
+  verse: |
+    BASS ENTERS verse 1, brushes verse 2.
+    MUTED TRUMPET enters bridge - taps-adjacent, military.
+
+    Verse 1: The model - "P-51 Mustang, silver paint"
+    Verse 2: The medals - "found them after he was gone"
+    Verse 3: The ritual - "Sunday mornings at the hangar"
+    Verse 4: Understanding - "the weight he chose to carry"
+
+    Vocal delivery: Reverent, grateful.
+    "Never knew what he had done" - wonder, not accusation.
+
+  chorus: |
+    TRUMPET joins second chorus, muted, distant.
+    "By the silence they protect you with" - the thesis.
+
+  bridge: |
+    TRUMPET SOLO. Not triumphant - mournful.
+    The sound of what couldn't be said.
+    Pedal steel underneath, crying.
+
+  outro: |
+    TRUMPET FADES first - like taps ending.
+    Pedal steel and guitar remain, then fade.
+    Final Em chord. Let it ring.
+    ~4:45. Reverent, sad, grateful.

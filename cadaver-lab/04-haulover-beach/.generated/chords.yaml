@@ -1,0 +1,78 @@
+song:
+  title: Haulover Beach
+  composer: Brian Edwards
+  key: D
+  tempo: 85
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - D
+    lyrics: Haulover Beach in August
+  - chords:
+    - G
+    lyrics: Salt water in our hair
+  - chords:
+    - A
+    - Bm
+    lyrics: Before we had to be anyone
+  - chords:
+    - D
+    lyrics: We were just bodies there
+  - chords:
+    - G
+    - D
+    lyrics: Just bodies there
+  verse2:
+  - chords:
+    - D
+    lyrics: You in the shallows, backstroke
+  - chords:
+    - G
+    lyrics: Against the afternoon
+  - chords:
+    - A
+    - Bm
+    lyrics: Whipper bugs at sunset
+  - chords:
+    - D
+    lyrics: The water held the moon
+  - chords:
+    - G
+    - D
+    lyrics: Held the moon
+  verse3:
+  - chords:
+    - D
+    lyrics: Now the beach is smaller
+  - chords:
+    - G
+    lyrics: Or maybe we grew strange
+  - chords:
+    - A
+    - Bm
+    lyrics: The salt still tastes the same though
+  - chords:
+    - D
+    lyrics: Everything else has changed
+  - chords:
+    - G
+    - D
+    lyrics: Everything's changed
+  chorus:
+  - chords:
+    - D
+    - G
+    lyrics: I knew you in the water
+  - chords:
+    - A
+    - Bm
+    lyrics: Before the land took hold
+  - chords:
+    - D
+    - G
+    lyrics: Haulover Beach, the tide comes in
+  - chords:
+    - A
+    - D
+    lyrics: And carries what we told

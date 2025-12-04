@@ -1,0 +1,36 @@
+X:1
+T:Haulover Beach
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=85
+K:D
+%%MIDI program 25
+%%MIDI chordprog -1
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 |
+A,2 E2 A2 c2 | B,2 F2 B2 d2 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+D2 A,2 D2 F2 | A4 z4 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 |
+A,2 E2 A2 c2 | B,2 F2 B2 d2 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+D2 A,2 D2 F2 | A4 z4 |
+[D2A,2D2]z2 [D2A,2D2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[A,2E2A2]z2 [A,2E2A2]z2 | [B,2F2B2]z2 [B,2F2B2]z2 |
+[D2A,2D2]z2 [D2A,2D2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[A,2E2A2]z2 [A,2E2A2]z2 | [D8A,8D8] |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | d2 g2 d2 B2 |
+A,2 E2 A2 c2 | B,2 F2 B2 d2 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+D2 A,2 D2 F2 | A4 z4 |
+D2 A,2 D2 F2 | A2 d2 A2 F2 |
+G,2 D2 G2 B2 | d4 z4 |
+D2 A,2 D2 F2 | D8 |

@@ -1,0 +1,338 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Enlightened Narcissist
+# ============================================================================
+# Track 11 - Self-awareness as armor. Therapy language as manipulation.
+#
+# Someone who knew everything about themselves and weaponized that knowing.
+# You saw them clearly - and they saw you seeing.
+# Building intensity throughout, electric guitar enters with teeth.
+#
+# Run: python scripts/generate_song.py cadaver-lab/11-enlightened-narcissist/
+# ============================================================================
+
+song:
+  title: "Enlightened Narcissist"
+  composer: "Brian Edwards"
+  tempo: 84
+  time: "4/4"
+  key: "Bmin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - chorus_final
+    - outro
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Bm"B,2 F2 B2 d2 | f2 b2 f2 d2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "A"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "You knew every wound you carried"
+          chords: ["Bm"]
+        - line: "Named them all with therapy words"
+          chords: ["G"]
+        - line: "Attachment style and trauma bond"
+          chords: ["A", "Em"]
+        - line: "Your damage perfectly rehearsed"
+          chords: ["Bm"]
+        - line: "Perfectly rehearsed"
+          chords: ["G", "Bm"]
+
+      verse2:
+        - line: "You warned me what you'd do to me"
+          chords: ["Bm"]
+        - line: "Before you did it anyway"
+          chords: ["G"]
+        - line: "As if the knowing absolved you"
+          chords: ["A", "Em"]
+        - line: "Of every single thing you'd say"
+          chords: ["Bm"]
+        - line: "Thing you'd say"
+          chords: ["G", "Bm"]
+
+      verse3:
+        - line: "I'm working on myself you said"
+          chords: ["Bm"]
+        - line: "While working me into the ground"
+          chords: ["G"]
+        - line: "The language of growth and healing"
+          chords: ["A", "Em"]
+        - line: "Just another way to wound"
+          chords: ["Bm"]
+        - line: "Way to wound"
+          chords: ["G", "Bm"]
+
+      verse4:
+        - line: "Now I hear those words different"
+          chords: ["Bm"]
+        - line: "When someone's too fluent in pain"
+          chords: ["G"]
+        - line: "When they know their whole diagnosis"
+          chords: ["A", "Em"]
+        - line: "But never seem to change"
+          chords: ["Bm"]
+        - line: "Never change"
+          chords: ["G", "Bm"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Bm"F2 F2 B2 d2 | f4 d4 |
+          "G"B2 B2 G2 D2 | G6 z2 |
+          "A"A2 A2 c2 e2 | "Em"e4 B4 |
+          "Bm"F2 B2 d2 f2 | d6 z2 |
+          "G"B2 G2 D2 G2 | "Bm"F4 B,4 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Bm"B,2 F2 B2 d2 | f2 b2 f2 d2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "A"A,2 E2 A2 c2 | "Em"E,2 B,2 E2 G2 |
+          "Bm"B,2 F2 B2 d2 | f2 b2 f2 d2 |
+          "G"G,2 D2 G2 B2 | "Bm"B,2 F2 B2 d2 |
+          "Bm"B,2 F2 B2 d2 | f4 z4 |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Bm"B,4 B,4 | B,4 B,4 |
+          "G"G,4 G,4 | G,4 G,4 |
+          "A"A,4 A,4 | "Em"E,4 E,4 |
+          "Bm"B,4 B,4 | B,4 B,4 |
+          "G"G,4 G,4 | "Bm"B,4 B,4 |
+          "Bm"B,4 B,4 | B,4 z4 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus:
+        - line: "Enlightened narcissist"
+          chords: ["Bm", "G"]
+        - line: "That's how I know you now"
+          chords: ["A", "Em"]
+        - line: "By the therapy you weaponized"
+          chords: ["Bm", "G"]
+        - line: "By how you never came around"
+          chords: ["A", "Bm"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Bm"F4 B4 | "G"G4 D4 |
+          "A"A4 E4 | "Em"E6 z2 |
+          "Bm"F4 B4 | "G"G4 B4 |
+          "A"A2 A2 E2 c2 | "Bm"B6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Bm"[B,2F2B2]z2 [B,2F2B2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 |
+          "Bm"[B,2F2B2]z2 [B,2F2B2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "Bm"[B,8F8B8] |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Bm"B,2 B,2 B,2 B,2 | "G"G,2 G,2 G,2 G,2 |
+          "A"A,2 A,2 A,2 A,2 | "Em"E,2 E,2 E,2 E,2 |
+          "Bm"B,2 B,2 B,2 B,2 | "G"G,2 G,2 G,2 G,2 |
+          "A"A,2 A,2 A,2 A,2 | "Bm"B,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Bm"B,2 F2 B2 d2 | f2 b2 f2 d2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "A"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+      guitar-electric:
+        abc: |
+          "Bm"[B,4F4B4] z4 | [B,4F4B4] z4 |
+          "G"[G,4D4G4] z4 | [G,4D4G4] z4 |
+          "A"[A,4E4A4] z4 | [A,4E4A4] z4 |
+          "Em"[E,4B,4E4] z4 | [E,8B,8E8] |
+      bass:
+        abc: |
+          "Bm"B,2 B,2 B,2 B,2 | B,2 B,2 D,2 D,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 |
+          "A"A,2 A,2 A,2 A,2 | A,2 A,2 C,2 C,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,8 |
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  chorus_final:
+    bars: 8
+    lyrics:
+      chorus_final:
+        - line: "Enlightened narcissist"
+          chords: ["Bm", "G"]
+        - line: "That's how I know you now"
+          chords: ["A", "Em"]
+        - line: "By the therapy you weaponized"
+          chords: ["Bm", "G"]
+        - line: "I see you and you see me seeing"
+          chords: ["A", "Bm"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Bm"F4 B4 | "G"G4 d4 |
+          "A"e4 c4 | "Em"B6 z2 |
+          "Bm"F4 B4 | "G"G4 d4 |
+          "A"e2 e2 c2 e2 | "Bm"f6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Bm"[B,2F2B2]z2 [B,2F2B2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 |
+          "Bm"[B,2F2B2]z2 [B,2F2B2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "Bm"[B,8F8B8] |
+
+      guitar-electric:
+        abc: |
+          "Bm"[B,4F4B4] z4 | "G"[G,4D4G4] z4 |
+          "A"[A,4E4A4] z4 | "Em"[E,4B,4E4] z4 |
+          "Bm"[B,4F4B4] z4 | "G"[G,4D4G4] z4 |
+          "A"[A,4E4A4] z4 | "Bm"[B,8F8B8] |
+
+      bass:
+        abc: |
+          "Bm"B,2 B,2 B,2 B,2 | "G"G,2 G,2 G,2 G,2 |
+          "A"A,2 A,2 A,2 A,2 | "Em"E,2 E,2 E,2 E,2 |
+          "Bm"B,2 B,2 B,2 B,2 | "G"G,2 G,2 G,2 G,2 |
+          "A"A,2 A,2 A,2 A,2 | "Bm"B,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  outro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Bm"B,2 F2 B2 d2 | f2 b2 f2 d2 |
+          "G"G,2 D2 G2 B2 | d4 z4 |
+          "Bm"B,2 F2 B2 d2 | f4 z4 |
+          z8 | "Bm"B,8 |
+      guitar-electric:
+        abc: |
+          "Bm"[B,4F4B4] z4 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+      bass:
+        abc: |
+          "Bm"B,4 B,4 | B,4 z4 |
+          "G"G,4 z4 | z8 |
+          "Bm"B,4 z4 | z8 |
+          z8 | "Bm"B,8 |
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  guitar-electric:
+    program: 29
+    name: "Electric Guitar (clean)"
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drums"
+
+arrangement:
+  intro: |
+    GUITAR ALONE. Bm - tense, unresolved.
+    The darkest key on the album. Setting up confrontation.
+
+  verse: |
+    BASS ENTERS verse 1, drums verse 2.
+    Acoustic guitar continues throughout.
+
+    Verse 1: The knowledge - "named them all with therapy words"
+    Verse 2: The warning - "warned me what you'd do"
+    Verse 3: The contradiction - "working on myself" while hurting you
+    Verse 4: The lesson - "never seem to change"
+
+    Vocal delivery: Not angry. Tired. You've processed this.
+    "Perfectly rehearsed" - the key insight.
+
+  chorus: |
+    DRUMS FULLER. Building intensity.
+    "Enlightened narcissist" - say it flat, like a diagnosis.
+    "You never came around" - the truth.
+
+  bridge: |
+    ELECTRIC GUITAR ENTERS. Clean but present.
+    Building toward the final verse.
+    Drums add hi-hat. More energy.
+
+  chorus_final: |
+    FULL ENSEMBLE. Electric guitar joins acoustic.
+    "I see you and you see me seeing" - the standoff.
+    The highest intensity on the album before Track 12.
+
+  outro: |
+    ELECTRIC CUTS first. Sudden.
+    Acoustic continues, then fades.
+    Final Bm. Unresolved on purpose.
+    This tension carries into Track 12.
+
+    ~5 minutes. The hardest portrait on the album.
+    Critical but not vindictive. You understand them too well.

@@ -1,0 +1,697 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Beige Chickens
+# ============================================================================
+# Track 7 - The climactic middle track. Domestic life in full.
+#
+# Someone's whole world contained in what they tended: beige chickens in an
+# ordinary yard, the routine of care, forty years of the same morning.
+# This is where the BCNR influence is strongest - building from intimate
+# to orchestral, strings and saxophone joining for catharsis.
+#
+# Run: python scripts/generate_song.py cadaver-lab/07-beige-chickens/
+# ============================================================================
+
+song:
+  title: "Beige Chickens"
+  composer: "Brian Edwards"
+  tempo: 74
+  time: "4/4"
+  key: "Emin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse_climax
+    - chorus_final
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Guitar alone, domestic morning
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (16 bars) - Building narrative
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 16
+
+    lyrics:
+      verse1:
+        - line: "Beige chickens in the morning"
+          chords: ["Em"]
+        - line: "Same birds every day"
+          chords: ["C"]
+        - line: "Pecking at the gravel"
+          chords: ["G", "D"]
+        - line: "In the same deliberate way"
+          chords: ["Em"]
+        - line: "Deliberate way"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+      verse2:
+        - line: "She counted them like rosary beads"
+          chords: ["Em"]
+        - line: "Before she'd go inside"
+          chords: ["C"]
+        - line: "Well-proportioned birds she called them"
+          chords: ["G", "D"]
+        - line: "Some small farmer's pride"
+          chords: ["Em"]
+        - line: "Farmer's pride"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+      verse3:
+        - line: "I'd watch her from the kitchen"
+          chords: ["Em"]
+        - line: "Coffee going cold"
+          chords: ["C"]
+        - line: "The way she'd talk to every one"
+          chords: ["G", "D"]
+        - line: "Stories never told"
+          chords: ["Em"]
+        - line: "Never told to anyone but them"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 B2 | "D"A4 F4 |
+          "Em"E2 G2 B2 e2 | B6 z2 |
+          "C"G2 E2 C2 E2 | "G"D4 B,4 |
+          "Em"E8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | "Em"E,2 B,2 E2 G2 |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "G"G,4 G,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | "G"G,4 G,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | "Em"E,4 E,4 |
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - The thesis
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "Beige chickens in an ordinary yard"
+          chords: ["Em", "G"]
+        - line: "That's how you know someone"
+          chords: ["C", "D"]
+        - line: "By the ordinary things they tend"
+          chords: ["Em", "G"]
+        - line: "By the ordinary things they've done"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E4 G4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E2 E2 G2 B2 | "D"A6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D8A,8D8] |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (16 bars) - THE BUILD. Strings and sax enter. BCNR territory.
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 16
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 | "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 | "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      guitar-electric:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          "Em"[E4G4B4] z4 | [E4G4B4] z4 | "C"[C4E4G4] z4 | [C4E4G4] z4 |
+          "G"[G4B4d4] z4 | [G4B4d4] z4 | "D"[D4F4A4] z4 | [D8F8A8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 | "D"D,2 D,2 D,2 D,2 | D,2 D,2 F,2 F,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 | "D"D,2 D,2 D,2 D,2 | D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | [G2B2d2] z2 [G2B2d2] z2 |
+          "D"[D2F2A2] z2 [D2F2A2] z2 | [D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | [G2B2d2] z2 [G2B2d2] z2 |
+          "D"[D2F2A2] z2 [D2F2A2] z2 | [D8F8A8] |
+
+      violin:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"d8 | d4 B4 | "D"A8 | A4 F4 |
+          "Em"e8 | e4 B4 | "C"G8 | G4 E4 |
+          "G"d8 | d4 g4 | "D"a8 | a8 |
+
+      viola:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"B8 | B4 G4 | "D"F8 | F4 D4 |
+          "Em"G8 | G4 E4 | "C"E8 | E4 C4 |
+          "G"B8 | B4 d4 | "D"f8 | f8 |
+
+      cello:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"G,8 | G,4 D,4 | "D"D,8 | D,4 A,,4 |
+          "Em"E,8 | E,4 B,,4 | "C"C,8 | C,4 G,,4 |
+          "G"G,8 | G,4 D,4 | "D"D,8 | D,8 |
+
+      saxophone:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          "Em"B4 e4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"d4 g4 | g4 d4 | "D"A4 d4 | d8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE CLIMAX (16 bars) - Everything playing, the final verse
+  # --------------------------------------------------------------------------
+  verse_climax:
+    bars: 16
+
+    lyrics:
+      verse_climax:
+        - line: "The coop stands empty now"
+          chords: ["Em"]
+        - line: "The feed bin rusted through"
+          chords: ["C"]
+        - line: "The yard grown over with weeds"
+          chords: ["G", "D"]
+        - line: "But I carry what she knew"
+          chords: ["Em"]
+        - line: "Everything she knew"
+          chords: ["C", "G"]
+        - line: ""
+          chords: []
+        - line: "How to tend the ordinary"
+          chords: ["Em"]
+        - line: "How to love what doesn't last"
+          chords: ["C"]
+        - line: "How to count your blessings daily"
+          chords: ["G", "D"]
+        - line: "Like beige chickens in the grass"
+          chords: ["Em"]
+        - line: "In the grass"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 B2 | "D"d4 A4 |
+          "Em"E2 G2 B2 e2 | B6 z2 |
+          "C"G2 E2 G2 e2 | "G"d4 B4 |
+          z8 | z8 |
+          "Em"B,2 E2 G2 B2 | "C"c4 G4 |
+          "G"D2 G2 B2 d2 | "D"A8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | [C2E2G2]z2 [C2E2G2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D8A,8D8] |
+
+      guitar-electric:
+        abc: |
+          "Em"[E4G4B4] z4 | [E4G4B4] z4 | "C"[C4E4G4] z4 | [C4E4G4] z4 |
+          "G"[G4B4d4] z4 | "D"[D4F4A4] z4 | "Em"[E4G4B4] z4 | [E4G4B4] z4 |
+          "C"[C4E4G4] z4 | "G"[G4B4d4] z4 | "Em"[E4G4B4] z4 | [E4G4B4] z4 |
+          "Em"[E4G4B4] z4 | "C"[C4E4G4] z4 | "G"[G4B4d4] z4 | "D"[D8F8A8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "C"[C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D8F8A8] |
+
+      violin:
+        abc: |
+          "Em"e8 | e4 B4 | "C"G8 | G4 c4 |
+          "G"d8 | "D"A8 | "Em"e8 | e4 B4 |
+          "C"c8 | "G"d8 | "Em"e8 | e4 g4 |
+          "Em"e8 | "C"c8 | "G"d8 | "D"A8 |
+
+      viola:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 G4 |
+          "G"B8 | "D"F8 | "Em"G8 | G4 B4 |
+          "C"G8 | "G"B8 | "Em"B8 | B4 e4 |
+          "Em"B8 | "C"G8 | "G"B8 | "D"F8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,4 G,4 | "C"C,8 | C,4 E,4 |
+          "G"G,8 | "D"D,8 | "Em"E,8 | E,4 G,4 |
+          "C"C,8 | "G"G,8 | "Em"E,8 | E,4 G,4 |
+          "Em"E,8 | "C"C,8 | "G"G,8 | "D"D,8 |
+
+      saxophone:
+        abc: |
+          "Em"B4 e4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"d4 B4 | "D"A4 F4 | "Em"e4 B4 | e4 g4 |
+          "C"c4 G4 | "G"d4 B4 | "Em"B4 e4 | e4 g4 |
+          "Em"e4 B4 | "C"c4 G4 | "G"d4 B4 | "D"A8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS FINAL (12 bars) - Catharsis, full ensemble
+  # --------------------------------------------------------------------------
+  chorus_final:
+    bars: 12
+
+    lyrics:
+      chorus_final:
+        - line: "Beige chickens in an ordinary yard"
+          chords: ["Em", "G"]
+        - line: "That's how you know someone"
+          chords: ["C", "D"]
+        - line: "By the ordinary things they tend"
+          chords: ["Em", "G"]
+        - line: "By the ordinary things they've done"
+          chords: ["C", "D"]
+        - line: "What they've done"
+          chords: ["Em", "G"]
+        - line: "What they've done"
+          chords: ["C", "Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e4 c4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e2 e2 e2 g2 | "D"a6 z2 |
+          "Em"e4 g4 | "G"b4 g4 |
+          "C"e4 c4 | "Em"e8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D8A,8D8] |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "Em"[E,8B,8E8] |
+
+      guitar-electric:
+        abc: |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 | "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 | "C"[C4E4G4] z4 | "D"[D8F8A8] |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 | "C"[C4E4G4] z4 | "Em"[E8G8B8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,8 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "Em"E,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D8F8A8] |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "Em"[E8G8B8] |
+
+      violin:
+        abc: |
+          "Em"e8 | "G"d4 g4 | "C"e4 c4 | "D"A8 |
+          "Em"e8 | "G"d4 g4 | "C"e4 g4 | "D"a8 |
+          "Em"e4 g4 | "G"b4 g4 | "C"e4 c4 | "Em"e8 |
+
+      viola:
+        abc: |
+          "Em"B8 | "G"B4 d4 | "C"c4 G4 | "D"F8 |
+          "Em"B8 | "G"B4 d4 | "C"c4 e4 | "D"f8 |
+          "Em"B4 e4 | "G"g4 d4 | "C"c4 G4 | "Em"B8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "Em"E,8 |
+
+      saxophone:
+        abc: |
+          "Em"B4 e4 | "G"d4 B4 | "C"c4 G4 | "D"A4 F4 |
+          "Em"e4 B4 | "G"d4 B4 | "C"c4 e4 | "D"d8 |
+          "Em"e4 g4 | "G"b4 g4 | "C"e4 c4 | "Em"e8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Stripping back to guitar alone
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+          "Em"E,2 B,2 E2 G2 | B4 z4 |
+          z8 | "Em"E,8 |
+
+      guitar-electric:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 z4 |
+          "C"C,4 C,4 | z8 |
+          "Em"E,4 z4 | z8 |
+          z8 | "Em"E,8 |
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: |
+          "Em"e8 | e4 B4 | "C"G8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      viola:
+        abc: |
+          "Em"B8 | B4 z4 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,4 z4 | z8 | z8 |
+          z8 | z8 | z8 | "Em"E,8 |
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+  guitar-electric:
+    program: 29
+    name: "Electric Guitar (clean)"
+
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+  piano:
+    program: 0
+    name: "Acoustic Grand Piano"
+
+  violin:
+    program: 40
+    name: "Violin"
+
+  viola:
+    program: 41
+    name: "Viola"
+
+  cello:
+    program: 42
+    name: "Cello"
+
+  saxophone:
+    program: 66
+    name: "Tenor Sax"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    GUITAR ALONE. Morning light. The sound of ordinary.
+    Fingerpicked Em-C-G-D pattern. Patient, domestic.
+    This is the longest buildup on the album - earn every instrument.
+
+  verse: |
+    BASS ENTERS verse 1 - upright, whole notes.
+    Brushes enter verse 2 - the rhythm of daily routine.
+
+    Verse 1: The chickens themselves - "same birds every day"
+    Verse 2: The person - "counted them like rosary beads"
+    Verse 3: What you witnessed - "stories never told to anyone but them"
+
+    Vocal delivery: Patient, observational. Not nostalgic yet.
+    "Well-proportioned birds she called them" - her phrase, exact.
+    "Stories never told" - the privacy of small routines.
+
+  chorus: |
+    PIANO ENTERS - hymn-like, supporting.
+    Drums fuller but still brushes.
+
+    "That's how you know someone / By the ordinary things they tend"
+    This is the album's central insight: knowing through attention to the small.
+
+  bridge: |
+    THE BUILD. 16 bars. This is the BCNR moment.
+
+    Bars 1-4: Establish the pattern, guitar bass drums piano.
+    Bars 5-8: STRINGS ENTER - violin and viola, ascending.
+    Bars 9-12: SAXOPHONE ENTERS - weaving with strings.
+    Bars 13-16: ELECTRIC GUITAR ENTERS - clean, not distorted. Full ensemble.
+
+    This should feel like remembering everything at once.
+    Like suddenly understanding what those mornings meant.
+    The crescendo is emotional, not just sonic.
+
+  verse_climax: |
+    EVERYTHING PLAYING. Full band, strings, sax, electric guitar.
+
+    "The coop stands empty now" - the turn to absence.
+    "How to love what doesn't last" - the lesson.
+    "Like beige chickens in the grass" - the image returns, transformed.
+
+    Voice at its strongest. Saxophone swells underneath.
+    This is the cathartic peak of the middle of the album.
+
+  chorus_final: |
+    FULL CATHARSIS. "What they've done" repeated - incantation.
+
+    Hold the final Em. Let everything ring together.
+    This is what knowing someone sounds like: full and fragile.
+
+  outro: |
+    STRIP BACK DRAMATICALLY.
+    Drums stop. Electric guitar stops. Sax stops.
+    Strings thin to single violin note, then silence.
+    Piano drops. Bass drops.
+    Just guitar, returning to the opening pattern.
+    Final Em chord. Let it ring 4-5 seconds.
+
+    PRODUCTION NOTES:
+    - This is the centerpiece of the album. ~6:30.
+    - The build must be EARNED. Don't rush the early verses.
+    - When the sax enters, it should feel like revelation.
+    - "Well-proportioned" - use the phrase naturally, don't force it.
+    - The chickens are real. The person was real. Honor that.

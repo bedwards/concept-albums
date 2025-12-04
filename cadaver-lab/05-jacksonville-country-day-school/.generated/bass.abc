@@ -1,0 +1,54 @@
+X:1
+T:Jacksonville Country Day School
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=80
+K:Emin
+%%MIDI program 32
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | A,4 A,4 |
+C,4 C,4 | D,4 D,4 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | E,4 E,4 |
+E,4 E,4 | E,4 z4 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | A,4 A,4 |
+C,4 C,4 | D,4 D,4 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | E,4 E,4 |
+E,4 E,4 | E,4 z4 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | E,8 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | A,4 A,4 |
+C,4 C,4 | D,4 D,4 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | E,4 E,4 |
+E,4 E,4 | E,4 z4 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | E,8 |
+E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | A,2 A,2 C,2 C,2 |
+C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+D,2 D,2 D,2 D,2 | D,8 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | A,4 A,4 |
+C,4 C,4 | D,4 D,4 |
+E,4 E,4 | E,4 E,4 |
+A,4 A,4 | E,4 E,4 |
+E,4 E,4 | E,4 z4 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | D,2 D,2 D,2 D,2 |
+E,2 E,2 E,2 E,2 | C,2 C,2 C,2 C,2 |
+G,2 G,2 G,2 G,2 | E,8 |
+E,4 E,4 | E,4 z4 |
+z8 | z8 |
+z8 | z8 |
+z8 | E,8 |

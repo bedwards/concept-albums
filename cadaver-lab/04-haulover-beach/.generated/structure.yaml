@@ -1,0 +1,28 @@
+title: Haulover Beach
+composer: Brian Edwards
+tempo: 85
+time: 4/4
+key: D
+sections:
+- name: intro
+  bars: 4
+- name: chorus
+  bars: 8
+- name: verse
+  bars: 12
+- name: outro
+  bars: 6
+structure:
+- intro
+- verse
+- verse
+- chorus
+- verse
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)

@@ -1,0 +1,208 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Haulover Beach
+# ============================================================================
+# Track 4 - The shortest song. Florida. Specific sand.
+#
+# Someone you knew by the water, before the water knew your names.
+# Brief and bright. Just guitar and voice. A memory that fits in your palm.
+#
+# Run: python scripts/generate_song.py cadaver-lab/04-haulover-beach/
+# ============================================================================
+
+song:
+  title: "Haulover Beach"
+  composer: "Brian Edwards"
+  tempo: 85
+  time: "4/4"
+  key: "D"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (4 bars) - Guitar alone, bright and warm
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 4
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+
+  # --------------------------------------------------------------------------
+  # VERSE (12 bars) - Voice and guitar only
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 12
+
+    lyrics:
+      verse1:
+        - line: "Haulover Beach in August"
+          chords: ["D"]
+        - line: "Salt water in our hair"
+          chords: ["G"]
+        - line: "Before we had to be anyone"
+          chords: ["A", "Bm"]
+        - line: "We were just bodies there"
+          chords: ["D"]
+        - line: "Just bodies there"
+          chords: ["G", "D"]
+
+      verse2:
+        - line: "You in the shallows, backstroke"
+          chords: ["D"]
+        - line: "Against the afternoon"
+          chords: ["G"]
+        - line: "Whipper bugs at sunset"
+          chords: ["A", "Bm"]
+        - line: "The water held the moon"
+          chords: ["D"]
+        - line: "Held the moon"
+          chords: ["G", "D"]
+
+      verse3:
+        - line: "Now the beach is smaller"
+          chords: ["D"]
+        - line: "Or maybe we grew strange"
+          chords: ["G"]
+        - line: "The salt still tastes the same though"
+          chords: ["A", "Bm"]
+        - line: "Everything else has changed"
+          chords: ["D"]
+        - line: "Everything's changed"
+          chords: ["G", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "D"D2 D2 F2 A2 | d4 A4 |
+          "G"B2 B2 G2 D2 | G6 z2 |
+          "A"A2 A2 E2 A2 | "Bm"B4 F4 |
+          "D"D2 F2 A2 d2 | A6 z2 |
+          "G"B2 G2 D2 G2 | "D"F4 D4 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "A"A,2 E2 A2 c2 | "Bm"B,2 F2 B2 d2 |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "D"D2 A,2 D2 F2 | A4 z4 |
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - Simple refrain
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "I knew you in the water"
+          chords: ["D", "G"]
+        - line: "Before the land took hold"
+          chords: ["A", "Bm"]
+        - line: "Haulover Beach, the tide comes in"
+          chords: ["D", "G"]
+        - line: "And carries what we told"
+          chords: ["A", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "D"D4 F4 | "G"G4 B4 |
+          "A"A4 E4 | "Bm"F6 z2 |
+          "D"D4 F4 | "G"G4 B4 |
+          "A"A2 A2 F2 D2 | "D"D6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "D"[D2A,2D2]z2 [D2A,2D2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "Bm"[B,2F2B2]z2 [B,2F2B2]z2 |
+          "D"[D2A,2D2]z2 [D2A,2D2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "A"[A,2E2A2]z2 [A,2E2A2]z2 | "D"[D8A,8D8] |
+
+  # --------------------------------------------------------------------------
+  # OUTRO (6 bars) - Guitar fading like tide
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 6
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "G"G,2 D2 G2 B2 | d4 z4 |
+          "D"D2 A,2 D2 F2 | D8 |
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    GUITAR ALONE. Bright D major, fingerpicked.
+    The sound of sunlight on water.
+    This is the most stripped-down song on the album.
+    Just a guitar. Just a memory.
+
+  verse: |
+    VOICE ENTERS. No other instruments.
+    Guitar continues fingerpicking pattern.
+
+    Verse 1: Setting - "Haulover Beach in August"
+    Verse 2: Specific image - "backstroke against the afternoon"
+    Verse 3: Now - "the beach is smaller"
+
+    Vocal delivery: Light, almost casual.
+    "Just bodies there" - not sad, just true.
+    "Whipper bugs at sunset" - Florida specific, trust the listener.
+    "Everything's changed" - weight here, but don't push it.
+
+  chorus: |
+    SLIGHTLY FULLER strumming, still just guitar.
+    "Before the land took hold" - the moment before responsibilities.
+    "Carries what we told" - the water as keeper.
+
+    Keep it brief. This whole song is a sketch, not a painting.
+
+  outro: |
+    RETURN TO FINGERPICKING.
+    Slower, like the tide going out.
+    Final D chord, let it ring.
+
+    PRODUCTION NOTES:
+    - 2:45 maximum. This is the shortest song on the album.
+    - NO OTHER INSTRUMENTS. Guitar and voice only.
+    - Bright, warm, slightly overexposed like a beach photo.
+    - The brevity is the point. Some memories are small.
+    - Some people we knew briefly but completely.

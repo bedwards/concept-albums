@@ -1,0 +1,62 @@
+title: Beige Chickens
+composer: Brian Edwards
+tempo: 74
+time: 4/4
+key: Emin
+sections:
+- name: verse
+  bars: 16
+- name: bridge
+  bars: 16
+- name: intro
+  bars: 8
+- name: outro
+  bars: 8
+- name: chorus_final
+  bars: 12
+- name: chorus
+  bars: 8
+- name: verse_climax
+  bars: 16
+structure:
+- intro
+- verse
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- verse_climax
+- chorus_final
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)
+  guitar-electric:
+    program: 29
+    name: Electric Guitar (clean)
+  bass:
+    program: 32
+    name: Acoustic Bass
+  piano:
+    program: 0
+    name: Acoustic Grand Piano
+  violin:
+    program: 40
+    name: Violin
+  viola:
+    program: 41
+    name: Viola
+  cello:
+    program: 42
+    name: Cello
+  saxophone:
+    program: 66
+    name: Tenor Sax
+  drums:
+    percussion: true
+    name: Drums

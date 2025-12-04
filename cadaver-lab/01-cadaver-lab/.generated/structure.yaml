@@ -1,0 +1,54 @@
+title: Cadaver Lab
+composer: Brian Edwards
+tempo: 78
+time: 4/4
+key: Emin
+sections:
+- name: intro
+  bars: 8
+- name: chorus
+  bars: 8
+- name: chorus_final
+  bars: 8
+- name: bridge
+  bars: 12
+- name: outro
+  bars: 8
+- name: verse
+  bars: 16
+structure:
+- intro
+- verse
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- verse
+- chorus_final
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)
+  bass:
+    program: 32
+    name: Acoustic Bass
+  piano:
+    program: 0
+    name: Acoustic Grand Piano
+  violin:
+    program: 40
+    name: Violin
+  viola:
+    program: 41
+    name: Viola
+  cello:
+    program: 42
+    name: Cello
+  drums:
+    percussion: true
+    name: Drums

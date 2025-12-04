@@ -1,0 +1,279 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Charm, Self-Pity, and Rage
+# ============================================================================
+# Track 2 - Portrait of someone defined by three rotating qualities.
+#
+# Never knowing which one would answer the door. The way you learned to
+# read the weather in their shoulders. Sparse and direct like a polaroid.
+#
+# Run: python scripts/generate_song.py cadaver-lab/02-charm-self-pity-and-rage/
+# ============================================================================
+
+song:
+  title: "Charm, Self-Pity, and Rage"
+  composer: "Brian Edwards"
+  tempo: 82
+  time: "4/4"
+  key: "Amin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - verse
+    - chorus
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (4 bars) - Guitar alone, establishing the mood
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 4
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (12 bars) - Sparse, direct
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 12
+
+    lyrics:
+      verse1:
+        - line: "I learned to read the weather"
+          chords: ["Am"]
+        - line: "In the set of your shoulders at the door"
+          chords: ["F"]
+        - line: "Which one would greet me"
+          chords: ["C", "G"]
+        - line: "Which one I'd be waiting for"
+          chords: ["Am"]
+        - line: "Waiting for"
+          chords: ["F", "Am"]
+
+      verse2:
+        - line: "Sometimes the charm came easy"
+          chords: ["Am"]
+        - line: "Coffee and a joke and sleeves rolled back"
+          chords: ["F"]
+        - line: "The sun was out inside you"
+          chords: ["C", "G"]
+        - line: "And I'd forget the other tracks"
+          chords: ["Am"]
+        - line: "Other tracks"
+          chords: ["F", "Am"]
+
+      verse3:
+        - line: "Sometimes the pity swallowed"
+          chords: ["Am"]
+        - line: "Everything the light could reach"
+          chords: ["F"]
+        - line: "The world arranged against you"
+          chords: ["C", "G"]
+        - line: "And nothing I could say or teach"
+          chords: ["Am"]
+        - line: "I could teach"
+          chords: ["F", "Am"]
+
+      verse4:
+        - line: "Sometimes the rage came sudden"
+          chords: ["Am"]
+        - line: "Slammed doors and inventory of my faults"
+          chords: ["F"]
+        - line: "I learned to read the weather"
+          chords: ["C", "G"]
+        - line: "I learned to walk on salt"
+          chords: ["Am"]
+        - line: "Walk on salt"
+          chords: ["F", "Am"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A,2 A,2 C2 E2 | A4 E4 |
+          "F"F2 F2 A2 c2 | c6 z2 |
+          "C"G2 G2 E2 C2 | "G"D4 B,4 |
+          "Am"A,2 C2 E2 A2 | A6 z2 |
+          "F"F2 A2 c2 A2 | "Am"A6 z2 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+          "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | "Am"A,2 E2 A2 c2 |
+          "Am"A,2 E2 A2 c2 | e4 z4 |
+
+      bass:
+        abc: |
+          "Am"A,4 A,4 | A,4 A,4 |
+          "F"F,4 F,4 | F,4 F,4 |
+          "C"C,4 C,4 | "G"G,4 G,4 |
+          "Am"A,4 A,4 | A,4 A,4 |
+          "F"F,4 F,4 | "Am"A,4 A,4 |
+          "Am"A,4 A,4 | A,4 z4 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | z8 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z4 C4 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - The three-word mantra
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "Charm, self-pity, and rage"
+          chords: ["Am", "F"]
+        - line: "All rotating through one face"
+          chords: ["C", "G"]
+        - line: "Three weathers, one landscape"
+          chords: ["Am", "F"]
+        - line: "And I stayed in place"
+          chords: ["C", "Am"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A2 C2 E2 A2 | "F"c4 A4 |
+          "C"G2 G2 E2 C2 | "G"D6 z2 |
+          "Am"A2 C2 E2 A2 | "F"c4 A4 |
+          "C"G2 E2 C2 E2 | "Am"A6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Am"[A,2E2A2]z2 [A,2E2A2]z2 | "F"[F2C2F2]z2 [F2C2F2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "Am"[A,2E2A2]z2 [A,2E2A2]z2 | "F"[F2C2F2]z2 [F2C2F2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "Am"[A,8E8A8] |
+
+      bass:
+        abc: |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+          "C"C,2 C,2 C,2 C,2 | "G"G,2 G,2 G,2 G,2 |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+          "C"C,2 C,2 C,2 C,2 | "Am"A,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Fading, guitar alone again
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+          "Am"A,2 E2 A2 c2 | e4 c4 |
+          A,4 z4 | z8 |
+
+      bass:
+        abc: |
+          "Am"A,4 A,4 | A,4 z4 |
+          "F"F,4 F,4 | F,4 z4 |
+          "Am"A,4 z4 | z8 |
+          z8 | z8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    GUITAR ALONE. Arpeggiated Am-F pattern.
+    Establishing the quiet before the portrait.
+    No drums, no bass. Just fingers on strings.
+    The sound of watching someone approach a door.
+
+  verse: |
+    SPARSE. Guitar continues arpeggio pattern.
+    Bass enters on verse 2 - upright, whole notes only.
+    Brushes enter on verse 2 - barely audible.
+
+    Verse 1: The thesis - "learned to read the weather"
+    Verse 2: Charm - "sun was out inside you"
+    Verse 3: Self-pity - "world arranged against you"
+    Verse 4: Rage - "walk on salt"
+
+    Vocal delivery: Flat, observational. Not accusatory.
+    This is documentation, not judgment.
+    "Walk on salt" - let it hang. The image does the work.
+
+  chorus: |
+    SLIGHTLY FULLER but still sparse.
+    Guitar strums instead of arpeggio.
+    Bass and drums more present.
+
+    "Charm, self-pity, and rage" - say it like a list.
+    Like reading ingredients. Matter-of-fact.
+
+    "And I stayed in place" - the truth underneath.
+    Not a confession, just a fact.
+
+  outro: |
+    RETURN TO GUITAR ALONE.
+    Bass drops out first.
+    Drums gone.
+    Guitar arpeggio slowing slightly.
+    Final Am chord, let it ring.
+
+    PRODUCTION NOTES:
+    - This is a polaroid. Quick, stark, unflinching.
+    - No reverb. Dry as the truth.
+    - ~4 minutes. Doesn't need to be longer.
+    - The portrait is complete. Move on.

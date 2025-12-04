@@ -1,0 +1,725 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Mother's Day Out
+# ============================================================================
+# Track 12 - The album closer. Everything builds toward this.
+#
+# This song is about the origin of knowing: the first time you understood
+# that loving someone doesn't mean wanting them there every moment.
+# "Mother's Day Out" - a daycare program - becomes the entry point to
+# understanding all the people who've needed space from you, and you from them.
+#
+# Run: python scripts/generate_song.py cadaver-lab/12-mothers-day-out/
+# ============================================================================
+
+song:
+  title: "Mother's Day Out"
+  composer: "Brian Edwards"
+  tempo: 72
+  time: "4/4"
+  key: "Emin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - verse_climax
+    - chorus_final
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Guitar fingerpick, voice humming, establishing space
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,4 E4 | G4 B4 | "C"E4 G4 | E6 z2 |
+          "Em"B,4 E4 | G4 B4 | "D"A4 F4 | D6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (12 bars) - Narrative verses, building instrumentation
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 12
+
+    lyrics:
+      verse1:
+        - line: "Tuesday morning, conversion van"
+          chords: ["Em"]
+        - line: "Baptist church, the parking lot"
+          chords: ["C"]
+        - line: "Her hands on my shoulders at the door"
+          chords: ["G", "D"]
+        - line: "Then the door, then the hall, then the room"
+          chords: ["Em", "C"]
+        - line: "Then the window where I watched her go"
+          chords: ["G", "D"]
+        - line: ""
+          chords: ["Em"]
+
+      verse2:
+        - line: "Circle time and finger paint"
+          chords: ["Em"]
+        - line: "Graham crackers on a paper plate"
+          chords: ["C"]
+        - line: "Alphabet rug beneath my knees"
+          chords: ["G", "D"]
+        - line: "I knew her car by the sound it made"
+          chords: ["Em", "C"]
+        - line: "But that sound didn't come"
+          chords: ["G", "D"]
+        - line: ""
+          chords: ["Em"]
+
+      verse3:
+        - line: "She drove the long way home alone"
+          chords: ["Em"]
+        - line: "Radio off and windows down"
+          chords: ["C"]
+        - line: "Past the Hastings, past the Kroger"
+          chords: ["G", "D"]
+        - line: "Past the sheep farm on the county line"
+          chords: ["Em", "C"]
+        - line: "She needed the quiet, I was the noise"
+          chords: ["G", "D"]
+        - line: ""
+          chords: ["Em"]
+
+      verse4:
+        - line: "Now I know that everyone leaves"
+          chords: ["Em"]
+        - line: "Everyone turns to face the wall"
+          chords: ["C"]
+        - line: "Everyone I've loved has closed a door"
+          chords: ["G", "D"]
+        - line: "And I have closed doors"
+          chords: ["Em", "C"]
+        - line: "That's not the wound, that's just the way"
+          chords: ["G", "D"]
+        - line: ""
+          chords: ["Em"]
+
+      verse5:
+        - line: "The Ratsun in an empty driveway"
+          chords: ["Em"]
+        - line: "Beach chair folded against the rain"
+          chords: ["C"]
+        - line: "Mix tape rewound to the beginning"
+          chords: ["G", "D"]
+        - line: "Beige chickens in an empty yard"
+          chords: ["Em", "C"]
+        - line: "That's how you know them, by the space they leave"
+          chords: ["G", "D"]
+        - line: ""
+          chords: ["Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 B,2 E2 E2 | G4 E4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 G2 | "D"A4 F4 |
+          "Em"E2 E2 G2 B2 | "C"G4 E4 |
+          "G"D2 D2 B,2 D2 | "D"A,4 z4 |
+          "Em"E8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | "C"C2 G,2 C2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "G"G,4 G,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | "C"C,4 C,4 |
+          "G"G,4 G,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+
+      piano:
+        abc: |
+          z8 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+          z8 | z8 |
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - The refrain, building each time
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus1:
+        - line: "Mother's Day Out"
+          chords: ["Em", "G"]
+        - line: "That's what they called it"
+          chords: ["C", "D"]
+        - line: "Mother's Day Out"
+          chords: ["Em", "G"]
+        - line: "And I'm still learning what it means"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E4 G4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E2 E2 E2 G2 | "D"A6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | "G"G,2 D2 G2 B2 |
+          "C"C2 G,2 C2 E2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | "G"G,2 D2 G2 B2 |
+          "C"C2 G,2 C2 E2 | "D"D2 A,2 D2 F2 |
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | "G"G,4 G,4 |
+          "C"C,4 C,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | "G"G,4 G,4 |
+          "C"C,4 C,4 | "D"D,4 D,4 |
+
+      piano:
+        abc: |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (16 bars) - Instrumental build, strings and sax enter
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 16
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 | "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 | "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 | "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 | "D"D,2 D,2 D,2 D,2 | D,2 D,2 F,2 F,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 | "D"D,2 D,2 D,2 D,2 | D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | [G2B2d2] z2 [G2B2d2] z2 |
+          "D"[D2F2A2] z2 [D2F2A2] z2 | [D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | [G2B2d2] z2 [G2B2d2] z2 |
+          "D"[D2F2A2] z2 [D2F2A2] z2 | [D8F8A8] |
+
+      violin:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"d8 | d4 B4 | "D"A8 | A4 F4 |
+          "Em"e8 | e4 B4 | "C"G8 | G4 E4 |
+          "G"d8 | d4 B4 | "D"A8 | A8 |
+
+      viola:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"B8 | B4 G4 | "D"F8 | F4 D4 |
+          "Em"G8 | G4 E4 | "C"E8 | E4 C4 |
+          "G"B8 | B4 G4 | "D"F8 | F8 |
+
+      cello:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"G,8 | G,4 D,4 | "D"D,8 | D,4 A,,4 |
+          "Em"E,8 | E,4 B,,4 | "C"C,8 | C,4 G,,4 |
+          "G"G,8 | G,4 D,4 | "D"D,8 | D,8 |
+
+      saxophone:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          "Em"B4 e4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"d4 g4 | g4 d4 | "D"A4 d4 | d8 |
+
+      synth-pad:
+        abc: |
+          "Em"[E8G8B8] | [E8G8B8] | "C"[C8E8G8] | [C8E8G8] |
+          "G"[G8B8d8] | [G8B8d8] | "D"[D8F8A8] | [D8F8A8] |
+          "Em"[E8G8B8] | [E8G8B8] | "C"[C8E8G8] | [C8E8G8] |
+          "G"[G8B8d8] | [G8B8d8] | "D"[D8F8A8] | [D8F8A8] |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE CLIMAX (16 bars) - The cathartic verse, everything playing
+  # --------------------------------------------------------------------------
+  verse_climax:
+    bars: 16
+
+    lyrics:
+      verse_climax:
+        - line: "Charm, self-pity, and rage"
+          chords: ["Em"]
+        - line: "All rotating through a single face"
+          chords: ["C"]
+        - line: "Cadaver lab where I learned the bones"
+          chords: ["G", "D"]
+        - line: "Mercury outboard in the morning haze"
+          chords: ["Em", "C"]
+        - line: ""
+          chords: ["G", "D"]
+        - line: "Everyone I've memorized"
+          chords: ["Em"]
+        - line: "Everyone whose hands I've held"
+          chords: ["C"]
+        - line: "Everyone returns to this"
+          chords: ["G", "D"]
+        - line: "The door, the hall, the room, the window"
+          chords: ["Em", "C"]
+        - line: "The car pulling away"
+          chords: ["G", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 B2 | "D"d4 A4 |
+          "Em"E2 G2 B2 e2 | "C"g4 e4 |
+          "G"d2 d2 B2 G2 | "D"A4 z4 |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 G2 | c4 G4 |
+          "G"D2 G2 B2 d2 | "D"A8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | [C2E2G2]z2 [C2E2G2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | [E2G2B2]z2 [E2G2B2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | [C2E2G2]z2 [C2E2G2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "D"[D8A,8D8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "C"C,2 C,2 C,2 C,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "C"[C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D8F8A8] |
+
+      violin:
+        abc: |
+          "Em"e8 | e4 B4 | "C"G8 | G4 c4 |
+          "G"d8 | "D"A8 | "Em"e8 | "C"c8 |
+          "G"d8 | "D"A8 | "Em"e8 | e4 B4 |
+          "C"c8 | c4 G4 | "G"d8 | "D"A8 |
+
+      viola:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 G4 |
+          "G"B8 | "D"F8 | "Em"G8 | "C"G8 |
+          "G"B8 | "D"F8 | "Em"B8 | B4 G4 |
+          "C"G8 | G4 E4 | "G"B8 | "D"F8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,4 G,4 | "C"C,8 | C,4 E,4 |
+          "G"G,8 | "D"D,8 | "Em"E,8 | "C"C,8 |
+          "G"G,8 | "D"D,8 | "Em"E,8 | E,4 G,4 |
+          "C"C,8 | C,4 E,4 | "G"G,8 | "D"D,8 |
+
+      saxophone:
+        abc: |
+          "Em"B4 e4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"d4 B4 | "D"A4 F4 | "Em"e4 B4 | "C"c4 G4 |
+          "G"d4 B4 | "D"A4 F4 | "Em"B4 e4 | e4 B4 |
+          "C"G4 c4 | c4 G4 | "G"d4 B4 | "D"A8 |
+
+      synth-pad:
+        abc: |
+          "Em"[E8G8B8] | [E8G8B8] | "C"[C8E8G8] | [C8E8G8] |
+          "G"[G8B8d8] | "D"[D8F8A8] | "Em"[E8G8B8] | "C"[C8E8G8] |
+          "G"[G8B8d8] | "D"[D8F8A8] | "Em"[E8G8B8] | [E8G8B8] |
+          "C"[C8E8G8] | [C8E8G8] | "G"[G8B8d8] | "D"[D8F8A8] |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS FINAL (8 bars) - Full catharsis, everything playing
+  # --------------------------------------------------------------------------
+  chorus_final:
+    bars: 8
+
+    lyrics:
+      chorus_final:
+        - line: "Mother's Day Out"
+          chords: ["Em", "G"]
+        - line: "That's what we needed"
+          chords: ["C", "D"]
+        - line: "Mother's Day Out"
+          chords: ["Em", "G"]
+        - line: "Now I understand"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e4 G4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e4 e4 | "D"d6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D8A,8D8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D8F8A8] |
+
+      violin:
+        abc: |
+          "Em"e8 | "G"d8 | "C"c8 | "D"A8 |
+          "Em"e8 | "G"d8 | "C"c4 e4 | "D"d8 |
+
+      viola:
+        abc: |
+          "Em"B8 | "G"B8 | "C"G8 | "D"F8 |
+          "Em"B8 | "G"B8 | "C"G4 c4 | "D"A8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+
+      saxophone:
+        abc: |
+          "Em"B4 e4 | "G"d4 B4 | "C"c4 G4 | "D"A4 F4 |
+          "Em"e4 B4 | "G"d4 B4 | "C"c4 e4 | "D"d8 |
+
+      synth-pad:
+        abc: |
+          "Em"[E8G8B8] | "G"[G8B8d8] | "C"[C8E8G8] | "D"[D8F8A8] |
+          "Em"[E8G8B8] | "G"[G8B8d8] | "C"[C8E8G8] | "D"[D8F8A8] |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Stripped back, just guitar and voice, the final truth
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    lyrics:
+      outro:
+        - line: "Tuesday morning, my hands on her shoulders"
+          chords: ["Em", "C"]
+        - line: "Different church, the same parking lot"
+          chords: ["G", "D"]
+        - line: "She looks back once, I wave her through the door"
+          chords: ["Em", "C"]
+        - line: "And I drive the long way home"
+          chords: ["G", "Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 E2 | "C"G4 E4 |
+          "G"D2 G2 B2 G2 | "D"A6 z2 |
+          "Em"E2 G2 B2 G2 | "C"E4 C4 |
+          "G"D4 B,4 | "Em"E8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | "C"C2 G,2 C2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | "C"C2 G,2 C2 E2 |
+          "G"G,2 D2 G2 B2 | "Em"E,8 |
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      viola:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      cello:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: |
+          "Em"[E8G8B8] | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+  piano:
+    program: 0
+    name: "Acoustic Grand Piano"
+
+  violin:
+    program: 40
+    name: "Violin"
+
+  viola:
+    program: 41
+    name: "Viola"
+
+  cello:
+    program: 42
+    name: "Cello"
+
+  saxophone:
+    program: 66
+    name: "Tenor Sax"
+
+  synth-pad:
+    program: 89
+    name: "Warm Pad"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    SPARSE AND INTIMATE. Guitar fingerpicks the Em-C-Em-D pattern.
+    Voice hums the melody - not words yet, just the shape of what's coming.
+    No drums, no bass, no piano. Just guitar and breath.
+    This is the sound of memory before language.
+
+  verse: |
+    ADD BASS on verse 1 - upright, whole notes, roots only.
+    Brush drums enter on verse 2 - barely there, just shape.
+    Guitar continues fingerpicking pattern throughout.
+
+    Verses 1-2: The memory (Baptist church, conversion van, circle time)
+    Verses 3-4: The understanding (she needed the quiet, everyone leaves)
+    Verse 5: The catalog (Ratsun, beach chair, mix tape, beige chickens)
+
+    Vocal delivery: Direct, unhurried. Every word lands.
+    Don't rush "the door, the hall, the room, the window" - let it accumulate.
+
+  chorus: |
+    PIANO ENTERS here - simple, hymn-like chords.
+    Drums slightly fuller but still brushes.
+
+    "Mother's Day Out" - sing it like a name, like a place you've been.
+    "That's what they called it" - matter-of-fact, not bitter.
+    "And I'm still learning what it means" - the weight is here.
+
+  bridge: |
+    THE BUILD. 16 bars of instrumental crescendo.
+
+    Bars 1-4: Establish the pattern, guitar and bass and drums.
+    Bars 5-8: STRINGS ENTER - violin and viola, long tones, swelling.
+    Bars 9-12: SAXOPHONE ENTERS - joining the strings, not fighting them.
+    Bars 13-16: Full ensemble, building to the climax verse.
+
+    Synth pad underneath everything - warmth, not coldness.
+    This should feel like remembering everything at once.
+
+  verse_climax: |
+    EVERYTHING PLAYING. The cathartic verse.
+
+    "Charm, self-pity, and rage" - the callback to Track 2
+    "Cadaver lab where I learned the bones" - callback to Track 1
+    "Mercury outboard in the morning haze" - callback to Track 6
+    "Beige chickens in an empty yard" - callback to Track 7
+
+    All the people from the album return in images.
+    "The door, the hall, the room, the window / The car pulling away"
+    This is the thesis: all knowing begins with separation.
+
+    Full band, strings, saxophone, drums with sticks now.
+    Voice at its strongest, not screaming but PRESENT.
+
+  chorus_final: |
+    CATHARSIS. "That's what we needed / Now I understand"
+
+    Not bitter. Not sad. Just true.
+    The understanding that love and constant presence are different things.
+    That leaving makes returning possible.
+
+    Hold the final "understand" - let it ring.
+
+  outro: |
+    STRIP EVERYTHING AWAY.
+
+    Just guitar and voice return. Maybe one synth pad tone fading.
+
+    "Tuesday morning, my hands on her shoulders" - you are now the parent.
+    "Different church, the same parking lot" - the cycle continues.
+    "She looks back once, I wave her through the door" - she needs this too.
+    "And I drive the long way home" - you understand now.
+
+    End on the Em. Hold it. Let it ring until it disappears.
+
+    PRODUCTION: The silence after the final note is part of the song.
+    Let it sit for 3-4 seconds before the track ends.
+    The album should end in silence, not fade.

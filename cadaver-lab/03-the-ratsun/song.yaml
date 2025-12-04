@@ -1,0 +1,345 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: The Ratsun
+# ============================================================================
+# Track 3 - Memory as vehicle. Someone drove that truck.
+#
+# A Datsun pickup, faded paint, questionable muffler. The passenger seat
+# that held you. Where did you go together? What did you see through
+# that windshield? Pedal steel enters here - crying beneath the vocals.
+#
+# Run: python scripts/generate_song.py cadaver-lab/03-the-ratsun/
+# ============================================================================
+
+song:
+  title: "The Ratsun"
+  composer: "Brian Edwards"
+  tempo: 76
+  time: "4/4"
+  key: "G"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - chorus
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Pedal steel and guitar, road sound
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      pedal-steel:
+        abc: |
+          "G"d8 | d4 B4 | "C"G8 | G4 E4 |
+          "G"d8 | d4 B4 | "D"A8 | A4 F4 |
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (12 bars) - The truck, the memory
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 12
+
+    lyrics:
+      verse1:
+        - line: "Faded blue and primer gray"
+          chords: ["G"]
+        - line: "The Ratsun in the driveway"
+          chords: ["C"]
+        - line: "Keys still warm from your pocket"
+          chords: ["Em", "D"]
+        - line: "Passenger door that stuck"
+          chords: ["G"]
+        - line: "Until you knew just where to kick"
+          chords: ["C", "D"]
+
+      verse2:
+        - line: "AM radio and coffee cups"
+          chords: ["G"]
+        - line: "The smell of oil and August"
+          chords: ["C"]
+        - line: "I learned the roads from your hands"
+          chords: ["Em", "D"]
+        - line: "On the wheel at ten and two"
+          chords: ["G"]
+        - line: "Every turn was something you knew"
+          chords: ["C", "D"]
+
+      verse3:
+        - line: "We drove to places that don't exist"
+          chords: ["G"]
+        - line: "On maps anymore"
+          chords: ["C"]
+        - line: "Diners closed and dance halls gone"
+          chords: ["Em", "D"]
+        - line: "You showed me where the world had been"
+          chords: ["G"]
+        - line: "Before I was born"
+          chords: ["C", "D"]
+
+      verse4:
+        - line: "Now the truck sits where you left it"
+          chords: ["G"]
+        - line: "Weeds grown through the wheel wells"
+          chords: ["C"]
+        - line: "I could fix it if I wanted"
+          chords: ["Em", "D"]
+        - line: "But I don't want to drive it"
+          chords: ["G"]
+        - line: "Without you riding shotgun"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "G"D2 D2 G2 B2 | d4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "Em"E2 G2 B2 e2 | "D"d4 A4 |
+          "G"D2 G2 B2 d2 | B6 z2 |
+          "C"G2 E2 C2 E2 | "D"D4 z4 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Em"E,2 B,2 E2 G2 | "D"D2 A,2 D2 F2 |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "C"C2 G,2 C2 E2 | "D"D2 A,2 D2 F2 |
+          "G"G,2 D2 G2 B2 | d4 z4 |
+
+      pedal-steel:
+        abc: |
+          "G"d8 | d4 B4 | "C"G8 | G4 E4 |
+          "Em"B8 | "D"A8 | "G"d8 | d4 B4 |
+          "C"G8 | "D"A4 F4 | "G"d8 | z8 |
+
+      bass:
+        abc: |
+          "G"G,4 G,4 | G,4 G,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "Em"E,4 E,4 | "D"D,4 D,4 |
+          "G"G,4 G,4 | G,4 G,4 |
+          "C"C,4 C,4 | "D"D,4 D,4 |
+          "G"G,4 G,4 | G,4 z4 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - The truck as memory holder
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "The Ratsun holds what we were"
+          chords: ["G", "C"]
+        - line: "Before the roads all changed"
+          chords: ["Em", "D"]
+        - line: "I know you by that engine sound"
+          chords: ["G", "C"]
+        - line: "By every mile we made"
+          chords: ["D", "G"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "G"D4 G4 | "C"E4 C4 |
+          "Em"B,4 E4 | "D"D6 z2 |
+          "G"D4 G4 | "C"E4 G4 |
+          "D"A4 F4 | "G"G6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "G"[G,2D2G2]z2 [G,2D2G2]z2 | "C"[C2G,2C2]z2 [C2G,2C2]z2 |
+          "D"[D2A,2D2]z2 [D2A,2D2]z2 | "G"[G,8D8G8] |
+
+      pedal-steel:
+        abc: |
+          "G"d8 | "C"e8 | "Em"B8 | "D"A8 |
+          "G"d4 g4 | "C"e4 c4 | "D"A4 d4 | "G"g8 |
+
+      bass:
+        abc: |
+          "G"G,2 G,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 |
+          "Em"E,2 E,2 E,2 E,2 | "D"D,2 D,2 D,2 D,2 |
+          "G"G,2 G,2 G,2 G,2 | "C"C,2 C,2 C,2 C,2 |
+          "D"D,2 D,2 D,2 D,2 | "G"G,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (8 bars) - Instrumental, pedal steel solo
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "D"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+
+      pedal-steel:
+        abc: |
+          "G"d4 g4 | g4 d4 | "C"e4 c4 | c4 G4 |
+          "Em"B4 e4 | e4 B4 | "D"A4 d4 | d4 A4 |
+
+      bass:
+        abc: |
+          "G"G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "D"D,2 D,2 D,2 D,2 | D,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Pedal steel fading, engine sound
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "G"G,2 D2 G2 B2 | d2 g2 d2 B2 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+          "G"G,2 D2 G2 B2 | d4 z4 |
+          z8 | "G"G,8 |
+
+      pedal-steel:
+        abc: |
+          "G"d8 | d4 B4 | "C"G8 | G4 z4 |
+          "G"d8 | d4 z4 | z8 | z8 |
+
+      bass:
+        abc: |
+          "G"G,4 G,4 | G,4 z4 |
+          "C"C,4 C,4 | z8 |
+          "G"G,4 z4 | z8 |
+          z8 | "G"G,8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+  pedal-steel:
+    program: 26
+    name: "Steel Guitar"
+
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    PEDAL STEEL AND GUITAR. Road music.
+    The pedal steel cries underneath - this is its first appearance on the album.
+    No drums, no bass. Just the sound of open highway.
+    Establishing the territory: this is a driving song, a memory song.
+
+  verse: |
+    BASS ENTERS verse 1 - upright, whole notes.
+    Brushes enter verse 2 - gentle, roadhouse rhythm.
+    Pedal steel weaves around the vocal.
+
+    Verse 1: The truck itself - "faded blue and primer gray"
+    Verse 2: Learning from riding - "I learned the roads from your hands"
+    Verse 3: Where you went - "places that don't exist on maps anymore"
+    Verse 4: Now - "weeds grown through the wheel wells"
+
+    Vocal delivery: Nostalgic but not sentimental.
+    "Before I was born" - wonder, not sadness.
+    "Without you riding shotgun" - the weight is here, in the final verse.
+
+  chorus: |
+    FULLER but still country-inflected.
+    Guitar strums, drums more present.
+    Pedal steel holds long notes.
+
+    "The Ratsun holds what we were" - the truck as time capsule.
+    "I know you by that engine sound" - knowing through shared experience.
+
+  bridge: |
+    PEDAL STEEL SOLO. 8 bars.
+    The guitar keeps the pattern.
+    Let the steel tell the story without words.
+    This is the sound of driving with someone who's gone.
+
+  outro: |
+    GRADUAL FADE. Like driving away.
+    Drums stop first.
+    Bass fades.
+    Pedal steel thins to a single note.
+    Guitar alone, then just the final G.
+
+    PRODUCTION NOTES:
+    - Warm, analog feel. This is country at heart.
+    - Pedal steel is essential - first appearance, sets up Track 6 and 10.
+    - ~5:30. Let the instrumental sections breathe.
+    - The truck is real. The memory is real. Treat it that way.

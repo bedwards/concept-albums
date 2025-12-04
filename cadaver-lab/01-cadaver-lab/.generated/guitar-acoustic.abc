@@ -1,0 +1,64 @@
+X:1
+T:Cadaver Lab
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=78
+K:Emin
+%%MIDI program 25
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G,2 D2 G2 B2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | E,2 B,2 E2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G,2 D2 G2 B2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | E,2 B,2 E2 G2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D8A,8D8] |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G,2 D2 G2 B2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | E,2 B,2 E2 G2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D8A,8D8] |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D8 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G2 c2 G2 E2 |
+G,2 D2 G2 B2 | D2 A,2 D2 F2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G,2 D2 G2 B2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | E,2 B,2 E2 G2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D2A,2D2]z2 [D2A,2D2]z2 |
+[E,2B,2E2]z2 [E,2B,2E2]z2 | [G,2D2G2]z2 [G,2D2G2]z2 |
+[C2G,2C2]z2 [C2G,2C2]z2 | [D8A,8D8] |
+E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+C2 G,2 C2 E2 | G4 z4 |
+E,2 B,2 E2 G2 | B4 z4 |
+z8 | E,8 |

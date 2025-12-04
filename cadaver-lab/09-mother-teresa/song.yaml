@@ -1,0 +1,279 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Mother Teresa
+# ============================================================================
+# Track 9 - Someone who performed goodness. The weight of being seen helping.
+#
+# Not the saint. Someone who needed their kindness witnessed.
+# Critical but not cruel - you know why they needed to be seen.
+# Saxophone enters here, mournful not angry.
+#
+# Run: python scripts/generate_song.py cadaver-lab/09-mother-teresa/
+# ============================================================================
+
+song:
+  title: "Mother Teresa"
+  composer: "Brian Edwards"
+  tempo: 76
+  time: "4/4"
+  key: "Amin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - chorus
+    - outro
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "E"E2 B,2 E2 G2 | B2 e2 B2 G2 |
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "She volunteers on holidays"
+          chords: ["Am"]
+        - line: "Makes sure everyone can see"
+          chords: ["F"]
+        - line: "The photographs, the Facebook posts"
+          chords: ["Dm", "E"]
+        - line: "A saint for all to be"
+          chords: ["Am"]
+        - line: "All to see"
+          chords: ["F", "Am"]
+
+      verse2:
+        - line: "I know why she needs the witness"
+          chords: ["Am"]
+        - line: "I've seen the house she grew up in"
+          chords: ["F"]
+        - line: "The way her mother counted kindness"
+          chords: ["Dm", "E"]
+        - line: "Kept a ledger of her sins"
+          chords: ["Am"]
+        - line: "Of her sins"
+          chords: ["F", "Am"]
+
+      verse3:
+        - line: "Mother Teresa, they called her once"
+          chords: ["Am"]
+        - line: "At the office Christmas party"
+          chords: ["F"]
+        - line: "She laughed but I saw her flinch"
+          chords: ["Dm", "E"]
+        - line: "At how close they came to seeing"
+          chords: ["Am"]
+        - line: "Close to seeing"
+          chords: ["F", "Am"]
+
+      verse4:
+        - line: "Now I hold her contradictions"
+          chords: ["Am"]
+        - line: "Like I hold all the rest"
+          chords: ["F"]
+        - line: "The need to be seen being good"
+          chords: ["Dm", "E"]
+        - line: "Is just another wound undressed"
+          chords: ["Am"]
+        - line: "Wound undressed"
+          chords: ["F", "Am"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A,2 A,2 C2 E2 | A4 E4 |
+          "F"F2 F2 A2 c2 | c6 z2 |
+          "Dm"D2 D2 F2 A2 | "E"B4 G4 |
+          "Am"A2 c2 e2 c2 | A6 z2 |
+          "F"F2 A2 c2 A2 | "Am"A6 z2 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+          "Dm"D2 A,2 D2 F2 | "E"E2 B,2 E2 G2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | "Am"A,2 E2 A2 c2 |
+          "Am"A,2 E2 A2 c2 | e4 z4 |
+
+      saxophone:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Am"A,4 A,4 | A,4 A,4 |
+          "F"F,4 F,4 | F,4 F,4 |
+          "Dm"D,4 D,4 | "E"E,4 E,4 |
+          "Am"A,4 A,4 | A,4 A,4 |
+          "F"F,4 F,4 | "Am"A,4 A,4 |
+          "Am"A,4 A,4 | A,4 z4 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 |"
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus:
+        - line: "Mother Teresa in the break room"
+          chords: ["Am", "F"]
+        - line: "That's how you know someone"
+          chords: ["Dm", "E"]
+        - line: "By the goodness they perform"
+          chords: ["Am", "F"]
+        - line: "By what made them need to be undone"
+          chords: ["Dm", "Am"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Am"A4 c4 | "F"A4 F4 |
+          "Dm"D4 F4 | "E"E6 z2 |
+          "Am"A4 c4 | "F"A4 F4 |
+          "Dm"D2 D2 F2 A2 | "Am"A6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Am"[A,2E2A2]z2 [A,2E2A2]z2 | "F"[F2C2F2]z2 [F2C2F2]z2 |
+          "Dm"[D2A,2D2]z2 [D2A,2D2]z2 | "E"[E2B,2E2]z2 [E2B,2E2]z2 |
+          "Am"[A,2E2A2]z2 [A,2E2A2]z2 | "F"[F2C2F2]z2 [F2C2F2]z2 |
+          "Dm"[D2A,2D2]z2 [D2A,2D2]z2 | "Am"[A,8E8A8] |
+
+      saxophone:
+        abc: |
+          "Am"A4 c4 | "F"A4 F4 |
+          "Dm"D4 F4 | "E"E6 z2 |
+          "Am"A4 c4 | "F"A4 F4 |
+          "Dm"D4 F4 | "Am"A8 |
+
+      bass:
+        abc: |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "E"E,2 E,2 E,2 E,2 |
+          "Am"A,2 A,2 A,2 A,2 | "F"F,2 F,2 F,2 F,2 |
+          "Dm"D,2 D,2 D,2 D,2 | "Am"A,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  bridge:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c2 f2 c2 A2 |
+          "Dm"D2 A,2 D2 F2 | A2 d2 A2 F2 |
+          "E"E2 B,2 E2 G2 | B2 e2 B2 G2 |
+      saxophone:
+        abc: |
+          "Am"A4 c4 | e4 c4 | "F"A4 F4 | F4 c4 |
+          "Dm"D4 F4 | A4 d4 | "E"B4 G4 | E8 |
+      bass:
+        abc: |
+          "Am"A,2 A,2 A,2 A,2 | A,2 A,2 C,2 C,2 |
+          "F"F,2 F,2 F,2 F,2 | F,2 F,2 A,2 A,2 |
+          "Dm"D,2 D,2 D,2 D,2 | D,2 D,2 F,2 F,2 |
+          "E"E,2 E,2 E,2 E,2 | E,8 |
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  outro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | c4 z4 |
+          "Am"A,2 E2 A2 c2 | e4 z4 |
+          z8 | "Am"A,8 |
+      saxophone:
+        abc: |
+          "Am"A8 | A4 c4 | "F"A8 | A4 z4 |
+          "Am"A8 | A4 z4 | z8 | z8 |
+      bass:
+        abc: |
+          "Am"A,4 A,4 | A,4 z4 |
+          "F"F,4 F,4 | z8 |
+          "Am"A,4 z4 | z8 |
+          z8 | "Am"A,8 |
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  saxophone:
+    program: 66
+    name: "Tenor Sax"
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+  drums:
+    percussion: true
+    name: "Drums"
+
+arrangement:
+  intro: |
+    GUITAR ALONE. Minor key, Am-F-Dm-E.
+    Setting up the complicated emotional territory.
+
+  verse: |
+    BASS ENTERS verse 1, brushes verse 2.
+    SAX ENTERS verse 3 - mournful, not accusatory.
+
+    Verse 1: The performance - "makes sure everyone can see"
+    Verse 2: The origin - "the house she grew up in"
+    Verse 3: The nickname - "Mother Teresa, they called her"
+    Verse 4: The understanding - "just another wound undressed"
+
+    Vocal delivery: Empathetic, not judgmental.
+    "I know why she needs the witness" - you understand.
+
+  chorus: |
+    SAX joins fully. "By the goodness they perform"
+    Mournful, not critical. This is compassion for complicated people.
+
+  bridge: |
+    SAX SOLO. The sound of understanding without words.
+    The saxophone cries for her.
+
+  outro: |
+    SAX AND GUITAR fade together.
+    Final Am chord. Let it ring.
+    ~5:15. Critical but kind.

@@ -1,0 +1,65 @@
+song:
+  title: Mother's Day Out
+  composer: Brian Edwards
+sections:
+  verse1:
+  - Tuesday morning, conversion van
+  - Baptist church, the parking lot
+  - Her hands on my shoulders at the door
+  - Then the door, then the hall, then the room
+  - Then the window where I watched her go
+  - ''
+  verse2:
+  - Circle time and finger paint
+  - Graham crackers on a paper plate
+  - Alphabet rug beneath my knees
+  - I knew her car by the sound it made
+  - But that sound didn't come
+  - ''
+  verse3:
+  - She drove the long way home alone
+  - Radio off and windows down
+  - Past the Hastings, past the Kroger
+  - Past the sheep farm on the county line
+  - She needed the quiet, I was the noise
+  - ''
+  verse4:
+  - Now I know that everyone leaves
+  - Everyone turns to face the wall
+  - Everyone I've loved has closed a door
+  - And I have closed doors
+  - That's not the wound, that's just the way
+  - ''
+  verse5:
+  - The Ratsun in an empty driveway
+  - Beach chair folded against the rain
+  - Mix tape rewound to the beginning
+  - Beige chickens in an empty yard
+  - That's how you know them, by the space they leave
+  - ''
+  chorus1:
+  - Mother's Day Out
+  - That's what they called it
+  - Mother's Day Out
+  - And I'm still learning what it means
+  verse_climax:
+  - Charm, self-pity, and rage
+  - All rotating through a single face
+  - Cadaver lab where I learned the bones
+  - Mercury outboard in the morning haze
+  - ''
+  - Everyone I've memorized
+  - Everyone whose hands I've held
+  - Everyone returns to this
+  - The door, the hall, the room, the window
+  - The car pulling away
+  chorus_final:
+  - Mother's Day Out
+  - That's what we needed
+  - Mother's Day Out
+  - Now I understand
+  outro:
+  - Tuesday morning, my hands on her shoulders
+  - Different church, the same parking lot
+  - She looks back once, I wave her through the door
+  - And I drive the long way home

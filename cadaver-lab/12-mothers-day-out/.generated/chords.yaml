@@ -1,0 +1,205 @@
+song:
+  title: Mother's Day Out
+  composer: Brian Edwards
+  key: Emin
+  tempo: 72
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    lyrics: Tuesday morning, conversion van
+  - chords:
+    - C
+    lyrics: Baptist church, the parking lot
+  - chords:
+    - G
+    - D
+    lyrics: Her hands on my shoulders at the door
+  - chords:
+    - Em
+    - C
+    lyrics: Then the door, then the hall, then the room
+  - chords:
+    - G
+    - D
+    lyrics: Then the window where I watched her go
+  - chords:
+    - Em
+    lyrics: ''
+  verse2:
+  - chords:
+    - Em
+    lyrics: Circle time and finger paint
+  - chords:
+    - C
+    lyrics: Graham crackers on a paper plate
+  - chords:
+    - G
+    - D
+    lyrics: Alphabet rug beneath my knees
+  - chords:
+    - Em
+    - C
+    lyrics: I knew her car by the sound it made
+  - chords:
+    - G
+    - D
+    lyrics: But that sound didn't come
+  - chords:
+    - Em
+    lyrics: ''
+  verse3:
+  - chords:
+    - Em
+    lyrics: She drove the long way home alone
+  - chords:
+    - C
+    lyrics: Radio off and windows down
+  - chords:
+    - G
+    - D
+    lyrics: Past the Hastings, past the Kroger
+  - chords:
+    - Em
+    - C
+    lyrics: Past the sheep farm on the county line
+  - chords:
+    - G
+    - D
+    lyrics: She needed the quiet, I was the noise
+  - chords:
+    - Em
+    lyrics: ''
+  verse4:
+  - chords:
+    - Em
+    lyrics: Now I know that everyone leaves
+  - chords:
+    - C
+    lyrics: Everyone turns to face the wall
+  - chords:
+    - G
+    - D
+    lyrics: Everyone I've loved has closed a door
+  - chords:
+    - Em
+    - C
+    lyrics: And I have closed doors
+  - chords:
+    - G
+    - D
+    lyrics: That's not the wound, that's just the way
+  - chords:
+    - Em
+    lyrics: ''
+  verse5:
+  - chords:
+    - Em
+    lyrics: The Ratsun in an empty driveway
+  - chords:
+    - C
+    lyrics: Beach chair folded against the rain
+  - chords:
+    - G
+    - D
+    lyrics: Mix tape rewound to the beginning
+  - chords:
+    - Em
+    - C
+    lyrics: Beige chickens in an empty yard
+  - chords:
+    - G
+    - D
+    lyrics: That's how you know them, by the space they leave
+  - chords:
+    - Em
+    lyrics: ''
+  chorus1:
+  - chords:
+    - Em
+    - G
+    lyrics: Mother's Day Out
+  - chords:
+    - C
+    - D
+    lyrics: That's what they called it
+  - chords:
+    - Em
+    - G
+    lyrics: Mother's Day Out
+  - chords:
+    - C
+    - D
+    lyrics: And I'm still learning what it means
+  verse_climax:
+  - chords:
+    - Em
+    lyrics: Charm, self-pity, and rage
+  - chords:
+    - C
+    lyrics: All rotating through a single face
+  - chords:
+    - G
+    - D
+    lyrics: Cadaver lab where I learned the bones
+  - chords:
+    - Em
+    - C
+    lyrics: Mercury outboard in the morning haze
+  - chords:
+    - G
+    - D
+    lyrics: ''
+  - chords:
+    - Em
+    lyrics: Everyone I've memorized
+  - chords:
+    - C
+    lyrics: Everyone whose hands I've held
+  - chords:
+    - G
+    - D
+    lyrics: Everyone returns to this
+  - chords:
+    - Em
+    - C
+    lyrics: The door, the hall, the room, the window
+  - chords:
+    - G
+    - D
+    lyrics: The car pulling away
+  chorus_final:
+  - chords:
+    - Em
+    - G
+    lyrics: Mother's Day Out
+  - chords:
+    - C
+    - D
+    lyrics: That's what we needed
+  - chords:
+    - Em
+    - G
+    lyrics: Mother's Day Out
+  - chords:
+    - C
+    - D
+    lyrics: Now I understand
+  outro:
+  - chords:
+    - Em
+    - C
+    lyrics: Tuesday morning, my hands on her shoulders
+  - chords:
+    - G
+    - D
+    lyrics: Different church, the same parking lot
+  - chords:
+    - Em
+    - C
+    lyrics: She looks back once, I wave her through the door
+  - chords:
+    - G
+    - Em
+    lyrics: And I drive the long way home

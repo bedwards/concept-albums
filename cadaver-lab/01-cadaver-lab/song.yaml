@@ -1,0 +1,535 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Cadaver Lab
+# ============================================================================
+# Track 1 - The album opener. The thesis statement.
+#
+# "I know you so well I'd recognize your bones."
+# Not morbid - sacred. The way a doctor knows anatomy, the way years of
+# attention leave you certain. This song establishes what kind of knowing
+# the album will explore.
+#
+# Run: python scripts/generate_song.py cadaver-lab/01-cadaver-lab/
+# ============================================================================
+
+song:
+  title: "Cadaver Lab"
+  composer: "Brian Edwards"
+  tempo: 78
+  time: "4/4"
+  key: "Emin"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - verse
+    - chorus_final
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Strings alone, establishing the weight
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: |
+          "Em"B,4 E4 | G4 B4 | "C"E4 G4 | E6 z2 |
+          "Em"B,4 E4 | G4 B4 | "D"A4 F4 | "Em"E6 z2 |
+
+      viola:
+        abc: |
+          "Em"E,4 B,4 | E4 G4 | "C"C4 E4 | C6 z2 |
+          "Em"E,4 B,4 | E4 G4 | "D"F4 D4 | "Em"E6 z2 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,8 | "C"C,8 | C,8 |
+          "Em"E,8 | E,8 | "D"D,8 | "Em"E,8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (16 bars) - Narrative verses, guitar enters
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 16
+
+    lyrics:
+      verse1:
+        - line: "I would know you in a lineup of the dead"
+          chords: ["Em"]
+        - line: "Know you by the bones that hold your hands"
+          chords: ["C"]
+        - line: "The vertebrae that curve just so"
+          chords: ["G", "D"]
+        - line: "The way your skull remembers every blow"
+          chords: ["Em"]
+        - line: "Every blow"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+      verse2:
+        - line: "I learned this in the cadaver lab"
+          chords: ["Em"]
+        - line: "Where students name the hidden parts"
+          chords: ["C"]
+        - line: "The way a rib cage opens"
+          chords: ["G", "D"]
+        - line: "Like a cabinet, like a cart"
+          chords: ["Em"]
+        - line: "Like a cart"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+      verse3:
+        - line: "I've memorized the rhythm"
+          chords: ["Em"]
+        - line: "Of your footsteps on the stairs"
+          chords: ["C"]
+        - line: "The specific weight you carry"
+          chords: ["G", "D"]
+        - line: "The particular shade of air"
+          chords: ["Em"]
+        - line: "Shade of air when you're there"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+      verse4:
+        - line: "Now I carry you like water"
+          chords: ["Em"]
+        - line: "Like a frequency, a hum"
+          chords: ["C"]
+        - line: "Every object holds your fingerprints"
+          chords: ["G", "D"]
+        - line: "Every room remembers what you've done"
+          chords: ["Em"]
+        - line: "What you've done"
+          chords: ["C", "G"]
+        - line: ""
+          chords: ["Em"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"B,2 E2 G2 B2 | e4 B4 |
+          "C"G2 G2 E2 C2 | E6 z2 |
+          "G"D2 D2 G2 B2 | "D"A4 F4 |
+          "Em"E2 G2 B2 e2 | B6 z2 |
+          "C"G2 E2 C2 E2 | "G"D4 B,4 |
+          "Em"E8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | "G"G,2 D2 G2 B2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | "Em"E,2 B,2 E2 G2 |
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "G"G,4 G,4 | "D"D,4 D,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | "G"G,4 G,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "Em"E,4 E,4 | E,4 E,4 |
+          "C"C,4 C,4 | "Em"E,4 E,4 |
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: |
+          "Em"B,8 | E8 | "C"G8 | E8 |
+          "G"D8 | "D"A8 | "Em"E8 | B8 |
+          "C"G8 | "G"D8 | "Em"E8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      viola:
+        abc: |
+          "Em"G,8 | B,8 | "C"E8 | C8 |
+          "G"B,8 | "D"F8 | "Em"B,8 | G8 |
+          "C"E8 | "G"B,8 | "Em"E8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,8 | "C"C,8 | C,8 |
+          "G"G,8 | "D"D,8 | "Em"E,8 | E,8 |
+          "C"C,8 | "G"G,8 | "Em"E,8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z4 C4 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - The thesis statement
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "That's how I know you"
+          chords: ["Em", "G"]
+        - line: "That's how I know"
+          chords: ["C", "D"]
+        - line: "By the architecture"
+          chords: ["Em", "G"]
+        - line: "And the spaces where you've been"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E4 G4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 D4 |
+          "C"E2 E2 G2 B2 | "D"A6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D8A,8D8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+          "Em"[E4G4B4] z4 | "G"[G4B4d4] z4 |
+          "C"[C4E4G4] z4 | "D"[D4F4A4] z4 |
+
+      violin:
+        abc: |
+          "Em"e8 | "G"d8 | "C"c8 | "D"A8 |
+          "Em"e8 | "G"d8 | "C"c4 e4 | "D"A8 |
+
+      viola:
+        abc: |
+          "Em"B8 | "G"B8 | "C"G8 | "D"F8 |
+          "Em"B8 | "G"B8 | "C"G4 c4 | "D"F8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (12 bars) - Instrumental, strings building
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 12
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D2 A,2 D2 F2 |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "G"G,2 D2 G2 B2 | "D"D8 |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | E,2 E,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | C,2 C,2 E,2 E,2 |
+          "G"G,2 G,2 G,2 G,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | [E2G2B2] z2 [E2G2B2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | [C2E2G2] z2 [C2E2G2] z2 |
+          "G"[G2B2d2] z2 [G2B2d2] z2 | "D"[D8F8A8] |
+
+      violin:
+        abc: |
+          "Em"B4 e4 | e4 B4 | "C"G4 c4 | c4 G4 |
+          "G"d4 B4 | "D"A4 F4 | "Em"e4 B4 | e4 g4 |
+          "C"g4 e4 | c4 e4 | "G"d4 g4 | "D"a8 |
+
+      viola:
+        abc: |
+          "Em"G4 B4 | B4 G4 | "C"E4 G4 | G4 E4 |
+          "G"B4 G4 | "D"F4 D4 | "Em"G4 B4 | B4 e4 |
+          "C"e4 c4 | G4 c4 | "G"B4 d4 | "D"f8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,4 G,4 | "C"C,8 | C,4 E,4 |
+          "G"G,8 | "D"D,8 | "Em"E,8 | E,4 G,4 |
+          "C"C,8 | C,4 E,4 | "G"G,8 | "D"D,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS FINAL (8 bars) - The return, fuller
+  # --------------------------------------------------------------------------
+  chorus_final:
+    bars: 8
+
+    lyrics:
+      chorus_final:
+        - line: "That's how I know you"
+          chords: ["Em", "G"]
+        - line: "That's how I know"
+          chords: ["C", "D"]
+        - line: "By the architecture"
+          chords: ["Em", "G"]
+        - line: "And the spaces where we've been"
+          chords: ["C", "D"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e4 c4 | "D"A6 z2 |
+          "Em"E4 G4 | "G"B4 d4 |
+          "C"e2 e2 e2 g2 | "D"a6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D2A,2D2]z2 [D2A,2D2]z2 |
+          "Em"[E,2B,2E2]z2 [E,2B,2E2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "D"[D8A,8D8] |
+
+      bass:
+        abc: |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,2 D,2 D,2 D,2 |
+          "Em"E,2 E,2 E,2 E,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "D"D,8 |
+
+      piano:
+        abc: |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D2F2A2] z2 [D2F2A2] z2 |
+          "Em"[E2G2B2] z2 [E2G2B2] z2 | "G"[G2B2d2] z2 [G2B2d2] z2 |
+          "C"[C2E2G2] z2 [C2E2G2] z2 | "D"[D8F8A8] |
+
+      violin:
+        abc: |
+          "Em"e8 | "G"d4 g4 | "C"e4 c4 | "D"A8 |
+          "Em"e8 | "G"d4 g4 | "C"e4 g4 | "D"a8 |
+
+      viola:
+        abc: |
+          "Em"B8 | "G"B4 d4 | "C"c4 G4 | "D"F8 |
+          "Em"B8 | "G"B4 d4 | "C"c4 e4 | "D"f8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+          "Em"E,8 | "G"G,8 | "C"C,8 | "D"D,8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Strings fade, final Em
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      guitar-acoustic:
+        abc: |
+          "Em"E,2 B,2 E2 G2 | B2 e2 B2 G2 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+          "Em"E,2 B,2 E2 G2 | B4 z4 |
+          z8 | "Em"E,8 |
+
+      bass:
+        abc: |
+          "Em"E,4 E,4 | E,4 z4 |
+          "C"C,4 C,4 | z8 |
+          "Em"E,4 z4 | z8 |
+          z8 | "Em"E,8 |
+
+      piano:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      violin:
+        abc: |
+          "Em"e8 | e4 B4 | "C"G8 | G4 z4 |
+          "Em"E8 | E4 z4 | z8 | z8 |
+
+      viola:
+        abc: |
+          "Em"B8 | B4 G4 | "C"E8 | E4 z4 |
+          "Em"B,8 | B,4 z4 | z8 | z8 |
+
+      cello:
+        abc: |
+          "Em"E,8 | E,8 | "C"C,8 | C,4 z4 |
+          "Em"E,8 | E,4 z4 | z8 | "Em"E,8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+  piano:
+    program: 0
+    name: "Acoustic Grand Piano"
+
+  violin:
+    program: 40
+    name: "Violin"
+
+  viola:
+    program: 41
+    name: "Viola"
+
+  cello:
+    program: 42
+    name: "Cello"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    STRINGS ALONE. No guitar, no drums. Violin, viola, cello.
+    Establishing the weight before words arrive.
+    This is the sound of studying someone before you speak about them.
+    Long tones, breathing together, Em to C to Em to D.
+    Like an orchestra tuning to a feeling instead of a note.
+
+  verse: |
+    GUITAR ENTERS on verse 1 - fingerpicked, patient.
+    Bass enters quietly - upright, whole notes.
+    Strings sustain long tones underneath.
+
+    Verse 1: The claim - "I would know you in a lineup of the dead"
+    Verse 2: Where I learned - "cadaver lab"
+    Verse 3: The specific knowledge - "footsteps on the stairs"
+    Verse 4: What I carry now - "like water, like a frequency"
+
+    Vocal delivery: Unhurried. Almost speaking.
+    "The vertebrae that curve just so" - let "just so" hang.
+    "Like a cabinet, like a cart" - medical precision, not morbid.
+
+    BRUSHES enter verse 2, barely there.
+
+  chorus: |
+    PIANO ENTERS - simple, hymn-like.
+    Drums fuller but still brushes.
+    Strings swell slightly.
+
+    "That's how I know you / That's how I know"
+    Repetition as incantation.
+
+    "By the architecture / And the spaces where you've been"
+    The thesis: knowing = structure + absence.
+
+  bridge: |
+    INSTRUMENTAL BUILD. 12 bars.
+    Strings ascend. Piano octave higher.
+    Drums add hi-hat, more energy.
+    Guitar continues pattern but strumming now, not fingerpicking.
+
+    Building toward the final verse and chorus.
+
+  chorus_final: |
+    FULL ENSEMBLE. Everything playing.
+    "And the spaces where WE'VE been" - the shift from "you" to "we"
+    Now the knowing is mutual.
+
+    Voice at its strongest, but controlled.
+    Not screaming - PRESENT.
+
+  outro: |
+    GRADUAL FADE. Not sudden.
+    Drums stop first.
+    Bass drops out.
+    Piano gone.
+    Guitar and strings thin.
+    Finally just guitar, then just the final Em chord.
+
+    Let it ring. 3-4 seconds of silence before the track ends.
+    This sets the tone for the whole album: patient, attentive, willing to wait.

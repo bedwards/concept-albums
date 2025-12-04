@@ -1,0 +1,96 @@
+song:
+  title: Jacksonville Country Day School
+  composer: Brian Edwards
+  key: Emin
+  tempo: 80
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    lyrics: Khaki pants and polo shirts
+  - chords:
+    - Am
+    lyrics: Carpool line at seven thirty
+  - chords:
+    - C
+    - D
+    lyrics: Learning how to hold your face
+  - chords:
+    - Em
+    lyrics: When everything inside feels dirty
+  - chords:
+    - Am
+    - Em
+    lyrics: Feels dirty
+  verse2:
+  - chords:
+    - Em
+    lyrics: You told me once about the cafeteria
+  - chords:
+    - Am
+    lyrics: Where you learned to eat alone
+  - chords:
+    - C
+    - D
+    lyrics: How the laughter sounded different
+  - chords:
+    - Em
+    lyrics: When it wasn't aimed at anyone you'd known
+  - chords:
+    - Am
+    - Em
+    lyrics: Anyone you'd known
+  verse3:
+  - chords:
+    - Em
+    lyrics: The conversion van that picked you up
+  - chords:
+    - Am
+    lyrics: Your mother in the driver's seat
+  - chords:
+    - C
+    - D
+    lyrics: She never asked about your day
+  - chords:
+    - Em
+    lyrics: Just drove in silence down the street
+  - chords:
+    - Am
+    - Em
+    lyrics: Down the street
+  verse4:
+  - chords:
+    - Em
+    lyrics: Now I understand the armor
+  - chords:
+    - Am
+    lyrics: That you learned to wear so young
+  - chords:
+    - C
+    - D
+    lyrics: The way you hold your shoulders back
+  - chords:
+    - Em
+    lyrics: The way you swallow everything unsung
+  - chords:
+    - Am
+    - Em
+    lyrics: Everything unsung
+  chorus:
+  - chords:
+    - Em
+    - C
+    lyrics: Jacksonville Country Day
+  - chords:
+    - G
+    - D
+    lyrics: That's where you learned to disappear
+  - chords:
+    - Em
+    - C
+    lyrics: I know you by what you don't say
+  - chords:
+    - G
+    - Em
+    lyrics: By the silence you still wear

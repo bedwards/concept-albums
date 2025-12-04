@@ -1,0 +1,78 @@
+song:
+  title: Mercury Outboard
+  composer: Brian Edwards
+  key: G
+  tempo: 78
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - G
+    lyrics: Mercury outboard in the morning haze
+  - chords:
+    - C
+    lyrics: You taught me how to read the water
+  - chords:
+    - Em
+    - D
+    lyrics: Where the current runs, where the bass would be
+  - chords:
+    - G
+    lyrics: Without a word between us
+  - chords:
+    - C
+    - G
+    lyrics: Between us
+  verse2:
+  - chords:
+    - G
+    lyrics: Pull the cord three times, then wait
+  - chords:
+    - C
+    lyrics: That's how you said to start the day
+  - chords:
+    - Em
+    - D
+    lyrics: The engine caught, the boat moved out
+  - chords:
+    - G
+    lyrics: Everything you couldn't say
+  - chords:
+    - C
+    - G
+    lyrics: Couldn't say
+  verse3:
+  - chords:
+    - G
+    lyrics: Now I hear that engine sometimes
+  - chords:
+    - C
+    lyrics: When I'm nowhere near the water
+  - chords:
+    - Em
+    - D
+    lyrics: Just the sound of you still teaching
+  - chords:
+    - G
+    lyrics: Still your son, still your daughter
+  - chords:
+    - C
+    - G
+    lyrics: Still learning what you taught
+  chorus:
+  - chords:
+    - G
+    - C
+    lyrics: Mercury outboard, morning on the lake
+  - chords:
+    - Em
+    - D
+    lyrics: That's how you know a person
+  - chords:
+    - G
+    - C
+    lyrics: By the things they cannot say
+  - chords:
+    - D
+    - G
+    lyrics: By what they taught you anyway

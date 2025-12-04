@@ -1,0 +1,28 @@
+X:1
+T:Beige Chickens
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=74
+K:Emin
+%%MIDI program 40
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+d8 | d4 B4 | A8 | A4 F4 |
+e8 | e4 B4 | G8 | G4 E4 |
+d8 | d4 g4 | a8 | a8 |
+e8 | e4 B4 | G8 | G4 c4 |
+d8 | A8 | e8 | e4 B4 |
+c8 | d8 | e8 | e4 g4 |
+e8 | c8 | d8 | A8 |
+e8 | d4 g4 | e4 c4 | A8 |
+e8 | d4 g4 | e4 g4 | a8 |
+e4 g4 | b4 g4 | e4 c4 | e8 |
+e8 | e4 B4 | G8 | z8 |
+z8 | z8 | z8 | z8 |

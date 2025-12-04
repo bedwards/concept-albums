@@ -1,0 +1,96 @@
+song:
+  title: Mother Teresa
+  composer: Brian Edwards
+  key: Amin
+  tempo: 76
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Am
+    lyrics: She volunteers on holidays
+  - chords:
+    - F
+    lyrics: Makes sure everyone can see
+  - chords:
+    - Dm
+    - E
+    lyrics: The photographs, the Facebook posts
+  - chords:
+    - Am
+    lyrics: A saint for all to be
+  - chords:
+    - F
+    - Am
+    lyrics: All to see
+  verse2:
+  - chords:
+    - Am
+    lyrics: I know why she needs the witness
+  - chords:
+    - F
+    lyrics: I've seen the house she grew up in
+  - chords:
+    - Dm
+    - E
+    lyrics: The way her mother counted kindness
+  - chords:
+    - Am
+    lyrics: Kept a ledger of her sins
+  - chords:
+    - F
+    - Am
+    lyrics: Of her sins
+  verse3:
+  - chords:
+    - Am
+    lyrics: Mother Teresa, they called her once
+  - chords:
+    - F
+    lyrics: At the office Christmas party
+  - chords:
+    - Dm
+    - E
+    lyrics: She laughed but I saw her flinch
+  - chords:
+    - Am
+    lyrics: At how close they came to seeing
+  - chords:
+    - F
+    - Am
+    lyrics: Close to seeing
+  verse4:
+  - chords:
+    - Am
+    lyrics: Now I hold her contradictions
+  - chords:
+    - F
+    lyrics: Like I hold all the rest
+  - chords:
+    - Dm
+    - E
+    lyrics: The need to be seen being good
+  - chords:
+    - Am
+    lyrics: Is just another wound undressed
+  - chords:
+    - F
+    - Am
+    lyrics: Wound undressed
+  chorus:
+  - chords:
+    - Am
+    - F
+    lyrics: Mother Teresa in the break room
+  - chords:
+    - Dm
+    - E
+    lyrics: That's how you know someone
+  - chords:
+    - Am
+    - F
+    lyrics: By the goodness they perform
+  - chords:
+    - Dm
+    - Am
+    lyrics: By what made them need to be undone

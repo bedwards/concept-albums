@@ -1,0 +1,38 @@
+X:1
+T:Cadaver Lab
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=78
+K:Emin
+%%MIDI program 42
+%%MIDI chordprog -1
+E,8 | E,8 | C,8 | C,8 |
+E,8 | E,8 | D,8 | E,8 |
+E,8 | E,8 | C,8 | C,8 |
+G,8 | D,8 | E,8 | E,8 |
+C,8 | G,8 | E,8 | z8 |
+z8 | z8 | z8 | z8 |
+E,8 | E,8 | C,8 | C,8 |
+G,8 | D,8 | E,8 | E,8 |
+C,8 | G,8 | E,8 | z8 |
+z8 | z8 | z8 | z8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | E,8 | C,8 | C,8 |
+G,8 | D,8 | E,8 | E,8 |
+C,8 | G,8 | E,8 | z8 |
+z8 | z8 | z8 | z8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | E,4 G,4 | C,8 | C,4 E,4 |
+G,8 | D,8 | E,8 | E,4 G,4 |
+C,8 | C,4 E,4 | G,8 | D,8 |
+E,8 | E,8 | C,8 | C,8 |
+G,8 | D,8 | E,8 | E,8 |
+C,8 | G,8 | E,8 | z8 |
+z8 | z8 | z8 | z8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | G,8 | C,8 | D,8 |
+E,8 | E,8 | C,8 | C,4 z4 |
+E,8 | E,4 z4 | z8 | E,8 |

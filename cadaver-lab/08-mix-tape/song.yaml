@@ -1,0 +1,194 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Mix Tape
+# ============================================================================
+# Track 8 - What someone wanted you to hear. The sequence they chose.
+#
+# Simple, direct. Guitar, voice, quiet bass. The most intimate track
+# after Haulover Beach. What those songs tell you about who they were.
+#
+# Run: python scripts/generate_song.py cadaver-lab/08-mix-tape/
+# ============================================================================
+
+song:
+  title: "Mix Tape"
+  composer: "Brian Edwards"
+  tempo: 84
+  time: "4/4"
+  key: "C"
+
+  structure:
+    - intro
+    - verse
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - outro
+
+sections:
+  intro:
+    bars: 4
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+      bass:
+        abc: "z8 | z8 | z8 | z8 |"
+
+  verse:
+    bars: 12
+    lyrics:
+      verse1:
+        - line: "You made me a mix tape once"
+          chords: ["C"]
+        - line: "Handwritten track list, blue ink"
+          chords: ["Am"]
+        - line: "Pulp Fiction on the first side"
+          chords: ["F", "G"]
+        - line: "Whatever you were trying to tell me"
+          chords: ["C"]
+        - line: "I think"
+          chords: ["Am", "C"]
+
+      verse2:
+        - line: "We drove to Hastings to find the songs"
+          chords: ["C"]
+        - line: "Before everything went digital"
+          chords: ["Am"]
+        - line: "You in the aisles with your list"
+          chords: ["F", "G"]
+        - line: "Building something ritual"
+          chords: ["C"]
+        - line: "Ritual"
+          chords: ["Am", "C"]
+
+      verse3:
+        - line: "Now I hear those songs on shuffle"
+          chords: ["C"]
+        - line: "And the sequence is all wrong"
+          chords: ["Am"]
+        - line: "You had something to tell me"
+          chords: ["F", "G"]
+        - line: "In the order of those songs"
+          chords: ["C"]
+        - line: "Those songs"
+          chords: ["Am", "C"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "C"C2 C2 E2 G2 | c4 G4 |
+          "Am"A2 A2 c2 e2 | e6 z2 |
+          "F"F2 F2 A2 c2 | "G"d4 B4 |
+          "C"G2 E2 C2 E2 | G6 z2 |
+          "Am"A2 c2 e2 c2 | "C"G4 E4 |
+          z8 | z8 |
+
+      guitar-acoustic:
+        abc: |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Am"A,2 E2 A2 c2 | e2 a2 e2 c2 |
+          "F"F2 C2 F2 A2 | "G"G,2 D2 G2 B2 |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Am"A,2 E2 A2 c2 | "C"C2 G,2 C2 E2 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+
+      bass:
+        abc: |
+          "C"C,4 C,4 | C,4 C,4 |
+          "Am"A,4 A,4 | A,4 A,4 |
+          "F"F,4 F,4 | "G"G,4 G,4 |
+          "C"C,4 C,4 | C,4 C,4 |
+          "Am"A,4 A,4 | "C"C,4 C,4 |
+          "C"C,4 C,4 | C,4 z4 |
+
+  chorus:
+    bars: 8
+    lyrics:
+      chorus:
+        - line: "Mix tape in a shoebox"
+          chords: ["C", "Am"]
+        - line: "That's how you know a person"
+          chords: ["F", "G"]
+        - line: "By the songs they give you"
+          chords: ["C", "Am"]
+        - line: "By what they thought you needed to learn"
+          chords: ["F", "C"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "C"C4 E4 | "Am"A4 E4 |
+          "F"F4 A4 | "G"G6 z2 |
+          "C"G4 E4 | "Am"c4 A4 |
+          "F"A2 A2 G2 E2 | "C"C6 z2 |
+
+      guitar-acoustic:
+        abc: |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "Am"[A,2E2A2]z2 [A,2E2A2]z2 |
+          "F"[F2C2F2]z2 [F2C2F2]z2 | "G"[G,2D2G2]z2 [G,2D2G2]z2 |
+          "C"[C2G,2C2]z2 [C2G,2C2]z2 | "Am"[A,2E2A2]z2 [A,2E2A2]z2 |
+          "F"[F2C2F2]z2 [F2C2F2]z2 | "C"[C8G,8C8] |
+
+      bass:
+        abc: |
+          "C"C,2 C,2 C,2 C,2 | "Am"A,2 A,2 A,2 A,2 |
+          "F"F,2 F,2 F,2 F,2 | "G"G,2 G,2 G,2 G,2 |
+          "C"C,2 C,2 C,2 C,2 | "Am"A,2 A,2 A,2 A,2 |
+          "F"F,2 F,2 F,2 F,2 | "C"C,8 |
+
+  outro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+      guitar-acoustic:
+        abc: |
+          "C"C2 G,2 C2 E2 | G2 c2 G2 E2 |
+          "Am"A,2 E2 A2 c2 | e4 z4 |
+          "C"C2 G,2 C2 E2 | G4 z4 |
+          z8 | "C"C,8 |
+      bass:
+        abc: |
+          "C"C,4 C,4 | C,4 z4 |
+          "Am"A,4 z4 | z8 |
+          "C"C,4 z4 | z8 |
+          z8 | "C"C,8 |
+
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+  guitar-acoustic:
+    program: 25
+    name: "Acoustic Guitar (steel)"
+  bass:
+    program: 32
+    name: "Acoustic Bass"
+
+arrangement:
+  intro: |
+    GUITAR ALONE. Simple C-Am pattern. The sound of rewinding.
+
+  verse: |
+    BASS ENTERS verse 2 - quiet, supporting.
+    NO DRUMS. This song stays intimate throughout.
+
+    Verse 1: The tape itself - "handwritten track list, blue ink"
+    Verse 2: Making it - "drove to Hastings" (the video store)
+    Verse 3: Now - "shuffle... sequence all wrong"
+
+    "Pulp Fiction on the first side" - specific, proves this happened.
+    Vocal delivery: Tender, not nostalgic.
+
+  chorus: |
+    "By the songs they give you" - knowing through curation.
+    Guitar slightly fuller, still fingerpicked.
+
+  outro: |
+    GUITAR ALONE again. Slow fade.
+    ~3:15. The shortest full song with bass.
+    Simple, direct, like the tape itself.

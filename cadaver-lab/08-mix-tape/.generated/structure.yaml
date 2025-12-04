@@ -1,0 +1,32 @@
+title: Mix Tape
+composer: Brian Edwards
+tempo: 84
+time: 4/4
+key: C
+sections:
+- name: intro
+  bars: 4
+- name: verse
+  bars: 12
+- name: outro
+  bars: 8
+- name: chorus
+  bars: 8
+structure:
+- intro
+- verse
+- verse
+- chorus
+- verse
+- chorus
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  guitar-acoustic:
+    program: 25
+    name: Acoustic Guitar (steel)
+  bass:
+    program: 32
+    name: Acoustic Bass

@@ -1,0 +1,149 @@
+song:
+  title: Beige Chickens
+  composer: Brian Edwards
+  key: Emin
+  tempo: 74
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    lyrics: Beige chickens in the morning
+  - chords:
+    - C
+    lyrics: Same birds every day
+  - chords:
+    - G
+    - D
+    lyrics: Pecking at the gravel
+  - chords:
+    - Em
+    lyrics: In the same deliberate way
+  - chords:
+    - C
+    - G
+    lyrics: Deliberate way
+  - chords:
+    - Em
+    lyrics: ''
+  verse2:
+  - chords:
+    - Em
+    lyrics: She counted them like rosary beads
+  - chords:
+    - C
+    lyrics: Before she'd go inside
+  - chords:
+    - G
+    - D
+    lyrics: Well-proportioned birds she called them
+  - chords:
+    - Em
+    lyrics: Some small farmer's pride
+  - chords:
+    - C
+    - G
+    lyrics: Farmer's pride
+  - chords:
+    - Em
+    lyrics: ''
+  verse3:
+  - chords:
+    - Em
+    lyrics: I'd watch her from the kitchen
+  - chords:
+    - C
+    lyrics: Coffee going cold
+  - chords:
+    - G
+    - D
+    lyrics: The way she'd talk to every one
+  - chords:
+    - Em
+    lyrics: Stories never told
+  - chords:
+    - C
+    - G
+    lyrics: Never told to anyone but them
+  - chords:
+    - Em
+    lyrics: ''
+  chorus:
+  - chords:
+    - Em
+    - G
+    lyrics: Beige chickens in an ordinary yard
+  - chords:
+    - C
+    - D
+    lyrics: That's how you know someone
+  - chords:
+    - Em
+    - G
+    lyrics: By the ordinary things they tend
+  - chords:
+    - C
+    - D
+    lyrics: By the ordinary things they've done
+  verse_climax:
+  - chords:
+    - Em
+    lyrics: The coop stands empty now
+  - chords:
+    - C
+    lyrics: The feed bin rusted through
+  - chords:
+    - G
+    - D
+    lyrics: The yard grown over with weeds
+  - chords:
+    - Em
+    lyrics: But I carry what she knew
+  - chords:
+    - C
+    - G
+    lyrics: Everything she knew
+  - chords: []
+    lyrics: ''
+  - chords:
+    - Em
+    lyrics: How to tend the ordinary
+  - chords:
+    - C
+    lyrics: How to love what doesn't last
+  - chords:
+    - G
+    - D
+    lyrics: How to count your blessings daily
+  - chords:
+    - Em
+    lyrics: Like beige chickens in the grass
+  - chords:
+    - C
+    - D
+    lyrics: In the grass
+  chorus_final:
+  - chords:
+    - Em
+    - G
+    lyrics: Beige chickens in an ordinary yard
+  - chords:
+    - C
+    - D
+    lyrics: That's how you know someone
+  - chords:
+    - Em
+    - G
+    lyrics: By the ordinary things they tend
+  - chords:
+    - C
+    - D
+    lyrics: By the ordinary things they've done
+  - chords:
+    - Em
+    - G
+    lyrics: What they've done
+  - chords:
+    - C
+    - Em
+    lyrics: What they've done

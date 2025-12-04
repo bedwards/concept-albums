@@ -1,0 +1,80 @@
+TEMPO: 72 bpm
+TIME: 4/4
+KEY: Emin
+
+INTRO
+SPARSE AND INTIMATE. Guitar fingerpicks the Em-C-Em-D pattern.
+Voice hums the melody - not words yet, just the shape of what's coming.
+No drums, no bass, no piano. Just guitar and breath.
+This is the sound of memory before language.
+
+VERSE
+ADD BASS on verse 1 - upright, whole notes, roots only.
+Brush drums enter on verse 2 - barely there, just shape.
+Guitar continues fingerpicking pattern throughout.
+
+Verses 1-2: The memory (Baptist church, conversion van, circle time)
+Verses 3-4: The understanding (she needed the quiet, everyone leaves)
+Verse 5: The catalog (Ratsun, beach chair, mix tape, beige chickens)
+
+Vocal delivery: Direct, unhurried. Every word lands.
+Don't rush "the door, the hall, the room, the window" - let it accumulate.
+
+CHORUS
+PIANO ENTERS here - simple, hymn-like chords.
+Drums slightly fuller but still brushes.
+
+"Mother's Day Out" - sing it like a name, like a place you've been.
+"That's what they called it" - matter-of-fact, not bitter.
+"And I'm still learning what it means" - the weight is here.
+
+BRIDGE
+THE BUILD. 16 bars of instrumental crescendo.
+
+Bars 1-4: Establish the pattern, guitar and bass and drums.
+Bars 5-8: STRINGS ENTER - violin and viola, long tones, swelling.
+Bars 9-12: SAXOPHONE ENTERS - joining the strings, not fighting them.
+Bars 13-16: Full ensemble, building to the climax verse.
+
+Synth pad underneath everything - warmth, not coldness.
+This should feel like remembering everything at once.
+
+VERSE_CLIMAX
+EVERYTHING PLAYING. The cathartic verse.
+
+"Charm, self-pity, and rage" - the callback to Track 2
+"Cadaver lab where I learned the bones" - callback to Track 1
+"Mercury outboard in the morning haze" - callback to Track 6
+"Beige chickens in an empty yard" - callback to Track 7
+
+All the people from the album return in images.
+"The door, the hall, the room, the window / The car pulling away"
+This is the thesis: all knowing begins with separation.
+
+Full band, strings, saxophone, drums with sticks now.
+Voice at its strongest, not screaming but PRESENT.
+
+CHORUS_FINAL
+CATHARSIS. "That's what we needed / Now I understand"
+
+Not bitter. Not sad. Just true.
+The understanding that love and constant presence are different things.
+That leaving makes returning possible.
+
+Hold the final "understand" - let it ring.
+
+OUTRO
+STRIP EVERYTHING AWAY.
+
+Just guitar and voice return. Maybe one synth pad tone fading.
+
+"Tuesday morning, my hands on her shoulders" - you are now the parent.
+"Different church, the same parking lot" - the cycle continues.
+"She looks back once, I wave her through the door" - she needs this too.
+"And I drive the long way home" - you understand now.
+
+End on the Em. Hold it. Let it ring until it disappears.
+
+PRODUCTION: The silence after the final note is part of the song.
+Let it sit for 3-4 seconds before the track ends.
+The album should end in silence, not fade.

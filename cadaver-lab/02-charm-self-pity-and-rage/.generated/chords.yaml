@@ -1,0 +1,96 @@
+song:
+  title: Charm, Self-Pity, and Rage
+  composer: Brian Edwards
+  key: Amin
+  tempo: 82
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Am
+    lyrics: I learned to read the weather
+  - chords:
+    - F
+    lyrics: In the set of your shoulders at the door
+  - chords:
+    - C
+    - G
+    lyrics: Which one would greet me
+  - chords:
+    - Am
+    lyrics: Which one I'd be waiting for
+  - chords:
+    - F
+    - Am
+    lyrics: Waiting for
+  verse2:
+  - chords:
+    - Am
+    lyrics: Sometimes the charm came easy
+  - chords:
+    - F
+    lyrics: Coffee and a joke and sleeves rolled back
+  - chords:
+    - C
+    - G
+    lyrics: The sun was out inside you
+  - chords:
+    - Am
+    lyrics: And I'd forget the other tracks
+  - chords:
+    - F
+    - Am
+    lyrics: Other tracks
+  verse3:
+  - chords:
+    - Am
+    lyrics: Sometimes the pity swallowed
+  - chords:
+    - F
+    lyrics: Everything the light could reach
+  - chords:
+    - C
+    - G
+    lyrics: The world arranged against you
+  - chords:
+    - Am
+    lyrics: And nothing I could say or teach
+  - chords:
+    - F
+    - Am
+    lyrics: I could teach
+  verse4:
+  - chords:
+    - Am
+    lyrics: Sometimes the rage came sudden
+  - chords:
+    - F
+    lyrics: Slammed doors and inventory of my faults
+  - chords:
+    - C
+    - G
+    lyrics: I learned to read the weather
+  - chords:
+    - Am
+    lyrics: I learned to walk on salt
+  - chords:
+    - F
+    - Am
+    lyrics: Walk on salt
+  chorus:
+  - chords:
+    - Am
+    - F
+    lyrics: Charm, self-pity, and rage
+  - chords:
+    - C
+    - G
+    lyrics: All rotating through one face
+  - chords:
+    - Am
+    - F
+    lyrics: Three weathers, one landscape
+  - chords:
+    - C
+    - Am
+    lyrics: And I stayed in place

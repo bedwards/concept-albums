@@ -1,0 +1,125 @@
+song:
+  title: Cadaver Lab
+  composer: Brian Edwards
+  key: Emin
+  tempo: 78
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Em
+    lyrics: I would know you in a lineup of the dead
+  - chords:
+    - C
+    lyrics: Know you by the bones that hold your hands
+  - chords:
+    - G
+    - D
+    lyrics: The vertebrae that curve just so
+  - chords:
+    - Em
+    lyrics: The way your skull remembers every blow
+  - chords:
+    - C
+    - G
+    lyrics: Every blow
+  - chords:
+    - Em
+    lyrics: ''
+  verse2:
+  - chords:
+    - Em
+    lyrics: I learned this in the cadaver lab
+  - chords:
+    - C
+    lyrics: Where students name the hidden parts
+  - chords:
+    - G
+    - D
+    lyrics: The way a rib cage opens
+  - chords:
+    - Em
+    lyrics: Like a cabinet, like a cart
+  - chords:
+    - C
+    - G
+    lyrics: Like a cart
+  - chords:
+    - Em
+    lyrics: ''
+  verse3:
+  - chords:
+    - Em
+    lyrics: I've memorized the rhythm
+  - chords:
+    - C
+    lyrics: Of your footsteps on the stairs
+  - chords:
+    - G
+    - D
+    lyrics: The specific weight you carry
+  - chords:
+    - Em
+    lyrics: The particular shade of air
+  - chords:
+    - C
+    - G
+    lyrics: Shade of air when you're there
+  - chords:
+    - Em
+    lyrics: ''
+  verse4:
+  - chords:
+    - Em
+    lyrics: Now I carry you like water
+  - chords:
+    - C
+    lyrics: Like a frequency, a hum
+  - chords:
+    - G
+    - D
+    lyrics: Every object holds your fingerprints
+  - chords:
+    - Em
+    lyrics: Every room remembers what you've done
+  - chords:
+    - C
+    - G
+    lyrics: What you've done
+  - chords:
+    - Em
+    lyrics: ''
+  chorus:
+  - chords:
+    - Em
+    - G
+    lyrics: That's how I know you
+  - chords:
+    - C
+    - D
+    lyrics: That's how I know
+  - chords:
+    - Em
+    - G
+    lyrics: By the architecture
+  - chords:
+    - C
+    - D
+    lyrics: And the spaces where you've been
+  chorus_final:
+  - chords:
+    - Em
+    - G
+    lyrics: That's how I know you
+  - chords:
+    - C
+    - D
+    lyrics: That's how I know
+  - chords:
+    - Em
+    - G
+    lyrics: By the architecture
+  - chords:
+    - C
+    - D
+    lyrics: And the spaces where we've been

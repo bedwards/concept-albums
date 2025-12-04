@@ -1,0 +1,54 @@
+X:1
+T:Enlightened Narcissist
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=84
+K:Bmin
+%%MIDI program 32
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | G,4 G,4 |
+A,4 A,4 | E,4 E,4 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | B,4 B,4 |
+B,4 B,4 | B,4 z4 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | G,4 G,4 |
+A,4 A,4 | E,4 E,4 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | B,4 B,4 |
+B,4 B,4 | B,4 z4 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | E,2 E,2 E,2 E,2 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | B,8 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | G,4 G,4 |
+A,4 A,4 | E,4 E,4 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | B,4 B,4 |
+B,4 B,4 | B,4 z4 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | E,2 E,2 E,2 E,2 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | B,8 |
+B,2 B,2 B,2 B,2 | B,2 B,2 D,2 D,2 |
+G,2 G,2 G,2 G,2 | G,2 G,2 B,2 B,2 |
+A,2 A,2 A,2 A,2 | A,2 A,2 C,2 C,2 |
+E,2 E,2 E,2 E,2 | E,8 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | G,4 G,4 |
+A,4 A,4 | E,4 E,4 |
+B,4 B,4 | B,4 B,4 |
+G,4 G,4 | B,4 B,4 |
+B,4 B,4 | B,4 z4 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | E,2 E,2 E,2 E,2 |
+B,2 B,2 B,2 B,2 | G,2 G,2 G,2 G,2 |
+A,2 A,2 A,2 A,2 | B,8 |
+B,4 B,4 | B,4 z4 |
+G,4 z4 | z8 |
+B,4 z4 | z8 |
+z8 | B,8 |

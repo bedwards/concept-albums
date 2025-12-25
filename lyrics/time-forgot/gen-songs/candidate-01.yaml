@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - Na na naaa, na na na, na naa naa naaaa
+  - Na na naaa, na na na, na naa naa naaaa
+- name: verse-1
+  lines:
+  - She left me standing at the station
+  - With nothing but my pride
+  - I watched the train pull out of Texas
+  - something in me died
+- name: chorus1
+  lines:
+  - They say the road will ease the hurting
+  - the miles wash it clean
+  - the road forgot to take her memory
+  - Yes the road forgot to take her memory
+- name: verse-2
+  lines:
+  - I drove down through the desert valley
+  - Past the Rio Grande
+  - I saw a woman in the distance
+  - With a baby on her hand
+- name: verse-3
+  lines:
+  - I pulled my truck up to the farmhouse
+  - stepped out in the heat
+  - She looked at me with my own daughter
+  - Standing at her feet
+- name: chorus2
+  lines:
+  - They say the road will ease the hurting
+  - the miles wash it clean
+  - the road forgot to take her memory
+  - Yes the road forgot to take her memory
+- name: verse-4
+  lines:
+  - The little girl she asked me questions
+  - Like where I'd been so long
+  - I couldn't tell her I'd been running
+  - everything gone wrong
+- name: verse-5
+  lines:
+  - I knelt beside my little angel
+  - held her tiny hands
+  - I said your mama loved you truly
+  - More than you'll understand
+- name: outro1
+  lines:
+  - She said the road will ease the hurting
+  - the miles wash it clean
+  - Na na naaa, na na na, na naa naa naaaa
+  - Na na naaa, na na na, na naa naa naaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

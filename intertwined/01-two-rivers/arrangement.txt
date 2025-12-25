@@ -1,0 +1,28 @@
+TEMPO: 96 bpm
+TIME: 4/4
+KEY: G
+
+INTRO
+Guitar 1: Fingerstyle pattern in mid-upper register, flowing melodic line with emphasis on stepwise motion. Let notes ring where possible to create overlapping harmonies. Moderate dynamics (mf).
+Guitar 2: Complementary fingerstyle in lower register, provides harmonic foundation while maintaining melodic independence. Slightly softer than Guitar 1 (mp). Focus on clean note separation except where notes intentionally overlap to suggest hammer-ons or slides.
+Guitar 3: High register melody weaving above the other voices. Creates a shimmering top layer with frequent use of upper positions. Dynamics match Guitar 1 (mf). Use clear articulation to maintain melodic clarity in the upper register.
+
+PARTA
+Guitar 1: More active melodic line with frequent position shifts. Use hammer-ons on ascending passages (e.g., B to d). Dynamics build gradually from mf to f.
+Guitar 2: Interweaving countermelody, alternating between supporting role and brief melodic statements. Match dynamic contour of Guitar 1 but stay slightly underneath. Emphasis on rhythmic precision where the parts cross.
+Guitar 3: Soaring melodic line that complements the lower voices. Use slides on ascending leaps to maintain fluidity. Builds from mf to f with the ensemble. Creates harmonic interest through careful voice leading with Guitar 1.
+
+PARTB
+Guitar 1: Opens in upper register with descending patterns. Use pull-offs on descending runs for smoother phrasing. Reaches peak dynamics (f) in this section.
+Guitar 2: More rhythmic approach with clearer note articulation. Occasional call-and-response moments where Guitar 2 echoes Guitar 1's phrases a third or fifth below. Dynamics match Guitar 1.
+Guitar 3: Most active in this section with rapid melodic phrases in the highest register. Use pull-offs and hammer-ons for smooth phrasing in scalar passages. Peak dynamics (f) with occasional brief call-and-response with Guitar 1.
+
+PARTC
+Guitar 1: Climactic section with wider intervallic leaps and fuller range. Use slides where notes overlap (e.g., d to g passages). Sustained dynamics at forte.
+Guitar 2: Provides both harmonic support and contrapuntal interest. More active rhythmically than in previous sections. Match the intensity of Guitar 1 with confident note attacks.
+Guitar 3: Climactic high register work with dramatic leaps and sustained notes. Use slides for wider intervals (e.g., d' to b'). Sustained forte dynamics throughout. Final phrases reach the highest register of the piece.
+
+OUTRO
+Guitar 1: Gradual descent from upper register back to middle range. Decreasing dynamics from f to mp. Final phrase rises to high g for conclusion.
+Guitar 2: Mirror's Guitar 1's dynamic fade. Settles into lower register with final resolution on low G. Both guitars should let the final notes ring fully.
+Guitar 3: Descends from highest register gradually, mirroring the overall fadeout. Final phrase ascends to b' for a brilliant conclusion. Dynamics fade from f to mp, ending with a final sustained high note that rings out above the other voices.

@@ -1,0 +1,105 @@
+{
+  "overall_taste_score": 35.396272552876326,
+  "component_scores": {
+    "concreteness": 40.857142857142854,
+    "cliche_free": 0,
+    "show_dont_tell": 70.75471698113208,
+    "sensory_richness": 27.25225225225225
+  },
+  "concreteness": {
+    "avg_concreteness": 3.0214285714285714,
+    "rated_word_count": 21,
+    "unrated_word_count": 201,
+    "coverage": 0.0945945945945946,
+    "concrete_words": [],
+    "abstract_words": [
+      "mistake",
+      "lesson",
+      "hope"
+    ],
+    "concreteness_distribution": {
+      "very_concrete_4.5+": 0,
+      "concrete_3.5-4.5": 6,
+      "moderate_2.5-3.5": 11,
+      "abstract_1.5-2.5": 4,
+      "very_abstract_<1.5": 0
+    }
+  },
+  "cliches": {
+    "cliches_found": [
+      {
+        "phrase": "tomorrow is a new day",
+        "count": 3
+      },
+      {
+        "phrase": "really awful",
+        "count": 1
+      },
+      {
+        "phrase": "very sad",
+        "count": 1
+      },
+      {
+        "phrase": "so very",
+        "count": 1
+      },
+      {
+        "phrase": "heart",
+        "count": 1
+      },
+      {
+        "phrase": "love",
+        "count": 1
+      },
+      {
+        "phrase": "of",
+        "count": 2
+      }
+    ],
+    "cliche_count": 7,
+    "total_cliche_instances": 10,
+    "cliche_word_density": 0.11312217194570136,
+    "cliche_free": false
+  },
+  "show_dont_tell": {
+    "total_verbs": 53,
+    "state_verb_count": 3,
+    "strong_verb_count": 0,
+    "other_verb_count": 50,
+    "show_tell_ratio": 0.4716981132075472,
+    "telling_examples": [
+      "feel",
+      "like",
+      "think"
+    ],
+    "showing_examples": [],
+    "verdict": "balanced"
+  },
+  "sensory": {
+    "sensory_word_count": 1,
+    "sensory_density": 0.0045045045045045045,
+    "by_sense": {
+      "sight": 0,
+      "sound": 0,
+      "touch": 1,
+      "smell": 0,
+      "taste": 0
+    },
+    "examples_by_sense": {
+      "sight": [],
+      "sound": [],
+      "touch": [
+        "feel"
+      ],
+      "smell": [],
+      "taste": []
+    },
+    "dominant_sense": "touch",
+    "sense_variety": 1
+  },
+  "recommendations": [
+    "CONCRETENESS: Score 3.02/5.00 is low. Replace abstract words like [mistake, lesson, hope] with physical, tangible nouns.",
+    "CLICH\u00c9S: Found 7 clich\u00e9(s): [tomorrow is a new day, really awful, very sad]. Replace with original imagery.",
+    "SENSORY: Only 1 senses engaged. Add sight, sound imagery."
+  ]
+}

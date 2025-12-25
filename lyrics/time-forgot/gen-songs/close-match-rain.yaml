@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+- name: verse-1
+  lines:
+  - I got stranded by my brother
+  - I been lied to and let down
+  - There was a scene at the chapel
+  - I had a ring but she left town
+- name: chorus1
+  lines:
+  - They say rain can wash the hurt away
+  - rain cleans everything
+  - rain forgot to wash my memory
+  - Yes rain forgot to wash my memory
+- name: verse-2
+  lines:
+  - He took my sweetheart down to Austin
+  - they built a life down there
+  - she grew old without my knowing
+  - It's a cold and bitter affair
+- name: verse-3
+  lines:
+  - So I took a bus into that city
+  - I found their brownstone flat
+  - I went to drink until the midnight
+  - when the bars closed I came back
+- name: chorus2
+  lines:
+  - They say rain can wash the hurt away
+  - rain cleans everything
+  - rain forgot to wash my memory
+  - Yes rain forgot to wash my memory
+- name: verse-4
+  lines:
+  - Outside their window I stood waiting
+  - thoughts they crossed my mind
+  - as my old love lay there resting
+  - I crept in from the alley blind
+- name: verse-5
+  lines:
+  - I stood beside their sleeping daughter
+  - I brushed her auburn hair
+  - Please forgive me little stranger
+  - the father who wasn't there
+- name: outro1
+  lines:
+  - He said rain can wash the hurt away
+  - rain cleans everything
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - La la laaa, la la la, la laa laa laaaa
+  - La la laaa, la la la, la laa laa laaaa
+- name: verse-1
+  lines:
+  - I found her letter on the table
+  - The ink was barely dry
+  - She said she couldn't wait no longer
+  - She didn't say goodbye
+- name: chorus1
+  lines:
+  - They say that whiskey drowns the sorrow
+  - whiskey numbs the brain
+  - whiskey forgot to drown her face
+  - Yes whiskey forgot to drown her face
+- name: verse-2
+  lines:
+  - I took her picture from the mantle
+  - threw it in the fire
+  - I watched her smile turn into ashes
+  - Like everything I desired
+- name: verse-3
+  lines:
+  - I walked out to the barn at midnight
+  - found my daddy's gun
+  - I held it cold against my temple
+  - I could not get it done
+- name: chorus2
+  lines:
+  - They say that whiskey drowns the sorrow
+  - whiskey numbs the brain
+  - whiskey forgot to drown her face
+  - Yes whiskey forgot to drown her face
+- name: verse-4
+  lines:
+  - I put the pistol back and trembled
+  - With hatred in my blood
+  - I drove all night to where she's living
+  - Through the rain and through the mud
+- name: verse-5
+  lines:
+  - I stood outside her bedroom window
+  - saw them lying there
+  - I turned around and walked back slowly
+  - Into the cold night air
+- name: outro1
+  lines:
+  - She said that whiskey drowns the sorrow
+  - whiskey numbs the brain
+  - La la laaa, la la la, la laa laa laaaa
+  - La la laaa, la la la, la laa laa laaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

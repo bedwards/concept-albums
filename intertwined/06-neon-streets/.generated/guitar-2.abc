@@ -1,0 +1,29 @@
+X:1
+T:Neon Streets
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=160
+K:A
+%%MIDI program 25
+%%MIDI chordprog -1
+A,2 zA E2 zC | A,2 zA E2 zC | G,2 zG, D2 zB, | A,2 zA E2 zC |
+A,2 zA E2 zA | A,2 E2 C2 A,2 | D2 zA, E2 zB, | A,2 E2 A,2 z2 |
+A,2 zA E2 zC | A,E,A,E, A,E,CE | G,2 zG, D2 zB, | A,2 zA E2 zA |
+A,E,A,C E2 zE | A,2 E2 A,2 E2 | D2 zF E2 zG | A,2 E2 A,2 E2 |
+A,E,A,E, C2 zA, | E2 zA, C2 E2 | G,D,G,D, B,2 zG, | A,E,A,C E2 A2 |
+F,2 zC F2 zA | G,2 zD G2 zB | A,E,CE A,E,A,C | E2 A2 E2 z2 |
+D2 zF A2 zF | D2 FA DF,A,D | A,2 zE A2 zC | A,E,A,C EA,CE |
+E2 zG B2 zG | E2 GB EG,BE, | A,2 E2 A2 E2 | A,E,A,E C2 z2 |
+zA,E,A, zE,A,C | A,2 CE A,2 E2 | zG,D,G, zD,G,B, | zA,E,A, zC,E,A, |
+A,E,A,C E2 A2 | C2 A,2 E2 C2 | zD,A,D zE,B,E | A,2 CE A,2 C2 |
+E,A,CE A,E,A,C | zA,CE zEA,C | D,G,D,B, G,D,G,B, | E,A,CE A,E,CE |
+F,2 CF F,2 A,2 | G,2 DG G,2 B,2 | A,E,CE A,2 E2 | C2 E2 A2 z2 |
+zD,FA, zD,FD | DF,A,D FA,DF | zA,CE zA,EA | CE,A,C EA,CE |
+zE,GB, zE,GE | GB,E,G BE,GB, | zA,E,C zA,EA | A,E,A,C E2 z2 |
+F,2 zC F2 zC | F,CF,A C2 F2 | G,2 zD G2 zD | G,DG,B D2 G2 |
+A,2 zE A2 zE | A,EA,C E2 A2 | E,2 zB, E2 zG | B,2 E2 B,2 z2 |
+D2 FA DF,A,D | FA,DF A,DF,A, | A,2 CE A,E,CE | EA,CE A,E,A,C |
+E2 GB EG,BE, | GB,E,G BE,GB, | A,E,A,C E2 A2 | C2 E2 A2 z2 |
+A,2 zA E2 zC | A,2 E2 A,2 C2 | G,2 zG, D2 zB, | A,2 E2 A,2 E2 |
+A,E,A,C E2 A2 | C2 E2 A2 C2 | D2 zA, E2 zB, | A,2 E2 A,4 |

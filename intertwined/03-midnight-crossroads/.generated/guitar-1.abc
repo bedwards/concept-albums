@@ -1,0 +1,27 @@
+X:1
+T:Midnight Crossroads
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=92
+K:Emin
+%%MIDI program 25
+%%MIDI chordprog -1
+E2 G2 B2 e2 | e2 dB G2 E2 | E2 GB e2 gB | e4 B4 |
+A2 cA e2 cA | c2 BA G2 E2 | ^F2 AB ^d2 f^d | e6 z2 |
+E2 GB e2 GB | B2 e2 B2 G2 | E2 GB e2 dB | e4 B4 |
+A2 cA e2 cA | c2 eA c2 A2 | E2 GB e2 GB | B2 e2 G4 |
+^F2 AB ^d2 AB | c2 Ac e2 cA | E2 GB e2 dB | e6 z2 |
+G2 BG d2 BG | A2 dA f2 dA | B2 eB g2 eB | e4 B4 |
+c2 ec g2 ec | ^d2 f^d b2 f^d | e2 gB e2 GB | E6 z2 |
+E2 zG B2 ze | z2 e2 d2 B2 | E2 zG e2 zB | z4 e4 |
+A2 zc e2 zA | z2 c2 e2 c2 | E2 zG B2 ze | z4 B4 |
+^F2 zA ^d2 zf | c2 ze a2 zc | E2 zG e2 zB | e6 z2 |
+E2 B,E G2 E2 | B,2 EG B2 GB | e2 Be G2 B,2 | E4 B,4 |
+A,2 EA c2 A2 | E2 Ac e2 cA | E2 B,E G2 E2 | B,2 EG B4 |
+B,2 ^FB ^d2 B2 | A,2 Ac e2 A2 | E2 GB e2 B2 | E6 z2 |
+G2 BG d2 BG | A2 dA f2 dA | B2 eB g2 eB | e4 B4 |
+c2 ec g2 ec | ^d2 f^d b2 f^d | e2 gB e2 GB | E6 z2 |
+E2 GB e2 dB | e2 Be G2 E2 | E2 GB B2 e2 | e4 B4 |
+A2 cA e2 cA | c2 Ae c2 A2 | E2 GB e2 GB | B2 e2 B4 |
+^F2 AB ^d2 fB | c2 Ae c2 A2 | E2 GB e2 B2 | E8 |

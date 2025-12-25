@@ -4,6 +4,8 @@ This is where songs get made. Not the quick kind, the ones you toss off on a Tue
 
 We're building concept albums here. Full records. Each one's got a theme that runs through it like a river, connecting every verse to the next one, every chorus to the story it's telling. Political records. Story records. The kind where you can't just shuffle the tracks because they belong in order, each one leading to the next.
 
+**[Teaching AI to Have Taste](lyrics/time-forgot/REPORT.md)** — An experiment in human-AI collaboration for songwriting. We built a framework that measures lyric quality: concreteness, clichés, show-don't-tell ratios, sensory language. Then we used it to write new lyrics that fit existing melodies. The report shows what worked, what didn't, and what the measurements reveal about writing.
+
 ## What Lives Here
 
 Right now there's one album sitting in these folders. Stone Gospel Rising by Precious Jim Stone. Eight tracks about Texas and uprising and the people who build roads and then have to march on them. It's got oil fields and border crossings and state capitol confrontations. Liberation theology set to stripped-down rock and roll in the key of Bb.

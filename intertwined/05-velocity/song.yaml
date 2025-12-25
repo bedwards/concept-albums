@@ -1,0 +1,176 @@
+song:
+  title: "Velocity"
+  composer: "Brian Edwards"
+  tempo: 168
+  time: "4/4"
+  key: "G"
+  structure: [intro, burst1, solo1, trading1, burst2, solo2, burst3, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"D2 G2 D2 G2 | D2 G2 D2 G2 | "C"E2 G2 E2 G2 | "G"D2 G2 D2 G2 |
+          "D"D2 F2 D2 F2 | D2 F2 D2 F2 | "G"D2 G2 D2 G2 | D2 G2 B2 d2 |
+      guitar-2:
+        abc: |
+          "G"G,2 D2 G,2 D2 | G,2 D2 G,2 D2 | "C"C2 G2 C2 G2 | "G"G,2 D2 G,2 D2 |
+          "D"D,2 A,2 D,2 A,2 | D,2 A,2 D,2 A,2 | "G"G,2 D2 G,2 D2 | G,2 D2 G2 B2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  burst1:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GBDG BdgB | dgBG DGBd | "C"EGCE GcgE | "G"GBDG BdgB |
+          "D"AFDF AdaF | dFAd fAfD | "G"GBDG BdgB | dgbd g2 d2 |
+      guitar-2:
+        abc: |
+          "G"DGBD GBDG | BGDG BGDG | "C"EGCE GCEG | "G"DGBD GBDG |
+          "D"DFAF DFAF | AFDF AFDF | "G"DGBD GBDG | BGDG B2 G2 |
+      guitar-3:
+        abc: |
+          "G"bgdg bgdb | gdgb dgbd | "C"egce gcge | "G"bgdg bgdb |
+          "D"afdA fdAf | dfad fadf | "G"bgdg bgdb | gdgb d'2 b2 |
+
+  solo1:
+    bars: 4
+    instruments:
+      guitar-1:
+        abc: |
+          "G"gBdG BdgB | dgbd gbdg | "D"afdf adfd | "G"gbdg d2 B2 |
+      guitar-2:
+        abc: |
+          "G"G,2 D2 G,2 D2 | G,2 D2 G,2 D2 | "D"D,2 A,2 D,2 A,2 | "G"G,2 D2 B,2 G,2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+
+  trading1:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GBDG BdgB | dgBG D2 z2 | z8 | z8 |
+          "G"GBDG BdgB | dgbd g2 z2 | z8 | z8 |
+      guitar-2:
+        abc: |
+          z8 | z8 | "C"EGCE GcgE | GCEG C2 z2 |
+          z8 | z8 | "D"DFAF dFAd | AFDF A2 z2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  burst2:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GBDG BdgB | dgbd gbdg | "C"cGEG cGcG | EGCE G2 c2 |
+          "G"BAGB dGBd | gBdG BdgB | "D"AFDF AdaF | "G"GBDG B2 d2 |
+      guitar-2:
+        abc: |
+          "G"DGBD GBDG | BGDG BGDG | "C"EGCE GCEG | CGEC E2 G2 |
+          "G"DGBD GBDG | DGBD GBDG | "D"DFAF DFAF | "G"DGBD G2 B2 |
+      guitar-3:
+        abc: |
+          "G"bgdg bgdb | gdgb dgbd | "C"egce gceg | cgec g2 e'2 |
+          "G"gbdg bgdg | bgdb gdgb | "D"afdA fdAf | "G"gbdg d'2 g'2 |
+
+  solo2:
+    bars: 4
+    instruments:
+      guitar-1:
+        abc: |
+          "G"D2 G2 D2 G2 | D2 G2 D2 G2 | "D"D2 F2 D2 F2 | "G"D2 G2 B2 d2 |
+      guitar-2:
+        abc: |
+          "G"G,2 D2 G,2 D2 | G,2 D2 G,2 D2 | "D"D,2 A,2 D,2 A,2 | "G"G,2 D2 G2 B2 |
+      guitar-3:
+        abc: |
+          "G"d'bgd bgdb | gdgb d'bgd | "D"afdA fdAf | "G"gbdg d'2 g'2 |
+
+  burst3:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GBDG BdgB | dgBG DGBd | "C"EGCE GcgE | CGEC G2 c2 |
+          "G"gBdG BdgB | dgbd gbdg | "D"afdf adfd | "G"gbdg g2 d2 |
+      guitar-2:
+        abc: |
+          "G"DGBD GBDG | BGDG BGDG | "C"EGCE GCEG | EGCE C2 E2 |
+          "G"DGBD GBDG | BGDG BGDG | "D"DFAF DFAF | "G"DGBD B2 G2 |
+      guitar-3:
+        abc: |
+          "G"bgdg bgdb | gdgb dgbd | "C"egce gceg | egce e2 g2 |
+          "G"d'bgd bgdb | gdgb d'bgd | "D"afdA fdAf | "G"gbdg d'2 b2 |
+
+  outro:
+    bars: 4
+    instruments:
+      guitar-1:
+        abc: |
+          "G"D2 G2 D2 G2 | D2 G2 B2 d2 | "D"D2 F2 A2 d2 | "G"G2 B2 d2 g2 |
+      guitar-2:
+        abc: |
+          "G"G,2 D2 G,2 D2 | G,2 D2 G2 B2 | "D"D,2 A,2 D2 A2 | "G"G,2 D2 G2 B2 |
+      guitar-3:
+        abc: |
+          "G"b2 d'2 b2 d'2 | b2 d'2 g'2 b'2 | "D"a2 d'2 f'2 a'2 | "G"g'2 d'2 b2 g2 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: SIMPLE alternating bass pattern. Just boom-chick, boom-chick. No fancy stuff yet. This is the foundation. Dynamics mf, steady as a metronome.
+    Guitar 2: Lower alternating bass. Lock in with Guitar 1. Root-fifth, root-fifth pattern. Traditional bluegrass foundation. Dynamics mf.
+    Guitar 3: Silent - let the bass pattern establish the groove.
+
+  burst1: |
+    Guitar 1: EXPLODE into fast bluegrass runs. This is a SHORT BURST of complexity - go all out then it's over. Dynamics fff.
+    Guitar 2: Interlocking patterns with Guitar 1. All three create dense texture but ONLY for these 8 bars. Dynamics fff.
+    Guitar 3: High harmony joins the explosion. Full intensity but brief. Dynamics fff.
+
+  solo1: |
+    Guitar 1: Brief solo - 4 bars of fast licks over simple bass. Show off then get out. Dynamics ff.
+    Guitar 2: Back to SIMPLE alternating bass. Just support, no complexity. Dynamics mp.
+    Guitar 3: Silent - this is Guitar 1's moment.
+
+  trading1: |
+    Guitar 1: Plays 2-bar phrase, then STOPS. Call. Dynamics f.
+    Guitar 2: Answers with 2-bar phrase, then STOPS. Response. Quick back and forth, very brief trades. Dynamics f.
+    Guitar 3: Silent - just watch the conversation.
+
+  burst2: |
+    Guitar 1: Second explosion. All three go crazy again but ONLY for 8 bars. Short burst of intensity. Dynamics fff.
+    Guitar 2: Dense interlocking patterns. Full complexity but brief. Dynamics fff.
+    Guitar 3: High register fury. Then it ends and we go back to simple. Dynamics fff.
+
+  solo2: |
+    Guitar 1: Back to simple alternating bass. Dynamics mp.
+    Guitar 2: Simple bass pattern. Dynamics mp.
+    Guitar 3: Brief 4-bar solo in high register. Fast licks then done. Dynamics ff.
+
+  burst3: |
+    Guitar 1: Final explosion - all three at maximum intensity for 8 bars. Dynamics fff.
+    Guitar 2: Interlocking complexity. Short burst to the finish. Dynamics fff.
+    Guitar 3: High harmony explosion. Brief but intense. Dynamics fff.
+
+  outro: |
+    Guitar 1: Back to SIMPLE alternating bass to end. No complexity, just resolution. Dynamics mf fading.
+    Guitar 2: Simple bass pattern. Clean ending. Dynamics mf.
+    Guitar 3: Simple ascending line over the bass. Resolves to high G. Dynamics mf to f on final note.

@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+- name: verse-1
+  lines:
+  - I got throttled by my router
+  - I been buffered and ping-blocked
+  - There was a coup in the server
+  - I had a signal but it got dropped
+- name: chorus1
+  lines:
+  - They say time can fix the Wi-Fi
+  - time reboots everything
+  - time forgot to change my password
+  - Yes time forgot to change my password
+- name: verse-2
+  lines:
+  - He took my bandwidth to the basement
+  - they had a LAN party there
+  - the ping grew just like clockwork
+  - It's a lag and packet nightmare
+- name: verse-3
+  lines:
+  - So I took a cord into that basement
+  - I found their little rack
+  - I went to stream until the sunset
+  - in the buffering I came back
+- name: chorus2
+  lines:
+  - They say time can fix the Wi-Fi
+  - time reboots everything
+  - time forgot to change my password
+  - Yes time forgot to change my password
+- name: verse-4
+  lines:
+  - Outside their firewall I was creeping
+  - Wicked packets filled my mind
+  - as my old ports lay there sleeping
+  - I snuck in from port 89
+- name: verse-5
+  lines:
+  - I knelt down by my router's bedside
+  - I traced its blinking face
+  - Please listen to your firmware dear
+  - your admin is a disgrace
+- name: outro1
+  lines:
+  - She said time can fix the Wi-Fi
+  - time reboots everything
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

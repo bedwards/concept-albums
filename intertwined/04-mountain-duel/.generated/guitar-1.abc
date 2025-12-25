@@ -1,0 +1,28 @@
+X:1
+T:Mountain Duel
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=132
+K:G
+%%MIDI program 25
+%%MIDI chordprog -1
+GABG dGBG | GABG dGBG | cGEG cGEG | GBDG BGDG |
+z8 | z8 | z8 | z8 |
+GABG dBGB | dBGB AGFD | DAFA dAFA | GBDG B2 G2 |
+z8 | z8 | z8 | z8 |
+GABG dGBd | gdBG AGFE | cGEG cGcG | BGDG B2 G2 |
+z8 | z8 | z8 | z8 |
+gfed Bcde | dcBA GFED | cdef gfed | Bcde d2 B2 |
+z8 | z8 | z8 | z8 |
+GBDG BdgB | dgBG DGBG | AFDF Adfd | GBDG B2 G2 |
+z8 | z8 | z8 | z8 |
+GABG dGBG | GABG dGBd | cGEG cGEG | BGDG BGDG |
+AFDF AFDF | GBDG BdgB | cGEG cGcG | BGDG B2 G2 |
+dgBG dgBG | egcG egcG | fdAF dAFD | GBDG G2 z2 |
+G4 B4 | d4 g4 | c4 e4 | B4 d4 |
+GABG dGBd | gdBG DGBG | AFDF Adfd | GBDG B2 G2 |
+GABG dGBd | gdBG DGBG | cGEG cGcG | BGDG BdgB |
+AFDF Adfd | GBDG Bdgb | cGEG cgec' | bagf g2 d2 |
+gfed Bcde | dcBA GFED | cdef gabc' | bagf gfed |
+dcBA GFED | EGAB cdef | gfed cBAG | G2 B2 d2 G2 |

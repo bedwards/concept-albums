@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - do dooo, do do do, do doo doo doooo
+  - do dooo, do do do, do doo doo doooo
+- name: verse-1
+  lines:
+  - My heart is broken and it's bleeding
+  - I feel so very sad
+  - is really awful
+  - My life has gone so bad
+- name: chorus1
+  lines:
+  - They say that things will get much better
+  - tomorrow is a new day
+  - things forgot to get much better
+  - Yes things forgot to get much better
+- name: verse-2
+  lines:
+  - She was pretty and I liked her
+  - We had some happy times
+  - Now she's gone and I am lonely
+  - I cannot make these rhymes
+- name: verse-3
+  lines:
+  - I sat around and thought about it
+  - I cried a lot of tears
+  - I hope that someday I'll be happy
+  - Maybe in some years
+- name: chorus2
+  lines:
+  - They say that things will get much better
+  - tomorrow is a new day
+  - things forgot to get much better
+  - Yes things forgot to get much better
+- name: verse-4
+  lines:
+  - I tried to call her on the telephone
+  - She would not pick it up
+  - I left a message on the voicemail
+  - I really messed things up
+- name: verse-5
+  lines:
+  - I guess I learned a lot of lessons
+  - love and about pain
+  - I hope the next time will be different
+  - I won't make mistakes again
+- name: outro1
+  lines:
+  - She said that things will get much better
+  - tomorrow is a new day
+  - do dooo, do do do, do doo doo doooo
+  - do dooo, do do do, do doo doo doooo
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

@@ -1,0 +1,43 @@
+TEMPO: 160 bpm
+TIME: 4/4
+KEY: A
+
+INTRO
+Guitar 1: Simple, driving power chord rhythm. Quarter notes, relentless. Hypnotic repetition. Dynamics f, raw attack.
+Guitar 2: Syncopated bass line - NOT just doubling Guitar 1. Rests and offbeat notes create rhythmic tension with Guitar 1. Punk bass energy. Dynamics f.
+Guitar 3: Jangly melodic line on top. New wave jangle, adds brightness. Dynamics mf-f.
+
+VERSE1
+Guitar 1: Continue the driving power chord pattern. A-G-A progression. Dynamics f.
+Guitar 2: Walking/syncopated bass with rests and rhythmic variation. Interlocks with Guitar 1 but has its own thing going. Dynamics f.
+Guitar 3: Simple melodic riff with variations. New wave jangle meets punk energy. Dynamics f.
+
+CHORUS
+Guitar 1: Lift to D chord - simple power chord change. Dynamics ff.
+Guitar 2: More active bass line for chorus energy - walking patterns and syncopation. Dynamics ff.
+Guitar 3: Higher melodic line. Dynamics ff.
+
+VERSE2
+Guitar 1: Same power chord pattern. Dynamics f.
+Guitar 2: Different syncopated bass variation - keeps it from being boring. Dynamics f.
+Guitar 3: Slight melodic variation. Dynamics f.
+
+CHORUS2
+Guitar 1: Same chorus riff. Dynamics ff.
+Guitar 2: Busier bass line - more movement. Dynamics ff.
+Guitar 3: Same melodic line. Dynamics ff.
+
+BRIDGE
+Guitar 1: Shift to F-G progression. Dynamics mf to f.
+Guitar 2: Walking bass follows the changes with syncopation. Dynamics mf to f.
+Guitar 3: Melodic variation over bridge. Dynamics mf to f.
+
+CHORUS3
+Guitar 1: Final chorus - maximum energy. Dynamics fff.
+Guitar 2: Locked in bass with maximum movement. Dynamics fff.
+Guitar 3: Jangly melody, full force. Dynamics fff.
+
+OUTRO
+Guitar 1: Back to intro riff. Fade out. Dynamics f to mp.
+Guitar 2: Syncopated bass fades. Dynamics f to mp.
+Guitar 3: Jangly melody rings out. Dynamics f to mp.

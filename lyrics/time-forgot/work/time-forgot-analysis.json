@@ -1,0 +1,728 @@
+{
+  "overall": {
+    "total_lines": 34,
+    "rhyme": {
+      "scheme": [
+        "A",
+        "A",
+        "B",
+        "C",
+        "D",
+        "C",
+        "E",
+        "F",
+        "G",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "H",
+        "L",
+        "M",
+        "L",
+        "E",
+        "F",
+        "G",
+        "G",
+        "N",
+        "O",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "F",
+        "A",
+        "A"
+      ],
+      "scheme_string": "AABCDCEFGGHIJKHLMLEFGGNONOPQRQEFAA",
+      "unique_rhymes": 18,
+      "rhyme_types": {
+        "couplet": true,
+        "alternate": false,
+        "enclosed": false,
+        "terza_rima": false
+      },
+      "rhyme_density": 1.0
+    },
+    "meter": {
+      "patterns": [
+        "101111000",
+        "101111000",
+        "11101110",
+        "11100101",
+        "11010010",
+        "11011111",
+        "111110101",
+        "110102",
+        "1011111",
+        "11011111",
+        "1111010010",
+        "110101",
+        "1111111",
+        "11010101",
+        "1110110110",
+        "111101",
+        "111101012",
+        "0010111",
+        "111110101",
+        "110102",
+        "1011111",
+        "11011111",
+        "111101110",
+        "1011111",
+        "11111110",
+        "110101",
+        "1111110112",
+        "111101",
+        "11011101",
+        "1101001",
+        "111110101",
+        "110102",
+        "101111000",
+        "101111000"
+      ],
+      "syllable_counts": [
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        9,
+        6,
+        7,
+        8,
+        10,
+        6,
+        7,
+        8,
+        10,
+        6,
+        9,
+        7,
+        9,
+        6,
+        7,
+        8,
+        9,
+        7,
+        8,
+        6,
+        10,
+        6,
+        8,
+        7,
+        9,
+        6,
+        9,
+        9
+      ],
+      "avg_syllables_per_line": 7.852941176470588,
+      "syllable_variance": 1.5960207612456747,
+      "dominant_meter": "free",
+      "meter_distribution": {
+        "free": 20,
+        "trochaic": 5,
+        "iambic": 9
+      },
+      "regularity": 0.5882352941176471
+    },
+    "pos": {
+      "pos_distribution": {
+        "PROPN": 18,
+        "NOUN": 59,
+        "PRON": 39,
+        "AUX": 9,
+        "VERB": 41,
+        "ADP": 15,
+        "CCONJ": 3,
+        "ADJ": 7,
+        "DET": 14,
+        "PART": 7,
+        "INTJ": 3,
+        "ADV": 5,
+        "SCONJ": 2
+      },
+      "noun_count": 59,
+      "verb_count": 41,
+      "adjective_count": 7,
+      "adverb_count": 5,
+      "noun_verb_ratio": 1.4390243902439024,
+      "unique_nouns": 28,
+      "unique_verbs": 28,
+      "sentence_count": 7,
+      "avg_sentence_length": 31.714285714285715,
+      "top_nouns": [
+        [
+          "time",
+          10
+        ],
+        [
+          "daa",
+          8
+        ],
+        [
+          "daaa",
+          4
+        ],
+        [
+          "daaaa",
+          4
+        ],
+        [
+          "heart",
+          4
+        ],
+        [
+          "pain",
+          3
+        ],
+        [
+          "da",
+          2
+        ],
+        [
+          "woman",
+          2
+        ],
+        [
+          "country",
+          2
+        ],
+        [
+          "baby",
+          2
+        ]
+      ],
+      "top_verbs": [
+        [
+          "forgot",
+          4
+        ],
+        [
+          "change",
+          4
+        ],
+        [
+          "take",
+          3
+        ],
+        [
+          "changes",
+          3
+        ],
+        [
+          "had",
+          2
+        ],
+        [
+          "say",
+          2
+        ],
+        [
+          "took",
+          2
+        ],
+        [
+          "trampled",
+          1
+        ],
+        [
+          "cheated",
+          1
+        ],
+        [
+          "crossed",
+          1
+        ]
+      ]
+    },
+    "phonetics": {
+      "total_phonemes": 641,
+      "unique_phonemes": 37,
+      "consonant_count": 390,
+      "vowel_count": 251,
+      "consonant_vowel_ratio": 1.5537848605577689,
+      "top_phonemes": [
+        [
+          "T",
+          53
+        ],
+        [
+          "D",
+          48
+        ],
+        [
+          "AH",
+          41
+        ],
+        [
+          "N",
+          41
+        ],
+        [
+          "AY",
+          37
+        ],
+        [
+          "AA",
+          34
+        ],
+        [
+          "EY",
+          30
+        ],
+        [
+          "R",
+          28
+        ],
+        [
+          "M",
+          28
+        ],
+        [
+          "IH",
+          25
+        ]
+      ],
+      "alliteration_count": 18
+    },
+    "vocabulary": {
+      "total_words": 220,
+      "unique_words": 100,
+      "unique_lemmas": 94,
+      "type_token_ratio": 0.45454545454545453,
+      "avg_word_length": 3.8,
+      "avg_syllables_per_word": 1.2045454545454546,
+      "long_words": 3,
+      "polysyllabic_words": 3
+    },
+    "structure": {
+      "total_sections": 9,
+      "section_types": [
+        "chorus",
+        "verse-",
+        "intro",
+        "outro"
+      ],
+      "section_order": [
+        "intro1",
+        "verse-1",
+        "chorus1",
+        "verse-2",
+        "verse-3",
+        "chorus2",
+        "verse-4",
+        "verse-5",
+        "outro1"
+      ],
+      "section_lengths": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "avg_section_length": 3.7777777777777777,
+      "has_chorus": true,
+      "has_bridge": false,
+      "chorus_count": 2,
+      "verse_count": 0
+    }
+  },
+  "sections": [
+    {
+      "name": "intro1",
+      "line_count": 2,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "A"
+        ],
+        "scheme_string": "AA",
+        "unique_rhymes": 1,
+        "rhyme_types": {
+          "couplet": true,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "101111000",
+          "101111000"
+        ],
+        "syllable_counts": [
+          9,
+          9
+        ],
+        "avg_syllables_per_line": 9.0,
+        "syllable_variance": 0.0,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "free": 2
+        },
+        "regularity": 1.0
+      }
+    },
+    {
+      "name": "verse-1",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "B"
+        ],
+        "scheme_string": "ABCB",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": false,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "11101110",
+          "11100101",
+          "11010010",
+          "11011111"
+        ],
+        "syllable_counts": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "avg_syllables_per_line": 8.0,
+        "syllable_variance": 0.0,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "trochaic": 1,
+          "iambic": 1,
+          "free": 2
+        },
+        "regularity": 0.5
+      }
+    },
+    {
+      "name": "chorus1",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "C"
+        ],
+        "scheme_string": "ABCC",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": true,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "111110101",
+          "110102",
+          "1011111",
+          "11011111"
+        ],
+        "syllable_counts": [
+          9,
+          6,
+          7,
+          8
+        ],
+        "avg_syllables_per_line": 7.5,
+        "syllable_variance": 1.25,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "trochaic": 1,
+          "iambic": 1,
+          "free": 2
+        },
+        "regularity": 0.5
+      }
+    },
+    {
+      "name": "verse-2",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "scheme_string": "ABCD",
+        "unique_rhymes": 4,
+        "rhyme_types": {
+          "couplet": false,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "1111010010",
+          "110101",
+          "1111111",
+          "11010101"
+        ],
+        "syllable_counts": [
+          10,
+          6,
+          7,
+          8
+        ],
+        "avg_syllables_per_line": 7.75,
+        "syllable_variance": 2.1875,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "free": 2,
+          "iambic": 2
+        },
+        "regularity": 0.5
+      }
+    },
+    {
+      "name": "verse-3",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "B"
+        ],
+        "scheme_string": "ABCB",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": false,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "1110110110",
+          "111101",
+          "111101012",
+          "0010111"
+        ],
+        "syllable_counts": [
+          10,
+          6,
+          9,
+          7
+        ],
+        "avg_syllables_per_line": 8.0,
+        "syllable_variance": 2.5,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "trochaic": 1,
+          "free": 2,
+          "iambic": 1
+        },
+        "regularity": 0.5
+      }
+    },
+    {
+      "name": "chorus2",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "C"
+        ],
+        "scheme_string": "ABCC",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": true,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "111110101",
+          "110102",
+          "1011111",
+          "11011111"
+        ],
+        "syllable_counts": [
+          9,
+          6,
+          7,
+          8
+        ],
+        "avg_syllables_per_line": 7.5,
+        "syllable_variance": 1.25,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "trochaic": 1,
+          "iambic": 1,
+          "free": 2
+        },
+        "regularity": 0.5
+      }
+    },
+    {
+      "name": "verse-4",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        "scheme_string": "ABAB",
+        "unique_rhymes": 2,
+        "rhyme_types": {
+          "couplet": false,
+          "alternate": true,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "111101110",
+          "1011111",
+          "11111110",
+          "110101"
+        ],
+        "syllable_counts": [
+          9,
+          7,
+          8,
+          6
+        ],
+        "avg_syllables_per_line": 7.5,
+        "syllable_variance": 1.25,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "free": 3,
+          "iambic": 1
+        },
+        "regularity": 0.75
+      }
+    },
+    {
+      "name": "verse-5",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "B"
+        ],
+        "scheme_string": "ABCB",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": false,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "1111110112",
+          "111101",
+          "11011101",
+          "1101001"
+        ],
+        "syllable_counts": [
+          10,
+          6,
+          8,
+          7
+        ],
+        "avg_syllables_per_line": 7.75,
+        "syllable_variance": 2.1875,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "free": 3,
+          "iambic": 1
+        },
+        "regularity": 0.75
+      }
+    },
+    {
+      "name": "outro1",
+      "line_count": 4,
+      "rhyme": {
+        "scheme": [
+          "A",
+          "B",
+          "C",
+          "C"
+        ],
+        "scheme_string": "ABCC",
+        "unique_rhymes": 3,
+        "rhyme_types": {
+          "couplet": true,
+          "alternate": false,
+          "enclosed": false,
+          "terza_rima": false
+        },
+        "rhyme_density": 1.0
+      },
+      "meter": {
+        "patterns": [
+          "111110101",
+          "110102",
+          "101111000",
+          "101111000"
+        ],
+        "syllable_counts": [
+          9,
+          6,
+          9,
+          9
+        ],
+        "avg_syllables_per_line": 8.25,
+        "syllable_variance": 1.6875,
+        "dominant_meter": "free",
+        "meter_distribution": {
+          "trochaic": 1,
+          "iambic": 1,
+          "free": 2
+        },
+        "regularity": 0.5
+      }
+    }
+  ]
+}

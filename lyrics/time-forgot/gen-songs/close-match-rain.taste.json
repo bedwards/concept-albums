@@ -1,0 +1,93 @@
+{
+  "overall_taste_score": 70.65419395378902,
+  "component_scores": {
+    "concreteness": 68.43428571428572,
+    "cliche_free": 60,
+    "show_dont_tell": 73.25581395348837,
+    "sensory_richness": 84.0497737556561
+  },
+  "concreteness": {
+    "avg_concreteness": 3.710857142857143,
+    "rated_word_count": 35,
+    "unrated_word_count": 186,
+    "coverage": 0.1583710407239819,
+    "concrete_words": [
+      "cross",
+      "rain",
+      "window"
+    ],
+    "abstract_words": [
+      "thought",
+      "everything",
+      "lie"
+    ],
+    "concreteness_distribution": {
+      "very_concrete_4.5+": 12,
+      "concrete_3.5-4.5": 10,
+      "moderate_2.5-3.5": 7,
+      "abstract_1.5-2.5": 6,
+      "very_abstract_<1.5": 0
+    }
+  },
+  "cliches": {
+    "cliches_found": [
+      {
+        "phrase": "heart",
+        "count": 1
+      },
+      {
+        "phrase": "love",
+        "count": 1
+      }
+    ],
+    "cliche_count": 2,
+    "total_cliche_instances": 2,
+    "cliche_word_density": 0.00904977375565611,
+    "cliche_free": false
+  },
+  "show_dont_tell": {
+    "total_verbs": 43,
+    "state_verb_count": 2,
+    "strong_verb_count": 1,
+    "other_verb_count": 40,
+    "show_tell_ratio": 0.4883720930232558,
+    "telling_examples": [
+      "know",
+      "be"
+    ],
+    "showing_examples": [
+      "creep"
+    ],
+    "verdict": "balanced"
+  },
+  "sensory": {
+    "sensory_word_count": 4,
+    "sensory_density": 0.01809954751131222,
+    "by_sense": {
+      "sight": 0,
+      "sound": 1,
+      "touch": 2,
+      "smell": 0,
+      "taste": 1
+    },
+    "examples_by_sense": {
+      "sight": [],
+      "sound": [
+        "ring"
+      ],
+      "touch": [
+        "cold",
+        "brush"
+      ],
+      "smell": [],
+      "taste": [
+        "bitter"
+      ]
+    },
+    "dominant_sense": "touch",
+    "sense_variety": 3
+  },
+  "recommendations": [
+    "CLICH\u00c9S: Found 2 clich\u00e9(s): [heart, love]. Replace with original imagery."
+  ]
+}

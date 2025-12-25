@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+- name: verse-1
+  lines:
+  - I got trampled by my woman
+  - I been cheated and double-crossed
+  - There was a coup in the alter
+  - I had a friend but he got lost
+- name: chorus1
+  lines:
+  - They say time can take the pain away
+  - time changes everything
+  - time forgot to change my heart
+  - Yes time forgot to change my heart
+- name: verse-2
+  lines:
+  - He took my woman into the country
+  - they had a baby girl
+  - she grew to look just like me
+  - It's a mean and wicked world
+- name: verse-3
+  lines:
+  - So I took a train into that country
+  - I found their little shack
+  - I went to drink until the sunset
+  - in the darkness I came back
+- name: chorus2
+  lines:
+  - They say time can take the pain away
+  - time changes everything
+  - time forgot to change my heart
+  - Yes time forgot to change my heart
+- name: verse-4
+  lines:
+  - Outside their window I was creeping
+  - Wicked thoughts they filled my mind
+  - as my old friends lay there sleeping
+  - I snuck in from behind
+- name: verse-5
+  lines:
+  - I knelt down by my baby's bedside
+  - I grazed her lily face
+  - Please listen to your mother dear
+  - your father is a disgrace
+- name: outro1
+  lines:
+  - She said time can take the pain away
+  - time changes everything
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

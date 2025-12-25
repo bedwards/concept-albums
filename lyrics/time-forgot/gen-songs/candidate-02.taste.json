@@ -1,0 +1,102 @@
+{
+  "overall_taste_score": 74.44432123904727,
+  "component_scores": {
+    "concreteness": 88.45405405405404,
+    "cliche_free": 60,
+    "show_dont_tell": 82.5,
+    "sensory_richness": 61.41552511415525
+  },
+  "concreteness": {
+    "avg_concreteness": 4.211351351351351,
+    "rated_word_count": 37,
+    "unrated_word_count": 182,
+    "coverage": 0.1689497716894977,
+    "concrete_words": [
+      "fire",
+      "blood",
+      "gun",
+      "table",
+      "whiskey",
+      "window",
+      "ash",
+      "ink",
+      "face",
+      "barn",
+      "rain",
+      "letter"
+    ],
+    "abstract_words": [
+      "lie",
+      "sorrow",
+      "everything"
+    ],
+    "concreteness_distribution": {
+      "very_concrete_4.5+": 24,
+      "concrete_3.5-4.5": 7,
+      "moderate_2.5-3.5": 1,
+      "abstract_1.5-2.5": 5,
+      "very_abstract_<1.5": 0
+    }
+  },
+  "cliches": {
+    "cliches_found": [
+      {
+        "phrase": "desire",
+        "count": 1
+      },
+      {
+        "phrase": "fire",
+        "count": 1
+      }
+    ],
+    "cliche_count": 2,
+    "total_cliche_instances": 2,
+    "cliche_word_density": 0.0091324200913242,
+    "cliche_free": false
+  },
+  "show_dont_tell": {
+    "total_verbs": 40,
+    "state_verb_count": 0,
+    "strong_verb_count": 4,
+    "other_verb_count": 36,
+    "show_tell_ratio": 0.55,
+    "telling_examples": [],
+    "showing_examples": [
+      "tremble",
+      "drive",
+      "walk"
+    ],
+    "verdict": "balanced"
+  },
+  "sensory": {
+    "sensory_word_count": 5,
+    "sensory_density": 0.0228310502283105,
+    "by_sense": {
+      "sight": 2,
+      "sound": 0,
+      "touch": 3,
+      "smell": 0,
+      "taste": 0
+    },
+    "examples_by_sense": {
+      "sight": [
+        "watch",
+        "see"
+      ],
+      "sound": [],
+      "touch": [
+        "cold",
+        "dry",
+        "hold"
+      ],
+      "smell": [],
+      "taste": []
+    },
+    "dominant_sense": "touch",
+    "sense_variety": 2
+  },
+  "recommendations": [
+    "CLICH\u00c9S: Found 2 clich\u00e9(s): [desire, fire]. Replace with original imagery.",
+    "SENSORY: Only 2 senses engaged. Add sound, smell imagery."
+  ]
+}

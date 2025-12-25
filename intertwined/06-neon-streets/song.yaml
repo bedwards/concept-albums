@@ -1,0 +1,197 @@
+song:
+  title: "Neon Streets"
+  composer: "Brian Edwards"
+  tempo: 160
+  time: "4/4"
+  key: "A"
+  structure: [intro, verse1, chorus, verse2, chorus2, bridge, chorus3, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "D"D2 D2 "E"E2 E2 | "A"A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "A"A,2 zA E2 zC | A,2 zA E2 zC | "G"G,2 zG, D2 zB, | "A"A,2 zA E2 zC |
+          "A"A,2 zA E2 zA | A,2 E2 C2 A,2 | "D"D2 zA, "E"E2 zB, | "A"A,2 E2 A,2 z2 |
+      guitar-3:
+        abc: |
+          "A"e2 e2 e2 c2 | e2 e2 e2 c2 | "G"d2 d2 d2 B2 | "A"e2 e2 e2 c2 |
+          "A"e2 e2 e2 c2 | e2 e2 e2 c2 | "D"f2 f2 "E"g2 g2 | "A"e2 e2 e2 z2 |
+
+  verse1:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "D"D2 D2 "E"E2 E2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "F"F2 F2 F2 F2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 | A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "A"A,2 zA E2 zC | A,E,A,E, A,E,CE | "G"G,2 zG, D2 zB, | "A"A,2 zA E2 zA |
+          "A"A,E,A,C E2 zE | A,2 E2 A,2 E2 | "D"D2 zF "E"E2 zG | "A"A,2 E2 A,2 E2 |
+          "A"A,E,A,E, C2 zA, | E2 zA, C2 E2 | "G"G,D,G,D, B,2 zG, | "A"A,E,A,C E2 A2 |
+          "F"F,2 zC F2 zA | "G"G,2 zD G2 zB | "A"A,E,CE A,E,A,C | E2 A2 E2 z2 |
+      guitar-3:
+        abc: |
+          "A"e2 ec A2 ec | e2 ec A2 ec | "G"d2 dB G2 dB | "A"e2 ec A2 ec |
+          "A"e2 ec A2 ec | e2 ec A2 ec | "D"f2 fd "E"g2 ge | "A"e2 ec A2 ec |
+          "A"e2 ec A2 ec | e2 ec A2 ec | "G"d2 dB G2 dB | "A"e2 ec A2 ec |
+          "F"c2 cA F2 cA | "G"d2 dB G2 dB | "A"e2 ec A2 Ac | e2 ec e2 z2 |
+
+  chorus:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "D"D2 D2 D2 D2 | D2 D2 D2 D2 | "A"A2 A2 A2 A2 | A2 A2 A2 A2 |
+          "E"E2 E2 E2 E2 | E2 E2 E2 E2 | "A"A2 A2 A2 A2 | A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "D"D2 zF A2 zF | D2 FA DF,A,D | "A"A,2 zE A2 zC | A,E,A,C EA,CE |
+          "E"E2 zG B2 zG | E2 GB EG,BE, | "A"A,2 E2 A2 E2 | A,E,A,E C2 z2 |
+      guitar-3:
+        abc: |
+          "D"f2 fd d2 fd | f2 fd d2 fd | "A"e2 ec A2 ec | e2 ec A2 ec |
+          "E"g2 ge e2 ge | g2 ge e2 ge | "A"e2 ec A2 Ac | e2 ec e2 z2 |
+
+  verse2:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "D"D2 D2 "E"E2 E2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "F"F2 F2 F2 F2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 | A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "A"zA,E,A, zE,A,C | A,2 CE A,2 E2 | "G"zG,D,G, zD,G,B, | "A"zA,E,A, zC,E,A, |
+          "A"A,E,A,C E2 A2 | C2 A,2 E2 C2 | "D"zD,A,D "E"zE,B,E | "A"A,2 CE A,2 C2 |
+          "A"E,A,CE A,E,A,C | zA,CE zEA,C | "G"D,G,D,B, G,D,G,B, | "A"E,A,CE A,E,CE |
+          "F"F,2 CF F,2 A,2 | "G"G,2 DG G,2 B,2 | "A"A,E,CE A,2 E2 | C2 E2 A2 z2 |
+      guitar-3:
+        abc: |
+          "A"c2 ce A2 ce | c2 ce A2 ce | "G"B2 Bd G2 Bd | "A"c2 ce A2 ce |
+          "A"c2 ce A2 ce | c2 ce A2 ce | "D"d2 df "E"e2 eg | "A"c2 ce A2 ce |
+          "A"c2 ce A2 ce | c2 ce A2 ce | "G"B2 Bd G2 Bd | "A"c2 ce A2 ce |
+          "F"A2 Ac F2 Ac | "G"B2 Bd G2 Bd | "A"c2 ce A2 ce | c2 ce c2 z2 |
+
+  chorus2:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "D"D2 D2 D2 D2 | D2 D2 D2 D2 | "A"A2 A2 A2 A2 | A2 A2 A2 A2 |
+          "E"E2 E2 E2 E2 | E2 E2 E2 E2 | "A"A2 A2 A2 A2 | A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "D"zD,FA, zD,FD | DF,A,D FA,DF | "A"zA,CE zA,EA | CE,A,C EA,CE |
+          "E"zE,GB, zE,GE | GB,E,G BE,GB, | "A"zA,E,C zA,EA | A,E,A,C E2 z2 |
+      guitar-3:
+        abc: |
+          "D"f2 fd d2 fd | f2 fd d2 fd | "A"e2 ec A2 ec | e2 ec A2 ec |
+          "E"g2 ge e2 ge | g2 ge e2 ge | "A"e2 ec A2 Ac | e2 ec e2 z2 |
+
+  bridge:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "F"F2 F2 F2 F2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 | A2 A2 A2 A2 |
+          "F"F2 F2 F2 F2 | "G"G2 G2 G2 G2 | "E"E2 E2 E2 E2 | E2 E2 E2 z2 |
+      guitar-2:
+        abc: |
+          "F"F,2 zC F2 zC | F,CF,A C2 F2 | "G"G,2 zD G2 zD | G,DG,B D2 G2 |
+          "A"A,2 zE A2 zE | A,EA,C E2 A2 | "E"E,2 zB, E2 zG | B,2 E2 B,2 z2 |
+      guitar-3:
+        abc: |
+          "F"c2 cA F2 cA | "G"d2 dB G2 dB | "A"e2 ec A2 ec | e2 ec A2 ec |
+          "F"c2 cA F2 cA | "G"d2 dB G2 dB | "E"g2 ge B2 ge | g2 ge g2 z2 |
+
+  chorus3:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "D"D2 D2 D2 D2 | D2 D2 D2 D2 | "A"A2 A2 A2 A2 | A2 A2 A2 A2 |
+          "E"E2 E2 E2 E2 | E2 E2 E2 E2 | "A"A2 A2 A2 A2 | A2 A2 A2 z2 |
+      guitar-2:
+        abc: |
+          "D"D2 FA DF,A,D | FA,DF A,DF,A, | "A"A,2 CE A,E,CE | EA,CE A,E,A,C |
+          "E"E2 GB EG,BE, | GB,E,G BE,GB, | "A"A,E,A,C E2 A2 | C2 E2 A2 z2 |
+      guitar-3:
+        abc: |
+          "D"f2 fd d2 fd | f2 fd d2 fd | "A"e2 ec A2 ec | e2 ec A2 ec |
+          "E"g2 ge e2 ge | g2 ge e2 ge | "A"e2 ec A2 Ac | e2 ec e2 z2 |
+
+  outro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "G"G2 G2 G2 G2 | "A"A2 A2 A2 A2 |
+          "A"A2 A2 A2 A2 | A2 A2 A2 A2 | "D"D2 D2 "E"E2 E2 | "A"A2 A2 A4 |
+      guitar-2:
+        abc: |
+          "A"A,2 zA E2 zC | A,2 E2 A,2 C2 | "G"G,2 zG, D2 zB, | "A"A,2 E2 A,2 E2 |
+          "A"A,E,A,C E2 A2 | C2 E2 A2 C2 | "D"D2 zA, "E"E2 zB, | "A"A,2 E2 A,4 |
+      guitar-3:
+        abc: |
+          "A"e2 e2 e2 c2 | e2 e2 e2 c2 | "G"d2 d2 d2 B2 | "A"e2 e2 e2 c2 |
+          "A"e2 e2 e2 c2 | e2 e2 e2 c2 | "D"f2 f2 "E"g2 g2 | "A"e2 e2 e4 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: Simple, driving power chord rhythm. Quarter notes, relentless. Hypnotic repetition. Dynamics f, raw attack.
+    Guitar 2: Syncopated bass line - NOT just doubling Guitar 1. Rests and offbeat notes create rhythmic tension with Guitar 1. Punk bass energy. Dynamics f.
+    Guitar 3: Jangly melodic line on top. New wave jangle, adds brightness. Dynamics mf-f.
+
+  verse1: |
+    Guitar 1: Continue the driving power chord pattern. A-G-A progression. Dynamics f.
+    Guitar 2: Walking/syncopated bass with rests and rhythmic variation. Interlocks with Guitar 1 but has its own thing going. Dynamics f.
+    Guitar 3: Simple melodic riff with variations. New wave jangle meets punk energy. Dynamics f.
+
+  chorus: |
+    Guitar 1: Lift to D chord - simple power chord change. Dynamics ff.
+    Guitar 2: More active bass line for chorus energy - walking patterns and syncopation. Dynamics ff.
+    Guitar 3: Higher melodic line. Dynamics ff.
+
+  verse2: |
+    Guitar 1: Same power chord pattern. Dynamics f.
+    Guitar 2: Different syncopated bass variation - keeps it from being boring. Dynamics f.
+    Guitar 3: Slight melodic variation. Dynamics f.
+
+  chorus2: |
+    Guitar 1: Same chorus riff. Dynamics ff.
+    Guitar 2: Busier bass line - more movement. Dynamics ff.
+    Guitar 3: Same melodic line. Dynamics ff.
+
+  bridge: |
+    Guitar 1: Shift to F-G progression. Dynamics mf to f.
+    Guitar 2: Walking bass follows the changes with syncopation. Dynamics mf to f.
+    Guitar 3: Melodic variation over bridge. Dynamics mf to f.
+
+  chorus3: |
+    Guitar 1: Final chorus - maximum energy. Dynamics fff.
+    Guitar 2: Locked in bass with maximum movement. Dynamics fff.
+    Guitar 3: Jangly melody, full force. Dynamics fff.
+
+  outro: |
+    Guitar 1: Back to intro riff. Fade out. Dynamics f to mp.
+    Guitar 2: Syncopated bass fades. Dynamics f to mp.
+    Guitar 3: Jangly melody rings out. Dynamics f to mp.

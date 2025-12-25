@@ -1,0 +1,146 @@
+song:
+  title: "Two Rivers"
+  composer: "Brian Edwards"
+  tempo: 96
+  time: "4/4"
+  key: "G"
+  structure: [intro, partA, partB, partC, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"B2 BA G2 FE | "C"E3 G G2 A2 | "G"B2 d2 "D"c2 BA | "G"B4 D2 G2 |
+          "Em"G2 GE "C"E2 c2 | "D"A3 G F2 ED | "G"G2 B2 d2 dB | "C"c4 "G"B4 |
+      guitar-2:
+        abc: |
+          "G"D2 EF G2 D2 | "C"C3 E E2 F2 | "G"G2 B2 "D"A2 FE | "G"G4 B,2 D2 |
+          "Em"E2 B,C "C"C2 E2 | "D"F3 E D2 CA, | "G"B,2 D2 G2 GB, | "C"E4 "G"D4 |
+      guitar-3:
+        abc: |
+          "G"d2 ed g2 ba | "C"g3 e e2 g2 | "G"d2 g2 "D"a2 gf | "G"g4 b2 d'2 |
+          "Em"b2 ge "C"g2 e'2 | "D"d'3 b a2 gf | "G"d2 g2 b2 bg | "C"e'4 "G"d'4 |
+
+  partA:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"B2 dB "D"A2 FD | "Em"G2 B2 E2 G2 | "C"c2 BA "G"B2 AG | "D"A4 F2 D2 |
+          "G"G2 BA "C"c2 ed | "D"d2 cB A2 GF | "Em"E2 GB "C"c2 BA | "G"G4 "D"A4 |
+          "G"B2 de "D"d2 cA | "Em"B2 G2 "C"E2 c2 | "G"d2 BG "D"A2 dc | "G"B4 G2 B2 |
+          "C"c2 ed "D"d2 BA | "Em"G2 E2 "C"c2 AG | "G"B2 dB "D"A2 F2 | "G"G6 z2 |
+      guitar-2:
+        abc: |
+          "G"G2 BG "D"F2 DA, | "Em"E2 G2 B,2 E2 | "C"E2 GF "G"G2 ED | "D"F4 D2 A,2 |
+          "G"B,2 DE "C"E2 GA | "D"A2 GF E2 DC | "Em"B,2 EG "C"E2 GF | "G"D4 "D"F4 |
+          "G"G2 GB "D"A2 FD | "Em"G2 E2 "C"C2 E2 | "G"B2 GD "D"F2 AF | "G"G4 D2 G2 |
+          "C"E2 GA "D"A2 GF | "Em"E2 C2 "C"E2 CE | "G"G2 BG "D"F2 D2 | "G"B,6 z2 |
+      guitar-3:
+        abc: |
+          "G"g2 bg "D"a2 fd | "Em"b2 e'2 g2 b2 | "C"e'2 dc "G"d2 bg | "D"a4 d'2 a2 |
+          "G"b2 d'c' "C"e'2 ga | "D"a2 gf d2 ba | "Em"g2 be "C"e'2 d'c' | "G"b4 "D"d'4 |
+          "G"g2 ba "D"a2 gf | "Em"e'2 b2 "C"g2 e'2 | "G"g2 d'b "D"a2 fd' | "G"g4 b2 g2 |
+          "C"e'2 ga "D"a2 d'c' | "Em"b2 g2 "C"e'2 bg | "G"g2 bg "D"d'2 a2 | "G"b6 z2 |
+
+  partB:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"e2 dc "D"d2 cA | "C"c2 BA "G"B2 AG | "Am"A2 c2 "D"d2 c2 | "G"B4 G2 B2 |
+          "Em"e2 ge "D"d2 fd | "C"e2 dc "G"B2 dB | "Am"c2 BA "D"A2 F2 | "G"G4 D2 G2 |
+          "C"c2 ec "G"B2 dB | "D"A2 FD "Em"E2 G2 | "C"c2 eG "D"A2 dc | "G"B4 "D"A4 |
+          "Em"G2 B2 "C"c2 ed | "G"d2 BG "D"A2 dc | "Em"B2 eB "C"c2 AG | "G"G6 z2 |
+      guitar-2:
+        abc: |
+          "Em"E2 GE "D"F2 ED | "C"E2 GF "G"G2 ED | "Am"A,2 E2 "D"F2 E2 | "G"G4 D2 G2 |
+          "Em"E2 BE "D"A2 DA | "C"C2 EC "G"G2 BG | "Am"E2 DC "D"D2 A,2 | "G"B,4 B,2 D2 |
+          "C"E2 CE "G"G2 BG | "D"F2 DA, "Em"B,2 E2 | "C"E2 CG, "D"F2 AF | "G"G4 "D"F4 |
+          "Em"E2 G2 "C"E2 GA | "G"B2 GD "D"F2 AF | "Em"G2 BG "C"E2 CE | "G"D6 z2 |
+      guitar-3:
+        abc: |
+          "Em"g2 be "D"a2 gf | "C"e'2 d'c' "G"d2 bg | "Am"e2 a2 "D"a2 g2 | "G"g4 d2 g2 |
+          "Em"g2 be' "D"a2 ad' | "C"g2 ge "G"d2 gd | "Am"e'2 d'c' "D"d'2 a2 | "G"b4 g2 b2 |
+          "C"e'2 ge "G"d2 gd | "D"d'2 a'a "Em"g2 b2 | "C"e'2 gb "D"d'2 af' | "G"d'4 "D"a4 |
+          "Em"b2 e'2 "C"e'2 ga | "G"g2 d'b "D"d'2 af' | "Em"e'2 be' "C"e'2 bg | "G"b6 z2 |
+
+  partC:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"d2 BG "C"c2 AG | "D"A2 dc "Em"B2 GB | "C"c2 ec "G"d2 Bd | "D"c2 BA A4 |
+          "G"B2 dg "C"e2 cA | "D"d2 AF "Em"G2 E2 | "C"c2 eG "D"A2 dc | "G"B4 G4 |
+          "Em"e2 gf "D"d2 cB | "C"c2 ed "G"d2 BG | "Am"c2 eA "D"d2 c2 | "G"B2 d2 g4 |
+          "C"e2 dc "D"d2 BA | "Em"B2 ed "C"c2 BA | "G"B2 dg "D"f2 dc | "G"B6 z2 |
+      guitar-2:
+        abc: |
+          "G"B2 GD "C"E2 CE | "D"F2 AF "Em"G2 EG | "C"E2 CE "G"B2 GB | "D"A2 GF F4 |
+          "G"G2 BD "C"C2 EA, | "D"A2 DF "Em"E2 B,2 | "C"E2 CG, "D"F2 AF | "G"G4 B,4 |
+          "Em"B2 dc "D"A2 GF | "C"E2 GA "G"B2 GD | "Am"E2 CA, "D"A2 E2 | "G"G2 B2 d4 |
+          "C"C2 EC "D"A2 GF | "Em"G2 BE "C"E2 GF | "G"G2 Bd "D"A2 AF | "G"G6 z2 |
+      guitar-3:
+        abc: |
+          "G"g2 d'b "C"e'2 bg | "D"d'2 af' "Em"g2 be | "C"e'2 ge "G"g2 d'g | "D"a2 d'c' a4 |
+          "G"d2 gb' "C"g2 ea' | "D"a2 d'a "Em"b2 g2 | "C"e'2 gb "D"d'2 af' | "G"d'4 b4 |
+          "Em"g2 b'a' "D"a2 gf | "C"e'2 ga' "G"g2 d'b | "Am"e'2 ga "D"a2 e'2 | "G"d2 g2 b'4 |
+          "C"g2 ge "D"a2 d'c' | "Em"e'2 ga' "C"e'2 d'c' | "G"d2 gb' "D"a'2 af' | "G"d'6 z2 |
+
+  outro:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"B2 dB "C"c2 ec | "G"d2 BG "D"A2 dc | "Em"B2 GB "C"c2 BA | "G"G4 B4 |
+          "C"c2 AG "D"A2 FD | "Em"E2 GB "C"c2 eG | "G"d2 BG "D"A2 F2 | "G"G6 B2 |
+          "C"c2 eG "G"B2 dB | "D"A2 dc "Em"B2 eB | "C"c2 AG "G"B2 G2 | "D"A4 F4 |
+          "G"G2 BA "C"c2 eG | "G"d2 BG "D"A2 dc | "Em"B2 eB "C"c2 e2 | "G"g6 z2 |
+      guitar-2:
+        abc: |
+          "G"G2 BG "C"E2 CE | "G"B2 GD "D"F2 AF | "Em"G2 EG "C"E2 GF | "G"D4 G4 |
+          "C"E2 CE "D"F2 DA, | "Em"B,2 EG "C"E2 CG, | "G"B2 GD "D"F2 D2 | "G"B,6 G2 |
+          "C"E2 CG, "G"G2 BG | "D"F2 AF "Em"G2 BG | "C"E2 CE "G"G2 D2 | "D"F4 D4 |
+          "G"B,2 DE "C"E2 CG, | "G"B2 GD "D"F2 AF | "Em"G2 BG "C"E2 C2 | "G"B,6 z2 |
+      guitar-3:
+        abc: |
+          "G"d2 gd "C"e'2 ge | "G"g2 d'b "D"d'2 af' | "Em"e'2 be "C"e'2 d'c' | "G"b4 d'4 |
+          "C"e'2 bg "D"d'2 ad | "Em"g2 be "C"e'2 gb | "G"g2 d'b "D"d'2 a2 | "G"b6 d'2 |
+          "C"e'2 gb "G"d2 gd | "D"d'2 af' "Em"e'2 be' | "C"e'2 bg "G"d2 b2 | "D"d'4 a4 |
+          "G"b2 d'c' "C"e'2 gb | "G"g2 d'b "D"d'2 af' | "Em"e'2 be' "C"e'2 g'2 | "G"b'6 z2 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: Fingerstyle pattern in mid-upper register, flowing melodic line with emphasis on stepwise motion. Let notes ring where possible to create overlapping harmonies. Moderate dynamics (mf).
+    Guitar 2: Complementary fingerstyle in lower register, provides harmonic foundation while maintaining melodic independence. Slightly softer than Guitar 1 (mp). Focus on clean note separation except where notes intentionally overlap to suggest hammer-ons or slides.
+    Guitar 3: High register melody weaving above the other voices. Creates a shimmering top layer with frequent use of upper positions. Dynamics match Guitar 1 (mf). Use clear articulation to maintain melodic clarity in the upper register.
+
+  partA: |
+    Guitar 1: More active melodic line with frequent position shifts. Use hammer-ons on ascending passages (e.g., B to d). Dynamics build gradually from mf to f.
+    Guitar 2: Interweaving countermelody, alternating between supporting role and brief melodic statements. Match dynamic contour of Guitar 1 but stay slightly underneath. Emphasis on rhythmic precision where the parts cross.
+    Guitar 3: Soaring melodic line that complements the lower voices. Use slides on ascending leaps to maintain fluidity. Builds from mf to f with the ensemble. Creates harmonic interest through careful voice leading with Guitar 1.
+
+  partB: |
+    Guitar 1: Opens in upper register with descending patterns. Use pull-offs on descending runs for smoother phrasing. Reaches peak dynamics (f) in this section.
+    Guitar 2: More rhythmic approach with clearer note articulation. Occasional call-and-response moments where Guitar 2 echoes Guitar 1's phrases a third or fifth below. Dynamics match Guitar 1.
+    Guitar 3: Most active in this section with rapid melodic phrases in the highest register. Use pull-offs and hammer-ons for smooth phrasing in scalar passages. Peak dynamics (f) with occasional brief call-and-response with Guitar 1.
+
+  partC: |
+    Guitar 1: Climactic section with wider intervallic leaps and fuller range. Use slides where notes overlap (e.g., d to g passages). Sustained dynamics at forte.
+    Guitar 2: Provides both harmonic support and contrapuntal interest. More active rhythmically than in previous sections. Match the intensity of Guitar 1 with confident note attacks.
+    Guitar 3: Climactic high register work with dramatic leaps and sustained notes. Use slides for wider intervals (e.g., d' to b'). Sustained forte dynamics throughout. Final phrases reach the highest register of the piece.
+
+  outro: |
+    Guitar 1: Gradual descent from upper register back to middle range. Decreasing dynamics from f to mp. Final phrase rises to high g for conclusion.
+    Guitar 2: Mirror's Guitar 1's dynamic fade. Settles into lower register with final resolution on low G. Both guitars should let the final notes ring fully.
+    Guitar 3: Descends from highest register gradually, mirroring the overall fadeout. Final phrase ascends to b' for a brilliant conclusion. Dynamics fade from f to mp, ending with a final sustained high note that rings out above the other voices.

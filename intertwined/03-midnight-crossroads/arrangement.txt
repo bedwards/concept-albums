@@ -1,0 +1,38 @@
+TEMPO: 92 bpm
+TIME: 4/4
+KEY: Emin
+
+INTRO
+Guitar 1: Solo blues riff. Play with a slight shuffle feel (swing the eighths). Use slides into target notes, especially on the opening E-G-B pattern. Moderate dynamics (mf) with gritty, earthy tone. Let strings ring where possible for a fuller sound.
+Guitar 2: Silent.
+Guitar 3: Silent.
+
+VERSE1
+Guitar 1: Main melodic line with bluesy inflections. Use hammer-ons and pull-offs for smoothness. Slight bend on the high e notes. Dynamics mf-f with expression.
+Guitar 2: Walking bass line pattern, quarter-note feel with some syncopation. Steady, grounding the harmony. Play with clear articulation. Dynamics mp-mf, supportive role.
+Guitar 3: Silent - let the two-guitar texture breathe.
+
+CHORUS
+Guitar 1: Opens up to higher register. More energetic phrasing. Use slides between positions. Dynamics build to f.
+Guitar 2: Continues bass role but with more movement. Lock in rhythmically with Guitar 1. Dynamics mf.
+Guitar 3: Enters for the first time - high harmony line adding shimmer and excitement. Use clear articulation for contrast with the grittier lower guitars. Dynamics f.
+
+VERSE2
+Guitar 1: Call phrases with space - bluesy questions. Use bends and vibrato on sustained notes. Dynamics mf with dramatic pauses.
+Guitar 2: Responds in the gaps left by Guitar 1. More melodic than verse1. Building dialogue. Dynamics mf, conversational.
+Guitar 3: Adds occasional high commentary, not constant. Ghost notes and quick phrases. Dynamics mp-mf, subtle presence.
+
+SOLO
+Guitar 1: Drops to accompaniment role - steady rhythmic pattern. Creates space for Guitar 3. Dynamics mp.
+Guitar 2: Minimal bass - sustained notes on chord changes. Dynamics p-mp, very supportive.
+Guitar 3: Takes the lead with blues solo. Use bends, slides, hammer-ons, pull-offs freely. Tell a story with the phrases - start simple, build complexity. Dynamics mf-f with emotional peaks and valleys.
+
+CHORUS2
+Guitar 1: Return to chorus melody with renewed energy. Dynamics f.
+Guitar 2: Solid bass foundation. Dynamics mf-f.
+Guitar 3: High harmony, matching the energy of the first chorus. Dynamics f.
+
+OUTRO
+Guitar 1: Restatement of intro riff but with variations. Gradual fade in dynamics from f to mp. Final phrase ends with a sustained note.
+Guitar 2: Walking pattern gradually simplifies. Dynamics fade from mf to mp to p. Settle on low E at the end.
+Guitar 3: Fades earlier than the others, final high phrases like distant echoes. Dynamics from mf to pp. Last note at bar 10, allowing guitars 1 and 2 to finish.

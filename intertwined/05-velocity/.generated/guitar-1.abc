@@ -1,0 +1,22 @@
+X:1
+T:Velocity
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=168
+K:G
+%%MIDI program 25
+%%MIDI chordprog -1
+D2 G2 D2 G2 | D2 G2 D2 G2 | E2 G2 E2 G2 | D2 G2 D2 G2 |
+D2 F2 D2 F2 | D2 F2 D2 F2 | D2 G2 D2 G2 | D2 G2 B2 d2 |
+GBDG BdgB | dgBG DGBd | EGCE GcgE | GBDG BdgB |
+AFDF AdaF | dFAd fAfD | GBDG BdgB | dgbd g2 d2 |
+gBdG BdgB | dgbd gbdg | afdf adfd | gbdg d2 B2 |
+GBDG BdgB | dgBG D2 z2 | z8 | z8 |
+GBDG BdgB | dgbd g2 z2 | z8 | z8 |
+GBDG BdgB | dgbd gbdg | cGEG cGcG | EGCE G2 c2 |
+BAGB dGBd | gBdG BdgB | AFDF AdaF | GBDG B2 d2 |
+D2 G2 D2 G2 | D2 G2 D2 G2 | D2 F2 D2 F2 | D2 G2 B2 d2 |
+GBDG BdgB | dgBG DGBd | EGCE GcgE | CGEC G2 c2 |
+gBdG BdgB | dgbd gbdg | afdf adfd | gbdg g2 d2 |
+D2 G2 D2 G2 | D2 G2 B2 d2 | D2 F2 A2 d2 | G2 B2 d2 g2 |

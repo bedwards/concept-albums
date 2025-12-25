@@ -1,0 +1,27 @@
+X:1
+T:Two Rivers
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=96
+K:G
+%%MIDI program 25
+%%MIDI chordprog -1
+D2 EF G2 D2 | C3 E E2 F2 | G2 B2 A2 FE | G4 B,2 D2 |
+E2 B,C C2 E2 | F3 E D2 CA, | B,2 D2 G2 GB, | E4 D4 |
+G2 BG F2 DA, | E2 G2 B,2 E2 | E2 GF G2 ED | F4 D2 A,2 |
+B,2 DE E2 GA | A2 GF E2 DC | B,2 EG E2 GF | D4 F4 |
+G2 GB A2 FD | G2 E2 C2 E2 | B2 GD F2 AF | G4 D2 G2 |
+E2 GA A2 GF | E2 C2 E2 CE | G2 BG F2 D2 | B,6 z2 |
+E2 GE F2 ED | E2 GF G2 ED | A,2 E2 F2 E2 | G4 D2 G2 |
+E2 BE A2 DA | C2 EC G2 BG | E2 DC D2 A,2 | B,4 B,2 D2 |
+E2 CE G2 BG | F2 DA, B,2 E2 | E2 CG, F2 AF | G4 F4 |
+E2 G2 E2 GA | B2 GD F2 AF | G2 BG E2 CE | D6 z2 |
+B2 GD E2 CE | F2 AF G2 EG | E2 CE B2 GB | A2 GF F4 |
+G2 BD C2 EA, | A2 DF E2 B,2 | E2 CG, F2 AF | G4 B,4 |
+B2 dc A2 GF | E2 GA B2 GD | E2 CA, A2 E2 | G2 B2 d4 |
+C2 EC A2 GF | G2 BE E2 GF | G2 Bd A2 AF | G6 z2 |
+G2 BG E2 CE | B2 GD F2 AF | G2 EG E2 GF | D4 G4 |
+E2 CE F2 DA, | B,2 EG E2 CG, | B2 GD F2 D2 | B,6 G2 |
+E2 CG, G2 BG | F2 AF G2 BG | E2 CE G2 D2 | F4 D4 |
+B,2 DE E2 CG, | B2 GD F2 AF | G2 BG E2 C2 | B,6 z2 |

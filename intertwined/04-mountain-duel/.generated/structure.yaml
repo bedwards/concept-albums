@@ -1,0 +1,32 @@
+title: Mountain Duel
+composer: Brian Edwards
+tempo: 132
+time: 4/4
+key: G
+sections:
+- name: round2
+  bars: 16
+- name: finale
+  bars: 16
+- name: intro
+  bars: 8
+- name: round3
+  bars: 12
+- name: round1
+  bars: 16
+- name: breakdown
+  bars: 8
+structure:
+- intro
+- round1
+- round2
+- round3
+- breakdown
+- finale
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

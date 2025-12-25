@@ -1,0 +1,167 @@
+song:
+  title: "Fractured Light"
+  composer: "Brian Edwards"
+  tempo: 104
+  time: "4/4"
+  key: "Amin"
+  structure: [intro, partA, partB, partC, bridge, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "Am"A2 z c e2 zA | "F"c3 A F2 A2 | "Am"E2 z A c2 e2 | "G"d4 B2 G2 |
+          "Am"A2 cA e2 cA | "Dm"F3 d A2 F2 | "E"^G2 B2 e2 ^g2 | "Am"a6 z2 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  partA:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "Am"A2 cA e2 zA | z2 A2 c2 e2 | "F"c3 A z2 F2 | z8 |
+          z8 | z8 | z2 "G"G2 B2 d2 | "Am"c4 A4 |
+          "Am"e2 zA c2 zA | z2 c2 e2 a2 | "Dm"f3 d z2 A2 | z8 |
+          z8 | z8 | z2 "E"^G2 B2 e2 | "Am"a6 z2 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | "F"A2 cA F2 A2 |
+          "Dm"d2 Ad F2 D2 | "G"B2 dB G2 B2 | z8 | z8 |
+          z8 | z8 | z8 | "Dm"F2 AF d2 f2 |
+          "G"g2 dB G2 D2 | "Am"E2 AE c2 e2 | z8 | z8 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  partB:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "Am"A2 zA e2 cA | "F"c2 zF A2 c2 | "G"B2 zG d2 BG | "Am"A4 e4 |
+          "Dm"d2 zd f2 Ad | "Am"e2 zA c2 Ac | "E"^G2 z^G B2 e2 | "Am"a4 z4 |
+          "F"c2 Ac f2 cA | "G"d2 Bd g2 dB | "Am"e2 zA c2 zA | "Am"A6 z2 |
+      guitar-2:
+        abc: |
+          z2 A,2 z2 E2 | z2 C2 z2 F2 | z2 D2 z2 G2 | z2 E2 z2 A2 |
+          z2 D2 z2 F2 | z2 E2 z2 C2 | z2 E2 z2 ^G2 | z2 A2 z2 c2 |
+          z2 F2 z2 A2 | z2 G2 z2 B2 | z2 A2 z2 E2 | z8 |
+      guitar-3:
+        abc: |
+          "Am"e2 ze a2 ea | "F"a2 zf c'2 af | "G"b2 zg d'2 bg | "Am"c'4 a4 |
+          "Dm"a2 za d'2 fa | "Am"c'2 ze a2 ec' | "E"b2 zb e'2 b^g | "Am"a4 e'4 |
+          "F"a2 fa c'2 fa | "G"b2 gb d'2 gb | "Am"c'2 za e2 za | "Am"e6 z2 |
+
+  partC:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+      guitar-2:
+        abc: |
+          "Dm"F2 AF d2 zF | z2 d2 f2 d2 | "Am"E2 AE c2 zA | z8 |
+          "G"G2 BG d2 zB | z2 g2 d2 B2 | "Am"A2 cA e2 zc | z8 |
+          "F"F2 cF a2 zc | z2 f2 c2 A2 | "E"^G2 B^G e2 zB | "Am"A6 z2 |
+      guitar-3:
+        abc: |
+          z8 | "Dm"a2 fd a2 d'2 | z8 | "Am"c'2 ae c'2 e'2 |
+          z8 | "G"d'2 bg d'2 g'2 | z8 | "Am"e'2 ca e'2 a'2 |
+          z8 | "F"c'2 af c'2 f'2 | z8 | z8 |
+
+  bridge:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "Am"A2 cA e2 cA | "Dm"d2 fd a2 fd | "G"B2 dB g2 dB | "Am"c2 ec a2 ec |
+          "F"c2 Ac f2 Ac | "G"d2 Bd g2 Bd | "Am"e2 ce a2 ce | "E"^g2 e^g b2 e^g |
+          "Am"a2 zA e2 zA | "Dm"f2 zd A2 zF | "G"g2 zB d2 zG | "Am"a2 ze c2 zA |
+          "F"f2 zc A2 zF | "G"g2 zd B2 zG | "E"e2 z^G B2 ze | "Am"a6 z2 |
+      guitar-2:
+        abc: |
+          z2 E2 z2 C2 | z2 A2 z2 F2 | z2 G2 z2 D2 | z2 A2 z2 E2 |
+          z2 F2 z2 C2 | z2 G2 z2 D2 | z2 A2 z2 E2 | z2 E2 z2 B,2 |
+          "Am"E2 AE c2 AE | "Dm"F2 AF d2 AF | "G"G2 BG d2 BG | "Am"A2 cA e2 cA |
+          "F"F2 AF c2 AF | "G"G2 BG d2 BG | "E"E2 ^GE B2 ^GE | "Am"A6 z2 |
+      guitar-3:
+        abc: |
+          "Am"e2 ze c'2 ze | "Dm"f2 zf d'2 zf | "G"g2 zg d'2 zg | "Am"a2 za e'2 za |
+          "F"a2 za f'2 za | "G"b2 zb g'2 zb | "Am"c'2 zc' a'2 zc' | "E"b2 zb e'2 zb |
+          z8 | z8 | z8 | z8 |
+          "F"a2 fa c'2 af | "G"b2 gb d'2 bg | "E"e'2 be b2 ^ge | "Am"a6 z2 |
+
+  outro:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "Am"A2 cA e2 cA | "F"c2 Ac f2 cA | "G"B2 dB g2 dB | "Am"c2 ec a2 ec |
+          "Dm"d2 fd a2 fd | "Am"e2 ce a2 ce | "E"^g2 e^g b2 ^ge | "Am"a4 e4 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+      guitar-2:
+        abc: |
+          "Am"E2 AE c2 AE | "F"F2 AF c2 AF | "G"G2 BG d2 BG | "Am"A2 cA e2 cA |
+          "Dm"D2 FD A2 FD | "Am"E2 AE c2 AE | "E"E2 ^GE B2 ^GE | "Am"A4 c4 |
+          "Am"A2 cA e2 cA | "F"c2 Ac f2 Ac | "G"d2 Bd g2 Bd | "Am"e2 ce a2 ce |
+          z8 | z8 | z8 | "Am"A6 z2 |
+      guitar-3:
+        abc: |
+          "Am"e2 ae c'2 ae | "F"f2 af c'2 af | "G"g2 bg d'2 bg | "Am"a2 ca e'2 ca |
+          "Dm"f2 af d'2 af | "Am"e2 ae c'2 ae | "E"b2 eb e'2 be | "Am"a4 c'4 |
+          "Am"c'2 ec' a2 ec' | "F"a2 fa c'2 fa | "G"b2 gb d'2 gb | "Am"c'2 ac' e'2 ac' |
+          "F"f2 af c'2 af | "G"g2 bg d'2 bg | "E"e'2 be b2 ^ge | "Am"a6 z2 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: Solo introduction. Rhythmic, syncopated melody with frequent rests. Use percussive attack on downbeats and let syncopated notes ring. Moderate dynamics (mf). Establish the fragmented, contemporary character of the piece.
+    Guitar 2: Silent for entire section.
+    Guitar 3: Silent for entire section.
+
+  partA: |
+    Guitar 1: Plays phrases with space between them (call). Use clear articulation and dynamic contrast. Phrases should feel like questions. Dynamics mf with accents on phrase beginnings.
+    Guitar 2: Responds to Guitar 1's phrases (response). Enters only when Guitar 1 rests. Different rhythmic character - more sustained notes. Dynamics mp-mf, growing in confidence.
+    Guitar 3: Silent - let the dialogue between guitars 1 and 2 develop.
+
+  partB: |
+    Guitar 1: Syncopated melodic line, primarily on off-beats. Use rests strategically for rhythmic clarity. Dynamics build to f.
+    Guitar 2: Sparse, percussive punctuation on strong beats (opposite of Guitar 1). Very detached articulation. Match dynamics at f.
+    Guitar 3: Flowing eighth-note patterns that weave through the rhythmic interplay below. More legato than the others. Dynamics f, creating a sustained layer above the rhythmic dialogue.
+
+  partC: |
+    Guitar 1: Silent for entire section - creating dramatic contrast.
+    Guitar 2: Takes the lead with call phrases. Rhythmic and syncopated. Use clear note separation. Dynamics mf-f.
+    Guitar 3: Responds with sustained, ringing notes that answer Guitar 2. More lyrical phrasing. Dynamics match Guitar 2 but with smoother articulation.
+
+  bridge: |
+    Guitar 1: Continuous driving pattern - the most active it has been. Propulsive eighth notes with occasional syncopation. Dynamics sustained at f.
+    Guitar 2: Alternates between sparse punctuation (first half) and more active counterpoint (second half). Dynamic arc from mp to f.
+    Guitar 3: Mirrors Guitar 1's rhythm in first half with rests, then drops out briefly before returning with sustained notes. Dynamic range mp-f with dramatic contrasts.
+
+  outro: |
+    Guitar 1: Opens the section with full pattern, then drops out at bar 9. Final sound from this voice. Dynamics fade from f to silence.
+    Guitar 2: Continues after Guitar 1 drops out, playing through bar 14. Becomes the middle voice in the texture. Dynamics fade from mf to mp to silence.
+    Guitar 3: The last voice standing, plays through to the end. Final resolution with a sustained high A. Gradual fade from mf to pp, ending with a whisper.

@@ -1,0 +1,164 @@
+song:
+  title: "Mountain Duel"
+  composer: "Brian Edwards"
+  tempo: 132
+  time: "4/4"
+  key: "G"
+  structure: [intro, round1, round2, round3, breakdown, finale]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GABG dGBG | GABG dGBG | "C"cGEG cGEG | "G"GBDG BGDG |
+          z8 | z8 | z8 | z8 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"DGBG DGBG | DGBG DGBG | "C"EGCG EGCG | "G"DGBG DGBG |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  round1:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GABG dBGB | dBGB AGFD | "D"DAFA dAFA | "G"GBDG B2 G2 |
+          z8 | z8 | z8 | z8 |
+          "G"GABG dGBd | gdBG AGFE | "C"cGEG cGcG | "G"BGDG B2 G2 |
+          z8 | z8 | z8 | z8 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"DGBG dGBd | gBdG BAGF | "D"AFDF AFDF | "G"GBDG B2 D2 |
+          z8 | z8 | z8 | z8 |
+          "G"DGBG DGBG | DGBG dGBG | "C"EGCG EGCG | "G"DGBG D2 G2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  round2:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"gfed Bcde | dcBA GFED | "C"cdef gfed | "G"Bcde d2 B2 |
+          z8 | z8 | z8 | z8 |
+          "G"GBDG BdgB | dgBG DGBG | "D"AFDF Adfd | "G"GBDG B2 G2 |
+          z8 | z8 | z8 | z8 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"gfed Bcde | dcBA GFED | "C"Ecde gabc' | "G"bagf g2 d2 |
+          z8 | z8 | z8 | z8 |
+          "G"DGBG dgBG | DGBG DGBG | "D"DFAF dAFD | "G"DGBG D2 B,2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  round3:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GABG dGBG | GABG dGBd | "C"cGEG cGEG | "G"BGDG BGDG |
+          "D"AFDF AFDF | "G"GBDG BdgB | "C"cGEG cGcG | "G"BGDG B2 G2 |
+          "G"dgBG dgBG | "C"egcG egcG | "D"fdAF dAFD | "G"GBDG G2 z2 |
+      guitar-2:
+        abc: |
+          "G"DGBG DGBG | DGBG DGBd | "C"EGCG EGCG | "G"DGBG DGBG |
+          "D"DFAF DFAF | "G"DGBG DgdB | "C"EGCG EGEG | "G"DGBG D2 B,2 |
+          "G"BGDG BGDG | "C"cGEG cGEG | "D"AFDF AFDF | "G"DGBG D2 z2 |
+      guitar-3:
+        abc: |
+          "G"gbdg bgdg | bgdg bgdb | "C"ecge cgeg | "G"dgbg dgbg |
+          "D"afdA fAfD | "G"gbdG bdgb | "C"egcG egce | "G"dgbg d2 b2 |
+          "G"gdBG gdBG | "C"gecG gecG | "D"afdA fdAF | "G"gbdg g2 z2 |
+
+  breakdown:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"G4 B4 | d4 g4 | "C"c4 e4 | "G"B4 d4 |
+          "G"GABG dGBd | gdBG DGBG | "D"AFDF Adfd | "G"GBDG B2 G2 |
+      guitar-2:
+        abc: |
+          "G"D4 G4 | B4 d4 | "C"E4 c4 | "G"D4 B4 |
+          "G"DGBG DGBG | DGBG DGBG | "D"DFAF DFAF | "G"DGBG D2 B,2 |
+      guitar-3:
+        abc: |
+          "G"B4 d4 | g4 b4 | "C"e4 g4 | "G"d4 g4 |
+          "G"bgdg bgdg | bgdg bgdg | "D"afdf afdf | "G"gbdg g2 d2 |
+
+  finale:
+    bars: 16
+    instruments:
+      guitar-1:
+        abc: |
+          "G"GABG dGBd | gdBG DGBG | "C"cGEG cGcG | "G"BGDG BdgB |
+          "D"AFDF Adfd | "G"GBDG Bdgb | "C"cGEG cgec' | "G"bagf g2 d2 |
+          "G"gfed Bcde | dcBA GFED | "C"cdef gabc' | "G"bagf gfed |
+          "D"dcBA GFED | "C"EGAB cdef | "G"gfed cBAG | "G"G2 B2 d2 G2 |
+      guitar-2:
+        abc: |
+          "G"DGBG DGBG | DGBG DGBG | "C"EGCG EGCG | "G"DGBG DgdB |
+          "D"DFAF DFAF | "G"DGBG DgdB | "C"EGCG EcgE | "G"dgBG d2 B2 |
+          "G"dcBA GFED | GABG DGBG | "C"EGAB cdef | "G"dcBA GFED |
+          "D"FGAB cdef | "C"EGAB cdef | "G"dcBA GFED | "G"D2 G2 B2 D2 |
+      guitar-3:
+        abc: |
+          "G"bgdg bgdg | bgdg bgdg | "C"egcg egcg | "G"dgbg dgbd |
+          "D"afdA fdAf | "G"gbdG bdgb | "C"egcG egce | "G"bgdg b2 g2 |
+          "G"bagf gfed | gfed Bcde | "C"egab c'bag | "G"gfed cBAG |
+          "D"FGAB cdef | "C"gabg c'bag | "G"gfed cBAG | "G"B2 d2 g2 B2 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: Opens with the main folk motif - bright, clear articulation. Fast picking pattern, every note distinct. Dynamics mf, establishing the challenge.
+    Guitar 2: Responds with the same motif lower. Match Guitar 1's energy and articulation. The duel begins. Dynamics mf.
+    Guitar 3: Silent - let the duel set up.
+
+  round1: |
+    Guitar 1: Calls with fast folk licks. Aggressive picking, driving rhythm. Clean note separation at this tempo is crucial. Dynamics f, confident and assertive.
+    Guitar 2: Responds with variations on Guitar 1's phrases. Matching energy, adding embellishments. Dynamics f, rising to the challenge.
+    Guitar 3: Silent - watches the duel unfold.
+
+  round2: |
+    Guitar 1: Escalates with more complex patterns - runs and arpeggios. Faster note density. Push the tempo slightly for excitement. Dynamics ff.
+    Guitar 2: Matches and raises with even more elaborate responses. Technical showmanship. Dynamics ff, not backing down.
+    Guitar 3: Silent but the tension builds toward its entrance.
+
+  round3: |
+    Guitar 1: Continues the duel but now all three guitars join. Maintain the driving pattern. Dynamics ff.
+    Guitar 2: Interlocks rhythmically with Guitar 1. Create a dense rhythmic texture. Dynamics ff.
+    Guitar 3: Enters for the first time with high harmony and counterpoint. Adds a third voice to the conversation, elevating the intensity. Dynamics ff, triumphant entrance.
+
+  breakdown: |
+    Guitar 1: Brief pause - sustained notes build tension. Then explodes back into fast pattern. Dynamic contrast: start at p, build to ff.
+    Guitar 2: Mirrors Guitar 1's dynamic arc. Sustained notes, then rapid acceleration. Dynamics p to ff.
+    Guitar 3: Joins the tension and release. Creates harmonic richness in the sustained section. Dynamics p to ff.
+
+  finale: |
+    Guitar 1: All-out fast folk fury. Every technique at once - runs, arpeggios, rapid picking. No holding back. Dynamics fff throughout, ending on a strong unison with the other guitars.
+    Guitar 2: Matches Guitar 1's intensity with interlocking patterns. The duel becomes a collaboration. Dynamics fff, full energy to the end.
+    Guitar 3: Soars above with high register patterns. Completes the three-voice texture at maximum intensity. Dynamics fff, celebratory conclusion.

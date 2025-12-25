@@ -1,0 +1,32 @@
+title: Fractured Light
+composer: Brian Edwards
+tempo: 104
+time: 4/4
+key: Amin
+sections:
+- name: intro
+  bars: 8
+- name: partA
+  bars: 16
+- name: partB
+  bars: 12
+- name: outro
+  bars: 16
+- name: bridge
+  bars: 16
+- name: partC
+  bars: 12
+structure:
+- intro
+- partA
+- partB
+- partC
+- bridge
+- outro
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

@@ -1,0 +1,176 @@
+song:
+  title: "Midnight Crossroads"
+  composer: "Brian Edwards"
+  tempo: 92
+  time: "4/4"
+  key: "Emin"
+  structure: [intro, verse1, chorus, verse2, solo, chorus2, outro]
+
+sections:
+  intro:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"E2 G2 B2 e2 | "Em"e2 dB G2 E2 | "Em"E2 GB e2 gB | "Em"e4 B4 |
+          "Am"A2 cA e2 cA | "Am"c2 BA G2 E2 | "B7"^F2 AB ^d2 f^d | "Em"e6 z2 |
+      guitar-2:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  verse1:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"E2 GB e2 GB | "Em"B2 e2 B2 G2 | "Em"E2 GB e2 dB | "Em"e4 B4 |
+          "Am"A2 cA e2 cA | "Am"c2 eA c2 A2 | "Em"E2 GB e2 GB | "Em"B2 e2 G4 |
+          "B7"^F2 AB ^d2 AB | "Am"c2 Ac e2 cA | "Em"E2 GB e2 dB | "Em"e6 z2 |
+      guitar-2:
+        abc: |
+          "Em"E,2 E,2 G,2 B,2 | "Em"E2 B,2 G,2 E,2 | "Em"E,2 G,B, E2 B,2 | "Em"E4 B,4 |
+          "Am"A,2 A,2 C2 E2 | "Am"A2 E2 C2 A,2 | "Em"E,2 G,B, E2 G,2 | "Em"E2 B,2 E4 |
+          "B7"B,2 ^D2 ^F2 B2 | "Am"A,2 C2 E2 A2 | "Em"E,2 G,2 B,2 E2 | "Em"E6 z2 |
+      guitar-3:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+  chorus:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"G2 BG d2 BG | "D"A2 dA f2 dA | "Em"B2 eB g2 eB | "Em"e4 B4 |
+          "C"c2 ec g2 ec | "B7"^d2 f^d b2 f^d | "Em"e2 gB e2 GB | "Em"E6 z2 |
+      guitar-2:
+        abc: |
+          "G"G,2 B,G, D2 B,G, | "D"D,2 AD, F2 AD, | "Em"E,2 BE, G2 BE, | "Em"E4 B,4 |
+          "C"C,2 EC, G2 EC, | "B7"B,,2 ^D^F, B,2 ^F^D, | "Em"E,2 GB, E2 B,G, | "Em"E6 z2 |
+      guitar-3:
+        abc: |
+          "G"g2 bg d'2 bg | "D"a2 da f'2 da | "Em"b2 eb g'2 eb | "Em"e'4 b4 |
+          "C"c'2 gc' e'2 gc' | "B7"b2 fb ^d'2 fb | "Em"e'2 be g2 be | "Em"e6 z2 |
+
+  verse2:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"E2 zG B2 ze | z2 e2 d2 B2 | "Em"E2 zG e2 zB | z4 e4 |
+          "Am"A2 zc e2 zA | z2 c2 e2 c2 | "Em"E2 zG B2 ze | z4 B4 |
+          "B7"^F2 zA ^d2 zf | "Am"c2 ze a2 zc | "Em"E2 zG e2 zB | "Em"e6 z2 |
+      guitar-2:
+        abc: |
+          z2 E,2 z2 G,2 | "Em"B,2 E2 G2 B2 | z2 G,2 z2 B,2 | "Em"E4 B4 |
+          z2 A,2 z2 C2 | "Am"E2 A2 c2 e2 | z2 E,2 z2 G,2 | "Em"E4 G4 |
+          z2 B,2 z2 ^D2 | "Am"E2 A2 c2 A2 | z2 E,2 z2 B,2 | "Em"E6 z2 |
+      guitar-3:
+        abc: |
+          "Em"b2 eb g2 be | z8 | "Em"e'2 be g2 eb | z8 |
+          "Am"c'2 ac' e'2 ac' | z8 | "Em"b2 gb e'2 gb | z8 |
+          "B7"b2 fb ^d'2 fb | z8 | "Em"e'2 be b2 ge | "Em"e6 z2 |
+
+  solo:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"E2 B,E G2 E2 | "Em"B,2 EG B2 GB | "Em"e2 Be G2 B,2 | "Em"E4 B,4 |
+          "Am"A,2 EA c2 A2 | "Am"E2 Ac e2 cA | "Em"E2 B,E G2 E2 | "Em"B,2 EG B4 |
+          "B7"B,2 ^FB ^d2 B2 | "Am"A,2 Ac e2 A2 | "Em"E2 GB e2 B2 | "Em"E6 z2 |
+      guitar-2:
+        abc: |
+          "Em"E,4 G,4 | "Em"B,4 E4 | "Em"E4 B,4 | "Em"E,6 z2 |
+          "Am"A,4 C4 | "Am"E4 A4 | "Em"E,4 G,4 | "Em"B,4 E4 |
+          "B7"B,,4 ^D4 | "Am"A,4 C4 | "Em"E,4 B,4 | "Em"E,6 z2 |
+      guitar-3:
+        abc: |
+          "Em"e2 gf e2 dB | "Em"e2 gb e'2 bg | "Em"g2 fe d2 Be | "Em"e4 b4 |
+          "Am"a2 c'b a2 ge | "Am"a2 c'e' a'2 e'c' | "Em"e2 gb e'2 be | "Em"g2 eb B2 e2 |
+          "B7"^f2 ab b2 ^d'b | "Am"c'2 e'a c'2 ae | "Em"e2 gb e'2 bg | "Em"e'6 z2 |
+
+  chorus2:
+    bars: 8
+    instruments:
+      guitar-1:
+        abc: |
+          "G"G2 BG d2 BG | "D"A2 dA f2 dA | "Em"B2 eB g2 eB | "Em"e4 B4 |
+          "C"c2 ec g2 ec | "B7"^d2 f^d b2 f^d | "Em"e2 gB e2 GB | "Em"E6 z2 |
+      guitar-2:
+        abc: |
+          "G"G,2 B,G, D2 B,G, | "D"D,2 AD, F2 AD, | "Em"E,2 BE, G2 BE, | "Em"E4 B,4 |
+          "C"C,2 EC, G2 EC, | "B7"B,,2 ^D^F, B,2 ^F^D, | "Em"E,2 GB, E2 B,G, | "Em"E6 z2 |
+      guitar-3:
+        abc: |
+          "G"g2 bg d'2 bg | "D"a2 da f'2 da | "Em"b2 eb g'2 eb | "Em"e'4 b4 |
+          "C"c'2 gc' e'2 gc' | "B7"b2 fb ^d'2 fb | "Em"e'2 be g2 be | "Em"e6 z2 |
+
+  outro:
+    bars: 12
+    instruments:
+      guitar-1:
+        abc: |
+          "Em"E2 GB e2 dB | "Em"e2 Be G2 E2 | "Em"E2 GB B2 e2 | "Em"e4 B4 |
+          "Am"A2 cA e2 cA | "Am"c2 Ae c2 A2 | "Em"E2 GB e2 GB | "Em"B2 e2 B4 |
+          "B7"^F2 AB ^d2 fB | "Am"c2 Ae c2 A2 | "Em"E2 GB e2 B2 | "Em"E8 |
+      guitar-2:
+        abc: |
+          "Em"E,2 G,B, E2 B,2 | "Em"E2 B,E G,2 E,2 | "Em"E,2 G,B, B,2 E2 | "Em"E4 B,4 |
+          "Am"A,2 CE A2 CA, | "Am"C2 A,C A,2 C2 | "Em"E,2 G,B, E2 G,2 | "Em"B,2 E2 B,4 |
+          "B7"B,2 ^D^F B2 ^FD | "Am"A,2 CE A,2 C2 | "Em"E,2 G,B, E2 B,2 | "Em"E,8 |
+      guitar-3:
+        abc: |
+          "Em"e2 be g2 eb | "Em"e'2 be g2 e2 | "Em"e2 be b2 e'2 | "Em"e'4 b4 |
+          "Am"a2 ea c'2 ea | "Am"c'2 ac' a2 c'2 | "Em"e2 be g2 be | "Em"b2 e'2 b4 |
+          "B7"b2 fb ^d'2 bf | "Am"c'2 ac' c'2 a2 | "Em"e2 be g2 b2 | "Em"e8 |
+
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25
+
+arrangement:
+  intro: |
+    Guitar 1: Solo blues riff. Play with a slight shuffle feel (swing the eighths). Use slides into target notes, especially on the opening E-G-B pattern. Moderate dynamics (mf) with gritty, earthy tone. Let strings ring where possible for a fuller sound.
+    Guitar 2: Silent.
+    Guitar 3: Silent.
+
+  verse1: |
+    Guitar 1: Main melodic line with bluesy inflections. Use hammer-ons and pull-offs for smoothness. Slight bend on the high e notes. Dynamics mf-f with expression.
+    Guitar 2: Walking bass line pattern, quarter-note feel with some syncopation. Steady, grounding the harmony. Play with clear articulation. Dynamics mp-mf, supportive role.
+    Guitar 3: Silent - let the two-guitar texture breathe.
+
+  chorus: |
+    Guitar 1: Opens up to higher register. More energetic phrasing. Use slides between positions. Dynamics build to f.
+    Guitar 2: Continues bass role but with more movement. Lock in rhythmically with Guitar 1. Dynamics mf.
+    Guitar 3: Enters for the first time - high harmony line adding shimmer and excitement. Use clear articulation for contrast with the grittier lower guitars. Dynamics f.
+
+  verse2: |
+    Guitar 1: Call phrases with space - bluesy questions. Use bends and vibrato on sustained notes. Dynamics mf with dramatic pauses.
+    Guitar 2: Responds in the gaps left by Guitar 1. More melodic than verse1. Building dialogue. Dynamics mf, conversational.
+    Guitar 3: Adds occasional high commentary, not constant. Ghost notes and quick phrases. Dynamics mp-mf, subtle presence.
+
+  solo: |
+    Guitar 1: Drops to accompaniment role - steady rhythmic pattern. Creates space for Guitar 3. Dynamics mp.
+    Guitar 2: Minimal bass - sustained notes on chord changes. Dynamics p-mp, very supportive.
+    Guitar 3: Takes the lead with blues solo. Use bends, slides, hammer-ons, pull-offs freely. Tell a story with the phrases - start simple, build complexity. Dynamics mf-f with emotional peaks and valleys.
+
+  chorus2: |
+    Guitar 1: Return to chorus melody with renewed energy. Dynamics f.
+    Guitar 2: Solid bass foundation. Dynamics mf-f.
+    Guitar 3: High harmony, matching the energy of the first chorus. Dynamics f.
+
+  outro: |
+    Guitar 1: Restatement of intro riff but with variations. Gradual fade in dynamics from f to mp. Final phrase ends with a sustained note.
+    Guitar 2: Walking pattern gradually simplifies. Dynamics fade from mf to mp to p. Settle on low E at the end.
+    Guitar 3: Fades earlier than the others, final high phrases like distant echoes. Dynamics from mf to pp. Last note at bar 10, allowing guitars 1 and 2 to finish.

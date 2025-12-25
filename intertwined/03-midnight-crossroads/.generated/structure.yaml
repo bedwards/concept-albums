@@ -1,0 +1,35 @@
+title: Midnight Crossroads
+composer: Brian Edwards
+tempo: 92
+time: 4/4
+key: Emin
+sections:
+- name: verse1
+  bars: 12
+- name: verse2
+  bars: 12
+- name: intro
+  bars: 8
+- name: outro
+  bars: 12
+- name: chorus2
+  bars: 8
+- name: chorus
+  bars: 8
+- name: solo
+  bars: 12
+structure:
+- intro
+- verse1
+- chorus
+- verse2
+- solo
+- chorus2
+- outro
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

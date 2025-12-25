@@ -1,0 +1,29 @@
+title: Two Rivers
+composer: Brian Edwards
+tempo: 96
+time: 4/4
+key: G
+sections:
+- name: partA
+  bars: 16
+- name: outro
+  bars: 16
+- name: intro
+  bars: 8
+- name: partC
+  bars: 16
+- name: partB
+  bars: 16
+structure:
+- intro
+- partA
+- partB
+- partC
+- outro
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

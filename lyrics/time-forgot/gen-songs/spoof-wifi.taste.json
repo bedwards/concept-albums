@@ -1,0 +1,83 @@
+{
+  "overall_taste_score": 54.30375387169908,
+  "component_scores": {
+    "concreteness": 32.054545454545455,
+    "cliche_free": 80,
+    "show_dont_tell": 76.92307692307692,
+    "sensory_richness": 27.28310502283105
+  },
+  "concreteness": {
+    "avg_concreteness": 2.8013636363636363,
+    "rated_word_count": 22,
+    "unrated_word_count": 197,
+    "coverage": 0.1004566210045662,
+    "concrete_words": [
+      "face"
+    ],
+    "abstract_words": [
+      "everything",
+      "change"
+    ],
+    "concreteness_distribution": {
+      "very_concrete_4.5+": 1,
+      "concrete_3.5-4.5": 2,
+      "moderate_2.5-3.5": 12,
+      "abstract_1.5-2.5": 7,
+      "very_abstract_<1.5": 0
+    }
+  },
+  "cliches": {
+    "cliches_found": [
+      {
+        "phrase": "fire",
+        "count": 1
+      }
+    ],
+    "cliche_count": 1,
+    "total_cliche_instances": 1,
+    "cliche_word_density": 0.004629629629629629,
+    "cliche_free": false
+  },
+  "show_dont_tell": {
+    "total_verbs": 39,
+    "state_verb_count": 1,
+    "strong_verb_count": 2,
+    "other_verb_count": 36,
+    "show_tell_ratio": 0.5128205128205128,
+    "telling_examples": [
+      "be"
+    ],
+    "showing_examples": [
+      "snuck",
+      "creep"
+    ],
+    "verdict": "balanced"
+  },
+  "sensory": {
+    "sensory_word_count": 1,
+    "sensory_density": 0.0045662100456621,
+    "by_sense": {
+      "sight": 0,
+      "sound": 1,
+      "touch": 0,
+      "smell": 0,
+      "taste": 0
+    },
+    "examples_by_sense": {
+      "sight": [],
+      "sound": [
+        "listen"
+      ],
+      "touch": [],
+      "smell": [],
+      "taste": []
+    },
+    "dominant_sense": "sound",
+    "sense_variety": 1
+  },
+  "recommendations": [
+    "CONCRETENESS: Score 2.80/5.00 is low. Replace abstract words like [everything, change] with physical, tangible nouns.",
+    "CLICH\u00c9S: Found 1 clich\u00e9(s): [fire]. Replace with original imagery.",
+    "SENSORY: Only 1 senses engaged. Add sight, touch imagery."
+  ]
+}

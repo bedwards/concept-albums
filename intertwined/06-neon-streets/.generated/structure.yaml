@@ -1,0 +1,38 @@
+title: Neon Streets
+composer: Brian Edwards
+tempo: 160
+time: 4/4
+key: A
+sections:
+- name: verse2
+  bars: 16
+- name: chorus3
+  bars: 8
+- name: chorus
+  bars: 8
+- name: bridge
+  bars: 8
+- name: outro
+  bars: 8
+- name: intro
+  bars: 8
+- name: verse1
+  bars: 16
+- name: chorus2
+  bars: 8
+structure:
+- intro
+- verse1
+- chorus
+- verse2
+- chorus2
+- bridge
+- chorus3
+- outro
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

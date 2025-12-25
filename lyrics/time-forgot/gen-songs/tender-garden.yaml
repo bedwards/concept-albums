@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+- name: verse-1
+  lines:
+  - I got softened by your patience
+  - I been gentled and re-taught
+  - There was a bloom in the morning
+  - I lost my fear and you were caught
+- name: chorus1
+  lines:
+  - They say time can grow the garden
+  - time tends to everything
+  - time forgot to stop my loving
+  - Yes time forgot to stop my loving
+- name: verse-2
+  lines:
+  - You took my silence to the kitchen
+  - you made it into bread
+  - it rose to fill the window
+  - With the yeast and warmth you spread
+- name: verse-3
+  lines:
+  - So I took a walk into that garden
+  - I found your little plot
+  - I knelt to tend until the evening
+  - in the twilight I stayed caught
+- name: chorus2
+  lines:
+  - They say time can grow the garden
+  - time tends to everything
+  - time forgot to stop my loving
+  - Yes time forgot to stop my loving
+- name: verse-4
+  lines:
+  - the tomatoes I was kneeling
+  - tears they filled my eyes
+  - as the first stars rose above us
+  - I looked up in mild surprise
+- name: verse-5
+  lines:
+  - I knelt beside you in the clover
+  - I held your weathered hand
+  - Please teach me how to stay much longer
+  - I finally understand
+- name: outro1
+  lines:
+  - She said time can grow the garden
+  - time tends to everything
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

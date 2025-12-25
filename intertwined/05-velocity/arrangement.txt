@@ -1,0 +1,43 @@
+TEMPO: 168 bpm
+TIME: 4/4
+KEY: G
+
+INTRO
+Guitar 1: SIMPLE alternating bass pattern. Just boom-chick, boom-chick. No fancy stuff yet. This is the foundation. Dynamics mf, steady as a metronome.
+Guitar 2: Lower alternating bass. Lock in with Guitar 1. Root-fifth, root-fifth pattern. Traditional bluegrass foundation. Dynamics mf.
+Guitar 3: Silent - let the bass pattern establish the groove.
+
+BURST1
+Guitar 1: EXPLODE into fast bluegrass runs. This is a SHORT BURST of complexity - go all out then it's over. Dynamics fff.
+Guitar 2: Interlocking patterns with Guitar 1. All three create dense texture but ONLY for these 8 bars. Dynamics fff.
+Guitar 3: High harmony joins the explosion. Full intensity but brief. Dynamics fff.
+
+SOLO1
+Guitar 1: Brief solo - 4 bars of fast licks over simple bass. Show off then get out. Dynamics ff.
+Guitar 2: Back to SIMPLE alternating bass. Just support, no complexity. Dynamics mp.
+Guitar 3: Silent - this is Guitar 1's moment.
+
+TRADING1
+Guitar 1: Plays 2-bar phrase, then STOPS. Call. Dynamics f.
+Guitar 2: Answers with 2-bar phrase, then STOPS. Response. Quick back and forth, very brief trades. Dynamics f.
+Guitar 3: Silent - just watch the conversation.
+
+BURST2
+Guitar 1: Second explosion. All three go crazy again but ONLY for 8 bars. Short burst of intensity. Dynamics fff.
+Guitar 2: Dense interlocking patterns. Full complexity but brief. Dynamics fff.
+Guitar 3: High register fury. Then it ends and we go back to simple. Dynamics fff.
+
+SOLO2
+Guitar 1: Back to simple alternating bass. Dynamics mp.
+Guitar 2: Simple bass pattern. Dynamics mp.
+Guitar 3: Brief 4-bar solo in high register. Fast licks then done. Dynamics ff.
+
+BURST3
+Guitar 1: Final explosion - all three at maximum intensity for 8 bars. Dynamics fff.
+Guitar 2: Interlocking complexity. Short burst to the finish. Dynamics fff.
+Guitar 3: High harmony explosion. Brief but intense. Dynamics fff.
+
+OUTRO
+Guitar 1: Back to SIMPLE alternating bass to end. No complexity, just resolution. Dynamics mf fading.
+Guitar 2: Simple bass pattern. Clean ending. Dynamics mf.
+Guitar 3: Simple ascending line over the bass. Resolves to high G. Dynamics mf to f on final note.

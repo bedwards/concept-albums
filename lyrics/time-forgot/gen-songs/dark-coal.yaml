@@ -1,0 +1,63 @@
+sections:
+- name: intro1
+  lines:
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+- name: verse-1
+  lines:
+  - I got buried by the mountain
+  - I been crushed and chemical-crossed
+  - There was a blast in the mineshaft
+  - I had a brother but he got lost
+- name: chorus1
+  lines:
+  - They say time can heal the coalfields
+  - time buries everything
+  - time forgot to bury the anger
+  - Yes time forgot to bury the anger
+- name: verse-2
+  lines:
+  - They took our water to the fracking
+  - they poisoned the well for years
+  - the cancer grew in our children
+  - It's a black and chemical fear
+- name: verse-3
+  lines:
+  - So I took a truck to the statehouse
+  - I parked outside their gates
+  - I went to wait until the session
+  - when they voted I sealed their fate
+- name: chorus2
+  lines:
+  - They say time can heal the coalfields
+  - time buries everything
+  - time forgot to bury the anger
+  - Yes time forgot to bury the anger
+- name: verse-4
+  lines:
+  - Outside the chamber I was pacing
+  - Righteous fury filled my brain
+  - as those bought men cast their ballots
+  - I burst in through the door again
+- name: verse-5
+  lines:
+  - I knelt before the assembly
+  - I showed them my poisoned blood
+  - Let history judge what you've done here
+  - You've turned our water into mud
+- name: outro1
+  lines:
+  - She said time can heal the coalfields
+  - time buries everything
+  - da daaa, da da da, da daa daa daaaa
+  - da daaa, da da da, da daa daa daaaa
+section_order:
+- intro1
+- verse-1
+- chorus1
+- verse-2
+- verse-3
+- chorus2
+- verse-4
+- verse-5
+- outro1

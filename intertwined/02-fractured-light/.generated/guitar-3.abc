@@ -1,0 +1,29 @@
+X:1
+T:Fractured Light
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=104
+K:Amin
+%%MIDI program 25
+%%MIDI chordprog -1
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 |
+e2 ze a2 ea | a2 zf c'2 af | b2 zg d'2 bg | c'4 a4 |
+a2 za d'2 fa | c'2 ze a2 ec' | b2 zb e'2 b^g | a4 e'4 |
+a2 fa c'2 fa | b2 gb d'2 gb | c'2 za e2 za | e6 z2 |
+z8 | a2 fd a2 d'2 | z8 | c'2 ae c'2 e'2 |
+z8 | d'2 bg d'2 g'2 | z8 | e'2 ca e'2 a'2 |
+z8 | c'2 af c'2 f'2 | z8 | z8 |
+e2 ze c'2 ze | f2 zf d'2 zf | g2 zg d'2 zg | a2 za e'2 za |
+a2 za f'2 za | b2 zb g'2 zb | c'2 zc' a'2 zc' | b2 zb e'2 zb |
+z8 | z8 | z8 | z8 |
+a2 fa c'2 af | b2 gb d'2 bg | e'2 be b2 ^ge | a6 z2 |
+e2 ae c'2 ae | f2 af c'2 af | g2 bg d'2 bg | a2 ca e'2 ca |
+f2 af d'2 af | e2 ae c'2 ae | b2 eb e'2 be | a4 c'4 |
+c'2 ec' a2 ec' | a2 fa c'2 fa | b2 gb d'2 gb | c'2 ac' e'2 ac' |
+f2 af c'2 af | g2 bg d'2 bg | e'2 be b2 ^ge | a6 z2 |

@@ -1,0 +1,38 @@
+title: Velocity
+composer: Brian Edwards
+tempo: 168
+time: 4/4
+key: G
+sections:
+- name: trading1
+  bars: 8
+- name: solo1
+  bars: 4
+- name: solo2
+  bars: 4
+- name: burst1
+  bars: 8
+- name: burst3
+  bars: 8
+- name: outro
+  bars: 4
+- name: burst2
+  bars: 8
+- name: intro
+  bars: 8
+structure:
+- intro
+- burst1
+- solo1
+- trading1
+- burst2
+- solo2
+- burst3
+- outro
+instruments:
+  guitar-1:
+    program: 25
+  guitar-2:
+    program: 25
+  guitar-3:
+    program: 25

@@ -16,22 +16,38 @@ sections:
         abc: |
           "G"G,4 G,2 B,2 | D4 D2 G,2 | "G"G,4 G,2 B,2 | D4 D2 G,2 |
           "C"C,4 C,2 E,2 | G,4 G,2 C,2 | "G"G,4 G,2 B,2 | D4 D2 G,2 |
-        # M-Tron brake effect: subtle CC1 automation at phrase endings
+        # M-Tron Pro IV: Brake effect (CC1) for tape flutter at phrase endings
+        # Subtle pitch wobble (30) then release (0) - creates vintage tape feel
         automation:
           - cc: 1
-            values: [[15, 30], [16, 0], [31, 30], [32, 0]]  # [beat, value]
+            values: [[15, 30], [15.5, 20], [16, 0], [31, 30], [31.5, 20], [32, 0]]
       alto-sax:
         abc: |
           "G"B4 d4 | g4 d2B2 | "G"d4 B4 | g4 d2B2 |
           "C"e4 g4 | c'4 g2e2 | "G"d4 B4 | g4 d2B2 |
-        # MOJO 2: sustains articulation for melodic lines
+        # MOJO 2: sustains with legato for smooth melodic lines
         articulation: sustains
+        # Add doits at end of phrases (beat 16 = bar 4, beat 32 = bar 8)
+        control_notes:
+          - note: doits
+            beat: 15.5
+            velocity: 115  # >110 triggers release articulation
+          - note: falls
+            beat: 31.5
+            velocity: 115
       guitar:
         abc: |
           "G"D2G2B2d2 | D2G2B2d2 | "G"D2G2B2d2 | D2G2B2d2 |
           "C"E2G2c2e2 | E2G2c2e2 | "G"D2G2B2d2 | D2G2B2d2 |
         # Electric Sunburst: open articulation for clean arpeggios
         articulation: open
+        automation:
+          # CC3: Round robin reset at start for consistent playback
+          - cc: 3
+            values: [[0, 127]]
+          # CC1: Subtle vibrato swell mid-phrase for expression
+          - cc: 1
+            values: [[8, 0], [12, 40], [16, 0], [24, 0], [28, 40], [32, 0]]
 
 instruments:
   bass:

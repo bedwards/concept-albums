@@ -100,8 +100,13 @@ def inject_midi_controls(midi_file: Path, plugin_controls: Dict, instrument_conf
     if section_config and 'automation' in section_config:
         automation = automation + section_config['automation']
 
+    # Get control_notes config (keyswitches at specific beats)
+    control_notes = instrument_config.get('control_notes', [])
+    if section_config and 'control_notes' in section_config:
+        control_notes = control_notes + section_config['control_notes']
+
     # Nothing to do?
-    if not articulation and not automation:
+    if not articulation and not automation and not control_notes:
         return False
 
     try:
@@ -150,6 +155,24 @@ def inject_midi_controls(midi_file: Path, plugin_controls: Dict, instrument_conf
             modified = True
 
         print(f"  Injected CC{cc_num} automation: {len(values)} points")
+
+    # 3. Inject control notes (keyswitches at specific beats)
+    for ctrl in control_notes:
+        note_name = ctrl.get('note')
+        beat = ctrl.get('beat', 0)
+        velocity = ctrl.get('velocity', 100)
+
+        if not note_name:
+            continue
+
+        # Look up keyswitch note from plugin database
+        keyswitch_note = get_keyswitch_note(plugin_controls, plugin_name, note_name)
+        if keyswitch_note:
+            tick = int(beat * ticks_per_beat)
+            new_messages.append((tick, mido.Message('note_on', note=keyswitch_note, velocity=velocity, time=0)))
+            new_messages.append((tick + 10, mido.Message('note_off', note=keyswitch_note, velocity=0, time=0)))
+            modified = True
+            print(f"  Injected control note: {note_name} at beat {beat} (vel {velocity})")
 
     if not modified:
         return False
@@ -492,19 +515,25 @@ def generate_midi_files(output_dir: Path, song_dir: Path, config: Dict, plugin_c
     instruments_config = config.get('instruments', {})
     sections_config = config.get('sections', {})
 
-    # Merge section-level automation into instrument config
+    # Merge section-level automation and control_notes into instrument config
     for section_name, section_data in sections_config.items():
         if 'instruments' not in section_data:
             continue
         for inst_name, inst_section in section_data['instruments'].items():
             if inst_name in instruments_config:
-                # Copy section-level articulation and automation to instrument
+                # Copy section-level articulation to instrument
                 if 'articulation' in inst_section and 'articulation' not in instruments_config[inst_name]:
                     instruments_config[inst_name]['articulation'] = inst_section['articulation']
+                # Merge automation
                 if 'automation' in inst_section:
                     if 'automation' not in instruments_config[inst_name]:
                         instruments_config[inst_name]['automation'] = []
                     instruments_config[inst_name]['automation'].extend(inst_section['automation'])
+                # Merge control_notes (keyswitches at specific beats)
+                if 'control_notes' in inst_section:
+                    if 'control_notes' not in instruments_config[inst_name]:
+                        instruments_config[inst_name]['control_notes'] = []
+                    instruments_config[inst_name]['control_notes'].extend(inst_section['control_notes'])
 
     for abc_file in abc_files:
         mid_file = abc_file.with_suffix('.mid')

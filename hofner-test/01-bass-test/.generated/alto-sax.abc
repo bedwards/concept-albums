@@ -1,0 +1,11 @@
+X:1
+T:Bass Test
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=95
+K:G
+%%MIDI program 66
+%%MIDI chordprog -1
+B4 d4 | g4 d2B2 | d4 B4 | g4 d2B2 |
+e4 g4 | c'4 g2e2 | d4 B4 | g4 d2B2 |

@@ -1,0 +1,17 @@
+title: Bass Test
+composer: Brian Edwards
+tempo: 95
+time: 4/4
+key: G
+sections:
+- name: main
+  bars: 8
+structure:
+- main
+instruments:
+  bass:
+    program: 33
+  alto-sax:
+    program: 66
+  guitar:
+    program: 25

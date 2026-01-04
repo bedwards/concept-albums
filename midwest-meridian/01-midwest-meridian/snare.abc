@@ -1,0 +1,30 @@
+X:1
+T:Midwest Meridian - Drums  
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=95
+K:C perc
+V:1 name="Kick"
+%%MIDI program 128
+%%MIDI channel 10
+z8 | z8 | z8 | z8 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 | z2 C2 z2 C2 |
+z2 C2 z2 C2 | z2 C2 z4 | z8 | z8 |
+z2 C2 z2 C2 | z2 C2 z4 | z8 | z8 |
+z8 | z8 | z8 | z8 |

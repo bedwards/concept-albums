@@ -1,0 +1,42 @@
+title: Midwest Meridian
+composer: Brian Edwards
+tempo: 95
+time: 4/4
+key: G
+sections:
+- name: bridge
+  bars: 8
+- name: chorus_final
+  bars: 12
+- name: verse
+  bars: 16
+- name: chorus
+  bars: 8
+- name: outro
+  bars: 8
+- name: intro
+  bars: 8
+structure:
+- intro
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- chorus_final
+- outro
+instruments:
+  acoustic-guitar:
+    program: 25
+  pedal-steel:
+    program: 26
+  fiddle:
+    program: 110
+  electric-guitar:
+    program: 27
+  upright-bass:
+    program: 33
+  vocal:
+    program: 53
+  drums:
+    percussion: true

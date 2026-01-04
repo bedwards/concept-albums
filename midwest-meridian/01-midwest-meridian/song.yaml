@@ -1,0 +1,446 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Midwest Meridian
+# ============================================================================
+# A Son Volt-style acoustic folk song. Rick Rubin production philosophy:
+# - Strip it down to the essence
+# - Let the song breathe
+# - The room is an instrument
+# - Dynamics over loudness
+# - Honesty over polish
+#
+# Run: python scripts/generate_song.py midwest-meridian/01-midwest-meridian/
+# ============================================================================
+
+song:
+  title: "Midwest Meridian"
+  composer: "Brian Edwards"
+  tempo: 95
+  time: "4/4"
+  key: "G"
+
+  structure:
+    - intro
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - chorus_final
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Acoustic fingerpicking, pedal steel enters bar 5
+  # Chords: G | G | C | C | G | D | G | G
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "G"G,2 D2 G2 B2 | G,2 D2 G2 B2 | "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 |
+          "G"G,2 D2 G2 B2 | "D"D,2 A,2 D2 F2 | "G"G,2 D2 G2 B2 | G,2 D2 G4 |
+
+      pedal-steel:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "G"B4 d4 | "D"A4 F4 | "G"G4 B4 | G8 |
+
+      fiddle:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      electric-guitar:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      upright-bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      vocal:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (16 bars) - Vocal enters, sparse arrangement
+  # Chords: G | G | C | C | G | D | Em | Em | G | G | C | C | G | D | G | G
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 16
+
+    lyrics:
+      verse1:
+        - line: "The sun cuts low through the windshield glass"
+          chords: ["G"]
+        - line: "Another town that I drove right past"
+          chords: ["G", "C"]
+        - line: "The radio fades at the county line"
+          chords: ["C"]
+        - line: "Just static now where the stations whine"
+          chords: ["G", "D", "Em"]
+        - line: "Grain elevators standing tall"
+          chords: ["G"]
+        - line: "Casting shadows through the fall"
+          chords: ["G", "C"]
+        - line: "Every mile feels like a prayer"
+          chords: ["C"]
+        - line: "For something waiting out there"
+          chords: ["G", "D", "G"]
+
+      verse2:
+        - line: "The diners close by nine PM"
+          chords: ["G"]
+        - line: "The same old faces, the same old hymns"
+          chords: ["G", "C"]
+        - line: "Sunday morning, Monday's weight"
+          chords: ["C"]
+        - line: "This highway don't negotiate"
+          chords: ["G", "D", "Em"]
+        - line: "I called you from a payphone booth"
+          chords: ["G"]
+        - line: "The last one standing, that's the truth"
+          chords: ["G", "C"]
+        - line: "Your voice came through like yesterday"
+          chords: ["C"]
+        - line: "Then the quarters ran out anyway"
+          chords: ["G", "D", "G"]
+
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 | "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 |
+          "G"G,2 B,2 D2 G2 | "D"D,2 F2 A2 d2 | "Em"E,2 G2 B2 e2 | E,2 G2 B2 e2 |
+          "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 | "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 |
+          "G"G,2 B,2 D2 G2 | "D"D,2 F2 A2 d2 | "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 |
+
+      pedal-steel:
+        abc: |
+          "G"B4 d4 | z8 | "C"E4 G4 | z8 |
+          "G"B4 z4 | "D"A4 z4 | "Em"G4 B4 | z8 |
+          "G"B4 d4 | z8 | "C"E4 G4 | z8 |
+          "G"B4 z4 | "D"A4 F4 | "G"G4 B4 | G8 |
+
+      fiddle:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      electric-guitar:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      upright-bass:
+        abc: |
+          "G"G,4 z4 | G,4 z4 | "C"C,4 z4 | C,4 z4 |
+          "G"G,4 z4 | "D"D,4 z4 | "Em"E,4 z4 | E,4 z4 |
+          "G"G,4 z4 | G,4 z4 | "C"C,4 z4 | C,4 z4 |
+          "G"G,4 z4 | "D"D,4 z4 | "G"G,4 z4 | G,4 z4 |
+
+      vocal:
+        abc: |
+          "G"D2 D2 E2 G2 | G2 A2 B4 | "C"G2 G2 E2 D2 | D2 E2 G4 |
+          "G"D2 D2 E2 G2 | "D"A2 G2 E4 | "Em"B2 B2 A2 G2 | E4 z4 |
+          "G"D2 D2 E2 G2 | G2 A2 B4 | "C"G2 G2 E2 D2 | D2 E2 G4 |
+          "G"D2 D2 E2 G2 | "D"A2 G2 E4 | "G"G4 D4 | G4 z4 |
+
+      drums:
+        kick: |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+        snare: |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - Opens up, fiddle enters with counter-melody
+  # Chords: C | C | G | G | D | Em | C | D
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "On the midwest meridian"
+          chords: ["C"]
+        - line: "Where the sky meets the dirt"
+          chords: ["C", "G"]
+        - line: "Every crossroad's a question"
+          chords: ["G"]
+        - line: "Of staying or getting hurt"
+          chords: ["D", "Em"]
+        - line: "I keep chasing that horizon"
+          chords: ["C"]
+        - line: "Like it owes me something still"
+          chords: ["D"]
+        - line: "On the midwest meridian"
+          chords: ["C", "D"]
+        - line: "I probably always will"
+          chords: ["G"]
+
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 | "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 |
+          "D"D,2 F2 A2 d2 | "Em"E,2 G2 B2 e2 | "C"C,2 E2 G2 c2 | "D"D,2 F2 A2 d2 |
+
+      pedal-steel:
+        abc: |
+          "C"E4 G4 | c4 e4 | "G"D4 B4 | G4 d4 |
+          "D"F4 A4 | "Em"B4 G4 | "C"E4 c4 | "D"A4 F4 |
+
+      fiddle:
+        abc: |
+          "C"G2 E2 D2 C2 | E2 G2 c4 | "G"B2 G2 D2 B,2 | D2 G2 B4 |
+          "D"A2 F2 D2 A,2 | "Em"G2 B2 e4 | "C"G2 E2 D2 C2 | "D"A2 d2 f4 |
+
+      electric-guitar:
+        abc: |
+          "C"c2 G2 E2 C2 | c2 G2 E2 C2 | "G"B2 G2 D2 B,2 | B2 G2 D2 B,2 |
+          "D"d2 A2 F2 D2 | "Em"e2 B2 G2 E2 | "C"c2 G2 E2 C2 | "D"d2 A2 F2 D2 |
+
+      upright-bass:
+        abc: |
+          "C"C,4 E,4 | C,4 G,4 | "G"G,4 D,4 | G,4 B,,4 |
+          "D"D,4 F,4 | "Em"E,4 G,4 | "C"C,4 E,4 | "D"D,4 A,,4 |
+
+      vocal:
+        abc: |
+          "C"G2 G2 A2 B2 | c2 B2 A4 | "G"B2 B2 c2 d2 | d2 c2 B4 |
+          "D"A2 A2 B2 c2 | "Em"B2 A2 G4 | "C"G2 G2 A2 B2 | "D"A2 B2 c4 |
+
+      drums:
+        kick: |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+        snare: |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (8 bars) - Stripped back, exposed vocal, pedal steel crying
+  # Chords: Em | Em | C | C | Am | Am | D | D
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 8
+
+    lyrics:
+      bridge:
+        - line: "Maybe home ain't a place you find"
+          chords: ["Em"]
+        - line: "Maybe it's just the road behind"
+          chords: ["Em", "C"]
+        - line: "All those miles I left back there"
+          chords: ["C", "Am"]
+        - line: "Scattered like seeds in the summer air"
+          chords: ["Am", "D", "D"]
+
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "Em"E,2 G2 B2 e2 | E,2 G2 B2 e2 | "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 |
+          "Am"A,2 C2 E2 A2 | A,2 C2 E2 A2 | "D"D,2 F2 A2 d2 | D,2 F2 A2 d2 |
+
+      pedal-steel:
+        abc: |
+          "Em"B4 G4 | e4 B4 | "C"G4 E4 | c4 G4 |
+          "Am"E4 A4 | A4 c4 | "D"F4 A4 | A4 d4 |
+
+      fiddle:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      electric-guitar:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      upright-bass:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      vocal:
+        abc: |
+          "Em"B2 B2 A2 G2 | G2 A2 B4 | "C"G2 G2 E2 D2 | E2 G2 A4 |
+          "Am"A2 A2 G2 E2 | E2 G2 A4 | "D"A2 B2 c2 d2 | d4 z4 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS FINAL (12 bars) - Builds to emotional peak
+  # Chords: C | C | G | G | D | Em | C | D | G | G | G | G
+  # --------------------------------------------------------------------------
+  chorus_final:
+    bars: 12
+
+    lyrics:
+      chorus_final:
+        - line: "On the midwest meridian"
+          chords: ["C"]
+        - line: "Where the sky meets the dirt"
+          chords: ["C", "G"]
+        - line: "Every crossroad's a question"
+          chords: ["G"]
+        - line: "Of staying or getting hurt"
+          chords: ["D", "Em"]
+        - line: "I keep chasing that horizon"
+          chords: ["C"]
+        - line: "Like it owes me something still"
+          chords: ["D"]
+        - line: "On the midwest meridian"
+          chords: ["G"]
+        - line: "I probably always will"
+          chords: ["G", "G", "G"]
+
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 | "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 |
+          "D"D,2 F2 A2 d2 | "Em"E,2 G2 B2 e2 | "C"C,2 E2 G2 c2 | "D"D,2 F2 A2 d2 |
+          "G"G,2 B,2 D2 G2 | G,2 B,2 D2 G2 | G,2 B,2 D2 G2 | G,2 B,2 D2 G2 |
+
+      pedal-steel:
+        abc: |
+          "C"E4 G4 | c4 e4 | "G"D4 B4 | G4 d4 |
+          "D"F4 A4 | "Em"B4 G4 | "C"E4 c4 | "D"A4 d4 |
+          "G"B4 d4 | g4 d4 | B4 G4 | G8 |
+
+      fiddle:
+        abc: |
+          "C"G2 E2 D2 C2 | E2 G2 c4 | "G"B2 G2 D2 B,2 | D2 G2 B4 |
+          "D"A2 F2 D2 A,2 | "Em"G2 B2 e4 | "C"G2 E2 D2 C2 | "D"A2 d2 f4 |
+          "G"d2 B2 G2 D2 | B2 d2 g4 | d4 B4 | G8 |
+
+      electric-guitar:
+        abc: |
+          "C"c2 G2 E2 C2 | c2 G2 E2 C2 | "G"B2 G2 D2 B,2 | B2 G2 D2 B,2 |
+          "D"d2 A2 F2 D2 | "Em"e2 B2 G2 E2 | "C"c2 G2 E2 C2 | "D"d2 A2 F2 D2 |
+          "G"B2 G2 D2 G2 | B2 d2 g4 | d4 B4 | G8 |
+
+      upright-bass:
+        abc: |
+          "C"C,4 E,4 | C,4 G,4 | "G"G,4 D,4 | G,4 B,,4 |
+          "D"D,4 F,4 | "Em"E,4 G,4 | "C"C,4 E,4 | "D"D,4 A,,4 |
+          "G"G,4 D,4 | G,4 B,,4 | G,4 z4 | G,8 |
+
+      vocal:
+        abc: |
+          "C"G2 G2 A2 B2 | c2 B2 A4 | "G"B2 B2 c2 d2 | d2 c2 B4 |
+          "D"A2 A2 B2 c2 | "Em"B2 A2 G4 | "C"G2 G2 A2 B2 | "D"A2 B2 c4 |
+          "G"d4 c4 | B4 A4 | G4 z4 | z8 |
+
+      drums:
+        kick: |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z2 c2 | c4 z2 c2 |
+          c4 z2 c2 | c4 z2 c2 | c4 z4 | z8 |
+        snare: |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z4 c4 |
+          z4 c4 | z4 c4 | z4 c4 | z8 |
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Returns to intro, instruments drop out one by one
+  # Chords: G | G | C | C | G | D | G | G (hold)
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+    instruments:
+      acoustic-guitar:
+        abc: |
+          "G"G,2 D2 G2 B2 | G,2 D2 G2 B2 | "C"C,2 E2 G2 c2 | C,2 E2 G2 c2 |
+          "G"G,2 D2 G2 B2 | "D"D,2 A,2 D2 F2 | "G"G,2 D2 G2 B2 | G,8 |
+
+      pedal-steel:
+        abc: |
+          "G"B4 d4 | G4 B4 | "C"E4 G4 | c4 G4 |
+          "G"B4 d4 | "D"A4 F4 | "G"G4 B4 | G8 |
+
+      fiddle:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      electric-guitar:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      upright-bass:
+        abc: |
+          "G"G,4 z4 | G,4 z4 | "C"C,4 z4 | C,4 z4 |
+          "G"G,4 z4 | "D"D,4 z4 | "G"G,4 z4 | z8 |
+
+      vocal:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          z8 | z8 | G4 z4 | z8 |
+
+      drums:
+        kick: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENTS - MIDI Program Numbers
+# ============================================================================
+
+instruments:
+  acoustic-guitar:
+    program: 25
+  pedal-steel:
+    program: 26
+  fiddle:
+    program: 110
+  electric-guitar:
+    program: 27
+  upright-bass:
+    program: 33
+  vocal:
+    program: 53
+  drums:
+    percussion: true
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+
+arrangement:
+  intro: |
+    Acoustic Guitar: Fingerpicking pattern based on G and C chords. Arpeggiated,
+    gentle, sets the contemplative mood. Think early Son Volt, the quiet before dawn.
+    Pedal Steel: Enters bar 5 with long, sustained swells. Not busy - just adding
+    color and horizon. Volume swells, no attack.
+    All Others: Silent. Let the song breathe from the start.
+
+  verse: |
+    Acoustic Guitar: Transitions to light strumming. Still restrained, but with more
+    rhythmic drive. Accents on beats 1 and 3.
+    Pedal Steel: Sparse swells on chord changes. Supporting, not leading.
+    Upright Bass: Root notes only, half notes. Deep and steady. The heartbeat.
+    Vocal: Main melody, conversational delivery. Don't oversing. Let the words carry.
+    Drums: Brushes on snare, soft kick on 1 and 3. Almost inaudible - just a pulse.
+    Fiddle/Electric: Silent for first verse. Save their entrance.
+
+  chorus: |
+    Full arrangement opens up, but still restrained. Everyone playing, but listening.
+    Fiddle: Counter-melody weaving around the vocal. Don't compete - complement.
+    Electric Guitar: Clean arpeggios, adding shimmer. No distortion, no effects.
+    Dynamics: mf at most. This isn't a rock chorus - it's a folk revelation.
+
+  bridge: |
+    Strip it all back. This is the emotional core.
+    Acoustic Guitar: Return to fingerpicking. Intimate.
+    Vocal: Exposed, vulnerable. This is the truth of the song.
+    Pedal Steel: Crying swells. This instrument IS the longing.
+    Everyone else: Out. Silence is the arrangement here.
+
+  chorus_final: |
+    Build to emotional peak over 12 bars, then fade naturally.
+    All instruments enter, layering gradually.
+    Last 4 bars: Fade one by one. Let the resolution be natural.
+    End on sustained G - the journey continues.
+
+  outro: |
+    Return to intro instrumentation and pattern.
+    Instruments drop out one by one over 8 bars.
+    End with acoustic guitar and pedal steel holding a final G.
+    The road goes on.

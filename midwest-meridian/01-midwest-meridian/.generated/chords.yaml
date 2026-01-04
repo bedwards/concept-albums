@@ -1,0 +1,143 @@
+song:
+  title: Midwest Meridian
+  composer: Brian Edwards
+  key: G
+  tempo: 95
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - G
+    lyrics: The sun cuts low through the windshield glass
+  - chords:
+    - G
+    - C
+    lyrics: Another town that I drove right past
+  - chords:
+    - C
+    lyrics: The radio fades at the county line
+  - chords:
+    - G
+    - D
+    - Em
+    lyrics: Just static now where the stations whine
+  - chords:
+    - G
+    lyrics: Grain elevators standing tall
+  - chords:
+    - G
+    - C
+    lyrics: Casting shadows through the fall
+  - chords:
+    - C
+    lyrics: Every mile feels like a prayer
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: For something waiting out there
+  verse2:
+  - chords:
+    - G
+    lyrics: The diners close by nine PM
+  - chords:
+    - G
+    - C
+    lyrics: The same old faces, the same old hymns
+  - chords:
+    - C
+    lyrics: Sunday morning, Monday's weight
+  - chords:
+    - G
+    - D
+    - Em
+    lyrics: This highway don't negotiate
+  - chords:
+    - G
+    lyrics: I called you from a payphone booth
+  - chords:
+    - G
+    - C
+    lyrics: The last one standing, that's the truth
+  - chords:
+    - C
+    lyrics: Your voice came through like yesterday
+  - chords:
+    - G
+    - D
+    - G
+    lyrics: Then the quarters ran out anyway
+  chorus:
+  - chords:
+    - C
+    lyrics: On the midwest meridian
+  - chords:
+    - C
+    - G
+    lyrics: Where the sky meets the dirt
+  - chords:
+    - G
+    lyrics: Every crossroad's a question
+  - chords:
+    - D
+    - Em
+    lyrics: Of staying or getting hurt
+  - chords:
+    - C
+    lyrics: I keep chasing that horizon
+  - chords:
+    - D
+    lyrics: Like it owes me something still
+  - chords:
+    - C
+    - D
+    lyrics: On the midwest meridian
+  - chords:
+    - G
+    lyrics: I probably always will
+  bridge:
+  - chords:
+    - Em
+    lyrics: Maybe home ain't a place you find
+  - chords:
+    - Em
+    - C
+    lyrics: Maybe it's just the road behind
+  - chords:
+    - C
+    - Am
+    lyrics: All those miles I left back there
+  - chords:
+    - Am
+    - D
+    - D
+    lyrics: Scattered like seeds in the summer air
+  chorus_final:
+  - chords:
+    - C
+    lyrics: On the midwest meridian
+  - chords:
+    - C
+    - G
+    lyrics: Where the sky meets the dirt
+  - chords:
+    - G
+    lyrics: Every crossroad's a question
+  - chords:
+    - D
+    - Em
+    lyrics: Of staying or getting hurt
+  - chords:
+    - C
+    lyrics: I keep chasing that horizon
+  - chords:
+    - D
+    lyrics: Like it owes me something still
+  - chords:
+    - G
+    lyrics: On the midwest meridian
+  - chords:
+    - G
+    - G
+    - G
+    lyrics: I probably always will

@@ -1,0 +1,35 @@
+song:
+  title: "Bass Test"
+  composer: "Brian Edwards"
+  tempo: 95
+  time: "4/4"
+  key: "G"
+
+  structure:
+    - main
+
+sections:
+  main:
+    bars: 8
+    instruments:
+      bass:
+        abc: |
+          "G"G,4 G,2 B,2 | D4 D2 G,2 | "G"G,4 G,2 B,2 | D4 D2 G,2 |
+          "C"C,4 C,2 E,2 | G,4 G,2 C,2 | "G"G,4 G,2 B,2 | D4 D2 G,2 |
+      alto-sax:
+        abc: |
+          "G"B4 d4 | g4 d2B2 | "G"d4 B4 | g4 d2B2 |
+          "C"e4 g4 | c'4 g2e2 | "G"d4 B4 | g4 d2B2 |
+      guitar:
+        # {C,,,} = grace note C1 keyswitch for "Fret Pos 5" articulation
+        abc: |
+          {C,,,}"G"D2G2B2d2 | D2G2B2d2 | "G"D2G2B2d2 | D2G2B2d2 |
+          "C"E2G2c2e2 | E2G2c2e2 | "G"D2G2B2d2 | D2G2B2d2 |
+
+instruments:
+  bass:
+    program: 33
+  alto-sax:
+    program: 66
+  guitar:
+    program: 25

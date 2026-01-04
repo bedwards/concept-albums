@@ -1,0 +1,44 @@
+TEMPO: 95 bpm
+TIME: 4/4
+KEY: G
+
+INTRO
+Acoustic Guitar: Fingerpicking pattern based on G and C chords. Arpeggiated,
+gentle, sets the contemplative mood. Think early Son Volt, the quiet before dawn.
+Pedal Steel: Enters bar 5 with long, sustained swells. Not busy - just adding
+color and horizon. Volume swells, no attack.
+All Others: Silent. Let the song breathe from the start.
+
+VERSE
+Acoustic Guitar: Transitions to light strumming. Still restrained, but with more
+rhythmic drive. Accents on beats 1 and 3.
+Pedal Steel: Sparse swells on chord changes. Supporting, not leading.
+Upright Bass: Root notes only, half notes. Deep and steady. The heartbeat.
+Vocal: Main melody, conversational delivery. Don't oversing. Let the words carry.
+Drums: Brushes on snare, soft kick on 1 and 3. Almost inaudible - just a pulse.
+Fiddle/Electric: Silent for first verse. Save their entrance.
+
+CHORUS
+Full arrangement opens up, but still restrained. Everyone playing, but listening.
+Fiddle: Counter-melody weaving around the vocal. Don't compete - complement.
+Electric Guitar: Clean arpeggios, adding shimmer. No distortion, no effects.
+Dynamics: mf at most. This isn't a rock chorus - it's a folk revelation.
+
+BRIDGE
+Strip it all back. This is the emotional core.
+Acoustic Guitar: Return to fingerpicking. Intimate.
+Vocal: Exposed, vulnerable. This is the truth of the song.
+Pedal Steel: Crying swells. This instrument IS the longing.
+Everyone else: Out. Silence is the arrangement here.
+
+CHORUS_FINAL
+Build to emotional peak over 12 bars, then fade naturally.
+All instruments enter, layering gradually.
+Last 4 bars: Fade one by one. Let the resolution be natural.
+End on sustained G - the journey continues.
+
+OUTRO
+Return to intro instrumentation and pattern.
+Instruments drop out one by one over 8 bars.
+End with acoustic guitar and pedal steel holding a final G.
+The road goes on.

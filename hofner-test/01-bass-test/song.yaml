@@ -41,12 +41,58 @@ sections:
           - note: sustains
             beat: 31.9
             velocity: 100  # Reset for loop
+        automation:
+          # CC1 (Dynamic Layers) - tightened range for natural brass dynamics
+          - cc: 1
+            values: [
+              [0, 50],      # Start moderate
+              [4, 60],      # Build into phrase
+              [8, 70],      # Peak at bar 3
+              [12, 58],     # Ease back
+              [14, 50],     # Soft before doit
+              [16, 52],     # New phrase start
+              [20, 62],     # Build
+              [24, 70],     # Peak at bar 7
+              [28, 58],     # Ease back
+              [30, 50],     # Soft before fall
+              [31.9, 50]    # Reset for loop
+            ]
+          # CC23 (Vibrato Amount) - shimmer on sustained peaks
+          - cc: 23
+            values: [
+              [0, 0],       # No vibrato at start
+              [6, 50],      # Add vibrato approaching peak
+              [8, 80],      # Full vibrato at phrase peak
+              [12, 40],     # Ease off
+              [14, 0],      # Clean for doit
+              [16, 0],      # Reset
+              [22, 55],     # Vibrato builds
+              [24, 90],     # Strong vibrato at big peak
+              [28, 45],     # Ease off
+              [30, 0],      # Clean for fall
+              [31.9, 0]     # Reset for loop
+            ]
+          # CC15 (Number of Players) - solo to section swell
+          - cc: 15
+            values: [
+              [0, 30],      # Start with ~3 players
+              [8, 60],      # Build to ~6 players at phrase peak
+              [14, 35],     # Back down before doit
+              [16, 30],     # Reset for phrase 2
+              [24, 80],     # Full section at climax!
+              [30, 40],     # Ease back before fall
+              [31.9, 30]    # Reset for loop
+            ]
       guitar:
         abc: |
           "G"D2G2B2d2 | D2G2B2d2 | "G"D2G2B2d2 | D2G2B2d2 |
           "C"E2G2c2e2 | E2G2c2e2 | "G"D2G2B2d2 | D2G2B2d2 |
         # Electric Sunburst: open articulation for clean arpeggios
         articulation: open
+        control_notes:
+          - note: open
+            beat: 31.9
+            velocity: 100  # Reset for loop
         automation:
           # CC3: Round robin reset at start for consistent playback
           - cc: 3

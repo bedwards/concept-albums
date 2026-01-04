@@ -7,50 +7,51 @@ electric-sunburst-deluxe:
   vendor: "Native Instruments"
   type: "kontakt"
 
-  # Keyswitches for melody articulations (C1-D#1 = MIDI 24-27)
+  # Keyswitches for melody articulations (C1-D#1 in Bitwig = MIDI 36-39)
+  # Note: Bitwig displays MIDI notes one octave lower than standard
   keyswitches:
     open:
-      note: 24  # C1
+      note: 36  # C1 (Bitwig display)
       name: "Open"
       description: "Default open string sound"
     muted:
-      note: 25  # C#1
+      note: 37  # C#1
       name: "Muted"
       description: "Palm muted/dampened strings"
     flageolet:
-      note: 26  # D1
+      note: 38  # D1
       name: "Flageolet"
       description: "Harmonics"
     tremolo:
-      note: 27  # D#1
+      note: 39  # D#1
       name: "Tremolo"
       description: "Rapid repeated picking"
 
-  # Pattern keyswitches (E1-G1 = MIDI 28-31)
+  # Pattern keyswitches (E1-G1 in Bitwig = MIDI 40-43)
   patterns:
     pattern1:
-      note: 28  # E1
+      note: 40  # E1
       name: "Pattern 1"
     pattern2:
-      note: 29  # F1
+      note: 41  # F1
       name: "Pattern 2"
     pattern3:
-      note: 31  # G1
+      note: 43  # G1
       name: "Pattern 3"
 
-  # Endings and slides (G#1-B1 = MIDI 32-35)
+  # Endings and slides (G#1-B1 in Bitwig = MIDI 44-47)
   endings:
     slide_up:
-      note: 32  # G#1
+      note: 44  # G#1
       name: "Long ending / Slide up"
     slide_down:
-      note: 33  # A1
+      note: 45  # A1
       name: "Slide down"
     mute_strings:
-      note: 34  # Bb1
+      note: 46  # Bb1
       name: "Mute strings / Hit body / Slap"
     slide_modifier:
-      note: 35  # B1
+      note: 47  # B1
       name: "Slide modifier (hold while playing)"
 
   # MIDI CC controls
@@ -135,10 +136,10 @@ mojo-2:
   type: "kontakt"
 
   # Articulation keyswitches (RED/ORANGE keys - positions configurable in plugin)
-  # Default positions shown, verify in plugin's Key Mapping page
+  # MOJO 2 uses standard MIDI note numbers (not Bitwig-adjusted)
   keyswitches:
     sustains:
-      note: 24  # Typically low C area - verify in plugin
+      note: 24  # C0 in Bitwig
       name: "Sustains"
       color: "red"
       has_legato: true

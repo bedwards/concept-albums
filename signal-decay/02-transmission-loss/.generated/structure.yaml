@@ -1,0 +1,39 @@
+title: Transmission Loss
+composer: Brian Edwards
+tempo: 138
+time: 4/4
+key: Amin
+sections:
+- name: breakdown
+  bars: 8
+- name: section_b
+  bars: 8
+- name: intro
+  bars: 8
+- name: section_a
+  bars: 8
+- name: outro
+  bars: 8
+structure:
+- intro
+- section_a
+- section_a
+- section_b
+- section_a
+- section_b
+- breakdown
+- section_a
+- outro
+instruments:
+  synth-arp:
+    program: 81
+    name: Lead 2 (sawtooth)
+  synth-lead:
+    program: 80
+    name: Lead 1 (square)
+  bass:
+    program: 38
+    name: Synth Bass 1
+  drums:
+    percussion: true
+    name: Drums

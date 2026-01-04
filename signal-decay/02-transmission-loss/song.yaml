@@ -1,0 +1,275 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Transmission Loss
+# ============================================================================
+# Track 2 (B-Side) - The throwaway demo that caught something true.
+#
+# No vocals. Instrumental transmission into void.
+# 138 BPM. Am. Motorik pulse. Spiraling arpeggios.
+# Recorded at 2am, one take, slightly unhinged.
+#
+# Run: python scripts/generate_song.py signal-decay/02-transmission-loss/
+# ============================================================================
+
+song:
+  title: "Transmission Loss"
+  composer: "Brian Edwards"
+  tempo: 138
+  time: "4/4"
+  key: "Amin"
+
+  structure:
+    - intro
+    - section_a
+    - section_a
+    - section_b
+    - section_a
+    - section_b
+    - breakdown
+    - section_a
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Motorik drums lock in, bass enters
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      synth-arp:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-lead:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      bass:
+        abc: |
+          "Am"z8 | z8 |
+          A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+          A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+          A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C |"
+
+  # --------------------------------------------------------------------------
+  # SECTION A (8 bars) - Main arpeggio pattern, hypnotic
+  # --------------------------------------------------------------------------
+  section_a:
+    bars: 8
+    instruments:
+      synth-arp:
+        abc: |
+          "Am"A, C E A E C A, C | E A E C A, C E A |
+          "F"F, A, C F C A, F, A, | C F C A, F, A, C F |
+          "Am"A, C E A E C A, C | E A E C A, C E A |
+          "G"G, B, D G D B, G, B, | D G D B, G, B, D G |
+
+      synth-lead:
+        abc: |
+          "Am"z8 | z8 |
+          "F"z8 | z8 |
+          "Am"e4 z4 | z8 |
+          "G"d4 z4 | z8 |
+
+      bass:
+        abc: |
+          "Am"A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+          "F"F,2 F,2 C,2 F,2 | F,2 F,2 C,2 F,2 |
+          "Am"A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+          "G"G,2 G,2 D,2 G,2 | G,2 G,2 D,2 G,2 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C |"
+
+  # --------------------------------------------------------------------------
+  # SECTION B (8 bars) - Synth lead takes over, more chaotic arp
+  # --------------------------------------------------------------------------
+  section_b:
+    bars: 8
+    instruments:
+      synth-arp:
+        abc: |
+          "Am"A, E A e A E A, E | A e A E A, E A e |
+          "Dm"D, A, D A D A, D, A, | D A D A, D, A, D A |
+          "F"F, C F c F C F, C | F c F C F, C F c |
+          "E"E, B, E B E B, E, B, | E B E B, E, B, E B |
+
+      synth-lead:
+        abc: |
+          "Am"e2 a2 e2 c2 | a4 e4 |
+          "Dm"d2 f2 a2 d'2 | a4 f4 |
+          "F"c2 f2 a2 c'2 | a4 f4 |
+          "E"B2 e2 g2 b2 | e4 B4 |
+
+      bass:
+        abc: |
+          "Am"A,,2 A,,2 E,2 A,,2 | A,,2 E,2 A,,2 E,2 |
+          "Dm"D,2 D,2 A,,2 D,2 | D,2 A,,2 D,2 A,,2 |
+          "F"F,2 F,2 C,2 F,2 | F,2 C,2 F,2 C,2 |
+          "E"E,2 E,2 B,,2 E,2 | E,2 B,,2 E,2 B,,2 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C |"
+        crash: "C4 z4 | z8 | z8 | z8 | C4 z4 | z8 | z8 | z8 |"
+
+  # --------------------------------------------------------------------------
+  # BREAKDOWN (8 bars) - Drums simplify, arp exposed, experimental
+  # --------------------------------------------------------------------------
+  breakdown:
+    bars: 8
+    instruments:
+      synth-arp:
+        abc: |
+          "Am"A, C E A z2 E C | A, C E A z2 E C |
+          z2 A, C E A E C | z2 A, C E A E C |
+          "Am"A, C E A E C A, C | E A E C A, C E A |
+          E A E C A, C E A | E C A, C E A E C |
+
+      synth-lead:
+        abc: |
+          "Am"a4 z4 | z4 e4 | a4 z4 | z4 e4 |
+          z8 | z8 | a8 | e8 |
+
+      bass:
+        abc: |
+          "Am"A,,8 | z8 | A,,8 | z8 |
+          A,,2 z2 A,,2 z2 | A,,2 z2 A,,2 z2 |
+          A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+
+      drums:
+        kick: "C4 z4 | z8 | C4 z4 | z8 | C4 z4 | C4 z4 | C4 C4 | C4 C4 |"
+        snare: "z8 | z4 C4 | z8 | z4 C4 | z8 | z8 | z4 C4 | z4 C4 |"
+        hihat: "z8 | z8 | z8 | z8 | C2 C2 C2 C2 | C2 C2 C2 C2 | C C C C C C C C | C C C C C C C C |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Arp continues, everything fades, transmission dies
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+    instruments:
+      synth-arp:
+        abc: |
+          "Am"A, C E A E C A, C | E A E C A, C E A |
+          A, C E A E C A, C | E A E C A, C E A |
+          A, C E A E C A, C | E A E C A, C E z |
+          z8 | z8 |
+
+      synth-lead:
+        abc: |
+          "Am"e8 | z8 | e4 z4 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      bass:
+        abc: |
+          "Am"A,,2 A,,2 E,2 A,,2 | A,,2 A,,2 E,2 A,,2 |
+          A,,2 A,,2 E,2 A,,2 | A,,4 z4 |
+          z8 | z8 | z8 | z8 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 z4 | z8 | z8 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C z4 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  synth-arp:
+    program: 81
+    name: "Lead 2 (sawtooth)"
+
+  synth-lead:
+    program: 80
+    name: "Lead 1 (square)"
+
+  bass:
+    program: 38
+    name: "Synth Bass 1"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    MOTORIK LOCK. Drums first - unrelenting.
+    Kick on 1 and 3. Snare on 2 and 4. Hi-hat 16ths.
+    This is the NEU! pulse. The autobahn at midnight.
+
+    Bar 3: Bass enters - octave pattern, synth bass tone.
+    A to E, A to E. Hypnotic. Unthinking.
+
+    No arpeggio yet. Just rhythm section.
+    Building anticipation.
+
+  section_a: |
+    MAIN PATTERN. The transmission begins.
+
+    Arpeggio enters - 16th notes, spiraling upward.
+    Am - F - Am - G progression.
+    Each chord gets 2 bars.
+
+    Pattern: Root - 3rd - 5th - octave - 5th - 3rd - root - 3rd
+    Repeat. Mesmerizing. Don't think about it.
+
+    Synth lead plays single held notes on Am and G sections.
+    Just e and d. Ghost tones. Barely there.
+
+    This is the main groove. Return to it.
+
+  section_b: |
+    ESCALATION. Lead takes over.
+
+    Arpeggio pattern gets more chaotic - wider intervals.
+    Am - Dm - F - E progression.
+    The E chord adds tension. Phrygian flavor.
+
+    Lead plays actual melody - ascending figures.
+    e - a - e - c / a - e / d - f - a - d' / etc.
+
+    Crash cymbal on 1 of bar 1 and bar 5.
+
+    More energy but same hypnotic pulse underneath.
+
+  breakdown: |
+    EXPERIMENTAL MOMENT. The demo showing through.
+
+    Arpeggio becomes fragmented. Gaps.
+    "A, C E A z2 E C" - the z2 is the transmission failing.
+
+    Drums simplify. Kick every 2 bars.
+    Space. Negative space.
+
+    Lead plays long tones. a and e trading.
+    Like a signal trying to lock on.
+
+    Bars 5-8: Everything rebuilds.
+    This is the 2am moment. Half-awake decisions.
+
+  outro: |
+    TRANSMISSION DIES.
+
+    Return to section_a pattern but instruments drop out.
+    Bass first (bar 4).
+    Drums next (bar 3 hi-hat, bar 4 kick/snare).
+
+    Arpeggio alone for bars 5-6.
+    Bar 6: arpeggio stops mid-phrase.
+
+    Bars 7-8: Silence.
+
+    The transmission is lost.
+    No fade. Just gone.

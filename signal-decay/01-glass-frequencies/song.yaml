@@ -1,0 +1,357 @@
+# ============================================================================
+# SINGLE SOURCE OF TRUTH FOR: Glass Frequencies
+# ============================================================================
+# Track 1 (A-Side) - The single. Angular post-punk meets cold synthwave.
+#
+# "I'm tuning to a station that went dark."
+# Loss as a frequency you can almost hear. The angular guitar slices through
+# synth pads like static through signal. Desperate but controlled.
+#
+# Run: python scripts/generate_song.py signal-decay/01-glass-frequencies/
+# ============================================================================
+
+song:
+  title: "Glass Frequencies"
+  composer: "Brian Edwards"
+  tempo: 108
+  time: "4/4"
+  key: "Dmin"
+
+  structure:
+    - intro
+    - verse
+    - chorus
+    - verse
+    - chorus
+    - bridge
+    - chorus
+    - outro
+
+# ============================================================================
+# SECTION DEFINITIONS
+# ============================================================================
+
+sections:
+  # --------------------------------------------------------------------------
+  # INTRO (8 bars) - Cold synth pad, arpeggio enters, angular guitar stabs
+  # --------------------------------------------------------------------------
+  intro:
+    bars: 8
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: |
+          "Dm"[D8F8A8] | [D8F8A8] | "Bb"[D8F8Bb8] | [D8F8Bb8] |
+          "Gm"[D8G8Bb8] | [D8G8Bb8] | "A"[C8E8A8] | [C8E8A8] |
+
+      synth-arp:
+        abc: |
+          "Dm"D2 F2 A2 d2 | A2 F2 D2 F2 | "Bb"D2 F2 Bb2 d2 | Bb2 F2 D2 F2 |
+          "Gm"D2 G2 Bb2 d2 | Bb2 G2 D2 G2 | "A"C2 E2 A2 c2 | A2 E2 C2 E2 |
+
+      guitar-electric:
+        abc: |
+          z8 | z8 | z8 | z8 |
+          "Gm"[D2G2]z2 z4 | z2 [D2G2]z2 z2 | "A"[C2E2]z2 z4 | z2 [C2E2]z2 z2 |
+
+      bass:
+        abc: |
+          "Dm"D,4 D,4 | D,4 A,,4 | "Bb"Bb,,4 Bb,,4 | Bb,,4 F,4 |
+          "Gm"G,,4 G,,4 | G,,4 D,4 | "A"A,,4 A,,4 | A,,4 E,4 |
+
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # VERSE (16 bars) - Desperate vocal, angular guitar countermelody
+  # --------------------------------------------------------------------------
+  verse:
+    bars: 16
+
+    lyrics:
+      verse1:
+        - line: "I'm tuning to a station that went dark"
+          chords: ["Dm"]
+        - line: "Static where your voice used to be"
+          chords: ["Bb"]
+        - line: "Frequency shifting, nothing to mark"
+          chords: ["Gm"]
+        - line: "The place where you transmitted to me"
+          chords: ["A"]
+        - line: "Glass frequencies, I reach but I can't hold"
+          chords: ["Dm", "Bb"]
+        - line: "Every signal that I catch turns cold"
+          chords: ["Gm", "A"]
+        - line: ""
+          chords: ["Dm"]
+        - line: ""
+          chords: ["Dm"]
+
+      verse2:
+        - line: "The dial spins but there's nothing left"
+          chords: ["Dm"]
+        - line: "Just the hum of what we used to say"
+          chords: ["Bb"]
+        - line: "I'm holding onto hollow frequencies"
+          chords: ["Gm"]
+        - line: "Watching them decay"
+          chords: ["A"]
+        - line: "Glass frequencies, I reach but I can't hold"
+          chords: ["Dm", "Bb"]
+        - line: "Every wavelength that I touch turns cold"
+          chords: ["Gm", "A"]
+        - line: ""
+          chords: ["Dm"]
+        - line: ""
+          chords: ["Dm"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Dm"D2 D2 F2 E2 | D4 z4 | "Bb"F2 F2 G2 F2 | D4 z4 |
+          "Gm"G2 G2 A2 G2 | F4 z4 | "A"E2 E2 F2 E2 | D4 z4 |
+          "Dm"D2 F2 A2 d2 | "Bb"d4 c2 Bb2 | "Gm"Bb2 A2 G2 F2 | "A"E4 z4 |
+          "Dm"D4 z4 | z8 | z8 | z8 |
+
+      synth-pad:
+        abc: |
+          "Dm"[D8F8A8] | [D8F8A8] | "Bb"[D8F8Bb8] | [D8F8Bb8] |
+          "Gm"[D8G8Bb8] | [D8G8Bb8] | "A"[C8E8A8] | [C8E8A8] |
+          "Dm"[D8F8A8] | "Bb"[D8F8Bb8] | "Gm"[D8G8Bb8] | "A"[C8E8A8] |
+          "Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+
+      synth-arp:
+        abc: |
+          "Dm"D2 F2 A2 d2 | A2 F2 D2 F2 | "Bb"D2 F2 Bb2 d2 | Bb2 F2 D2 F2 |
+          "Gm"D2 G2 Bb2 d2 | Bb2 G2 D2 G2 | "A"C2 E2 A2 c2 | A2 E2 C2 E2 |
+          "Dm"D2 F2 A2 d2 | "Bb"D2 F2 Bb2 d2 | "Gm"D2 G2 Bb2 d2 | "A"C2 E2 A2 c2 |
+          "Dm"D2 F2 A2 d2 | A2 F2 D2 F2 | A2 F2 D2 F2 | A2 F2 D2 F2 |
+
+      guitar-electric:
+        abc: |
+          "Dm"[D2F2]z2 z2 [A2d2] | z2 [D2F2]z4 | "Bb"[D2F2]z2 z2 [Bb2d2] | z2 [D2F2]z4 |
+          "Gm"[D2G2]z2 z2 [G2Bb2] | z2 [D2G2]z4 | "A"[C2E2]z2 z2 [E2A2] | z2 [C2E2]z4 |
+          "Dm"[D2F2]z2 [A2d2]z2 | "Bb"[D2F2]z2 [Bb2d2]z2 | "Gm"[D2G2]z2 [G2Bb2]z2 | "A"[C2E2]z2 [E2A2]z2 |
+          "Dm"[D2F2]z6 | z8 | z8 | z8 |
+
+      bass:
+        abc: |
+          "Dm"D,2 D,2 D,2 A,,2 | D,2 D,2 A,,2 D,2 | "Bb"Bb,,2 Bb,,2 Bb,,2 F,2 | Bb,,2 Bb,,2 F,2 Bb,,2 |
+          "Gm"G,,2 G,,2 G,,2 D,2 | G,,2 G,,2 D,2 G,,2 | "A"A,,2 A,,2 A,,2 E,2 | A,,2 A,,2 E,2 A,,2 |
+          "Dm"D,2 D,2 A,,2 D,2 | "Bb"Bb,,2 Bb,,2 F,2 Bb,,2 | "Gm"G,,2 G,,2 D,2 G,,2 | "A"A,,2 A,,2 E,2 A,,2 |
+          "Dm"D,2 D,2 D,2 D,2 | D,2 D,2 D,2 D,2 | D,2 A,,2 D,2 A,,2 | D,4 z4 |
+
+      drums:
+        kick: "C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z2 C2 | C4 z2 C2 | C4 z2 C2 | C4 z2 C2 | C4 z4 | C4 z2 C2 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 C2 C2 |"
+
+  # --------------------------------------------------------------------------
+  # CHORUS (8 bars) - Opens up, the acknowledgment of emptiness
+  # --------------------------------------------------------------------------
+  chorus:
+    bars: 8
+
+    lyrics:
+      chorus:
+        - line: "Signal decay, signal decay"
+          chords: ["Dm", "Bb"]
+        - line: "I'm reaching through the static for your face"
+          chords: ["Gm", "A"]
+        - line: "Signal decay, signal decay"
+          chords: ["Dm", "Bb"]
+        - line: "Nothing but the echo of this place"
+          chords: ["Gm", "A"]
+
+    instruments:
+      vocal-melody:
+        abc: |
+          "Dm"d4 A4 | "Bb"Bb4 F4 | "Gm"G2 A2 Bb2 c2 | "A"A4 z4 |
+          "Dm"d4 A4 | "Bb"Bb4 F4 | "Gm"G2 F2 E2 D2 | "A"E4 z4 |
+
+      synth-pad:
+        abc: |
+          "Dm"[D8F8A8d8] | "Bb"[D8F8Bb8d8] | "Gm"[D8G8Bb8d8] | "A"[C8E8A8c8] |
+          "Dm"[D8F8A8d8] | "Bb"[D8F8Bb8d8] | "Gm"[D8G8Bb8d8] | "A"[C8E8A8c8] |
+
+      synth-arp:
+        abc: |
+          "Dm"d2 A2 F2 D2 | "Bb"d2 Bb2 F2 D2 | "Gm"d2 Bb2 G2 D2 | "A"c2 A2 E2 C2 |
+          "Dm"d2 A2 F2 D2 | "Bb"d2 Bb2 F2 D2 | "Gm"d2 Bb2 G2 D2 | "A"c2 A2 E2 C2 |
+
+      guitar-electric:
+        abc: |
+          "Dm"[D4F4A4] z4 | "Bb"[D4F4Bb4] z4 | "Gm"[D4G4Bb4] z4 | "A"[C4E4A4] z4 |
+          "Dm"[D4F4A4] z4 | "Bb"[D4F4Bb4] z4 | "Gm"[D4G4Bb4] z4 | "A"[C4E4A4] z4 |
+
+      bass:
+        abc: |
+          "Dm"D,2 D,2 A,,2 D,2 | "Bb"Bb,,2 Bb,,2 F,2 Bb,,2 | "Gm"G,,2 G,,2 D,2 G,,2 | "A"A,,2 A,,2 E,2 A,,2 |
+          "Dm"D,2 D,2 A,,2 D,2 | "Bb"Bb,,2 Bb,,2 F,2 Bb,,2 | "Gm"G,,2 G,,2 D,2 G,,2 | "A"A,,2 A,,2 E,2 A,,2 |
+
+      drums:
+        kick: "C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 | C4 C4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C |"
+
+  # --------------------------------------------------------------------------
+  # BRIDGE (8 bars) - Instrumental breakdown, synth arp exposed
+  # --------------------------------------------------------------------------
+  bridge:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: |
+          "Dm"[D8F8A8] | [D8F8A8] | "F"[C8F8A8] | [C8F8A8] |
+          "Bb"[D8F8Bb8] | [D8F8Bb8] | "A"[C8E8A8] | [C8E8A8] |
+
+      synth-arp:
+        abc: |
+          "Dm"D F A d A F D F | A d A F D F A d |
+          "F"C F A c A F C F | A c A F C F A c |
+          "Bb"D F Bb d Bb F D F | Bb d Bb F D F Bb d |
+          "A"C E A c A E C E | A c A E C E A c |
+
+      guitar-electric:
+        abc: |
+          "Dm"z8 | z8 | "F"z8 | z8 |
+          "Bb"[D2F2]z6 | z8 | "A"[C2E2]z6 | z8 |
+
+      bass:
+        abc: |
+          "Dm"D,8 | D,4 A,,4 | "F"F,8 | F,4 C,4 |
+          "Bb"Bb,,8 | Bb,,4 F,4 | "A"A,,8 | A,,4 E,4 |
+
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 | C4 z4 |"
+        snare: "z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 | z4 C4 |"
+        hihat: "C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C | C C C C C C C C |"
+
+  # --------------------------------------------------------------------------
+  # OUTRO (8 bars) - Synth arp continues, everything else fades
+  # --------------------------------------------------------------------------
+  outro:
+    bars: 8
+
+    instruments:
+      vocal-melody:
+        abc: "z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |"
+
+      synth-pad:
+        abc: |
+          "Dm"[D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+          [D8F8A8] | [D8F8A8] | [D8F8A8] | [D8F8A8] |
+
+      synth-arp:
+        abc: |
+          "Dm"D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 A2 d2 | A2 F2 D2 F2 |
+          D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 A2 d2 | A4 z4 |
+
+      guitar-electric:
+        abc: |
+          "Dm"[D2F2]z6 | z8 | z8 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      bass:
+        abc: |
+          "Dm"D,4 D,4 | D,4 A,,4 | D,4 z4 | z8 |
+          z8 | z8 | z8 | z8 |
+
+      drums:
+        kick: "C4 z4 | C4 z4 | C4 z4 | z8 | z8 | z8 | z8 | z8 |"
+        snare: "z4 C4 | z4 C4 | z8 | z8 | z8 | z8 | z8 | z8 |"
+        hihat: "C2 C2 C2 C2 | C2 C2 C2 C2 | C2 C2 z4 | z8 | z8 | z8 | z8 | z8 |"
+
+# ============================================================================
+# INSTRUMENT MIDI PROGRAMS
+# ============================================================================
+instruments:
+  vocal-melody:
+    program: 53
+    name: "Voice Oohs"
+
+  synth-pad:
+    program: 89
+    name: "Pad 2 (warm)"
+
+  synth-arp:
+    program: 81
+    name: "Lead 2 (sawtooth)"
+
+  guitar-electric:
+    program: 27
+    name: "Electric Guitar (clean)"
+
+  bass:
+    program: 38
+    name: "Synth Bass 1"
+
+  drums:
+    percussion: true
+    name: "Drums"
+
+# ============================================================================
+# ARRANGEMENT NOTES
+# ============================================================================
+arrangement:
+  intro: |
+    COLD START. Synth pad fades in - Dm, lush but distant.
+    Bar 3: Arpeggio enters, 16th notes, mechanical and precise.
+    Bar 5: Angular guitar stabs - [D,G] chord, off the beat.
+    Drums are drum machine - not trying to be human.
+
+    Establish the tension before the voice arrives.
+
+  verse: |
+    VOCAL ENTERS - desperate but controlled. Speaking more than singing.
+    "I'm tuning to a station that went dark" - let "dark" hang.
+
+    Guitar plays angular countermelody - staccato two-note stabs.
+    Never on the beat. Always syncopated. Post-punk jitter.
+
+    Bass is octave-heavy, driving. Synth bass tone.
+
+    Verse 2 follows same pattern. Build slightly.
+    "Watching them decay" - the word "decay" sets up the chorus.
+
+  chorus: |
+    OPENS UP. Synth pad goes higher register.
+    "Signal decay, signal decay" - incantation, not screaming.
+
+    Guitar plays fuller chords but still angular voicings.
+    Arpeggio descends instead of ascending.
+
+    Hi-hat goes to 16ths - energy increase but still machine.
+
+    "Nothing but the echo of this place" - let it ring.
+
+  bridge: |
+    INSTRUMENTAL BREAKDOWN. 8 bars.
+    Synth arp EXPOSED - solo moment.
+    Everything else drops back.
+
+    Dm - F - Bb - A progression.
+    The F chord is unexpected - momentary warmth before returning to cold.
+
+    Guitar barely there. Single stabs.
+    Drums simplify to kick and snare only, then hi-hat returns.
+
+  outro: |
+    DECAY. The signal failing.
+    Guitar out first. Single stab, then gone.
+    Bass drops next.
+    Drums fade.
+
+    Just synth pad and arpeggio remain.
+    Arpeggio continues alone for final 4 bars.
+    Last bar: arpeggio stops mid-phrase. Cut. Silence.
+
+    The station went dark.

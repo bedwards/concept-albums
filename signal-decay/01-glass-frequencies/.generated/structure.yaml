@@ -1,0 +1,44 @@
+title: Glass Frequencies
+composer: Brian Edwards
+tempo: 108
+time: 4/4
+key: Dmin
+sections:
+- name: intro
+  bars: 8
+- name: outro
+  bars: 8
+- name: verse
+  bars: 16
+- name: chorus
+  bars: 8
+- name: bridge
+  bars: 8
+structure:
+- intro
+- verse
+- chorus
+- verse
+- chorus
+- bridge
+- chorus
+- outro
+instruments:
+  vocal-melody:
+    program: 53
+    name: Voice Oohs
+  synth-pad:
+    program: 89
+    name: Pad 2 (warm)
+  synth-arp:
+    program: 81
+    name: Lead 2 (sawtooth)
+  guitar-electric:
+    program: 27
+    name: Electric Guitar (clean)
+  bass:
+    program: 38
+    name: Synth Bass 1
+  drums:
+    percussion: true
+    name: Drums

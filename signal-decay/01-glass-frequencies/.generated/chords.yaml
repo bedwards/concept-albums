@@ -1,0 +1,78 @@
+song:
+  title: Glass Frequencies
+  composer: Brian Edwards
+  key: Dmin
+  tempo: 108
+  time: 4/4
+sections:
+  verse1:
+  - chords:
+    - Dm
+    lyrics: I'm tuning to a station that went dark
+  - chords:
+    - Bb
+    lyrics: Static where your voice used to be
+  - chords:
+    - Gm
+    lyrics: Frequency shifting, nothing to mark
+  - chords:
+    - A
+    lyrics: The place where you transmitted to me
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Glass frequencies, I reach but I can't hold
+  - chords:
+    - Gm
+    - A
+    lyrics: Every signal that I catch turns cold
+  - chords:
+    - Dm
+    lyrics: ''
+  - chords:
+    - Dm
+    lyrics: ''
+  verse2:
+  - chords:
+    - Dm
+    lyrics: The dial spins but there's nothing left
+  - chords:
+    - Bb
+    lyrics: Just the hum of what we used to say
+  - chords:
+    - Gm
+    lyrics: I'm holding onto hollow frequencies
+  - chords:
+    - A
+    lyrics: Watching them decay
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Glass frequencies, I reach but I can't hold
+  - chords:
+    - Gm
+    - A
+    lyrics: Every wavelength that I touch turns cold
+  - chords:
+    - Dm
+    lyrics: ''
+  - chords:
+    - Dm
+    lyrics: ''
+  chorus:
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Signal decay, signal decay
+  - chords:
+    - Gm
+    - A
+    lyrics: I'm reaching through the static for your face
+  - chords:
+    - Dm
+    - Bb
+    lyrics: Signal decay, signal decay
+  - chords:
+    - Gm
+    - A
+    lyrics: Nothing but the echo of this place

@@ -1,0 +1,31 @@
+X:1
+T:Glass Frequencies
+C:Brian Edwards
+M:4/4
+L:1/8
+Q:1/4=108
+K:Dmin
+%%MIDI program 81
+%%MIDI chordprog -1
+D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 Bb2 d2 | Bb2 F2 D2 F2 |
+D2 G2 Bb2 d2 | Bb2 G2 D2 G2 | C2 E2 A2 c2 | A2 E2 C2 E2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 Bb2 d2 | Bb2 F2 D2 F2 |
+D2 G2 Bb2 d2 | Bb2 G2 D2 G2 | C2 E2 A2 c2 | A2 E2 C2 E2 |
+D2 F2 A2 d2 | D2 F2 Bb2 d2 | D2 G2 Bb2 d2 | C2 E2 A2 c2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | A2 F2 D2 F2 | A2 F2 D2 F2 |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 Bb2 d2 | Bb2 F2 D2 F2 |
+D2 G2 Bb2 d2 | Bb2 G2 D2 G2 | C2 E2 A2 c2 | A2 E2 C2 E2 |
+D2 F2 A2 d2 | D2 F2 Bb2 d2 | D2 G2 Bb2 d2 | C2 E2 A2 c2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | A2 F2 D2 F2 | A2 F2 D2 F2 |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+D F A d A F D F | A d A F D F A d |
+C F A c A F C F | A c A F C F A c |
+D F Bb d Bb F D F | Bb d Bb F D F Bb d |
+C E A c A E C E | A c A E C E A c |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+d2 A2 F2 D2 | d2 Bb2 F2 D2 | d2 Bb2 G2 D2 | c2 A2 E2 C2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 A2 d2 | A2 F2 D2 F2 |
+D2 F2 A2 d2 | A2 F2 D2 F2 | D2 F2 A2 d2 | A4 z4 |

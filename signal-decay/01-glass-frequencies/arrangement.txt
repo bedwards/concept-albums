@@ -1,0 +1,57 @@
+TEMPO: 108 bpm
+TIME: 4/4
+KEY: Dmin
+
+INTRO
+COLD START. Synth pad fades in - Dm, lush but distant.
+Bar 3: Arpeggio enters, 16th notes, mechanical and precise.
+Bar 5: Angular guitar stabs - [D,G] chord, off the beat.
+Drums are drum machine - not trying to be human.
+
+Establish the tension before the voice arrives.
+
+VERSE
+VOCAL ENTERS - desperate but controlled. Speaking more than singing.
+"I'm tuning to a station that went dark" - let "dark" hang.
+
+Guitar plays angular countermelody - staccato two-note stabs.
+Never on the beat. Always syncopated. Post-punk jitter.
+
+Bass is octave-heavy, driving. Synth bass tone.
+
+Verse 2 follows same pattern. Build slightly.
+"Watching them decay" - the word "decay" sets up the chorus.
+
+CHORUS
+OPENS UP. Synth pad goes higher register.
+"Signal decay, signal decay" - incantation, not screaming.
+
+Guitar plays fuller chords but still angular voicings.
+Arpeggio descends instead of ascending.
+
+Hi-hat goes to 16ths - energy increase but still machine.
+
+"Nothing but the echo of this place" - let it ring.
+
+BRIDGE
+INSTRUMENTAL BREAKDOWN. 8 bars.
+Synth arp EXPOSED - solo moment.
+Everything else drops back.
+
+Dm - F - Bb - A progression.
+The F chord is unexpected - momentary warmth before returning to cold.
+
+Guitar barely there. Single stabs.
+Drums simplify to kick and snare only, then hi-hat returns.
+
+OUTRO
+DECAY. The signal failing.
+Guitar out first. Single stab, then gone.
+Bass drops next.
+Drums fade.
+
+Just synth pad and arpeggio remain.
+Arpeggio continues alone for final 4 bars.
+Last bar: arpeggio stops mid-phrase. Cut. Silence.
+
+The station went dark.

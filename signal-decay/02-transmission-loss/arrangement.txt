@@ -1,0 +1,73 @@
+TEMPO: 138 bpm
+TIME: 4/4
+KEY: Amin
+
+INTRO
+MOTORIK LOCK. Drums first - unrelenting.
+Kick on 1 and 3. Snare on 2 and 4. Hi-hat 16ths.
+This is the NEU! pulse. The autobahn at midnight.
+
+Bar 3: Bass enters - octave pattern, synth bass tone.
+A to E, A to E. Hypnotic. Unthinking.
+
+No arpeggio yet. Just rhythm section.
+Building anticipation.
+
+SECTION_A
+MAIN PATTERN. The transmission begins.
+
+Arpeggio enters - 16th notes, spiraling upward.
+Am - F - Am - G progression.
+Each chord gets 2 bars.
+
+Pattern: Root - 3rd - 5th - octave - 5th - 3rd - root - 3rd
+Repeat. Mesmerizing. Don't think about it.
+
+Synth lead plays single held notes on Am and G sections.
+Just e and d. Ghost tones. Barely there.
+
+This is the main groove. Return to it.
+
+SECTION_B
+ESCALATION. Lead takes over.
+
+Arpeggio pattern gets more chaotic - wider intervals.
+Am - Dm - F - E progression.
+The E chord adds tension. Phrygian flavor.
+
+Lead plays actual melody - ascending figures.
+e - a - e - c / a - e / d - f - a - d' / etc.
+
+Crash cymbal on 1 of bar 1 and bar 5.
+
+More energy but same hypnotic pulse underneath.
+
+BREAKDOWN
+EXPERIMENTAL MOMENT. The demo showing through.
+
+Arpeggio becomes fragmented. Gaps.
+"A, C E A z2 E C" - the z2 is the transmission failing.
+
+Drums simplify. Kick every 2 bars.
+Space. Negative space.
+
+Lead plays long tones. a and e trading.
+Like a signal trying to lock on.
+
+Bars 5-8: Everything rebuilds.
+This is the 2am moment. Half-awake decisions.
+
+OUTRO
+TRANSMISSION DIES.
+
+Return to section_a pattern but instruments drop out.
+Bass first (bar 4).
+Drums next (bar 3 hi-hat, bar 4 kick/snare).
+
+Arpeggio alone for bars 5-6.
+Bar 6: arpeggio stops mid-phrase.
+
+Bars 7-8: Silence.
+
+The transmission is lost.
+No fade. Just gone.

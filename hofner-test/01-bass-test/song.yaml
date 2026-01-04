@@ -23,18 +23,24 @@ sections:
             values: [[15, 30], [15.5, 20], [16, 0], [31, 30], [31.5, 20], [32, 0]]
       alto-sax:
         abc: |
-          "G"B4 d4 | g4 d2B2 | "G"d4 B4 | g4 d2B2 |
-          "C"e4 g4 | c'4 g2e2 | "G"d4 B4 | g4 d2B2 |
+          "G"B,4 D4 | G4 D2B,2 | "G"D4 B,4 | G4 D2B,2 |
+          "C"E4 G4 | c4 G2E2 | "G"D4 B,4 | G4 D2B,2 |
         # MOJO 2: sustains with legato for smooth melodic lines
         articulation: sustains
-        # Add doits at end of phrases (beat 16 = bar 4, beat 32 = bar 8)
+        # Control notes placed just before affected notes for clean triggering and looping
         control_notes:
           - note: doits
-            beat: 15.5
+            beat: 14.9
             velocity: 115  # >110 triggers release articulation
+          - note: sustains
+            beat: 15.9
+            velocity: 100  # Reset for next phrase
           - note: falls
-            beat: 31.5
+            beat: 30.9
             velocity: 115
+          - note: sustains
+            beat: 31.9
+            velocity: 100  # Reset for loop
       guitar:
         abc: |
           "G"D2G2B2d2 | D2G2B2d2 | "G"D2G2B2d2 | D2G2B2d2 |

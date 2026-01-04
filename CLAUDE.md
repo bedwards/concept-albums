@@ -260,7 +260,92 @@ instruments:
     program: 53
   bass:
     program: 33
+    plugin: m-tron-pro-iv        # Optional: plugin name for control notes
+    articulation: sustains       # Optional: default articulation keyswitch
 ```
+
+### Plugin Control Notes (Advanced)
+
+For third-party instruments with keyswitches and CC automation, use `control_notes` and `automation` in song.yaml:
+
+```yaml
+sections:
+  verse:
+    instruments:
+      alto-sax:
+        abc: |
+          "G"B,4 D4 | G4 D2B,2 |
+        articulation: sustains  # Initial keyswitch at beat 0
+        control_notes:
+          - note: doits         # Keyswitch name from plugins/controls.yaml
+            beat: 14.9          # Just BEFORE the affected note
+            velocity: 115       # >110 for MOJO 2 release articulations
+          - note: sustains      # Reset after special articulation
+            beat: 15.9
+          - note: falls
+            beat: 30.9
+            velocity: 115
+          - note: sustains      # Reset for loop
+            beat: 31.9
+      bass:
+        abc: |
+          "G"G,4 G,2 B,2 |
+        automation:
+          - cc: 1               # CC number (mod wheel)
+            values: [[15, 30], [15.5, 20], [16, 0]]  # [beat, value] pairs
+
+instruments:
+  alto-sax:
+    program: 66
+    plugin: mojo-2              # Must match key in plugins/controls.yaml
+    articulation: sustains      # Default articulation
+  bass:
+    program: 33
+    plugin: m-tron-pro-iv
+```
+
+### Control Note Timing Rules
+
+**Golden Rule: Place keyswitches 0.1 beats BEFORE the note they affect.**
+
+Why:
+1. **Clean triggering** - Keyswitch fires before note plays
+2. **Loop compatibility** - Resets work when song loops back to beat 0
+3. **Sticky keyswitches** - Most plugins keep articulation until changed
+
+Pattern for phrase endings with release articulations:
+```
+Beat   Event                    Purpose
+14.9   doits (vel 115)          Trigger release articulation
+15     note ends with doit      Phrase ending
+15.9   sustains                 Reset for next phrase
+16     next note starts clean
+...
+31.9   sustains                 Reset for loop back to beat 0
+```
+
+### Plugin Controls Database
+
+The `plugins/controls.yaml` file defines keyswitches and CC mappings:
+
+```yaml
+mojo-2:
+  keyswitches:
+    sustains:
+      note: 24  # MIDI note number
+    doits:
+      note: 30
+    falls:
+      note: 36
+  cc:
+    pitch_bend:
+      cc: "pitch_wheel"
+```
+
+Currently documented plugins:
+- `electric-sunburst-deluxe` - Guitar with articulations, patterns, slides
+- `m-tron-pro-iv` - Mellotron with CC1 brake effect
+- `mojo-2` - Horn section with articulations and release triggers
 
 See Song 2's `song.yaml` for complete example.
 

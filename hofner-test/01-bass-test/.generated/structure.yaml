@@ -11,7 +11,12 @@ structure:
 instruments:
   bass:
     program: 33
+    plugin: m-tron-pro-iv
   alto-sax:
     program: 66
+    plugin: mojo-2
+    articulation: sustains
   guitar:
     program: 25
+    plugin: electric-sunburst-deluxe
+    articulation: open

@@ -1,0 +1,250 @@
+# Plugin Control Database
+# Keyswitch mappings, CC controls, and performance notes for third-party instruments
+# Used by generate_song.py to inject control data into MIDI files
+
+electric-sunburst-deluxe:
+  name: "Electric Sunburst Deluxe"
+  vendor: "Native Instruments"
+  type: "kontakt"
+
+  # Keyswitches for melody articulations (C1-D#1 = MIDI 24-27)
+  keyswitches:
+    open:
+      note: 24  # C1
+      name: "Open"
+      description: "Default open string sound"
+    muted:
+      note: 25  # C#1
+      name: "Muted"
+      description: "Palm muted/dampened strings"
+    flageolet:
+      note: 26  # D1
+      name: "Flageolet"
+      description: "Harmonics"
+    tremolo:
+      note: 27  # D#1
+      name: "Tremolo"
+      description: "Rapid repeated picking"
+
+  # Pattern keyswitches (E1-G1 = MIDI 28-31)
+  patterns:
+    pattern1:
+      note: 28  # E1
+      name: "Pattern 1"
+    pattern2:
+      note: 29  # F1
+      name: "Pattern 2"
+    pattern3:
+      note: 31  # G1
+      name: "Pattern 3"
+
+  # Endings and slides (G#1-B1 = MIDI 32-35)
+  endings:
+    slide_up:
+      note: 32  # G#1
+      name: "Long ending / Slide up"
+    slide_down:
+      note: 33  # A1
+      name: "Slide down"
+    mute_strings:
+      note: 34  # Bb1
+      name: "Mute strings / Hit body / Slap"
+    slide_modifier:
+      note: 35  # B1
+      name: "Slide modifier (hold while playing)"
+
+  # MIDI CC controls
+  cc:
+    vibrato:
+      cc: 1
+      name: "Mod Wheel - Vibrato intensity"
+    round_robin_reset:
+      cc: 3
+      name: "Round Robin Reset"
+      description: "Send at start of section for deterministic playback"
+    transport_offset:
+      cc: 111
+      name: "Transport Offset"
+      description: "Compensate for time signature changes (value * 80 ticks)"
+
+  # Performance techniques
+  techniques:
+    hammer_on:
+      trigger: "legato"
+      description: "Overlapping notes with softer velocity on following note"
+      max_interval: 3  # semitones (minor 3rd)
+    slide_transition:
+      trigger: "velocity"
+      threshold: 110
+      description: "Velocity > 110 on chord changes triggers slide"
+
+  notes:
+    - "Pitch wheel = Impact slider (pattern mode) / Pitch bend (melody mode)"
+    - "Hammer-on/pull-off: legato notes, softer velocity, up to minor 3rd"
+    - "Slide transitions: velocity > 110 on arpeggio chord changes"
+
+
+m-tron-pro-iv:
+  name: "M-Tron Pro IV"
+  vendor: "GForce"
+  type: "vst"
+
+  # No keyswitches - tape selection is done in plugin UI
+  keyswitches: {}
+
+  # MIDI CC controls
+  cc:
+    brake:
+      cc: 1
+      name: "Mod Wheel - Brake"
+      description: "Flywheel pressure for pitch drop/tape stop effect"
+      requires: "Brake button enabled in plugin"
+      range: "0 = normal, 127 = full stop"
+
+  # Performance controls via velocity
+  velocity:
+    velocity_to_amp:
+      description: "Velocity controls volume dynamics"
+      default: "50%"
+    velocity_to_filter:
+      description: "Velocity controls filter brightness"
+      default: "0%"
+
+  # Aftertouch controls
+  aftertouch:
+    brake:
+      description: "Channel pressure can control brake"
+    filter:
+      description: "Channel pressure can control filter"
+
+  # Key range
+  range:
+    standard: "G2-F5 (35 notes)"
+    extended: "49 notes (lower 7 via pitch shifting)"
+
+  notes:
+    - "Brake effect: subtle CC1 movements = pitch flutter, full down = tape stop"
+    - "8-second tape limit historically - let notes breathe"
+    - "Half-speed button drops pitch by octave for fuller sound"
+    - "Reverse playback: sound takes time to become audible"
+
+
+mojo-2:
+  name: "MOJO 2: Horn Section"
+  vendor: "Vir2 Instruments"
+  type: "kontakt"
+
+  # Articulation keyswitches (RED/ORANGE keys - positions configurable in plugin)
+  # Default positions shown, verify in plugin's Key Mapping page
+  keyswitches:
+    sustains:
+      note: 24  # Typically low C area - verify in plugin
+      name: "Sustains"
+      color: "red"
+      has_legato: true
+    staccato:
+      note: 25
+      name: "Staccato"
+      color: "red"
+    stabs:
+      note: 26
+      name: "Stabs"
+      color: "orange"
+      has_legato: true
+    bend_down:
+      note: 27
+      name: "Bend Down"
+      color: "red"
+    octave_run_down:
+      note: 28
+      name: "Octave Run Down"
+      color: "red"
+    octave_run_up:
+      note: 29
+      name: "Octave Run Up"
+      color: "red"
+    doits:
+      note: 30
+      name: "Doits"
+      color: "orange"
+    rise_to_hit:
+      note: 31
+      name: "Rise To Hit"
+      color: "red"
+    shakes:
+      note: 32
+      name: "Shakes"
+      color: "red"
+    trills:
+      note: 33
+      name: "Trills"
+      color: "red"
+    swells:
+      note: 34
+      name: "Swells"
+      color: "red"
+    crescendo:
+      note: 35
+      name: "Crescendo"
+      color: "red"
+      has_legato: true
+    falls:
+      note: 36
+      name: "Falls"
+      color: "red"
+
+  # Special function keys
+  special_keys:
+    natural_legato:
+      color: "light_green"
+      name: "Natural Legato Toggle"
+      description: "Omits 'target' sample after transition for seamless lines"
+    force_keynoise:
+      color: "green"
+      name: "Force Keynoise Overlay"
+      description: "Adds click/clack sounds of horn interaction"
+
+  # Release sample triggers (PURPLE keys - only in sustains mode)
+  release_triggers:
+    normal:
+      name: "Normal Release"
+    doits:
+      name: "Doits Release"
+    falls:
+      name: "Falls Release"
+    trills:
+      name: "Trills Release"
+    shakes:
+      name: "Shakes Release"
+
+  # MIDI CC controls
+  cc:
+    pitch_bend:
+      cc: "pitch_wheel"
+      name: "Pitch Bend"
+      range: "Configurable in plugin (default 2 semitones)"
+
+  # Era presets
+  eras:
+    modern: "Full frequency, high fidelity"
+    retro: "60s-70s saturated analog tone"
+    vintage1: "40s-50s big band, less full, natural dirt"
+    vintage2: "20s-30s, extreme upper-mid focus, gritty"
+
+  # Performance techniques
+  techniques:
+    release_articulation:
+      trigger: "velocity"
+      threshold: 110
+      description: "Velocity > 110 on orange triggers finishes sustain with that articulation"
+    legato:
+      modes:
+        - "Playing Speed (auto-adjusts)"
+        - "MIDI CC (transition length via CC)"
+        - "Velocity (hard = fast transition)"
+
+  notes:
+    - "Dynamics: controlled by velocity or CC (configurable per articulation)"
+    - "Orange keyswitches: vel > 110 ends current sustain with that articulation"
+    - "Natural legato: light GREEN key toggles seamless transitions"
+    - "Ensemble: 1-10 players with humanize and stereo spread"

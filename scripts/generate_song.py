@@ -36,7 +36,140 @@ import sys
 import yaml
 import subprocess
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
+
+# Optional: mido for MIDI post-processing (articulations, automation)
+try:
+    import mido
+    MIDO_AVAILABLE = True
+except ImportError:
+    MIDO_AVAILABLE = False
+
+
+def load_plugin_controls(plugins_dir: Path) -> Dict:
+    """Load plugin control database"""
+    controls_file = plugins_dir / 'controls.yaml'
+    if controls_file.exists():
+        with open(controls_file) as f:
+            return yaml.safe_load(f)
+    return {}
+
+
+def get_keyswitch_note(plugin_controls: Dict, plugin_name: str, articulation: str) -> Optional[int]:
+    """Get MIDI note number for a keyswitch articulation"""
+    if plugin_name not in plugin_controls:
+        return None
+    plugin = plugin_controls[plugin_name]
+    if 'keyswitches' not in plugin:
+        return None
+    keyswitches = plugin['keyswitches']
+    if articulation in keyswitches:
+        return keyswitches[articulation].get('note')
+    return None
+
+
+def inject_midi_controls(midi_file: Path, plugin_controls: Dict, instrument_config: Dict,
+                         section_config: Optional[Dict] = None) -> bool:
+    """Inject keyswitches and CC automation into MIDI file
+
+    Args:
+        midi_file: Path to MIDI file to modify
+        plugin_controls: Loaded plugin control database
+        instrument_config: Instrument config from song.yaml (has 'plugin', 'articulation')
+        section_config: Optional section-specific config (can override articulation)
+
+    Returns:
+        True if modifications were made
+    """
+    if not MIDO_AVAILABLE:
+        return False
+
+    plugin_name = instrument_config.get('plugin')
+    if not plugin_name:
+        return False
+
+    # Determine articulation (section overrides instrument default)
+    articulation = None
+    if section_config:
+        articulation = section_config.get('articulation')
+    if not articulation:
+        articulation = instrument_config.get('articulation')
+
+    # Get automation config (from instrument or section level)
+    automation = instrument_config.get('automation', [])
+    if section_config and 'automation' in section_config:
+        automation = automation + section_config['automation']
+
+    # Nothing to do?
+    if not articulation and not automation:
+        return False
+
+    try:
+        mid = mido.MidiFile(str(midi_file))
+    except Exception as e:
+        print(f"Warning: Could not read {midi_file}: {e}")
+        return False
+
+    modified = False
+    ticks_per_beat = mid.ticks_per_beat
+
+    # Find the main track (usually track 0 or 1)
+    track_idx = 0 if len(mid.tracks) == 1 else 1
+    track = mid.tracks[track_idx]
+
+    # Collect existing messages with absolute times
+    abs_messages = []
+    abs_time = 0
+    for msg in track:
+        abs_time += msg.time
+        abs_messages.append((abs_time, msg))
+
+    new_messages = []
+
+    # 1. Inject keyswitch at the start
+    if articulation:
+        keyswitch_note = get_keyswitch_note(plugin_controls, plugin_name, articulation)
+        if keyswitch_note:
+            # Add keyswitch note at time 0 (very short duration)
+            new_messages.append((0, mido.Message('note_on', note=keyswitch_note, velocity=100, time=0)))
+            new_messages.append((10, mido.Message('note_off', note=keyswitch_note, velocity=0, time=0)))
+            modified = True
+            print(f"  Injected keyswitch: {articulation} (note {keyswitch_note})")
+
+    # 2. Inject CC automation
+    for auto in automation:
+        cc_num = auto.get('cc')
+        values = auto.get('values', [])  # List of [beat, value] pairs
+
+        if cc_num is None or not values:
+            continue
+
+        for beat, value in values:
+            tick = int(beat * ticks_per_beat)
+            new_messages.append((tick, mido.Message('control_change', control=cc_num, value=value, time=0)))
+            modified = True
+
+        print(f"  Injected CC{cc_num} automation: {len(values)} points")
+
+    if not modified:
+        return False
+
+    # Merge new messages with existing
+    all_messages = abs_messages + new_messages
+    all_messages.sort(key=lambda x: (x[0], 0 if x[1].type.startswith('note') else 1))
+
+    # Convert back to delta time
+    new_track = mido.MidiTrack()
+    prev_time = 0
+    for abs_t, msg in all_messages:
+        delta = abs_t - prev_time
+        new_track.append(msg.copy(time=delta))
+        prev_time = abs_t
+
+    mid.tracks[track_idx] = new_track
+    mid.save(str(midi_file))
+
+    return True
 
 
 def load_song_config(config_file: Path) -> Dict:
@@ -348,16 +481,35 @@ def generate_text_files(config: Dict, song_dir: Path):
         print("Generated: arrangement.txt")
 
 
-def generate_midi_files(output_dir: Path, song_dir: Path):
-    """Generate MIDI files from ABC files and copy to song root midi/ directory"""
+def generate_midi_files(output_dir: Path, song_dir: Path, config: Dict, plugin_controls: Dict):
+    """Generate MIDI files from ABC files, inject plugin controls, and copy to midi/"""
     abc_files = list(output_dir.glob('*.abc'))
-    
+
     # Create midi subdirectory in song root for easy import
     midi_dir = song_dir / 'midi'
     midi_dir.mkdir(exist_ok=True)
-    
+
+    instruments_config = config.get('instruments', {})
+    sections_config = config.get('sections', {})
+
+    # Merge section-level automation into instrument config
+    for section_name, section_data in sections_config.items():
+        if 'instruments' not in section_data:
+            continue
+        for inst_name, inst_section in section_data['instruments'].items():
+            if inst_name in instruments_config:
+                # Copy section-level articulation and automation to instrument
+                if 'articulation' in inst_section and 'articulation' not in instruments_config[inst_name]:
+                    instruments_config[inst_name]['articulation'] = inst_section['articulation']
+                if 'automation' in inst_section:
+                    if 'automation' not in instruments_config[inst_name]:
+                        instruments_config[inst_name]['automation'] = []
+                    instruments_config[inst_name]['automation'].extend(inst_section['automation'])
+
     for abc_file in abc_files:
         mid_file = abc_file.with_suffix('.mid')
+        instrument_name = abc_file.stem  # e.g., 'guitar', 'bass', 'alto-sax'
+
         try:
             result = subprocess.run(
                 ['abc2midi', str(abc_file), '-o', str(mid_file)],
@@ -367,7 +519,13 @@ def generate_midi_files(output_dir: Path, song_dir: Path):
             )
             if result.returncode == 0:
                 print(f"Generated: {mid_file.name}")
-                
+
+                # Inject plugin controls (keyswitches, CC automation)
+                if instrument_name in instruments_config:
+                    inst_config = instruments_config[instrument_name]
+                    if inject_midi_controls(mid_file, plugin_controls, inst_config):
+                        print(f"  Applied plugin controls for {instrument_name}")
+
                 # Copy to song root midi/ subdirectory for easy DAW import
                 import shutil
                 midi_copy = midi_dir / mid_file.name
@@ -381,7 +539,7 @@ def generate_midi_files(output_dir: Path, song_dir: Path):
             return
         except Exception as e:
             print(f"Warning: Error generating {mid_file.name}: {e}")
-    
+
     # Print summary
     midi_count = len(list(midi_dir.glob('*.mid')))
     if midi_count > 0:
@@ -390,36 +548,43 @@ def generate_midi_files(output_dir: Path, song_dir: Path):
 
 def main():
     import argparse
-    
+
     parser = argparse.ArgumentParser(description='Generate song files from source YAML')
     parser.add_argument('song_dir', type=Path, help='Song directory')
     parser.add_argument('--skip-midi', action='store_true', help='Skip MIDI generation')
-    
+
     args = parser.parse_args()
-    
+
     song_dir = args.song_dir
     generated_dir = song_dir / '.generated'
-    
+
     # Check for source file (new location: song root)
     config_file = song_dir / 'song.yaml'
     if not config_file.exists():
         print(f"Error: {config_file} not found")
         print(f"Expected hand-written source file at: {config_file}")
         return 1
-    
+
     # Load config
     print(f"\nLoading configuration from {config_file}...")
     config = load_song_config(config_file)
-    
+
+    # Load plugin controls database (from concept-albums root)
+    scripts_dir = Path(__file__).parent
+    plugins_dir = scripts_dir.parent / 'plugins'
+    plugin_controls = load_plugin_controls(plugins_dir)
+    if plugin_controls:
+        print(f"Loaded plugin controls: {', '.join(plugin_controls.keys())}")
+
     # Create output directories
     generated_dir.mkdir(exist_ok=True)
     sections_dir = generated_dir / 'sections'
     sections_dir.mkdir(exist_ok=True)
-    
+
     print(f"\n{'='*70}")
     print(f"Generating song: {config['song']['title']}")
     print(f"{'='*70}\n")
-    
+
     # Generate all files
     generate_structure_yaml(config, generated_dir / 'structure.yaml')
     generate_lyrics_yaml(config, generated_dir / 'lyrics.yaml')
@@ -427,11 +592,11 @@ def main():
     generate_section_abc_files(config, sections_dir)
     generate_complete_abc_files(config, generated_dir, sections_dir)
     generate_text_files(config, song_dir)
-    
+
     if not args.skip_midi:
         print()
-        generate_midi_files(generated_dir, song_dir)
-    
+        generate_midi_files(generated_dir, song_dir, config, plugin_controls)
+
     print(f"\n{'='*70}")
     print("✅ Generation complete!")
     print(f"{'='*70}")
